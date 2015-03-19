@@ -27,6 +27,11 @@ ActiveRecord::Schema.define(version: 20150319030244) do
     t.integer  "periods",     limit: 1, null: false
   end
 
+  add_index "games", ["away_team"], name: "index_games_on_away_team", using: :btree
+  add_index "games", ["game_end"], name: "index_games_on_game_end", using: :btree
+  add_index "games", ["game_start"], name: "index_games_on_game_start", using: :btree
+  add_index "games", ["gcode"], name: "index_games_on_gcode", using: :btree
+  add_index "games", ["home_team"], name: "index_games_on_home_team", using: :btree
   add_index "games", ["season_id"], name: "index_games_on_season_id", using: :btree
 
   create_table "seasons", force: :cascade do |t|
