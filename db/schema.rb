@@ -11,37 +11,6 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150319030244) do
-
-  create_table "games", force: :cascade do |t|
-    t.integer  "season_id",   limit: 4
-    t.integer  "game_number", limit: 4, null: false
-    t.integer  "gcode",       limit: 8, null: false
-    t.integer  "status",      limit: 1, null: false
-    t.string   "home_team",   limit: 3, null: false
-    t.string   "away_team",   limit: 3, null: false
-    t.integer  "fscore_home", limit: 2, null: false
-    t.integer  "fscore_away", limit: 2, null: false
-    t.datetime "game_start",            null: false
-    t.datetime "game_end",              null: false
-    t.integer  "periods",     limit: 1, null: false
-  end
-
-  add_index "games", ["away_team"], name: "index_games_on_away_team", using: :btree
-  add_index "games", ["game_end"], name: "index_games_on_game_end", using: :btree
-  add_index "games", ["game_start"], name: "index_games_on_game_start", using: :btree
-  add_index "games", ["gcode"], name: "index_games_on_gcode", using: :btree
-  add_index "games", ["home_team"], name: "index_games_on_home_team", using: :btree
-  add_index "games", ["season_id"], name: "index_games_on_season_id", using: :btree
-
-  create_table "seasons", force: :cascade do |t|
-    t.integer "season_years", limit: 8, null: false, unsigned: true
-  end
-
-  create_table "teams", force: :cascade do |t|
-    t.string   "name",       limit: 255
-    t.datetime "created_at",             null: false
-    t.datetime "updated_at",             null: false
-  end
+ActiveRecord::Schema.define(version: 0) do
 
 end

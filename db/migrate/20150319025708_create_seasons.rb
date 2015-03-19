@@ -17,5 +17,34 @@ class CreateSeasons < ActiveRecord::Migration
 			t.datetime :game_end, null: false, index:true
 			t.integer :periods, limit: 1, null: false
 		end
+
+		create_table :events do |t|
+			t.belongs_to :game, index:true
+			t.belongs_to :season, index:true
+			t.integer :gcode, limit: 8, unsigned: true, null: false
+			t.integer :event_number, limit: 3, unsigned: true, null: false
+			t.integer :period, limit: 1, unsigned: true, null: false
+			t.float :seconds, null: false
+			t.string :event_type, null: false
+			t.belongs_to :event_team, index:true
+			t.string :description
+			t.integer :home_score, null: false, limit: 2, unsigned: true
+			t.integer :away_score, null: false, limit: 2, unsigned: true
+			t.float :event_length
+			t.integer :home_skaters, null: false, limit: 2, unsigned: true
+			t.integer :away_skaters, null: false, limit: 2, unsigned: true
+		end
+
+		create_table :locations do |t|
+			t.belongs_to :event, index:true
+			t.integer :distance, unsigned: true, limit: 3
+			t.string :home_zone, limit: 3
+			t.integer :x_coord, limit: 3
+			t.integer :y_coord, limit: 3
+			t.integer :location_section, unsigned: true, limit: 2
+			t.integer :new_location_section, unsigned: true, limit: 2
+			t.integer :new_x_coord, limit: 3
+			t.integer :new_y_coord, limit: 3
+		end
 	end
 end
