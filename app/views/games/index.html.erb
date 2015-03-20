@@ -1,0 +1,36 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Games</h1>
+
+<table>
+  <thead>
+    <tr>
+			<th>Season</th>
+			<th>Game Number</th>
+			<th>Game Status</th>
+			<th>Home Team</th>
+			<th>Away Team</th>
+			<th>Home Score</th>
+			<th>Away Score</th>
+			<th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @games.each do |game| %>
+      <tr>
+				<td><%= game.season_id %></td>
+				<td><%= game.game_number %></td>
+				<td><%= game.status %></td>
+				<td><%= game.home_team %></td>
+				<td><%= game.away_team %></td>
+				<td><%= game.fscore_home %></td>
+				<td><%= game.fscore_away %></td>
+				<td><%= link_to 'Details', game %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+

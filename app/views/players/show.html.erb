@@ -1,4 +1,24 @@
 <p id="notice"><%= notice %></p>
 
-<%= link_to 'Edit', edit_player_path(@player) %> |
+<p>
+  <strong>Player Name:</strong>
+  <%= @player.first_name %>
+  <%= @player.last_name %>
+</p>
+
+<p>
+  <strong>Position:</strong>
+  <%= @player.position %>
+</p>
+
+<p>
+	<strong>Games Played:</strong>
+	<ul>
+		<li>At Goalie: <%= @player.pG %> </li>
+		<li>At Center: <%= @player.pC %> </li>
+		<li>At Right Wing: <%= @player.pR %> </li>
+		<li>At Left Wing: <%= @player.pL %> </li>
+		<li>At Defense: <%= @player.pD %> </li>
+	</ul>
+</p>
 <%= link_to 'Back', players_path %>

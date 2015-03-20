@@ -9,7 +9,10 @@
       <th>Period</th>
       <th>Seconds</th>
       <th>Event type</th>
-      <th>Event team</th>
+			<th>Event team</th>
+			<th>Event P1</th>
+			<th>Event P2</th>
+			<th>Event P3</th>
       <th>Shot type</th>
       <th>Home score</th>
       <th>Away score</th>
@@ -40,7 +43,10 @@
         <td><%= event.seconds %></td>
         <td><%= event.event_type %></td>
         <td><%= event.event_team.name if event.event_team %></td>
-        <td><%= event.description %></td>
+				<td><%= link_to event.event_player_1.last_name, player_path(:id => event.event_player_1) if event.event_player_1 %></td>
+				<td><%= link_to event.event_player_2.last_name, player_path(:id => event.event_player_2) if event.event_player_2 %></td>
+				<td><%= link_to event.event_player_3.last_name, player_path(:id => event.event_player_3) if event.event_player_3 %></td>
+				<td><%= event.description %></td>
         <td><%= event.home_score %></td>
         <td><%= event.away_score %></td>
         <td><%= event.event_length %></td>

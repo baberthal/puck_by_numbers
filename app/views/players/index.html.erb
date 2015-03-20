@@ -1,20 +1,24 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Listing Players</h1>
+<h1>All Players</h1>
 
 <table>
   <thead>
-    <tr>
-      <th colspan="3"></th>
+		<tr>
+			<th>First Name</th>
+			<th>Last Name</th>
+			<th>Position</th>
+			<th colspan="2"></th>
     </tr>
   </thead>
 
   <tbody>
     <% @players.each do |player| %>
       <tr>
+        <td><%= player.first_name %></td>
+        <td><%= player.last_name %></td>
+        <td><%= player.position %></td>
         <td><%= link_to 'Show', player %></td>
-        <td><%= link_to 'Edit', edit_player_path(player) %></td>
-        <td><%= link_to 'Destroy', player, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>

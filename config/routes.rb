@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   resources :players
   resources :teams
   resources :seasons
+	resources :games
 	resources :events
 
   # The priority is based upon order of creation: first created -> highest priority.
