@@ -20,27 +20,28 @@ class CreateSeasons < ActiveRecord::Migration
 
 		create_table :events do |t|
 			t.belongs_to :game, index:true
-			t.integer :gcode, limit: 8, unsigned: true, null: false
 			t.integer :event_number, limit: 3, unsigned: true, null: false
 			t.integer :period, limit: 1, unsigned: true, null: false
 			t.float :seconds, null: false
 			t.string :event_type, null: false
-			t.belongs_to :event_team, index:true
-			t.integer :event_player_1, index:true
-			t.integer :event_player_2, index:true
-			t.integer :event_player_3, index:true
-			t.integer :a1
-			t.integer :a2
-			t.integer :a3
-			t.integer :a4
-			t.integer :a5
-			t.integer :a6
-			t.integer :h1
-			t.integer :h2
-			t.integer :h3
-			t.integer :h4
-			t.integer :h5
-			t.integer :h6
+			t.belongs_to :event_team, class: "Team", index:true
+			t.belongs_to :event_player_1, class: "Player", index:true
+			t.belongs_to :event_player_2, class: "Player", index:true
+			t.belongs_to :event_player_3, class: "Player", index:true
+			t.belongs_to :a1, class: "Player", index:true
+			t.belongs_to :a2, class: "Player", index:true
+			t.belongs_to :a3, class: "Player", index:true
+			t.belongs_to :a4, class: "Player", index:true
+			t.belongs_to :a5, class: "Player", index:true
+			t.belongs_to :a6, class: "Player", index:true
+			t.belongs_to :h1, class: "Player", index:true
+			t.belongs_to :h2, class: "Player", index:true
+			t.belongs_to :h3, class: "Player", index:true
+			t.belongs_to :h4, class: "Player", index:true
+			t.belongs_to :h5, class: "Player", index:true
+			t.belongs_to :h6, class: "Player", index:true
+			t.belongs_to :away_G, class: "Player", index:true
+			t.belongs_to :home_G, class: "Player", index:true
 			t.string :description
 			t.integer :home_score, null: false, limit: 2, unsigned: true
 			t.integer :away_score, null: false, limit: 2, unsigned: true

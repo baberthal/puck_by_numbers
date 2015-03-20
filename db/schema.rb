@@ -14,41 +14,56 @@
 ActiveRecord::Schema.define(version: 20150319032055) do
 
   create_table "events", force: :cascade do |t|
-    t.integer "game_id",        limit: 4
-    t.integer "gcode",          limit: 8,   null: false, unsigned: true
-    t.integer "event_number",   limit: 3,   null: false, unsigned: true
-    t.integer "period",         limit: 1,   null: false, unsigned: true
-    t.float   "seconds",        limit: 24,  null: false
-    t.string  "event_type",     limit: 255, null: false
-    t.integer "event_team_id",  limit: 4
-    t.integer "event_player_1", limit: 4
-    t.integer "event_player_2", limit: 4
-    t.integer "event_player_3", limit: 4
-    t.integer "a1",             limit: 4
-    t.integer "a2",             limit: 4
-    t.integer "a3",             limit: 4
-    t.integer "a4",             limit: 4
-    t.integer "a5",             limit: 4
-    t.integer "a6",             limit: 4
-    t.integer "h1",             limit: 4
-    t.integer "h2",             limit: 4
-    t.integer "h3",             limit: 4
-    t.integer "h4",             limit: 4
-    t.integer "h5",             limit: 4
-    t.integer "h6",             limit: 4
-    t.string  "description",    limit: 255
-    t.integer "home_score",     limit: 2,   null: false, unsigned: true
-    t.integer "away_score",     limit: 2,   null: false, unsigned: true
-    t.float   "event_length",   limit: 24
-    t.integer "home_skaters",   limit: 2,   null: false, unsigned: true
-    t.integer "away_skaters",   limit: 2,   null: false, unsigned: true
+    t.integer "game_id",           limit: 4
+    t.integer "event_number",      limit: 3,   null: false, unsigned: true
+    t.integer "period",            limit: 1,   null: false, unsigned: true
+    t.float   "seconds",           limit: 24,  null: false
+    t.string  "event_type",        limit: 255, null: false
+    t.integer "event_team_id",     limit: 4
+    t.integer "event_player_1_id", limit: 4
+    t.integer "event_player_2_id", limit: 4
+    t.integer "event_player_3_id", limit: 4
+    t.integer "a1_id",             limit: 4
+    t.integer "a2_id",             limit: 4
+    t.integer "a3_id",             limit: 4
+    t.integer "a4_id",             limit: 4
+    t.integer "a5_id",             limit: 4
+    t.integer "a6_id",             limit: 4
+    t.integer "h1_id",             limit: 4
+    t.integer "h2_id",             limit: 4
+    t.integer "h3_id",             limit: 4
+    t.integer "h4_id",             limit: 4
+    t.integer "h5_id",             limit: 4
+    t.integer "h6_id",             limit: 4
+    t.integer "away_G_id",         limit: 4
+    t.integer "home_G_id",         limit: 4
+    t.string  "description",       limit: 255
+    t.integer "home_score",        limit: 2,   null: false, unsigned: true
+    t.integer "away_score",        limit: 2,   null: false, unsigned: true
+    t.float   "event_length",      limit: 24
+    t.integer "home_skaters",      limit: 2,   null: false, unsigned: true
+    t.integer "away_skaters",      limit: 2,   null: false, unsigned: true
   end
 
-  add_index "events", ["event_player_1"], name: "index_events_on_event_player_1", using: :btree
-  add_index "events", ["event_player_2"], name: "index_events_on_event_player_2", using: :btree
-  add_index "events", ["event_player_3"], name: "index_events_on_event_player_3", using: :btree
+  add_index "events", ["a1_id"], name: "index_events_on_a1_id", using: :btree
+  add_index "events", ["a2_id"], name: "index_events_on_a2_id", using: :btree
+  add_index "events", ["a3_id"], name: "index_events_on_a3_id", using: :btree
+  add_index "events", ["a4_id"], name: "index_events_on_a4_id", using: :btree
+  add_index "events", ["a5_id"], name: "index_events_on_a5_id", using: :btree
+  add_index "events", ["a6_id"], name: "index_events_on_a6_id", using: :btree
+  add_index "events", ["away_G_id"], name: "index_events_on_away_G_id", using: :btree
+  add_index "events", ["event_player_1_id"], name: "index_events_on_event_player_1_id", using: :btree
+  add_index "events", ["event_player_2_id"], name: "index_events_on_event_player_2_id", using: :btree
+  add_index "events", ["event_player_3_id"], name: "index_events_on_event_player_3_id", using: :btree
   add_index "events", ["event_team_id"], name: "index_events_on_event_team_id", using: :btree
   add_index "events", ["game_id"], name: "index_events_on_game_id", using: :btree
+  add_index "events", ["h1_id"], name: "index_events_on_h1_id", using: :btree
+  add_index "events", ["h2_id"], name: "index_events_on_h2_id", using: :btree
+  add_index "events", ["h3_id"], name: "index_events_on_h3_id", using: :btree
+  add_index "events", ["h4_id"], name: "index_events_on_h4_id", using: :btree
+  add_index "events", ["h5_id"], name: "index_events_on_h5_id", using: :btree
+  add_index "events", ["h6_id"], name: "index_events_on_h6_id", using: :btree
+  add_index "events", ["home_G_id"], name: "index_events_on_home_G_id", using: :btree
 
   create_table "games", force: :cascade do |t|
     t.integer  "season_id",   limit: 4
@@ -91,11 +106,11 @@ ActiveRecord::Schema.define(version: 20150319032055) do
     t.string  "first_name",        limit: 255
     t.string  "number_first_last", limit: 255
     t.integer "player_index",      limit: 4,   unsigned: true
-    t.integer "pC",                limit: 1,   unsigned: true
-    t.integer "pR",                limit: 1,   unsigned: true
-    t.integer "pL",                limit: 1,   unsigned: true
-    t.integer "pD",                limit: 1,   unsigned: true
-    t.integer "pG",                limit: 1,   unsigned: true
+    t.integer "pC",                limit: 4,   unsigned: true
+    t.integer "pR",                limit: 4,   unsigned: true
+    t.integer "pL",                limit: 4,   unsigned: true
+    t.integer "pD",                limit: 4,   unsigned: true
+    t.integer "pG",                limit: 4,   unsigned: true
   end
 
   create_table "seasons", force: :cascade do |t|
@@ -103,9 +118,8 @@ ActiveRecord::Schema.define(version: 20150319032055) do
   end
 
   create_table "teams", force: :cascade do |t|
-    t.string   "name",       limit: 255
-    t.datetime "created_at",             null: false
-    t.datetime "updated_at",             null: false
+    t.string "name", limit: 255
+    t.string "abbr", limit: 3
   end
 
 end

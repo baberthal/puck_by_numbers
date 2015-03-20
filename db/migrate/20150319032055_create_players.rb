@@ -6,11 +6,11 @@ class CreatePlayers < ActiveRecord::Migration
 			t.string :first_name
 			t.string :number_first_last
 			t.integer :player_index, unsigned: true
-			t.integer :pC, limit: 1, unsigned: true
-			t.integer :pR, limit: 1, unsigned: true
-			t.integer :pL, limit: 1, unsigned: true
-			t.integer :pD, limit: 1, unsigned: true
-			t.integer :pG, limit: 1, unsigned: true
+			t.integer :pC, limit: 4, unsigned: true
+			t.integer :pR, limit: 4, unsigned: true
+			t.integer :pL, limit: 4, unsigned: true
+			t.integer :pD, limit: 4, unsigned: true
+			t.integer :pG, limit: 4, unsigned: true
     end
   end
 end

@@ -1,20 +1,22 @@
 class Event < ActiveRecord::Base
 	belongs_to :game
-	belongs_to :team, foreign_key: event_team
+	belongs_to :event_team, class_name: "Team"
 	has_one :location
-	has_one :event_player_1, source: :players
-	has_one :event_player_2, source: :players
-	has_one :event_player_3, source: :players
-	has_one :a1, source: :players
-	has_one :a2, source: :players
-	has_one :a3, source: :players
-	has_one :a4, source: :players
-	has_one :a5, source: :players
-	has_one :a6, source: :players
-	has_one :h1, source: :players
-	has_one :h2, source: :players
-	has_one :h3, source: :players
-	has_one :h4, source: :players
-	has_one :h5, source: :players
-	has_one :h6, source: :players
+	belongs_to :event_player_1, :class_name => "Player"
+	belongs_to :event_player_2, :class_name => "Player"
+	belongs_to :event_player_3, :class_name => "Player"
+	belongs_to :a1, :class_name => "Player"
+	belongs_to :a2, :class_name => "Player"
+	belongs_to :a3, :class_name => "Player"
+	belongs_to :a4, :class_name => "Player"
+	belongs_to :a5, :class_name => "Player"
+	belongs_to :a6, :class_name => "Player"
+	belongs_to :h1, :class_name => "Player"
+	belongs_to :h2, :class_name => "Player"
+	belongs_to :h3, :class_name => "Player"
+	belongs_to :h4, :class_name => "Player"
+	belongs_to :h5, :class_name => "Player"
+	belongs_to :h6, :class_name => "Player"
+	belongs_to :away_G, :class_name => "Player"
+	belongs_to :home_G, :class_name => "Player"
 end
