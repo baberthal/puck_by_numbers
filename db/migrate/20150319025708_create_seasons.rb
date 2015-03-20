@@ -20,13 +20,27 @@ class CreateSeasons < ActiveRecord::Migration
 
 		create_table :events do |t|
 			t.belongs_to :game, index:true
-			t.belongs_to :season, index:true
 			t.integer :gcode, limit: 8, unsigned: true, null: false
 			t.integer :event_number, limit: 3, unsigned: true, null: false
 			t.integer :period, limit: 1, unsigned: true, null: false
 			t.float :seconds, null: false
 			t.string :event_type, null: false
 			t.belongs_to :event_team, index:true
+			t.integer :event_player_1, index:true
+			t.integer :event_player_2, index:true
+			t.integer :event_player_3, index:true
+			t.integer :a1, index:true
+			t.integer :a2, index:true
+			t.integer :a3, index:true
+			t.integer :a4, index:true
+			t.integer :a5, index:true
+			t.integer :a6, index:true
+			t.integer :h1, index:true
+			t.integer :h2, index:true
+			t.integer :h3, index:true
+			t.integer :h4, index:true
+			t.integer :h5, index:true
+			t.integer :h6, index:true
 			t.string :description
 			t.integer :home_score, null: false, limit: 2, unsigned: true
 			t.integer :away_score, null: false, limit: 2, unsigned: true
