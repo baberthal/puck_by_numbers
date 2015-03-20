@@ -29,18 +29,18 @@ class CreateSeasons < ActiveRecord::Migration
 			t.integer :event_player_1, index:true
 			t.integer :event_player_2, index:true
 			t.integer :event_player_3, index:true
-			t.integer :a1, index:true
-			t.integer :a2, index:true
-			t.integer :a3, index:true
-			t.integer :a4, index:true
-			t.integer :a5, index:true
-			t.integer :a6, index:true
-			t.integer :h1, index:true
-			t.integer :h2, index:true
-			t.integer :h3, index:true
-			t.integer :h4, index:true
-			t.integer :h5, index:true
-			t.integer :h6, index:true
+			t.integer :a1
+			t.integer :a2
+			t.integer :a3
+			t.integer :a4
+			t.integer :a5
+			t.integer :a6
+			t.integer :h1
+			t.integer :h2
+			t.integer :h3
+			t.integer :h4
+			t.integer :h5
+			t.integer :h6
 			t.string :description
 			t.integer :home_score, null: false, limit: 2, unsigned: true
 			t.integer :away_score, null: false, limit: 2, unsigned: true
