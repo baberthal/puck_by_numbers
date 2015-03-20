@@ -1,0 +1,59 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Event number:</strong>
+  <%= @event.event_number %>
+</p>
+
+<p>
+  <strong>Period:</strong>
+  <%= @event.period %>
+</p>
+
+<p>
+  <strong>Seconds:</strong>
+  <%= @event.seconds %>
+</p>
+
+<p>
+  <strong>Event type:</strong>
+  <%= @event.event_type %>
+</p>
+
+<p>
+  <strong>Event team:</strong>
+  <%= @event.event_team %>
+</p>
+
+<p>
+  <strong>Shot type:</strong>
+  <%= @event.description %>
+</p>
+
+<p>
+  <strong>Home score:</strong>
+  <%= @event.home_score %>
+</p>
+
+<p>
+  <strong>Away score:</strong>
+  <%= @event.away_score %>
+</p>
+
+<p>
+  <strong>Event length:</strong>
+  <%= @event.event_length %>
+</p>
+
+<p>
+  <strong>Home skaters:</strong>
+  <%= @event.home_skaters %>
+</p>
+
+<p>
+  <strong>Away skaters:</strong>
+  <%= @event.away_skaters %>
+</p>
+
+<%= link_to 'Edit', edit_event_path(@event) %> |
+<%= link_to 'Back', events_path %>
