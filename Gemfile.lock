@@ -54,7 +54,7 @@ GEM
       execjs
     coffee-script-source (1.9.1)
     columnize (0.9.0)
-    composite_primary_keys (8.0.0)
+    composite_primary_keys (8.1.0)
       activerecord (~> 4.2.0)
     debug_inspector (0.0.2)
     erubis (2.7.0)

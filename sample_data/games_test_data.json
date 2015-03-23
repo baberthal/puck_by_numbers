@@ -1,0 +1,30 @@
+[
+	{
+		'season' : 20142015,
+		'gamenumber' : 1,
+		'gcode' : 20001,
+		'status' : "3",
+		'awayteam' : "MTL",
+		'hometeam' : "TOR",
+		'awayscore' : 4,
+		'homescore' : 3,
+		'date' : "2014-10-08",
+		'game_start' : "7:15 EDT",
+		'game_end' : "9:55 EDT",
+		'periods' : 3
+	},
+	{
+		'season' : 20142015,
+		'gamenumber' : 2,
+		'gcode' : 20002,
+		'status' : "3",
+		'awayteam' : "PHI",
+		'hometeam' : "BOS",
+		'awayscore' : 1,
+		'homescore' : 2,
+		'date' : "2014-10-08",
+		'game_start' : "7:35 EDT",
+		'game_end' : "10:03 EDT",
+		'periods' : 3
+	}
+]

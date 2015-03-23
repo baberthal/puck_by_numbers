@@ -3,41 +3,25 @@
 <table>
   <thead>
     <tr>
-      <th>Event number</th>
-      <th>Period</th>
-      <th>Time</th>
-      <th>Event type</th>
-      <th>Event team</th>
-      <th>Event P1</th>
-      <th>Event P2</th>
-      <th>Event P3</th>
-      <th>Shot type</th>
-      <th>Home score</th>
-      <th>Away score</th>
-      <th>Event length</th>
-      <th>Home skaters</th>
-      <th>Away skaters</th>
+      <th>Team</th>
+      <th>Final Score</th>
+      <th>Corsi For</th>
+      <th>Corsi Against</th>
+      <th>Fenwick For</th>
+      <th>Fenwick Against</th>
       <th colspan="3"></th>
     </tr>
   </thead>
 
   <tbody>
-    <% @game.events.each do |event| %>
+    <% @game.game_summary do |game_summary| %>
       <tr>
-        <td><%= event.event_number %></td>
-        <td><%= event.period %></td>
-        <td><%= event.seconds %></td>
-        <td><%= event.event_type %></td>
-        <td><%= event.event_team.name if event.event_team %></td>
-        <td><%= event.event_player_1.last_name if event.event_player_1 %></td>
-        <td><%= event.event_player_2.last_name if event.event_player_2 %></td>
-        <td><%= event.event_player_3.last_name if event.event_player_3 %></td>
-        <td><%= event.description %></td>
-        <td><%= event.home_score %></td>
-        <td><%= event.away_score %></td>
-        <td><%= event.event_length %></td>
-        <td><%= event.home_skaters %></td>
-        <td><%= event.away_skaters %></td>
+        <td><%= game_summary.fscore_home %></td>
+        <td><%= game_summary.fscore_away %></td>
+        <td><%= game_summary.home_corsi_for_tot %></td>
+        <td><%= game_summary.away_corsi_for_tot %></td>
+        <td><%= game_summary.home_fenwick_for_tot %></td>
+        <td><%= game_summary.away_fenwick_for_tot %></td>
       </tr>
     <% end %>
   </tbody>

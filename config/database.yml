@@ -2,9 +2,9 @@ default: &default
   adapter: mysql2
   encoding: utf8
   pool: 5
-  username: puck
-  password: ilikehockey
-  host: 192.168.1.33
+  username: rails
+  password: ilikeruby
+  host: 192.168.1.16
   timeout: 5000
 
 development:

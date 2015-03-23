@@ -9,8 +9,8 @@ class CreateSeasons < ActiveRecord::Migration
 			t.integer :game_number, limit: 4, null: false
 			t.integer :gcode, limit: 5, null: false, index:true
 			t.integer :status, limit: 1, null: false
-			t.string :home_team, limit: 3, null: false, index:true
-			t.string :away_team, limit: 3, null: false, index:true
+			t.belongs_to :home_team, class: "Team", index:true
+			t.belongs_to :away_team, class: "Team", index:true
 			t.integer :fscore_home, limit: 2, null: false
 			t.integer :fscore_away, limit: 2, null: false
 			t.datetime :game_start, null: false, index: true
