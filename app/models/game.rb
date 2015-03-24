@@ -1,5 +1,5 @@
 class Game < ActiveRecord::Base
-	include CorsiCalcs
+	include FancyStats
 	belongs_to :season
 	has_many :events
 	has_many :event_teams, through: :events
