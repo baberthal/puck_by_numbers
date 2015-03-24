@@ -1,6 +1,6 @@
 class Event < ActiveRecord::Base
 	belongs_to :game
-	belongs_to :event_team, class_name: "Team"
+	belongs_to :event_team, :class_name => "Team"
 	has_one :location
 	belongs_to :event_player_1, :class_name => "Player"
 	belongs_to :event_player_2, :class_name => "Player"

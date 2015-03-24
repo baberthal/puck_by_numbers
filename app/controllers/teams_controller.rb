@@ -12,6 +12,11 @@ class TeamsController < ApplicationController
   def show
   end
 
+	def games
+		@team = Team.find(params[:team_id])
+		@games = Game.where("home_team_id = :team_id OR away_team_id = :team_id", {team_id: @team.id})
+	end
+
   # GET /teams/new
   def new
     @team = Team.new
