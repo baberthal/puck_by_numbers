@@ -8,9 +8,6 @@ module FancyStats
 		t = team
 		hs = options[:hs]+1
 		as = options[:as]+1
-		#events.where(event_team: t, event_type: ["BLOCK", "MISS", "SHOT", "GOAL"]).count
-		puts t.name
-		puts hs
-		puts as
+		events.where(event_team: t, event_type: ["BLOCK", "MISS", "SHOT", "GOAL"], home_skaters: hs, away_skaters: as).count
 	end
 end
