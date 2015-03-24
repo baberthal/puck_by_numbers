@@ -4,8 +4,8 @@ class Game < ActiveRecord::Base
 	has_many :event_teams, through: :events
 	has_many :participants, through: :events
 	has_many :players, through: :participants
-	belongs_to :home_team, class: "Team", foreign_key: 'home_team_id'
-	belongs_to :away_team, class: "Team", foreign_key: 'away_team_id'
+	belongs_to :home_team, class: "Team", foreign_key: :home_team_id
+	belongs_to :away_team, class: "Team", foreign_key: :away_team_id
 
 #	protected
 #		def generate_summary
