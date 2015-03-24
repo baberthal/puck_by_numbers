@@ -11,6 +11,7 @@ class CreatePlayers < ActiveRecord::Migration
 			t.integer :pL, limit: 4, unsigned: true
 			t.integer :pD, limit: 4, unsigned: true
 			t.integer :pG, limit: 4, unsigned: true
+			t.belongs_to :team, index:true
     end
   end
 end

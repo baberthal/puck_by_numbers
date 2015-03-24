@@ -7,6 +7,6 @@ class Event < ActiveRecord::Base
 	belongs_to :event_player_3, :class_name => "Player"
 	belongs_to :away_G, :class_name => "Player"
 	belongs_to :home_G, :class_name => "Player"
-	has_many :event_players
-	has_many :players, through: :event_players
+	has_many :participants
+	has_many :players, through: :participants
 end
