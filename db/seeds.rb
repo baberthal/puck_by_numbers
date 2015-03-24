@@ -140,6 +140,7 @@ p "Created #{Team.count} teams"
 Season.create!(season_years: 20142015)
 Game.create!([{
 	game_number: 1,
+	season_id: 1,
 	gcode: 20001,
 	status: 3,
 	home_team_id: 27,
@@ -152,6 +153,7 @@ Game.create!([{
 },
 {
 	game_number: 2,
+	season_id: 1,
 	gcode: 20002,
 	status: 3,
 	home_team_id: 3,
