@@ -25,44 +25,44 @@ ActiveRecord::Schema.define(version: 20150324063928) do
   add_index "event_players", ["player_id"], name: "index_event_players_on_player_id", using: :btree
 
   create_table "events", force: :cascade do |t|
-    t.integer "game_id",           limit: 4
-    t.integer "event_number",      limit: 3,   null: false, unsigned: true
-    t.integer "period",            limit: 1,   null: false, unsigned: true
-    t.float   "seconds",           limit: 24,  null: false
-    t.string  "event_type",        limit: 255, null: false
-    t.integer "event_team_id",     limit: 4
-    t.integer "event_player_1_id", limit: 4
-    t.integer "event_player_2_id", limit: 4
-    t.integer "event_player_3_id", limit: 4
-    t.integer "a1_id",             limit: 4
-    t.integer "a2_id",             limit: 4
-    t.integer "a3_id",             limit: 4
-    t.integer "a4_id",             limit: 4
-    t.integer "a5_id",             limit: 4
-    t.integer "a6_id",             limit: 4
-    t.integer "h1_id",             limit: 4
-    t.integer "h2_id",             limit: 4
-    t.integer "h3_id",             limit: 4
-    t.integer "h4_id",             limit: 4
-    t.integer "h5_id",             limit: 4
-    t.integer "h6_id",             limit: 4
-    t.integer "away_G_id",         limit: 4
-    t.integer "home_G_id",         limit: 4
-    t.string  "description",       limit: 255
-    t.integer "home_score",        limit: 2,   null: false, unsigned: true
-    t.integer "away_score",        limit: 2,   null: false, unsigned: true
-    t.float   "event_length",      limit: 24
-    t.integer "home_skaters",      limit: 2,   null: false, unsigned: true
-    t.integer "away_skaters",      limit: 2,   null: false, unsigned: true
+    t.integer "game_id",                 limit: 4
+    t.integer "event_number",            limit: 3,   null: false, unsigned: true
+    t.integer "period",                  limit: 1,   null: false, unsigned: true
+    t.float   "seconds",                 limit: 24,  null: false
+    t.string  "event_type",              limit: 255, null: false
+    t.integer "event_team_id",           limit: 4
+    t.integer "primary_event_player_id", limit: 4
+    t.integer "event_player_2_id",       limit: 4
+    t.integer "event_player_3_id",       limit: 4
+    t.integer "a1_id",                   limit: 4
+    t.integer "a2_id",                   limit: 4
+    t.integer "a3_id",                   limit: 4
+    t.integer "a4_id",                   limit: 4
+    t.integer "a5_id",                   limit: 4
+    t.integer "a6_id",                   limit: 4
+    t.integer "h1_id",                   limit: 4
+    t.integer "h2_id",                   limit: 4
+    t.integer "h3_id",                   limit: 4
+    t.integer "h4_id",                   limit: 4
+    t.integer "h5_id",                   limit: 4
+    t.integer "h6_id",                   limit: 4
+    t.integer "away_G_id",               limit: 4
+    t.integer "home_G_id",               limit: 4
+    t.string  "description",             limit: 255
+    t.integer "home_score",              limit: 2,   null: false, unsigned: true
+    t.integer "away_score",              limit: 2,   null: false, unsigned: true
+    t.float   "event_length",            limit: 24
+    t.integer "home_skaters",            limit: 2,   null: false, unsigned: true
+    t.integer "away_skaters",            limit: 2,   null: false, unsigned: true
   end
 
   add_index "events", ["away_G_id"], name: "index_events_on_away_G_id", using: :btree
-  add_index "events", ["event_player_1_id"], name: "index_events_on_event_player_1_id", using: :btree
   add_index "events", ["event_player_2_id"], name: "index_events_on_event_player_2_id", using: :btree
   add_index "events", ["event_player_3_id"], name: "index_events_on_event_player_3_id", using: :btree
   add_index "events", ["event_team_id"], name: "index_events_on_event_team_id", using: :btree
   add_index "events", ["game_id"], name: "index_events_on_game_id", using: :btree
   add_index "events", ["home_G_id"], name: "index_events_on_home_G_id", using: :btree
+  add_index "events", ["primary_event_player_id"], name: "index_events_on_primary_event_player_id", using: :btree
 
   create_table "games", force: :cascade do |t|
     t.integer  "season_id",    limit: 4

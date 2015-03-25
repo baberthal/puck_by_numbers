@@ -1,12 +1,13 @@
 class Player < ActiveRecord::Base
 	belongs_to :team
 	has_many :participants
+	has_many :primary_events, class_name: "Event", foreign_key: 'primary_event_player_id', autosave: true
 	has_many :events, through: :participants
 	has_many :games, through: :events
 
-	private
-	def determine_team
-		self.team = Player.events.where(event_player_1_id: Player.id).last.event_team.id
+	def change_team(new_team_id)
+		self.team_id = new_team_id
+		self.save
 	end
 
 end

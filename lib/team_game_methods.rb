@@ -1,4 +1,4 @@
-module TeamMethods
+module TeamGameMethods
 	def home_team
 		team_games.where(home_away: "H")
 	end
