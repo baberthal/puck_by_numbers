@@ -1,4 +1,4 @@
-module FancyStats
+module TeamFancyStats
 	def team_corsi_for(team, options = {})
 		t = team
 		hs = options[:hs] || [1,2,3,4,5,6]

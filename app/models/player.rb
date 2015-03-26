@@ -1,4 +1,5 @@
 class Player < ActiveRecord::Base
+	include PlayerFancyStats
 	belongs_to :team
 	has_many :participants
 	has_many :primary_events, class_name: "Event", foreign_key: 'primary_event_player_id', autosave: true

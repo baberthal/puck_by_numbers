@@ -14,16 +14,12 @@
   </thead>
 
   <tbody>
-    <% @game.game_summary do |game_summary| %>
       <tr>
-        <td><%= game_summary.fscore_home %></td>
-        <td><%= game_summary.fscore_away %></td>
-        <td><%= game_summary.home_corsi_for_tot %></td>
-        <td><%= game_summary.away_corsi_for_tot %></td>
-        <td><%= game_summary.home_fenwick_for_tot %></td>
-        <td><%= game_summary.away_fenwick_for_tot %></td>
+        <td><%= @game.fscore_home %></td>
+        <td><%= @game.fscore_away %></td>
+        <td><%= @game.team_corsi_for(@game.home_team_id) %></td>
+        <td><%= @game.team_corsi_for(@game.away_team_id) %></td>
       </tr>
-    <% end %>
   </tbody>
 </table>
 
