@@ -1,20 +1,27 @@
 class GamesController < ApplicationController
   before_action :set_game, only: [:show, :edit, :update, :destroy]
+	before_filter :get_season
+
+	def get_season
+		@season = Season.find(params[:season_id])
+	end
+
 
   # GET /games
   # GET /games.json
   def index
-		@games = Game.includes(:participants, :home_team, :away_team).all
+		@games = @season.games.includes(:participants, :home_team, :away_team).all
   end
 
   # GET /games/1
   # GET /games/1.json
-  def show
-  end
+	def show
+		@game = @season.games.find(params[:id])
+	end
 
   # GET /games/new
   def new
-    @game = Game.new
+		@game = Game.new
   end
 
   # GET /games/1/edit

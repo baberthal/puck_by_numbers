@@ -5,6 +5,6 @@ class Participant < ActiveRecord::Base
 	after_create :destroy_blanks
 
 	def destroy_blanks
-		@participant.destroy if player_id.nil?
+		self.destroy if player_id.nil?
 	end
 end

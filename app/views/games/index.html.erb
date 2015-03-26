@@ -18,16 +18,15 @@
 
   <tbody>
     <% @games.each do |game| %>
-      <tr>
-				<td><%= game.season_id %></td>
-				<td><%= game.game_number %></td>
+			<tr>
+				<td><%= game.season.season_years %></td>
+				<td><%= link_to game.gcode, season_game_path(@season, game) %></td>
 				<td><%= game.status %></td>
-				<td><%= game.home_team %></td>
-				<td><%= game.away_team %></td>
+				<td><%= link_to game.home_team.name, team_path(game.home_team) %></td>
+				<td><%= link_to game.away_team.name, team_path(game.away_team) %></td>
 				<td><%= game.fscore_home %></td>
 				<td><%= game.fscore_away %></td>
-				<td><%= link_to 'Details', game %></td>
-      </tr>
+			</tr>
     <% end %>
   </tbody>
 </table>
