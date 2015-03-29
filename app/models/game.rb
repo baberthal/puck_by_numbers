@@ -1,52 +1,48 @@
 class Game < ActiveRecord::Base
+	include Statable
 	belongs_to :season
 	belongs_to :home_team, :class_name => "Team"
 	belongs_to :away_team, :class_name => "Team"
 	has_many :events
 	has_many :event_teams, through: :events
-	has_many :participants, through: :events
-	has_many :players, through: :participants
+	has_many :players, through: :events
+	has_many :player_game_summaries
+	has_many :team_game_summaries
 
-	def sa_for(team, options = {})
-		options[:unblocked] ||= nil
-		options[:sit] ||= "5v5"
-		t = team
-		etype = ["MISS", "SHOT", "GOAL"]
-		etype << "BLOCK" unless options[:unblocked]
-
-		if options[:sit] == "5v5"
-			hs = 6
-			as = 6
-
-		elsif options[:sit] == "5v4"
-			if team == home_team
-				hs = 6
-				as = 5
-			else
-				as = 6
-				hs = 5
-			end
-
-		elsif options[:sit] == "4v5"
-			if team == home_team
-				hs = 6
-				as = 5
-			else
-				as = 6
-				hs = 5
-			end
-
-		else
-			hs = [1,2,3,4,5,6]
-			as = [1,2,3,4,5,6]
+	def create_team_summary(team)
+		TeamGameSummary.create(team_id: team) do |ts|
+			ts.game_id = id
+			ts.gf = goals.where(event_team_id: team).count
+			ts.sf = shots.where(event_team_id: team).count
+			ts.msf = misses.where(event_team_id: team).count
+			ts.bsf = blocks.where(event_team_id: team).count
+			ts.cf = corsi_events.where(event_team_id: team).count
+			ts.hits = hits.where(event_team_id: team).count
+			ts.pen = penalties.where(event_team_id: team).count
+			ts.fo_won = faceoffs.where(event_team_id: team).count
 		end
-
-		events.where(event_team: t, event_type: etype, home_skaters: hs, away_skaters: as).where.not(away_G: nil, home_G: nil).count
 	end
 
-#	protected
-#		def generate_summary
-#			game_summary = GameSummary.new
-#			game_summary.game_id = self.id
-#		end
+	def create_player_summaries(player)
+		PlayerGameSummary.create(player: player) do |ps|
+			ps.game_id = id
+			ps.goals = player.goals.where(game_id: id).count
+			ps.a1 = player.primary_assists.where(game_id: id).count
+			ps.a2 = player.secondary_assists.where(game_id: id).count
+			ps.points = player.goals.where(game_id: id).count + player.primary_assists.where(game_id: id).count + player.secondary_assists.where(game_id: id).count
+			ps.ind_cf = player.ind_corsi_events.where(game_id: id).count
+			ps.c_diff = (player.on_ice_corsi_events.where(game_id: id, event_team: player.team).count) - (player.on_ice_corsi_events.where(game_id: id).where.not(event_team: player.team).count)
+			ps.f_diff = (player.on_ice_fenwick_events.where(game_id: id, event_team: player.team).count) - (player.on_ice_fenwick_events.where(game_id: id).where.not(event_team: player.team).count)
+			ps.g_diff = (player.on_ice_goals.where(game_id: id, event_team: player.team).count) - (player.on_ice_goals.where(game_id: id).where.not(event_team: player.team).count)
+			ps.cf = player.corsi_for.where(game_id: id).count
+			ps.ff = player.fenwick_for.where(game_id: id).count
+			ps.blocks = player.blocks.where(game_id: id).count
+			ps.fo_won = player.faceoffs_won.where(game_id: id).count
+			ps.fo_lost = player.faceoffs_lost.where(game_id: id).count
+			ps.hits = player.hits.where(game_id: id).count
+			ps.hits_taken = player.hits_taken.where(game_id: id).count
+			ps.pen = player.penalties.where(game_id: id)
+			ps.pen_drawn = player.penalties_drawn.where(game_id: id).count
+		end
+	end
 end

@@ -25,7 +25,7 @@ class CreateSeasons < ActiveRecord::Migration
 			t.float :seconds, null: false
 			t.string :event_type, null: false
 			t.belongs_to :event_team, class: "Team", index:true
-			t.belongs_to :primary_event_player, class: "Player", index:true
+			t.belongs_to :event_player_1, class: "Player", index:true
 			t.belongs_to :event_player_2, class: "Player", index:true
 			t.belongs_to :event_player_3, class: "Player", index:true
 			t.integer :a1_id
@@ -61,5 +61,5 @@ class CreateSeasons < ActiveRecord::Migration
 			t.integer :new_x_coord, limit: 3
 			t.integer :new_y_coord, limit: 3
 		end
-	end
+  end
 end
