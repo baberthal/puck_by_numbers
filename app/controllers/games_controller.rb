@@ -10,7 +10,7 @@ class GamesController < ApplicationController
   # GET /games
   # GET /games.json
   def index
-		@games = @season.games.includes(:participants, :home_team, :away_team).all
+		@games = @season.games.includes(:home_team, :away_team, :team_game_summaries, :player_game_summaries).all
   end
 
   # GET /games/1
