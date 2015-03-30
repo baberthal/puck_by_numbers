@@ -28,18 +28,6 @@ class CreateSeasons < ActiveRecord::Migration
 			t.belongs_to :event_player_1, class: "Player", index:true
 			t.belongs_to :event_player_2, class: "Player", index:true
 			t.belongs_to :event_player_3, class: "Player", index:true
-			t.integer :a1_id
-			t.integer :a2_id
-			t.integer :a3_id
-			t.integer :a4_id
-			t.integer :a5_id
-			t.integer :a6_id
-			t.integer :h1_id
-			t.integer :h2_id
-			t.integer :h3_id
-			t.integer :h4_id
-			t.integer :h5_id
-			t.integer :h6_id
 			t.belongs_to :away_G, class: "Player", index:true
 			t.belongs_to :home_G, class: "Player", index:true
 			t.string :description

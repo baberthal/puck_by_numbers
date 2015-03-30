@@ -23,18 +23,6 @@ ActiveRecord::Schema.define(version: 20150326213946) do
     t.integer "event_player_1_id", limit: 4
     t.integer "event_player_2_id", limit: 4
     t.integer "event_player_3_id", limit: 4
-    t.integer "a1_id",             limit: 4
-    t.integer "a2_id",             limit: 4
-    t.integer "a3_id",             limit: 4
-    t.integer "a4_id",             limit: 4
-    t.integer "a5_id",             limit: 4
-    t.integer "a6_id",             limit: 4
-    t.integer "h1_id",             limit: 4
-    t.integer "h2_id",             limit: 4
-    t.integer "h3_id",             limit: 4
-    t.integer "h4_id",             limit: 4
-    t.integer "h5_id",             limit: 4
-    t.integer "h6_id",             limit: 4
     t.integer "away_G_id",         limit: 4
     t.integer "home_G_id",         limit: 4
     t.string  "description",       limit: 255

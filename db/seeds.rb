@@ -34503,18 +34503,6 @@ Event.create!([
 	event_player_1_id: 2074,
 	event_player_2_id: 2034,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -34534,18 +34522,6 @@ Event.create!([
 	event_player_1_id: 2074,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 0,
 	away_score: 0,
@@ -34565,18 +34541,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -34596,18 +34560,6 @@ Event.create!([
 	event_player_1_id: 1445,
 	event_player_2_id: 2329,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 0,
 	away_score: 0,
@@ -34627,18 +34579,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -34658,18 +34598,6 @@ Event.create!([
 	event_player_1_id: 2034,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "Backhand",
 	home_score: 0,
 	away_score: 0,
@@ -34689,18 +34617,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -34720,18 +34636,6 @@ Event.create!([
 	event_player_1_id: 993,
 	event_player_2_id: 2474,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 2738,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -34751,18 +34655,6 @@ Event.create!([
 	event_player_1_id: 146,
 	event_player_2_id: 2738,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 2738,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -34782,18 +34674,6 @@ Event.create!([
 	event_player_1_id: 2738,
 	event_player_2_id: 1536,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 2738,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -34813,18 +34693,6 @@ Event.create!([
 	event_player_1_id: 2740,
 	event_player_2_id: 2474,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 2738,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 0,
 	away_score: 0,
@@ -34844,18 +34712,6 @@ Event.create!([
 	event_player_1_id: 1452,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 2738,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 0,
 	away_score: 0,
@@ -34875,18 +34731,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 2738,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -34906,18 +34750,6 @@ Event.create!([
 	event_player_1_id: 993,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 1566,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "Snap",
 	home_score: 0,
 	away_score: 0,
@@ -34937,18 +34769,6 @@ Event.create!([
 	event_player_1_id: 993,
 	event_player_2_id: 1536,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 1566,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -34968,18 +34788,6 @@ Event.create!([
 	event_player_1_id: 2055,
 	event_player_2_id: 1946,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 1246,
-	a3_id: 2741,
-	a4_id: 2539,
-	a5_id: 509,
-	a6_id: nil,
-	h1_id: 1946,
-	h2_id: 2455,
-	h3_id: 1566,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -34999,18 +34807,6 @@ Event.create!([
 	event_player_1_id: 509,
 	event_player_2_id: 1566,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 1246,
-	a3_id: 2741,
-	a4_id: 2539,
-	a5_id: 509,
-	a6_id: nil,
-	h1_id: 1946,
-	h2_id: 2455,
-	h3_id: 1566,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -35030,18 +34826,6 @@ Event.create!([
 	event_player_1_id: 2055,
 	event_player_2_id: 1946,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 1246,
-	a3_id: 2741,
-	a4_id: 2539,
-	a5_id: 509,
-	a6_id: nil,
-	h1_id: 1946,
-	h2_id: 2455,
-	h3_id: 1566,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -35061,18 +34845,6 @@ Event.create!([
 	event_player_1_id: 2539,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 1246,
-	a3_id: 2741,
-	a4_id: 2539,
-	a5_id: 509,
-	a6_id: nil,
-	h1_id: 1946,
-	h2_id: 2455,
-	h3_id: 1566,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 0,
 	away_score: 0,
@@ -35092,18 +34864,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 1246,
-	a3_id: 2741,
-	a4_id: 2539,
-	a5_id: 509,
-	a6_id: nil,
-	h1_id: 1946,
-	h2_id: 2455,
-	h3_id: 1566,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -35123,18 +34883,6 @@ Event.create!([
 	event_player_1_id: 2455,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 1246,
-	a3_id: 2741,
-	a4_id: 2539,
-	a5_id: 509,
-	a6_id: nil,
-	h1_id: 2349,
-	h2_id: 2455,
-	h3_id: 1566,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "Snap",
 	home_score: 0,
 	away_score: 0,
@@ -35154,18 +34902,6 @@ Event.create!([
 	event_player_1_id: 18,
 	event_player_2_id: 2349,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 2226,
-	a3_id: 1471,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2349,
-	h2_id: 1619,
-	h3_id: 2303,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -35185,18 +34921,6 @@ Event.create!([
 	event_player_1_id: 1452,
 	event_player_2_id: 1471,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 2226,
-	a3_id: 1471,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2349,
-	h2_id: 1619,
-	h3_id: 2303,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -35216,18 +34940,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 2226,
-	a3_id: 1471,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2349,
-	h2_id: 1619,
-	h3_id: 2303,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -35247,18 +34959,6 @@ Event.create!([
 	event_player_1_id: 2349,
 	event_player_2_id: 18,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 2226,
-	a3_id: 1471,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2349,
-	h2_id: 1619,
-	h3_id: 2303,
-	h4_id: 29,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -35278,18 +34978,6 @@ Event.create!([
 	event_player_1_id: 2349,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 2226,
-	a3_id: 1471,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2349,
-	h2_id: 1619,
-	h3_id: 2303,
-	h4_id: 29,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -35309,18 +34997,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 2226,
-	a3_id: 1471,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2349,
-	h2_id: 1619,
-	h3_id: 2303,
-	h4_id: 29,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -35340,18 +35016,6 @@ Event.create!([
 	event_player_1_id: 2113,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 2226,
-	a3_id: 1471,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2349,
-	h2_id: 1619,
-	h3_id: 2303,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -35371,18 +35035,6 @@ Event.create!([
 	event_player_1_id: 2349,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 2226,
-	a3_id: 1471,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2349,
-	h2_id: 1619,
-	h3_id: 2303,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 0,
 	away_score: 0,
@@ -35402,18 +35054,6 @@ Event.create!([
 	event_player_1_id: 1120,
 	event_player_2_id: 2110,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 2738,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -35433,18 +35073,6 @@ Event.create!([
 	event_player_1_id: 2110,
 	event_player_2_id: 2474,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 2738,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -35464,18 +35092,6 @@ Event.create!([
 	event_player_1_id: 2110,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 2738,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 0,
 	away_score: 0,
@@ -35495,18 +35111,6 @@ Event.create!([
 	event_player_1_id: 1120,
 	event_player_2_id: 2034,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -35526,18 +35130,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -35557,18 +35149,6 @@ Event.create!([
 	event_player_1_id: 1120,
 	event_player_2_id: 2015,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -35588,18 +35168,6 @@ Event.create!([
 	event_player_1_id: 2034,
 	event_player_2_id: 1536,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -35619,18 +35187,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -35650,18 +35206,6 @@ Event.create!([
 	event_player_1_id: 1445,
 	event_player_2_id: 2113,
 	event_player_3_id: nil,
-	a1_id: 2454,
-	a2_id: 2074,
-	a3_id: 2474,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 0,
 	away_score: 0,
@@ -35681,18 +35225,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2454,
-	a2_id: 2074,
-	a3_id: 2474,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -35712,18 +35244,6 @@ Event.create!([
 	event_player_1_id: 2739,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 0,
 	away_score: 0,
@@ -35743,18 +35263,6 @@ Event.create!([
 	event_player_1_id: 2739,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -35774,18 +35282,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -35805,18 +35301,6 @@ Event.create!([
 	event_player_1_id: 1939,
 	event_player_2_id: 2739,
 	event_player_3_id: 2329,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 509,
-	a5_id: 2329,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 2738,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 0,
 	away_score: 0,
@@ -35836,18 +35320,6 @@ Event.create!([
 	event_player_1_id: 2055,
 	event_player_2_id: 1946,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 1246,
-	a3_id: 2741,
-	a4_id: 2539,
-	a5_id: 509,
-	a6_id: nil,
-	h1_id: 1946,
-	h2_id: 2455,
-	h3_id: 1566,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 1,
@@ -35867,18 +35339,6 @@ Event.create!([
 	event_player_1_id: 2055,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 1246,
-	a3_id: 2741,
-	a4_id: 2539,
-	a5_id: 509,
-	a6_id: nil,
-	h1_id: 1946,
-	h2_id: 2455,
-	h3_id: 1566,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "Tip-In",
 	home_score: 0,
 	away_score: 1,
@@ -35898,18 +35358,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 1246,
-	a3_id: 2741,
-	a4_id: 2539,
-	a5_id: 509,
-	a6_id: nil,
-	h1_id: 1946,
-	h2_id: 2455,
-	h3_id: 1566,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 1,
@@ -35929,18 +35377,6 @@ Event.create!([
 	event_player_1_id: 1939,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 1619,
-	h2_id: 2034,
-	h3_id: 2303,
-	h4_id: 2740,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 0,
 	away_score: 1,
@@ -35960,18 +35396,6 @@ Event.create!([
 	event_player_1_id: 2074,
 	event_player_2_id: 2034,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 1,
@@ -35991,18 +35415,6 @@ Event.create!([
 	event_player_1_id: 1452,
 	event_player_2_id: 2739,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 1,
@@ -36022,18 +35434,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 1,
@@ -36053,18 +35453,6 @@ Event.create!([
 	event_player_1_id: 1452,
 	event_player_2_id: 2074,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2226,
-	a3_id: 1939,
-	a4_id: 2113,
-	a5_id: 1536,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 1,
@@ -36084,18 +35472,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2226,
-	a3_id: 1939,
-	a4_id: 2113,
-	a5_id: 1536,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 1,
@@ -36115,18 +35491,6 @@ Event.create!([
 	event_player_1_id: 1590,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 2226,
-	a3_id: 1471,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2349,
-	h2_id: 1619,
-	h3_id: 2303,
-	h4_id: 1253,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 1,
@@ -36146,18 +35510,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 2226,
-	a3_id: 1471,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2349,
-	h2_id: 1619,
-	h3_id: 2303,
-	h4_id: 1253,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 1,
@@ -36177,18 +35529,6 @@ Event.create!([
 	event_player_1_id: 1120,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 2539,
-	a5_id: 509,
-	a6_id: nil,
-	h1_id: 1619,
-	h2_id: 2110,
-	h3_id: 2738,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 0,
 	away_score: 1,
@@ -36208,18 +35548,6 @@ Event.create!([
 	event_player_1_id: 509,
 	event_player_2_id: 2738,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 2539,
-	a5_id: 509,
-	a6_id: nil,
-	h1_id: 1619,
-	h2_id: 2110,
-	h3_id: 2738,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 1,
@@ -36239,18 +35567,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 2539,
-	a5_id: 509,
-	a6_id: nil,
-	h1_id: 1619,
-	h2_id: 2110,
-	h3_id: 2738,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 1,
@@ -36270,18 +35586,6 @@ Event.create!([
 	event_player_1_id: 509,
 	event_player_2_id: 2740,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 2539,
-	a5_id: 509,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 2738,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 1,
@@ -36301,18 +35605,6 @@ Event.create!([
 	event_player_1_id: 2110,
 	event_player_2_id: 2738,
 	event_player_3_id: 993,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 2539,
-	a5_id: 509,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 2738,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "Tip-In",
 	home_score: 0,
 	away_score: 1,
@@ -36332,18 +35624,6 @@ Event.create!([
 	event_player_1_id: 2055,
 	event_player_2_id: 1946,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 1246,
-	a3_id: 2741,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 1946,
-	h2_id: 2455,
-	h3_id: 1566,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -36363,18 +35643,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 1246,
-	a3_id: 2741,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 1946,
-	h2_id: 2455,
-	h3_id: 1566,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -36394,18 +35662,6 @@ Event.create!([
 	event_player_1_id: 2055,
 	event_player_2_id: 1946,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 1246,
-	a3_id: 2741,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 1946,
-	h2_id: 2455,
-	h3_id: 1566,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -36425,18 +35681,6 @@ Event.create!([
 	event_player_1_id: 1946,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 1246,
-	a3_id: 2741,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 1946,
-	h2_id: 2455,
-	h3_id: 1566,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "Backhand",
 	home_score: 1,
 	away_score: 1,
@@ -36456,18 +35700,6 @@ Event.create!([
 	event_player_1_id: 2055,
 	event_player_2_id: 2455,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 1246,
-	a3_id: 2741,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 1946,
-	h2_id: 2455,
-	h3_id: 1566,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -36487,18 +35719,6 @@ Event.create!([
 	event_player_1_id: 2055,
 	event_player_2_id: 1946,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 1246,
-	a3_id: 2741,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 1946,
-	h2_id: 2455,
-	h3_id: 1566,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "Snap",
 	home_score: 1,
 	away_score: 1,
@@ -36518,18 +35738,6 @@ Event.create!([
 	event_player_1_id: 2113,
 	event_player_2_id: 1946,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 1246,
-	a3_id: 2741,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 1946,
-	h2_id: 2455,
-	h3_id: 1566,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 1,
 	away_score: 1,
@@ -36549,18 +35757,6 @@ Event.create!([
 	event_player_1_id: 2311,
 	event_player_2_id: 1246,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 1246,
-	a3_id: 2741,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 1946,
-	h2_id: 2455,
-	h3_id: 1566,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 1,
 	away_score: 1,
@@ -36580,18 +35776,6 @@ Event.create!([
 	event_player_1_id: 2311,
 	event_player_2_id: 2741,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 1246,
-	a3_id: 2741,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 1946,
-	h2_id: 2455,
-	h3_id: 1566,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -36611,18 +35795,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 1246,
-	a3_id: 2741,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 1946,
-	h2_id: 2455,
-	h3_id: 1566,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -36642,18 +35814,6 @@ Event.create!([
 	event_player_1_id: 2603,
 	event_player_2_id: 1536,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 1246,
-	a3_id: 2741,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 1,
 	away_score: 1,
@@ -36673,18 +35833,6 @@ Event.create!([
 	event_player_1_id: 2074,
 	event_player_2_id: 2034,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -36704,18 +35852,6 @@ Event.create!([
 	event_player_1_id: 2074,
 	event_player_2_id: 2034,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -36735,18 +35871,6 @@ Event.create!([
 	event_player_1_id: 1581,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -36766,18 +35890,6 @@ Event.create!([
 	event_player_1_id: 2739,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 1,
 	away_score: 1,
@@ -36797,18 +35909,6 @@ Event.create!([
 	event_player_1_id: 29,
 	event_player_2_id: 2074,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -36828,18 +35928,6 @@ Event.create!([
 	event_player_1_id: 29,
 	event_player_2_id: 2739,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -36859,18 +35947,6 @@ Event.create!([
 	event_player_1_id: 1445,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 1,
 	away_score: 1,
@@ -36890,18 +35966,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -36921,18 +35985,6 @@ Event.create!([
 	event_player_1_id: 2110,
 	event_player_2_id: 2226,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 2226,
-	a3_id: 1471,
-	a4_id: 2539,
-	a5_id: 509,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 2738,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -36952,18 +36004,6 @@ Event.create!([
 	event_player_1_id: 1452,
 	event_player_2_id: 2226,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 2226,
-	a3_id: 1471,
-	a4_id: 2539,
-	a5_id: 509,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 2738,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -36983,18 +36023,6 @@ Event.create!([
 	event_player_1_id: 2738,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 2226,
-	a3_id: 1471,
-	a4_id: 2539,
-	a5_id: 509,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 2738,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 1,
 	away_score: 1,
@@ -37014,18 +36042,6 @@ Event.create!([
 	event_player_1_id: 1120,
 	event_player_2_id: 2110,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 2738,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -37045,18 +36061,6 @@ Event.create!([
 	event_player_1_id: 1452,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 2738,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 1,
 	away_score: 1,
@@ -37076,18 +36080,6 @@ Event.create!([
 	event_player_1_id: 2474,
 	event_player_2_id: 2110,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 2738,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -37107,18 +36099,6 @@ Event.create!([
 	event_player_1_id: 2474,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 2738,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "Backhand",
 	home_score: 1,
 	away_score: 1,
@@ -37138,18 +36118,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 2738,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -37169,18 +36137,6 @@ Event.create!([
 	event_player_1_id: 2074,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2055,
-	a3_id: 2739,
-	a4_id: 1939,
-	a5_id: 1536,
-	a6_id: 146,
-	h1_id: 2034,
-	h2_id: 2738,
-	h3_id: 2015,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 1,
 	away_score: 1,
@@ -37200,18 +36156,6 @@ Event.create!([
 	event_player_1_id: 29,
 	event_player_2_id: 1536,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2055,
-	a3_id: 2739,
-	a4_id: 1939,
-	a5_id: 1536,
-	a6_id: 146,
-	h1_id: 2034,
-	h2_id: 2738,
-	h3_id: 2015,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -37231,18 +36175,6 @@ Event.create!([
 	event_player_1_id: 1939,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2055,
-	a3_id: 2739,
-	a4_id: 1939,
-	a5_id: 1536,
-	a6_id: 146,
-	h1_id: 2034,
-	h2_id: 2738,
-	h3_id: 2015,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 1,
 	away_score: 1,
@@ -37262,18 +36194,6 @@ Event.create!([
 	event_player_1_id: 2738,
 	event_player_2_id: 2739,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2055,
-	a3_id: 2739,
-	a4_id: 1939,
-	a5_id: 1536,
-	a6_id: 146,
-	h1_id: 2034,
-	h2_id: 2738,
-	h3_id: 2015,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "Tripping(2 min)",
 	home_score: 1,
 	away_score: 1,
@@ -37293,18 +36213,6 @@ Event.create!([
 	event_player_1_id: 1120,
 	event_player_2_id: 1619,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 2113,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 1619,
-	h2_id: 2455,
-	h3_id: 1452,
-	h4_id: 2740,
-	h5_id: nil,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -37324,18 +36232,6 @@ Event.create!([
 	event_player_1_id: 1452,
 	event_player_2_id: 2454,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 2113,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 1619,
-	h2_id: 2455,
-	h3_id: 1452,
-	h4_id: 2740,
-	h5_id: nil,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -37355,18 +36251,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 2113,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 1619,
-	h2_id: 2455,
-	h3_id: 1452,
-	h4_id: 2740,
-	h5_id: nil,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -37386,18 +36270,6 @@ Event.create!([
 	event_player_1_id: 2015,
 	event_player_2_id: 2454,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 2113,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2349,
-	h2_id: 2015,
-	h3_id: 1253,
-	h4_id: 29,
-	h5_id: nil,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -37417,18 +36289,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 2113,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2349,
-	h2_id: 2015,
-	h3_id: 1253,
-	h4_id: 29,
-	h5_id: nil,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -37448,18 +36308,6 @@ Event.create!([
 	event_player_1_id: 2474,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 2113,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2349,
-	h2_id: 1619,
-	h3_id: 1253,
-	h4_id: 29,
-	h5_id: nil,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -37479,18 +36327,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 2113,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2349,
-	h2_id: 1619,
-	h3_id: 1253,
-	h4_id: 29,
-	h5_id: nil,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -37510,18 +36346,6 @@ Event.create!([
 	event_player_1_id: 1619,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 2113,
-	a5_id: 1536,
-	a6_id: nil,
-	h1_id: 1619,
-	h2_id: 2455,
-	h3_id: 1452,
-	h4_id: 2740,
-	h5_id: nil,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -37541,18 +36365,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 2113,
-	a5_id: 1536,
-	a6_id: nil,
-	h1_id: 1619,
-	h2_id: 2455,
-	h3_id: 1452,
-	h4_id: 2740,
-	h5_id: nil,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -37572,18 +36384,6 @@ Event.create!([
 	event_player_1_id: 2539,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 2539,
-	a5_id: 1536,
-	a6_id: nil,
-	h1_id: 2349,
-	h2_id: 2303,
-	h3_id: 2603,
-	h4_id: 2311,
-	h5_id: nil,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 1,
 	away_score: 1,
@@ -37603,18 +36403,6 @@ Event.create!([
 	event_player_1_id: 2055,
 	event_player_2_id: 2034,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 1246,
-	a3_id: 2741,
-	a4_id: 2329,
-	a5_id: 1536,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 2015,
-	h3_id: 1253,
-	h4_id: 29,
-	h5_id: nil,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -37634,18 +36422,6 @@ Event.create!([
 	event_player_1_id: 1253,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 1246,
-	a3_id: 2741,
-	a4_id: 2329,
-	a5_id: 1536,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 2015,
-	h3_id: 1253,
-	h4_id: 29,
-	h5_id: nil,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -37665,18 +36441,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 1246,
-	a3_id: 2741,
-	a4_id: 2329,
-	a5_id: 1536,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 2015,
-	h3_id: 1253,
-	h4_id: 29,
-	h5_id: nil,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -37696,18 +36460,6 @@ Event.create!([
 	event_player_1_id: 2034,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 1246,
-	a3_id: 2741,
-	a4_id: 2113,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -37727,18 +36479,6 @@ Event.create!([
 	event_player_1_id: 2603,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 1246,
-	a3_id: 2741,
-	a4_id: 2113,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -37758,18 +36498,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 1246,
-	a3_id: 2741,
-	a4_id: 2113,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -37789,18 +36517,6 @@ Event.create!([
 	event_player_1_id: 2226,
 	event_player_2_id: 2740,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 2226,
-	a3_id: 1471,
-	a4_id: 2539,
-	a5_id: 509,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 2738,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -37820,18 +36536,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 2226,
-	a3_id: 1471,
-	a4_id: 2539,
-	a5_id: 509,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 2738,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -37851,18 +36555,6 @@ Event.create!([
 	event_player_1_id: 1939,
 	event_player_2_id: 29,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 1946,
-	h2_id: 2455,
-	h3_id: 1566,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -37882,18 +36574,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 1946,
-	h2_id: 2455,
-	h3_id: 1566,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -37913,18 +36593,6 @@ Event.create!([
 	event_player_1_id: 1253,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 2329,
-	a5_id: 1536,
-	a6_id: nil,
-	h1_id: 1946,
-	h2_id: 2455,
-	h3_id: 1566,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -37944,18 +36612,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 2329,
-	a5_id: 1536,
-	a6_id: nil,
-	h1_id: 1946,
-	h2_id: 2455,
-	h3_id: 1566,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -37975,18 +36631,6 @@ Event.create!([
 	event_player_1_id: 2454,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 1946,
-	h2_id: 2455,
-	h3_id: 1566,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "Snap",
 	home_score: 1,
 	away_score: 1,
@@ -38006,18 +36650,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 1946,
-	h2_id: 2455,
-	h3_id: 1566,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -38037,18 +36669,6 @@ Event.create!([
 	event_player_1_id: 2474,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -38068,18 +36688,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -38099,18 +36707,6 @@ Event.create!([
 	event_player_1_id: 2474,
 	event_player_2_id: 2311,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 2474,
-	a3_id: 1246,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "Backhand",
 	home_score: 1,
 	away_score: 1,
@@ -38130,18 +36726,6 @@ Event.create!([
 	event_player_1_id: 2311,
 	event_player_2_id: 2474,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 2474,
-	a3_id: 1246,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -38161,18 +36745,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 2474,
-	a3_id: 1246,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -38192,18 +36764,6 @@ Event.create!([
 	event_player_1_id: 2329,
 	event_player_2_id: 2015,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 1246,
-	a3_id: 2741,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 2110,
-	h3_id: 1445,
-	h4_id: 2015,
-	h5_id: 1452,
-	h6_id: 2740,
 	description: "Interference(2 min)",
 	home_score: 1,
 	away_score: 1,
@@ -38223,18 +36783,6 @@ Event.create!([
 	event_player_1_id: 18,
 	event_player_2_id: 2034,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 1471,
-	a3_id: 509,
-	a4_id: 146,
-	a5_id: nil,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1253,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -38254,18 +36802,6 @@ Event.create!([
 	event_player_1_id: 2740,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 1471,
-	a3_id: 509,
-	a4_id: 146,
-	a5_id: nil,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1253,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 1,
 	away_score: 1,
@@ -38285,18 +36821,6 @@ Event.create!([
 	event_player_1_id: 1120,
 	event_player_2_id: 2110,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 1939,
-	a3_id: 2113,
-	a4_id: 1536,
-	a5_id: nil,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 1566,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -38316,18 +36840,6 @@ Event.create!([
 	event_player_1_id: 2311,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 1939,
-	a3_id: 2113,
-	a4_id: 1536,
-	a5_id: nil,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 1566,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -38347,18 +36859,6 @@ Event.create!([
 	event_player_1_id: 2603,
 	event_player_2_id: 1120,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 1939,
-	a3_id: 2113,
-	a4_id: 1536,
-	a5_id: nil,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 1566,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 1,
 	away_score: 1,
@@ -38378,18 +36878,6 @@ Event.create!([
 	event_player_1_id: 2055,
 	event_player_2_id: 2034,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 2226,
-	a3_id: 509,
-	a4_id: 146,
-	a5_id: nil,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1253,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -38409,18 +36897,6 @@ Event.create!([
 	event_player_1_id: 509,
 	event_player_2_id: 2740,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 2226,
-	a3_id: 509,
-	a4_id: 146,
-	a5_id: nil,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1253,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -38440,18 +36916,6 @@ Event.create!([
 	event_player_1_id: 2034,
 	event_player_2_id: 2740,
 	event_player_3_id: 1253,
-	a1_id: 2055,
-	a2_id: 2226,
-	a3_id: 509,
-	a4_id: 146,
-	a5_id: nil,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1253,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "Snap",
 	home_score: 1,
 	away_score: 1,
@@ -38471,18 +36935,6 @@ Event.create!([
 	event_player_1_id: 2074,
 	event_player_2_id: 2034,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 29,
-	h5_id: 1452,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 1,
@@ -38502,18 +36954,6 @@ Event.create!([
 	event_player_1_id: 2015,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 29,
-	h5_id: 1452,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 2,
 	away_score: 1,
@@ -38533,18 +36973,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 29,
-	h5_id: 1452,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 1,
@@ -38564,18 +36992,6 @@ Event.create!([
 	event_player_1_id: 2074,
 	event_player_2_id: 2034,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 1,
@@ -38595,18 +37011,6 @@ Event.create!([
 	event_player_1_id: 1939,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 1,
@@ -38626,18 +37030,6 @@ Event.create!([
 	event_player_1_id: 1939,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 2,
 	away_score: 1,
@@ -38657,18 +37049,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 1,
@@ -38688,18 +37068,6 @@ Event.create!([
 	event_player_1_id: 1536,
 	event_player_2_id: 1619,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 2226,
-	a3_id: 1471,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2349,
-	h2_id: 1619,
-	h3_id: 2303,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 1,
@@ -38719,18 +37087,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 2226,
-	a3_id: 1471,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2349,
-	h2_id: 1619,
-	h3_id: 2303,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 1,
@@ -38750,18 +37106,6 @@ Event.create!([
 	event_player_1_id: 2539,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 2539,
-	a5_id: 509,
-	a6_id: nil,
-	h1_id: 2349,
-	h2_id: 993,
-	h3_id: 2303,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 1,
@@ -38781,18 +37125,6 @@ Event.create!([
 	event_player_1_id: 993,
 	event_player_2_id: 2539,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 2539,
-	a5_id: 509,
-	a6_id: nil,
-	h1_id: 2349,
-	h2_id: 993,
-	h3_id: 2303,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "Snap",
 	home_score: 2,
 	away_score: 1,
@@ -38812,18 +37144,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 2539,
-	a5_id: 509,
-	a6_id: nil,
-	h1_id: 2349,
-	h2_id: 993,
-	h3_id: 2303,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 1,
@@ -38843,18 +37163,6 @@ Event.create!([
 	event_player_1_id: 2740,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 2539,
-	a5_id: 509,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 2738,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "Slap",
 	home_score: 2,
 	away_score: 1,
@@ -38874,18 +37182,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 2539,
-	a5_id: 509,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 2738,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 1,
@@ -38905,18 +37201,6 @@ Event.create!([
 	event_player_1_id: 2474,
 	event_player_2_id: 2740,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 2738,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 2,
 	away_score: 1,
@@ -38936,18 +37220,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 2738,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 1,
@@ -38967,18 +37239,6 @@ Event.create!([
 	event_player_1_id: 2329,
 	event_player_2_id: 993,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 1246,
-	a3_id: 2741,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 2738,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 1,
@@ -38998,18 +37258,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 1246,
-	a3_id: 2741,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 2738,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 1,
@@ -39029,18 +37277,6 @@ Event.create!([
 	event_player_1_id: 1452,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 1246,
-	a3_id: 2741,
-	a4_id: 2329,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 1946,
-	h2_id: 2455,
-	h3_id: 1566,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 1,
@@ -39060,18 +37296,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 1246,
-	a3_id: 2741,
-	a4_id: 2329,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 1946,
-	h2_id: 2455,
-	h3_id: 1566,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 1,
@@ -39091,18 +37315,6 @@ Event.create!([
 	event_player_1_id: 1946,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 1246,
-	a3_id: 2741,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 1946,
-	h2_id: 2455,
-	h3_id: 1566,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 1,
@@ -39122,18 +37334,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 1246,
-	a3_id: 2741,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 1946,
-	h2_id: 2455,
-	h3_id: 1566,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 1,
@@ -39153,18 +37353,6 @@ Event.create!([
 	event_player_1_id: 2455,
 	event_player_2_id: 1536,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 1946,
-	h2_id: 2455,
-	h3_id: 1566,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 1,
@@ -39184,18 +37372,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 1946,
-	h2_id: 2455,
-	h3_id: 1566,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 1,
@@ -39215,18 +37391,6 @@ Event.create!([
 	event_player_1_id: 1939,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 2113,
-	a5_id: 1536,
-	a6_id: nil,
-	h1_id: 1946,
-	h2_id: 2455,
-	h3_id: 1445,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 1,
@@ -39246,18 +37410,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 2113,
-	a5_id: 1536,
-	a6_id: nil,
-	h1_id: 1946,
-	h2_id: 2455,
-	h3_id: 1445,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 1,
@@ -39277,18 +37429,6 @@ Event.create!([
 	event_player_1_id: 1120,
 	event_player_2_id: 2329,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "Tip-In",
 	home_score: 2,
 	away_score: 1,
@@ -39308,18 +37448,6 @@ Event.create!([
 	event_player_1_id: 18,
 	event_player_2_id: 2349,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 2226,
-	a3_id: 1471,
-	a4_id: 2539,
-	a5_id: 509,
-	a6_id: nil,
-	h1_id: 2349,
-	h2_id: 1619,
-	h3_id: 2303,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -39339,18 +37467,6 @@ Event.create!([
 	event_player_1_id: 509,
 	event_player_2_id: 1619,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 2226,
-	a3_id: 1471,
-	a4_id: 2539,
-	a5_id: 509,
-	a6_id: nil,
-	h1_id: 2349,
-	h2_id: 1619,
-	h3_id: 2303,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -39370,18 +37486,6 @@ Event.create!([
 	event_player_1_id: 1619,
 	event_player_2_id: 18,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 2226,
-	a3_id: 1471,
-	a4_id: 2539,
-	a5_id: 509,
-	a6_id: nil,
-	h1_id: 2349,
-	h2_id: 1619,
-	h3_id: 2303,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "Slap",
 	home_score: 2,
 	away_score: 2,
@@ -39401,18 +37505,6 @@ Event.create!([
 	event_player_1_id: 1120,
 	event_player_2_id: 2110,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 2738,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -39432,18 +37524,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 2738,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -39463,18 +37543,6 @@ Event.create!([
 	event_player_1_id: 2055,
 	event_player_2_id: 2455,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 1246,
-	a3_id: 2741,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 1946,
-	h2_id: 2455,
-	h3_id: 1566,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -39494,18 +37562,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 1246,
-	a3_id: 2741,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 1946,
-	h2_id: 2455,
-	h3_id: 1566,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -39525,18 +37581,6 @@ Event.create!([
 	event_player_1_id: 2055,
 	event_player_2_id: 2455,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 1246,
-	a3_id: 2741,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 1946,
-	h2_id: 2455,
-	h3_id: 1566,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -39556,18 +37600,6 @@ Event.create!([
 	event_player_1_id: 2311,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 1246,
-	a3_id: 2741,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 1946,
-	h2_id: 2455,
-	h3_id: 1566,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "Slap",
 	home_score: 2,
 	away_score: 2,
@@ -39587,18 +37619,6 @@ Event.create!([
 	event_player_1_id: 2455,
 	event_player_2_id: 1246,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 1246,
-	a3_id: 2741,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 1946,
-	h2_id: 2455,
-	h3_id: 1566,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -39618,18 +37638,6 @@ Event.create!([
 	event_player_1_id: 1946,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 1246,
-	a3_id: 2741,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 1946,
-	h2_id: 2455,
-	h3_id: 1566,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 2,
 	away_score: 2,
@@ -39649,18 +37657,6 @@ Event.create!([
 	event_player_1_id: 2329,
 	event_player_2_id: 1946,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 1246,
-	a3_id: 2741,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 1946,
-	h2_id: 2455,
-	h3_id: 1566,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -39680,18 +37676,6 @@ Event.create!([
 	event_player_1_id: 1946,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 1246,
-	a3_id: 2741,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 1946,
-	h2_id: 2455,
-	h3_id: 1566,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "Snap",
 	home_score: 2,
 	away_score: 2,
@@ -39711,18 +37695,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 1246,
-	a3_id: 2741,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 1946,
-	h2_id: 2455,
-	h3_id: 1566,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -39742,18 +37714,6 @@ Event.create!([
 	event_player_1_id: 2113,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 1246,
-	a3_id: 2741,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 1946,
-	h2_id: 2455,
-	h3_id: 1445,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 2,
 	away_score: 2,
@@ -39773,18 +37733,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 1246,
-	a3_id: 2741,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 1946,
-	h2_id: 2455,
-	h3_id: 1445,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -39804,18 +37752,6 @@ Event.create!([
 	event_player_1_id: 2015,
 	event_player_2_id: 1536,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "Snap",
 	home_score: 2,
 	away_score: 2,
@@ -39835,18 +37771,6 @@ Event.create!([
 	event_player_1_id: 1445,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -39866,18 +37790,6 @@ Event.create!([
 	event_player_1_id: 2015,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 2,
 	away_score: 2,
@@ -39897,18 +37809,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -39928,18 +37828,6 @@ Event.create!([
 	event_player_1_id: 1619,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 2226,
-	a3_id: 1471,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2349,
-	h2_id: 1619,
-	h3_id: 1445,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 2,
 	away_score: 2,
@@ -39959,18 +37847,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 2226,
-	a3_id: 1471,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2349,
-	h2_id: 1619,
-	h3_id: 1445,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -39990,18 +37866,6 @@ Event.create!([
 	event_player_1_id: 1120,
 	event_player_2_id: 2349,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 2539,
-	a5_id: 509,
-	a6_id: nil,
-	h1_id: 2349,
-	h2_id: 1619,
-	h3_id: 2303,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -40021,18 +37885,6 @@ Event.create!([
 	event_player_1_id: 2539,
 	event_player_2_id: 2303,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 2539,
-	a5_id: 509,
-	a6_id: nil,
-	h1_id: 2349,
-	h2_id: 1619,
-	h3_id: 2303,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 2,
 	away_score: 2,
@@ -40052,18 +37904,6 @@ Event.create!([
 	event_player_1_id: 1619,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 2539,
-	a5_id: 509,
-	a6_id: nil,
-	h1_id: 2349,
-	h2_id: 1619,
-	h3_id: 2303,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "Closing hand on puck(2 min)",
 	home_score: 2,
 	away_score: 2,
@@ -40083,18 +37923,6 @@ Event.create!([
 	event_player_1_id: 2074,
 	event_player_2_id: 2034,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 2113,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 2455,
-	h3_id: 1253,
-	h4_id: 29,
-	h5_id: nil,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -40114,18 +37942,6 @@ Event.create!([
 	event_player_1_id: 2113,
 	event_player_2_id: 1253,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 2113,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 2455,
-	h3_id: 1253,
-	h4_id: 29,
-	h5_id: nil,
-	h6_id: nil,
 	description: "Slap",
 	home_score: 2,
 	away_score: 2,
@@ -40145,18 +37961,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 2113,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 2455,
-	h3_id: 1253,
-	h4_id: 29,
-	h5_id: nil,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -40176,18 +37980,6 @@ Event.create!([
 	event_player_1_id: 1452,
 	event_player_2_id: 2739,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 2113,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2455,
-	h2_id: 2015,
-	h3_id: 29,
-	h4_id: 1452,
-	h5_id: nil,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -40207,18 +37999,6 @@ Event.create!([
 	event_player_1_id: 2113,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 2113,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2455,
-	h2_id: 2015,
-	h3_id: 29,
-	h4_id: 1452,
-	h5_id: nil,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 2,
 	away_score: 2,
@@ -40238,18 +38018,6 @@ Event.create!([
 	event_player_1_id: 1120,
 	event_player_2_id: 2349,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 2113,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2349,
-	h2_id: 2738,
-	h3_id: 1452,
-	h4_id: 2740,
-	h5_id: nil,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -40269,18 +38037,6 @@ Event.create!([
 	event_player_1_id: 2738,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 2113,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2349,
-	h2_id: 2738,
-	h3_id: 1452,
-	h4_id: 2740,
-	h5_id: nil,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 2,
 	away_score: 2,
@@ -40300,18 +38056,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 2113,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2349,
-	h2_id: 2738,
-	h3_id: 1452,
-	h4_id: 2740,
-	h5_id: nil,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -40331,18 +38075,6 @@ Event.create!([
 	event_player_1_id: 1120,
 	event_player_2_id: 2455,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 2113,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2455,
-	h2_id: 2015,
-	h3_id: 1452,
-	h4_id: 2740,
-	h5_id: nil,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -40362,18 +38094,6 @@ Event.create!([
 	event_player_1_id: 1120,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 2113,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2455,
-	h2_id: 2015,
-	h3_id: 1452,
-	h4_id: 2740,
-	h5_id: nil,
-	h6_id: nil,
 	description: "Snap",
 	home_score: 2,
 	away_score: 2,
@@ -40393,18 +38113,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 2113,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2455,
-	h2_id: 2015,
-	h3_id: 1452,
-	h4_id: 2740,
-	h5_id: nil,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -40424,18 +38132,6 @@ Event.create!([
 	event_player_1_id: 2055,
 	event_player_2_id: 2349,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 1246,
-	a3_id: 2741,
-	a4_id: 2539,
-	a5_id: 1536,
-	a6_id: nil,
-	h1_id: 2349,
-	h2_id: 2738,
-	h3_id: 2603,
-	h4_id: 2311,
-	h5_id: nil,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -40455,18 +38151,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 1246,
-	a3_id: 2741,
-	a4_id: 2539,
-	a5_id: 1536,
-	a6_id: nil,
-	h1_id: 2349,
-	h2_id: 2738,
-	h3_id: 2603,
-	h4_id: 2311,
-	h5_id: nil,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -40486,18 +38170,6 @@ Event.create!([
 	event_player_1_id: 2311,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 1246,
-	a3_id: 2741,
-	a4_id: 2539,
-	a5_id: 2329,
-	a6_id: nil,
-	h1_id: 1619,
-	h2_id: 2110,
-	h3_id: 2738,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -40517,18 +38189,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 1246,
-	a3_id: 2741,
-	a4_id: 2539,
-	a5_id: 2329,
-	a6_id: nil,
-	h1_id: 1619,
-	h2_id: 2110,
-	h3_id: 2738,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -40548,18 +38208,6 @@ Event.create!([
 	event_player_1_id: 1246,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 1246,
-	a3_id: 2741,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 1619,
-	h2_id: 2110,
-	h3_id: 2738,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 2,
 	away_score: 2,
@@ -40579,18 +38227,6 @@ Event.create!([
 	event_player_1_id: 2113,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 1246,
-	a3_id: 2741,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 1619,
-	h2_id: 2110,
-	h3_id: 2738,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 2,
 	away_score: 2,
@@ -40610,18 +38246,6 @@ Event.create!([
 	event_player_1_id: 2074,
 	event_player_2_id: 2034,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -40641,18 +38265,6 @@ Event.create!([
 	event_player_1_id: 18,
 	event_player_2_id: 2349,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 2226,
-	a3_id: 1471,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2349,
-	h2_id: 1619,
-	h3_id: 2303,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -40672,18 +38284,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 2226,
-	a3_id: 1471,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2349,
-	h2_id: 1619,
-	h3_id: 2303,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -40703,18 +38303,6 @@ Event.create!([
 	event_player_1_id: 1120,
 	event_player_2_id: 2349,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 2539,
-	a5_id: 509,
-	a6_id: nil,
-	h1_id: 2349,
-	h2_id: 1619,
-	h3_id: 2303,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -40734,18 +38322,6 @@ Event.create!([
 	event_player_1_id: 2454,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 2539,
-	a5_id: 509,
-	a6_id: nil,
-	h1_id: 2349,
-	h2_id: 1619,
-	h3_id: 2303,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -40765,18 +38341,6 @@ Event.create!([
 	event_player_1_id: 2740,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 2539,
-	a5_id: 509,
-	a6_id: nil,
-	h1_id: 2349,
-	h2_id: 1619,
-	h3_id: 2303,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -40796,18 +38360,6 @@ Event.create!([
 	event_player_1_id: 2539,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 2539,
-	a5_id: 509,
-	a6_id: nil,
-	h1_id: 2349,
-	h2_id: 1619,
-	h3_id: 2303,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 2,
 	away_score: 2,
@@ -40827,18 +38379,6 @@ Event.create!([
 	event_player_1_id: 2074,
 	event_player_2_id: 2034,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -40858,18 +38398,6 @@ Event.create!([
 	event_player_1_id: 1445,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 2,
 	away_score: 2,
@@ -40889,18 +38417,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -40920,18 +38436,6 @@ Event.create!([
 	event_player_1_id: 2739,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 2113,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "Snap",
 	home_score: 2,
 	away_score: 2,
@@ -40951,18 +38455,6 @@ Event.create!([
 	event_player_1_id: 146,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 2113,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "Snap",
 	home_score: 2,
 	away_score: 2,
@@ -40982,18 +38474,6 @@ Event.create!([
 	event_player_1_id: 2739,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 2113,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "Tip-In",
 	home_score: 2,
 	away_score: 2,
@@ -41013,18 +38493,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 2113,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -41044,18 +38512,6 @@ Event.create!([
 	event_player_1_id: 1939,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "Tip-In",
 	home_score: 2,
 	away_score: 2,
@@ -41075,18 +38531,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -41106,18 +38550,6 @@ Event.create!([
 	event_player_1_id: 2055,
 	event_player_2_id: 1946,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 1246,
-	a3_id: 2741,
-	a4_id: 2539,
-	a5_id: 509,
-	a6_id: nil,
-	h1_id: 1946,
-	h2_id: 2455,
-	h3_id: 1566,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -41137,18 +38569,6 @@ Event.create!([
 	event_player_1_id: 2603,
 	event_player_2_id: 2055,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 1246,
-	a3_id: 2741,
-	a4_id: 2539,
-	a5_id: 509,
-	a6_id: nil,
-	h1_id: 1946,
-	h2_id: 2455,
-	h3_id: 1566,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "Snap",
 	home_score: 2,
 	away_score: 2,
@@ -41168,18 +38588,6 @@ Event.create!([
 	event_player_1_id: 1246,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 1246,
-	a3_id: 2741,
-	a4_id: 2539,
-	a5_id: 509,
-	a6_id: nil,
-	h1_id: 1946,
-	h2_id: 2455,
-	h3_id: 1566,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 2,
 	away_score: 2,
@@ -41199,18 +38607,6 @@ Event.create!([
 	event_player_1_id: 1120,
 	event_player_2_id: 2110,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 2738,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -41230,18 +38626,6 @@ Event.create!([
 	event_player_1_id: 2738,
 	event_player_2_id: 1120,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 2738,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -41261,18 +38645,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 2738,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -41292,18 +38664,6 @@ Event.create!([
 	event_player_1_id: 18,
 	event_player_2_id: 2110,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 2226,
-	a3_id: 1471,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 2738,
-	h4_id: 29,
-	h5_id: 1452,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -41323,18 +38683,6 @@ Event.create!([
 	event_player_1_id: 993,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 2226,
-	a3_id: 1471,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 2738,
-	h4_id: 29,
-	h5_id: 1452,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -41354,18 +38702,6 @@ Event.create!([
 	event_player_1_id: 1471,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 2226,
-	a3_id: 1471,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 2738,
-	h4_id: 29,
-	h5_id: 1452,
-	h6_id: nil,
 	description: "Tip-In",
 	home_score: 2,
 	away_score: 2,
@@ -41385,18 +38721,6 @@ Event.create!([
 	event_player_1_id: 2074,
 	event_player_2_id: 2034,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -41416,18 +38740,6 @@ Event.create!([
 	event_player_1_id: 2113,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 2,
 	away_score: 2,
@@ -41447,18 +38759,6 @@ Event.create!([
 	event_player_1_id: 2739,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "Backhand",
 	home_score: 2,
 	away_score: 2,
@@ -41478,18 +38778,6 @@ Event.create!([
 	event_player_1_id: 2113,
 	event_player_2_id: 2015,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -41509,18 +38797,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -41540,18 +38816,6 @@ Event.create!([
 	event_player_1_id: 2311,
 	event_player_2_id: 1246,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 1246,
-	a3_id: 2741,
-	a4_id: 2539,
-	a5_id: 509,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 2738,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -41571,18 +38835,6 @@ Event.create!([
 	event_player_1_id: 1590,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 1246,
-	a3_id: 2741,
-	a4_id: 2539,
-	a5_id: 509,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 2738,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -41602,18 +38854,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 1246,
-	a3_id: 2741,
-	a4_id: 2539,
-	a5_id: 509,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 2738,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -41633,18 +38873,6 @@ Event.create!([
 	event_player_1_id: 18,
 	event_player_2_id: 2349,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 2226,
-	a3_id: 1471,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2349,
-	h2_id: 1619,
-	h3_id: 2303,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -41664,18 +38892,6 @@ Event.create!([
 	event_player_1_id: 2349,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 2226,
-	a3_id: 1471,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2349,
-	h2_id: 1619,
-	h3_id: 2303,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -41695,18 +38911,6 @@ Event.create!([
 	event_player_1_id: 1536,
 	event_player_2_id: 1619,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 2226,
-	a3_id: 1471,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2349,
-	h2_id: 1619,
-	h3_id: 2303,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "Hi stick - double minor(4 min)",
 	home_score: 2,
 	away_score: 2,
@@ -41726,18 +38930,6 @@ Event.create!([
 	event_player_1_id: 1120,
 	event_player_2_id: 2015,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 1939,
-	a3_id: 509,
-	a4_id: 2329,
-	a5_id: nil,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1253,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -41757,18 +38949,6 @@ Event.create!([
 	event_player_1_id: 1445,
 	event_player_2_id: 509,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 1939,
-	a3_id: 509,
-	a4_id: 2329,
-	a5_id: nil,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1253,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 2,
 	away_score: 2,
@@ -41788,18 +38968,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 1939,
-	a3_id: 509,
-	a4_id: 2329,
-	a5_id: nil,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1253,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -41819,18 +38987,6 @@ Event.create!([
 	event_player_1_id: 2015,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 1471,
-	a3_id: 2329,
-	a4_id: 2113,
-	a5_id: nil,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1253,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -41850,18 +39006,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 1471,
-	a3_id: 2329,
-	a4_id: 2113,
-	a5_id: nil,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1253,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -41881,18 +39025,6 @@ Event.create!([
 	event_player_1_id: 2113,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 1471,
-	a3_id: 2113,
-	a4_id: 146,
-	a5_id: nil,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 1566,
-	h3_id: 2015,
-	h4_id: 1253,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -41912,18 +39044,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 1471,
-	a3_id: 2113,
-	a4_id: 146,
-	a5_id: nil,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 1566,
-	h3_id: 2015,
-	h4_id: 1253,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -41943,18 +39063,6 @@ Event.create!([
 	event_player_1_id: 2110,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 2226,
-	a3_id: 509,
-	a4_id: 146,
-	a5_id: nil,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 1566,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 2,
 	away_score: 2,
@@ -41974,18 +39082,6 @@ Event.create!([
 	event_player_1_id: 993,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 2226,
-	a3_id: 509,
-	a4_id: 146,
-	a5_id: nil,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 1566,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "Tip-In",
 	home_score: 2,
 	away_score: 2,
@@ -42005,18 +39101,6 @@ Event.create!([
 	event_player_1_id: 2603,
 	event_player_2_id: 2055,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 2226,
-	a3_id: 509,
-	a4_id: 146,
-	a5_id: nil,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 1566,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "Snap",
 	home_score: 2,
 	away_score: 2,
@@ -42036,18 +39120,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 2226,
-	a3_id: 509,
-	a4_id: 146,
-	a5_id: nil,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 1566,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -42067,18 +39139,6 @@ Event.create!([
 	event_player_1_id: 1445,
 	event_player_2_id: 2113,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 1939,
-	a3_id: 2329,
-	a4_id: 2113,
-	a5_id: nil,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1253,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "Snap",
 	home_score: 2,
 	away_score: 2,
@@ -42098,18 +39158,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 1939,
-	a3_id: 2329,
-	a4_id: 2113,
-	a5_id: nil,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1253,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -42129,18 +39177,6 @@ Event.create!([
 	event_player_1_id: 1471,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 1471,
-	a3_id: 509,
-	a4_id: 146,
-	a5_id: nil,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1253,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "Snap",
 	home_score: 2,
 	away_score: 2,
@@ -42160,18 +39196,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 1471,
-	a3_id: 509,
-	a4_id: 146,
-	a5_id: nil,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1253,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -42191,18 +39215,6 @@ Event.create!([
 	event_player_1_id: 18,
 	event_player_2_id: 2110,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 1471,
-	a3_id: 509,
-	a4_id: 2329,
-	a5_id: nil,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 1566,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -42222,18 +39234,6 @@ Event.create!([
 	event_player_1_id: 2110,
 	event_player_2_id: 2329,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 1471,
-	a3_id: 509,
-	a4_id: 2329,
-	a5_id: nil,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 1566,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 2,
 	away_score: 2,
@@ -42253,18 +39253,6 @@ Event.create!([
 	event_player_1_id: 2110,
 	event_player_2_id: 2329,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 1471,
-	a3_id: 509,
-	a4_id: 2329,
-	a5_id: nil,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 1566,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "Snap",
 	home_score: 2,
 	away_score: 2,
@@ -42284,18 +39272,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 1471,
-	a3_id: 509,
-	a4_id: 2329,
-	a5_id: nil,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 1566,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -42315,18 +39291,6 @@ Event.create!([
 	event_player_1_id: 1566,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 1939,
-	a3_id: 2113,
-	a4_id: 146,
-	a5_id: nil,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 1566,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "Tip-In",
 	home_score: 2,
 	away_score: 2,
@@ -42346,18 +39310,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 1939,
-	a3_id: 2113,
-	a4_id: 146,
-	a5_id: nil,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 1566,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -42377,18 +39329,6 @@ Event.create!([
 	event_player_1_id: 2474,
 	event_player_2_id: 2740,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 2329,
-	a5_id: 1536,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 2455,
-	h3_id: 1445,
-	h4_id: 1253,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 2,
 	away_score: 2,
@@ -42408,18 +39348,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 2329,
-	a5_id: 1536,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 2455,
-	h3_id: 1445,
-	h4_id: 1253,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -42439,18 +39367,6 @@ Event.create!([
 	event_player_1_id: 2055,
 	event_player_2_id: 1946,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 1246,
-	a3_id: 2741,
-	a4_id: 2539,
-	a5_id: 509,
-	a6_id: nil,
-	h1_id: 1946,
-	h2_id: 2455,
-	h3_id: 1566,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -42470,18 +39386,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 1246,
-	a3_id: 2741,
-	a4_id: 2539,
-	a5_id: 509,
-	a6_id: nil,
-	h1_id: 1946,
-	h2_id: 2455,
-	h3_id: 1566,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -42501,18 +39405,6 @@ Event.create!([
 	event_player_1_id: 2329,
 	event_player_2_id: 2303,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 2226,
-	a3_id: 1471,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2349,
-	h2_id: 1619,
-	h3_id: 2303,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -42532,18 +39424,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 2226,
-	a3_id: 1471,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2349,
-	h2_id: 1619,
-	h3_id: 2303,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -42563,18 +39443,6 @@ Event.create!([
 	event_player_1_id: 2226,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 2226,
-	a3_id: 1471,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2349,
-	h2_id: 1619,
-	h3_id: 2303,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "Wrap",
 	home_score: 2,
 	away_score: 2,
@@ -42594,18 +39462,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 2226,
-	a3_id: 1471,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2349,
-	h2_id: 1619,
-	h3_id: 2303,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -42625,18 +39481,6 @@ Event.create!([
 	event_player_1_id: 2074,
 	event_player_2_id: 2349,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2349,
-	h2_id: 1619,
-	h3_id: 2303,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -42656,18 +39500,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2349,
-	h2_id: 1619,
-	h3_id: 2303,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -42687,18 +39519,6 @@ Event.create!([
 	event_player_1_id: 2074,
 	event_player_2_id: 2034,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -42718,18 +39538,6 @@ Event.create!([
 	event_player_1_id: 1939,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "Snap",
 	home_score: 2,
 	away_score: 2,
@@ -42749,18 +39557,6 @@ Event.create!([
 	event_player_1_id: 2113,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "Slap",
 	home_score: 2,
 	away_score: 2,
@@ -42780,18 +39576,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -42811,18 +39595,6 @@ Event.create!([
 	event_player_1_id: 2474,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 2738,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "Backhand",
 	home_score: 2,
 	away_score: 2,
@@ -42842,18 +39614,6 @@ Event.create!([
 	event_player_1_id: 1120,
 	event_player_2_id: 2110,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 2539,
-	a5_id: 509,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 2738,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -42873,18 +39633,6 @@ Event.create!([
 	event_player_1_id: 2474,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 2539,
-	a5_id: 509,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 2738,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 2,
 	away_score: 2,
@@ -42904,18 +39652,6 @@ Event.create!([
 	event_player_1_id: 1120,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 2539,
-	a5_id: 509,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 2738,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "Snap",
 	home_score: 2,
 	away_score: 2,
@@ -42935,18 +39671,6 @@ Event.create!([
 	event_player_1_id: 2474,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 2539,
-	a5_id: 509,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 2738,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -42966,18 +39690,6 @@ Event.create!([
 	event_player_1_id: 1120,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 2539,
-	a5_id: 509,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 2738,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -42997,18 +39709,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 2539,
-	a5_id: 509,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 2738,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -43028,18 +39728,6 @@ Event.create!([
 	event_player_1_id: 1120,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 1246,
-	a3_id: 2741,
-	a4_id: 2539,
-	a5_id: 509,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 2738,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -43059,18 +39747,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 1246,
-	a3_id: 2741,
-	a4_id: 2539,
-	a5_id: 509,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 2738,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -43090,18 +39766,6 @@ Event.create!([
 	event_player_1_id: 993,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 1246,
-	a3_id: 2741,
-	a4_id: 2539,
-	a5_id: 509,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 2738,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 2,
 	away_score: 2,
@@ -43121,18 +39785,6 @@ Event.create!([
 	event_player_1_id: 18,
 	event_player_2_id: 2349,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 2226,
-	a3_id: 1471,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2349,
-	h2_id: 1619,
-	h3_id: 2303,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -43152,18 +39804,6 @@ Event.create!([
 	event_player_1_id: 1619,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 2226,
-	a3_id: 1471,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2349,
-	h2_id: 1619,
-	h3_id: 2303,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -43183,18 +39823,6 @@ Event.create!([
 	event_player_1_id: 2603,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 2226,
-	a3_id: 1471,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2349,
-	h2_id: 1619,
-	h3_id: 2303,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 2,
 	away_score: 2,
@@ -43214,18 +39842,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 2226,
-	a3_id: 1471,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2349,
-	h2_id: 1619,
-	h3_id: 2303,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -43245,18 +39861,6 @@ Event.create!([
 	event_player_1_id: 18,
 	event_player_2_id: 1566,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 2226,
-	a3_id: 1471,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 1946,
-	h2_id: 2455,
-	h3_id: 1566,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -43276,18 +39880,6 @@ Event.create!([
 	event_player_1_id: 2455,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 2226,
-	a3_id: 1471,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 1946,
-	h2_id: 2455,
-	h3_id: 1566,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -43307,18 +39899,6 @@ Event.create!([
 	event_player_1_id: 29,
 	event_player_2_id: 2226,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 2226,
-	a3_id: 1471,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 1946,
-	h2_id: 2455,
-	h3_id: 1566,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -43338,18 +39918,6 @@ Event.create!([
 	event_player_1_id: 1120,
 	event_player_2_id: 1566,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2055,
-	a3_id: 1246,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 1946,
-	h2_id: 2455,
-	h3_id: 1566,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -43369,18 +39937,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2055,
-	a3_id: 1246,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 1946,
-	h2_id: 2455,
-	h3_id: 1566,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -43400,18 +39956,6 @@ Event.create!([
 	event_player_1_id: 2455,
 	event_player_2_id: 2055,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 1246,
-	a3_id: 2741,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 1946,
-	h2_id: 2455,
-	h3_id: 1566,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -43431,18 +39975,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 1246,
-	a3_id: 2741,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 1946,
-	h2_id: 2455,
-	h3_id: 1566,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -43462,18 +39994,6 @@ Event.create!([
 	event_player_1_id: 146,
 	event_player_2_id: 1445,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 1246,
-	a3_id: 2741,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -43493,18 +40013,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 1246,
-	a3_id: 2741,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -43524,18 +40032,6 @@ Event.create!([
 	event_player_1_id: 1246,
 	event_player_2_id: 2311,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1246,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 2,
 	away_score: 2,
@@ -43555,18 +40051,6 @@ Event.create!([
 	event_player_1_id: 1246,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1246,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 2,
 	away_score: 2,
@@ -43586,18 +40070,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1246,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 2,
@@ -43617,18 +40089,6 @@ Event.create!([
 	event_player_1_id: 2113,
 	event_player_2_id: 2074,
 	event_player_3_id: 2739,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 2,
 	away_score: 2,
@@ -43648,18 +40108,6 @@ Event.create!([
 	event_player_1_id: 2454,
 	event_player_2_id: 2110,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 2539,
-	a5_id: 509,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 2738,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 3,
@@ -43679,18 +40127,6 @@ Event.create!([
 	event_player_1_id: 2539,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 2539,
-	a5_id: 509,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 2738,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 3,
@@ -43710,18 +40146,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 2539,
-	a5_id: 509,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 2738,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 3,
@@ -43741,18 +40165,6 @@ Event.create!([
 	event_player_1_id: 18,
 	event_player_2_id: 2349,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 2226,
-	a3_id: 1471,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2349,
-	h2_id: 1619,
-	h3_id: 2303,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 3,
@@ -43772,18 +40184,6 @@ Event.create!([
 	event_player_1_id: 1536,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 2226,
-	a3_id: 1471,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2349,
-	h2_id: 1619,
-	h3_id: 2303,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 3,
@@ -43803,18 +40203,6 @@ Event.create!([
 	event_player_1_id: 2303,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 2226,
-	a3_id: 1471,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2349,
-	h2_id: 1619,
-	h3_id: 2303,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 3,
@@ -43834,18 +40222,6 @@ Event.create!([
 	event_player_1_id: 1471,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 2226,
-	a3_id: 1471,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2349,
-	h2_id: 1619,
-	h3_id: 2303,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 3,
@@ -43865,18 +40241,6 @@ Event.create!([
 	event_player_1_id: 1619,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 2226,
-	a3_id: 1471,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2349,
-	h2_id: 1619,
-	h3_id: 2303,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "Backhand",
 	home_score: 2,
 	away_score: 3,
@@ -43896,18 +40260,6 @@ Event.create!([
 	event_player_1_id: 2303,
 	event_player_2_id: 1536,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 2226,
-	a3_id: 1471,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2349,
-	h2_id: 1619,
-	h3_id: 2303,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 2,
 	away_score: 3,
@@ -43927,18 +40279,6 @@ Event.create!([
 	event_player_1_id: 2349,
 	event_player_2_id: 18,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 2226,
-	a3_id: 1471,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2349,
-	h2_id: 1619,
-	h3_id: 2303,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 2,
 	away_score: 3,
@@ -43958,18 +40298,6 @@ Event.create!([
 	event_player_1_id: 146,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 2226,
-	a3_id: 1471,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2349,
-	h2_id: 1619,
-	h3_id: 2303,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 3,
@@ -43989,18 +40317,6 @@ Event.create!([
 	event_player_1_id: 1536,
 	event_player_2_id: 1619,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 2226,
-	a3_id: 1471,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2349,
-	h2_id: 1619,
-	h3_id: 2303,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 3,
@@ -44020,18 +40336,6 @@ Event.create!([
 	event_player_1_id: 18,
 	event_player_2_id: 2110,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 2226,
-	a3_id: 1471,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 2738,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 3,
@@ -44051,18 +40355,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 2226,
-	a3_id: 1471,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 2738,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 3,
@@ -44082,18 +40374,6 @@ Event.create!([
 	event_player_1_id: 2110,
 	event_player_2_id: 2329,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 1246,
-	a3_id: 2741,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 2738,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 3,
@@ -44113,18 +40393,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 1246,
-	a3_id: 2741,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 2738,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 3,
@@ -44144,18 +40412,6 @@ Event.create!([
 	event_player_1_id: 993,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 1246,
-	a3_id: 2741,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 1445,
-	h3_id: 993,
-	h4_id: 1253,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 3,
@@ -44175,18 +40431,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 1246,
-	a3_id: 2741,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 1445,
-	h3_id: 993,
-	h4_id: 1253,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 3,
@@ -44206,18 +40450,6 @@ Event.create!([
 	event_player_1_id: 2074,
 	event_player_2_id: 2110,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 2738,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 3,
@@ -44237,18 +40469,6 @@ Event.create!([
 	event_player_1_id: 993,
 	event_player_2_id: 1536,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 2738,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 3,
@@ -44268,18 +40488,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 2738,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 3,
@@ -44299,18 +40507,6 @@ Event.create!([
 	event_player_1_id: 2074,
 	event_player_2_id: 1253,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 2738,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 3,
@@ -44330,18 +40526,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 2738,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 3,
@@ -44361,18 +40545,6 @@ Event.create!([
 	event_player_1_id: 2110,
 	event_player_2_id: 2113,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 2738,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 2,
 	away_score: 3,
@@ -44392,18 +40564,6 @@ Event.create!([
 	event_player_1_id: 2110,
 	event_player_2_id: 2329,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 2738,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 3,
@@ -44423,18 +40583,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 2738,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 3,
@@ -44454,18 +40602,6 @@ Event.create!([
 	event_player_1_id: 1452,
 	event_player_2_id: 2474,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 3,
@@ -44485,18 +40621,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 3,
@@ -44516,18 +40640,6 @@ Event.create!([
 	event_player_1_id: 1445,
 	event_player_2_id: 146,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 2,
 	away_score: 3,
@@ -44547,18 +40659,6 @@ Event.create!([
 	event_player_1_id: 18,
 	event_player_2_id: 2455,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 18,
-	a3_id: 2474,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 1946,
-	h2_id: 2455,
-	h3_id: 1566,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 3,
@@ -44578,18 +40678,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 18,
-	a3_id: 2474,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 1946,
-	h2_id: 2455,
-	h3_id: 1566,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 3,
@@ -44609,18 +40697,6 @@ Event.create!([
 	event_player_1_id: 18,
 	event_player_2_id: 2455,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 2226,
-	a3_id: 1471,
-	a4_id: 2539,
-	a5_id: 509,
-	a6_id: nil,
-	h1_id: 1946,
-	h2_id: 2455,
-	h3_id: 1566,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 3,
@@ -44640,18 +40716,6 @@ Event.create!([
 	event_player_1_id: 2455,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 2226,
-	a3_id: 1471,
-	a4_id: 2539,
-	a5_id: 509,
-	a6_id: nil,
-	h1_id: 1946,
-	h2_id: 2455,
-	h3_id: 1566,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 2,
 	away_score: 3,
@@ -44671,18 +40735,6 @@ Event.create!([
 	event_player_1_id: 2455,
 	event_player_2_id: 2539,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 2226,
-	a3_id: 1471,
-	a4_id: 2539,
-	a5_id: 509,
-	a6_id: nil,
-	h1_id: 1946,
-	h2_id: 2455,
-	h3_id: 1566,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 3,
@@ -44702,18 +40754,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 2226,
-	a3_id: 1471,
-	a4_id: 2539,
-	a5_id: 509,
-	a6_id: nil,
-	h1_id: 1946,
-	h2_id: 2455,
-	h3_id: 1566,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 3,
@@ -44733,18 +40773,6 @@ Event.create!([
 	event_player_1_id: 1581,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 1246,
-	a3_id: 2741,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1253,
-	h5_id: 2603,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 3,
@@ -44764,18 +40792,6 @@ Event.create!([
 	event_player_1_id: 1253,
 	event_player_2_id: 1246,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 1246,
-	a3_id: 2741,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1253,
-	h5_id: 2603,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 3,
@@ -44795,18 +40811,6 @@ Event.create!([
 	event_player_1_id: 1246,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 1246,
-	a3_id: 2741,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1253,
-	h5_id: 2603,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 2,
 	away_score: 3,
@@ -44826,18 +40830,6 @@ Event.create!([
 	event_player_1_id: 2055,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 1246,
-	a3_id: 2741,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1253,
-	h5_id: 2603,
-	h6_id: nil,
 	description: "Snap",
 	home_score: 2,
 	away_score: 3,
@@ -44857,18 +40849,6 @@ Event.create!([
 	event_player_1_id: 2074,
 	event_player_2_id: 2110,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 2738,
-	h4_id: 29,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 3,
@@ -44888,18 +40868,6 @@ Event.create!([
 	event_player_1_id: 2738,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 2738,
-	h4_id: 29,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 3,
@@ -44919,18 +40887,6 @@ Event.create!([
 	event_player_1_id: 2074,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 2738,
-	h4_id: 29,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "Slap",
 	home_score: 2,
 	away_score: 3,
@@ -44950,18 +40906,6 @@ Event.create!([
 	event_player_1_id: 2474,
 	event_player_2_id: 2455,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 1946,
-	h2_id: 2455,
-	h3_id: 1566,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 3,
@@ -44981,18 +40925,6 @@ Event.create!([
 	event_player_1_id: 2474,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 1946,
-	h2_id: 2455,
-	h3_id: 1566,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 2,
 	away_score: 3,
@@ -45012,18 +40944,6 @@ Event.create!([
 	event_player_1_id: 2454,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 1946,
-	h2_id: 2455,
-	h3_id: 1566,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 3,
@@ -45043,18 +40963,6 @@ Event.create!([
 	event_player_1_id: 2740,
 	event_player_2_id: 2454,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 1946,
-	h2_id: 2455,
-	h3_id: 1566,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 3,
@@ -45074,18 +40982,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 1946,
-	h2_id: 2455,
-	h3_id: 1566,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 3,
@@ -45105,18 +41001,6 @@ Event.create!([
 	event_player_1_id: 2455,
 	event_player_2_id: 1536,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2226,
-	a4_id: 2329,
-	a5_id: 1536,
-	a6_id: nil,
-	h1_id: 1946,
-	h2_id: 2455,
-	h3_id: 1566,
-	h4_id: 1452,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 2,
 	away_score: 3,
@@ -45136,18 +41020,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2226,
-	a4_id: 2329,
-	a5_id: 1536,
-	a6_id: nil,
-	h1_id: 1946,
-	h2_id: 2455,
-	h3_id: 1566,
-	h4_id: 1452,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 3,
@@ -45167,18 +41039,6 @@ Event.create!([
 	event_player_1_id: 2603,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 2226,
-	a3_id: 1471,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 2,
 	away_score: 3,
@@ -45198,18 +41058,6 @@ Event.create!([
 	event_player_1_id: 18,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 2226,
-	a3_id: 1471,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 3,
@@ -45229,18 +41077,6 @@ Event.create!([
 	event_player_1_id: 2074,
 	event_player_2_id: 2110,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 2738,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 3,
@@ -45260,18 +41096,6 @@ Event.create!([
 	event_player_1_id: 2113,
 	event_player_2_id: 1253,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 2738,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 3,
@@ -45291,18 +41115,6 @@ Event.create!([
 	event_player_1_id: 1939,
 	event_player_2_id: 29,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 2738,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 3,
@@ -45322,18 +41134,6 @@ Event.create!([
 	event_player_1_id: 2113,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 2738,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "Slap",
 	home_score: 2,
 	away_score: 3,
@@ -45353,18 +41153,6 @@ Event.create!([
 	event_player_1_id: 1253,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 2738,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 2,
 	away_score: 3,
@@ -45384,18 +41172,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 2738,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 3,
@@ -45415,18 +41191,6 @@ Event.create!([
 	event_player_1_id: 2074,
 	event_player_2_id: 2034,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 3,
@@ -45446,18 +41210,6 @@ Event.create!([
 	event_player_1_id: 2015,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "Snap",
 	home_score: 2,
 	away_score: 3,
@@ -45477,18 +41229,6 @@ Event.create!([
 	event_player_1_id: 2034,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "Snap",
 	home_score: 2,
 	away_score: 3,
@@ -45508,18 +41248,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 3,
@@ -45539,18 +41267,6 @@ Event.create!([
 	event_player_1_id: 2311,
 	event_player_2_id: 1939,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2474,
-	a3_id: 1939,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 3,
@@ -45570,18 +41286,6 @@ Event.create!([
 	event_player_1_id: 1939,
 	event_player_2_id: 2603,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2474,
-	a3_id: 1939,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 2,
 	away_score: 3,
@@ -45601,18 +41305,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2474,
-	a3_id: 1939,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 3,
@@ -45632,18 +41324,6 @@ Event.create!([
 	event_player_1_id: 1120,
 	event_player_2_id: 2455,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 1946,
-	h2_id: 2455,
-	h3_id: 1566,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 3,
@@ -45663,18 +41343,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 1946,
-	h2_id: 2455,
-	h3_id: 1566,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 3,
@@ -45694,18 +41362,6 @@ Event.create!([
 	event_player_1_id: 1120,
 	event_player_2_id: 2034,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1253,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 3,
@@ -45725,18 +41381,6 @@ Event.create!([
 	event_player_1_id: 1445,
 	event_player_2_id: 2454,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1253,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 3,
@@ -45756,18 +41400,6 @@ Event.create!([
 	event_player_1_id: 2015,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1253,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "Tip-In",
 	home_score: 2,
 	away_score: 3,
@@ -45787,18 +41419,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1253,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 3,
@@ -45818,18 +41438,6 @@ Event.create!([
 	event_player_1_id: 2015,
 	event_player_2_id: 2454,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 2113,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1253,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 3,
@@ -45849,18 +41457,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 2113,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 1253,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 3,
@@ -45880,18 +41476,6 @@ Event.create!([
 	event_player_1_id: 2055,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 1246,
-	a3_id: 2741,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 1946,
-	h2_id: 2455,
-	h3_id: 1566,
-	h4_id: 1253,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 2,
 	away_score: 3,
@@ -45911,18 +41495,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 1246,
-	a3_id: 2741,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 1946,
-	h2_id: 2455,
-	h3_id: 1566,
-	h4_id: 1253,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 3,
@@ -45942,18 +41514,6 @@ Event.create!([
 	event_player_1_id: 2455,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2055,
-	a2_id: 1246,
-	a3_id: 2741,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 1946,
-	h2_id: 2455,
-	h3_id: 1566,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "Snap",
 	home_score: 2,
 	away_score: 3,
@@ -45973,18 +41533,6 @@ Event.create!([
 	event_player_1_id: 2603,
 	event_player_2_id: 2455,
 	event_player_3_id: 1946,
-	a1_id: 2055,
-	a2_id: 1246,
-	a3_id: 2741,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 1946,
-	h2_id: 2455,
-	h3_id: 1566,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 2,
 	away_score: 3,
@@ -46004,18 +41552,6 @@ Event.create!([
 	event_player_1_id: 18,
 	event_player_2_id: 2349,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 2226,
-	a3_id: 1471,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2349,
-	h2_id: 1619,
-	h3_id: 2303,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 3,
 	away_score: 3,
@@ -46035,18 +41571,6 @@ Event.create!([
 	event_player_1_id: 18,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 2226,
-	a3_id: 1471,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2349,
-	h2_id: 1619,
-	h3_id: 2303,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 3,
 	away_score: 3,
@@ -46066,18 +41590,6 @@ Event.create!([
 	event_player_1_id: 2226,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 2226,
-	a3_id: 1471,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2349,
-	h2_id: 1619,
-	h3_id: 2303,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "Snap",
 	home_score: 3,
 	away_score: 3,
@@ -46097,18 +41609,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 2226,
-	a3_id: 1471,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2349,
-	h2_id: 1619,
-	h3_id: 2303,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 3,
 	away_score: 3,
@@ -46128,18 +41628,6 @@ Event.create!([
 	event_player_1_id: 2739,
 	event_player_2_id: 29,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2349,
-	h2_id: 993,
-	h3_id: 2738,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "",
 	home_score: 3,
 	away_score: 3,
@@ -46159,18 +41647,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2074,
-	a2_id: 2739,
-	a3_id: 1939,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2349,
-	h2_id: 993,
-	h3_id: 2738,
-	h4_id: 1253,
-	h5_id: 29,
-	h6_id: nil,
 	description: "",
 	home_score: 3,
 	away_score: 3,
@@ -46190,18 +41666,6 @@ Event.create!([
 	event_player_1_id: 2738,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 2738,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "",
 	home_score: 3,
 	away_score: 3,
@@ -46221,18 +41685,6 @@ Event.create!([
 	event_player_1_id: 1120,
 	event_player_2_id: 1452,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 2738,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 3,
 	away_score: 3,
@@ -46252,18 +41704,6 @@ Event.create!([
 	event_player_1_id: 1120,
 	event_player_2_id: 2454,
 	event_player_3_id: nil,
-	a1_id: 1120,
-	a2_id: 2454,
-	a3_id: 2474,
-	a4_id: 1536,
-	a5_id: 146,
-	a6_id: nil,
-	h1_id: 2110,
-	h2_id: 993,
-	h3_id: 2738,
-	h4_id: 1452,
-	h5_id: 2740,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 3,
 	away_score: 3,
@@ -46283,18 +41723,6 @@ Event.create!([
 	event_player_1_id: 18,
 	event_player_2_id: 2034,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 2226,
-	a3_id: 1471,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "",
 	home_score: 3,
 	away_score: 4,
@@ -46314,18 +41742,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 2226,
-	a3_id: 1471,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 2015,
-	h4_id: 2603,
-	h5_id: 2311,
-	h6_id: nil,
 	description: "",
 	home_score: 3,
 	away_score: 4,
@@ -46345,18 +41761,6 @@ Event.create!([
 	event_player_1_id: 18,
 	event_player_2_id: 2034,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 2226,
-	a3_id: 1471,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 993,
-	h4_id: 2015,
-	h5_id: 1253,
-	h6_id: 2740,
 	description: "",
 	home_score: 3,
 	away_score: 4,
@@ -46376,18 +41780,6 @@ Event.create!([
 	event_player_1_id: 1445,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 2226,
-	a3_id: 1471,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 993,
-	h4_id: 2015,
-	h5_id: 1253,
-	h6_id: 2740,
 	description: "Wrist",
 	home_score: 3,
 	away_score: 4,
@@ -46407,18 +41799,6 @@ Event.create!([
 	event_player_1_id: 2226,
 	event_player_2_id: 1253,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 2226,
-	a3_id: 1471,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 993,
-	h4_id: 2015,
-	h5_id: 1253,
-	h6_id: 2740,
 	description: "Wrist",
 	home_score: 3,
 	away_score: 4,
@@ -46438,18 +41818,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 18,
-	a2_id: 2226,
-	a3_id: 1471,
-	a4_id: 2329,
-	a5_id: 2113,
-	a6_id: nil,
-	h1_id: 2034,
-	h2_id: 1445,
-	h3_id: 993,
-	h4_id: 2015,
-	h5_id: 1253,
-	h6_id: 2740,
 	description: "",
 	home_score: 3,
 	away_score: 4,
@@ -46469,18 +41837,6 @@ Event.create!([
 	event_player_1_id: 1805,
 	event_player_2_id: 989,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 2453,
-	h5_id: 88,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -46500,18 +41856,6 @@ Event.create!([
 	event_player_1_id: 1224,
 	event_player_2_id: 2042,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 2453,
-	h5_id: 88,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -46531,18 +41875,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 2453,
-	h5_id: 88,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -46562,18 +41894,6 @@ Event.create!([
 	event_player_1_id: 2308,
 	event_player_2_id: 2501,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 1867,
-	a3_id: 2309,
-	a4_id: 1501,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 2501,
-	h3_id: 1429,
-	h4_id: 114,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -46593,18 +41913,6 @@ Event.create!([
 	event_player_1_id: 2308,
 	event_player_2_id: 2092,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 1867,
-	a3_id: 2309,
-	a4_id: 1501,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 2501,
-	h3_id: 1429,
-	h4_id: 114,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -46624,18 +41932,6 @@ Event.create!([
 	event_player_1_id: 2308,
 	event_player_2_id: 2501,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 1867,
-	a3_id: 2309,
-	a4_id: 1501,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 2501,
-	h3_id: 1429,
-	h4_id: 114,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -46655,18 +41951,6 @@ Event.create!([
 	event_player_1_id: 1501,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 1867,
-	a3_id: 2309,
-	a4_id: 1501,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 2501,
-	h3_id: 1429,
-	h4_id: 114,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 0,
 	away_score: 0,
@@ -46686,18 +41970,6 @@ Event.create!([
 	event_player_1_id: 1867,
 	event_player_2_id: 114,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 1867,
-	a3_id: 2309,
-	a4_id: 1501,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 2501,
-	h3_id: 1429,
-	h4_id: 114,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -46717,18 +41989,6 @@ Event.create!([
 	event_player_1_id: 1154,
 	event_player_2_id: 1267,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 1867,
-	a3_id: 2309,
-	a4_id: 1501,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 2501,
-	h3_id: 1429,
-	h4_id: 114,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -46748,18 +42008,6 @@ Event.create!([
 	event_player_1_id: 114,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 1867,
-	a3_id: 2309,
-	a4_id: 1501,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 2501,
-	h3_id: 1429,
-	h4_id: 114,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "Snap",
 	home_score: 0,
 	away_score: 0,
@@ -46779,18 +42027,6 @@ Event.create!([
 	event_player_1_id: 397,
 	event_player_2_id: 2496,
 	event_player_3_id: nil,
-	a1_id: 1296,
-	a2_id: 397,
-	a3_id: 2609,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 2496,
-	h2_id: 2402,
-	h3_id: 1633,
-	h4_id: 2436,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -46810,18 +42046,6 @@ Event.create!([
 	event_player_1_id: 2609,
 	event_player_2_id: 2640,
 	event_player_3_id: nil,
-	a1_id: 1296,
-	a2_id: 397,
-	a3_id: 2609,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 2496,
-	h2_id: 2402,
-	h3_id: 1633,
-	h4_id: 2436,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -46841,18 +42065,6 @@ Event.create!([
 	event_player_1_id: 2496,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1296,
-	a2_id: 397,
-	a3_id: 2609,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 2496,
-	h2_id: 2402,
-	h3_id: 1633,
-	h4_id: 2436,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -46872,18 +42084,6 @@ Event.create!([
 	event_player_1_id: 2436,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1296,
-	a2_id: 397,
-	a3_id: 2609,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 2496,
-	h2_id: 2402,
-	h3_id: 1633,
-	h4_id: 2436,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 0,
 	away_score: 0,
@@ -46903,18 +42103,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1296,
-	a2_id: 397,
-	a3_id: 2609,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 2496,
-	h2_id: 2402,
-	h3_id: 1633,
-	h4_id: 2436,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -46934,18 +42122,6 @@ Event.create!([
 	event_player_1_id: 2609,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1296,
-	a2_id: 397,
-	a3_id: 2609,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 2743,
-	h2_id: 1633,
-	h3_id: 2656,
-	h4_id: 2436,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "Slap",
 	home_score: 0,
 	away_score: 0,
@@ -46965,18 +42141,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1296,
-	a2_id: 397,
-	a3_id: 2609,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 2743,
-	h2_id: 1633,
-	h3_id: 2656,
-	h4_id: 2436,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -46996,18 +42160,6 @@ Event.create!([
 	event_player_1_id: 2572,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2307,
-	a2_id: 2572,
-	a3_id: 2742,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 2743,
-	h2_id: 1633,
-	h3_id: 2656,
-	h4_id: 2436,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "Slap",
 	home_score: 0,
 	away_score: 0,
@@ -47027,18 +42179,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2307,
-	a2_id: 2572,
-	a3_id: 2742,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 2743,
-	h2_id: 1633,
-	h3_id: 2656,
-	h4_id: 2436,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -47058,18 +42198,6 @@ Event.create!([
 	event_player_1_id: 2307,
 	event_player_2_id: 2656,
 	event_player_3_id: nil,
-	a1_id: 2307,
-	a2_id: 2572,
-	a3_id: 2742,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 2743,
-	h2_id: 1356,
-	h3_id: 2656,
-	h4_id: 114,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -47089,18 +42217,6 @@ Event.create!([
 	event_player_1_id: 2742,
 	event_player_2_id: 2656,
 	event_player_3_id: nil,
-	a1_id: 2307,
-	a2_id: 2572,
-	a3_id: 2742,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 2743,
-	h2_id: 1356,
-	h3_id: 2656,
-	h4_id: 114,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -47120,18 +42236,6 @@ Event.create!([
 	event_player_1_id: 114,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2307,
-	a2_id: 2572,
-	a3_id: 2742,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 2743,
-	h2_id: 1356,
-	h3_id: 2656,
-	h4_id: 114,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "Snap",
 	home_score: 0,
 	away_score: 0,
@@ -47151,18 +42255,6 @@ Event.create!([
 	event_player_1_id: 2743,
 	event_player_2_id: 1224,
 	event_player_3_id: nil,
-	a1_id: 2307,
-	a2_id: 2572,
-	a3_id: 2742,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 2743,
-	h2_id: 1356,
-	h3_id: 2656,
-	h4_id: 114,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -47182,18 +42274,6 @@ Event.create!([
 	event_player_1_id: 2656,
 	event_player_2_id: 2307,
 	event_player_3_id: nil,
-	a1_id: 2307,
-	a2_id: 2572,
-	a3_id: 2742,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 2743,
-	h2_id: 1356,
-	h3_id: 2656,
-	h4_id: 114,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -47213,18 +42293,6 @@ Event.create!([
 	event_player_1_id: 2307,
 	event_player_2_id: 2092,
 	event_player_3_id: nil,
-	a1_id: 2307,
-	a2_id: 2572,
-	a3_id: 2742,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 2743,
-	h2_id: 1356,
-	h3_id: 2656,
-	h4_id: 114,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -47244,18 +42312,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2307,
-	a2_id: 2572,
-	a3_id: 2742,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 2743,
-	h2_id: 1356,
-	h3_id: 2656,
-	h4_id: 114,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -47275,18 +42331,6 @@ Event.create!([
 	event_player_1_id: 2076,
 	event_player_2_id: 989,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 1501,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 2453,
-	h5_id: 88,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -47306,18 +42350,6 @@ Event.create!([
 	event_player_1_id: 2453,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 1501,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 2453,
-	h5_id: 88,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -47337,18 +42369,6 @@ Event.create!([
 	event_player_1_id: 1267,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 1501,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 2453,
-	h5_id: 88,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -47368,18 +42388,6 @@ Event.create!([
 	event_player_1_id: 989,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 1501,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 2453,
-	h5_id: 88,
-	h6_id: nil,
 	description: "Snap",
 	home_score: 0,
 	away_score: 0,
@@ -47399,18 +42407,6 @@ Event.create!([
 	event_player_1_id: 88,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 1501,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 2453,
-	h5_id: 88,
-	h6_id: nil,
 	description: "Snap",
 	home_score: 0,
 	away_score: 0,
@@ -47430,18 +42426,6 @@ Event.create!([
 	event_player_1_id: 2308,
 	event_player_2_id: 2501,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 1867,
-	a3_id: 2309,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 2501,
-	h3_id: 1429,
-	h4_id: 114,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -47461,18 +42445,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 1867,
-	a3_id: 2309,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 2501,
-	h3_id: 1429,
-	h4_id: 114,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -47492,18 +42464,6 @@ Event.create!([
 	event_player_1_id: 2436,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 397,
-	a2_id: 1867,
-	a3_id: 2309,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 2496,
-	h2_id: 2402,
-	h3_id: 1633,
-	h4_id: 2436,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -47523,18 +42483,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 397,
-	a2_id: 1867,
-	a3_id: 2309,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 2496,
-	h2_id: 2402,
-	h3_id: 1633,
-	h4_id: 2436,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -47554,18 +42502,6 @@ Event.create!([
 	event_player_1_id: 397,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1296,
-	a2_id: 397,
-	a3_id: 2609,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 2496,
-	h2_id: 2402,
-	h3_id: 1633,
-	h4_id: 2436,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "Backhand",
 	home_score: 0,
 	away_score: 0,
@@ -47585,18 +42521,6 @@ Event.create!([
 	event_player_1_id: 1224,
 	event_player_2_id: 1633,
 	event_player_3_id: nil,
-	a1_id: 1296,
-	a2_id: 397,
-	a3_id: 2609,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 2496,
-	h2_id: 2402,
-	h3_id: 1633,
-	h4_id: 2436,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 0,
 	away_score: 0,
@@ -47616,18 +42540,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1296,
-	a2_id: 397,
-	a3_id: 2609,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 2496,
-	h2_id: 2402,
-	h3_id: 1633,
-	h4_id: 2436,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -47647,18 +42559,6 @@ Event.create!([
 	event_player_1_id: 1356,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2307,
-	a2_id: 2572,
-	a3_id: 2742,
-	a4_id: 1501,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 2496,
-	h2_id: 2402,
-	h3_id: 1356,
-	h4_id: 114,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "Snap",
 	home_score: 0,
 	away_score: 0,
@@ -47678,18 +42578,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2307,
-	a2_id: 2572,
-	a3_id: 2742,
-	a4_id: 1501,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 2496,
-	h2_id: 2402,
-	h3_id: 1356,
-	h4_id: 114,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -47709,18 +42597,6 @@ Event.create!([
 	event_player_1_id: 2742,
 	event_player_2_id: 114,
 	event_player_3_id: nil,
-	a1_id: 2307,
-	a2_id: 2572,
-	a3_id: 2742,
-	a4_id: 1501,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 2743,
-	h2_id: 1356,
-	h3_id: 2656,
-	h4_id: 114,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -47740,18 +42616,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2307,
-	a2_id: 2572,
-	a3_id: 2742,
-	a4_id: 1501,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 2743,
-	h2_id: 1356,
-	h3_id: 2656,
-	h4_id: 114,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -47771,18 +42635,6 @@ Event.create!([
 	event_player_1_id: 2016,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 2307,
-	a3_id: 2572,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 2743,
-	h2_id: 1356,
-	h3_id: 2656,
-	h4_id: 114,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 0,
 	away_score: 0,
@@ -47802,18 +42654,6 @@ Event.create!([
 	event_player_1_id: 1805,
 	event_player_2_id: 989,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 2453,
-	h5_id: 88,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -47833,18 +42673,6 @@ Event.create!([
 	event_player_1_id: 2076,
 	event_player_2_id: 88,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 2453,
-	h5_id: 88,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -47864,18 +42692,6 @@ Event.create!([
 	event_player_1_id: 88,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 2453,
-	h5_id: 88,
-	h6_id: nil,
 	description: "Snap",
 	home_score: 0,
 	away_score: 0,
@@ -47895,18 +42711,6 @@ Event.create!([
 	event_player_1_id: 2308,
 	event_player_2_id: 1154,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 1867,
-	a3_id: 2309,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 2501,
-	h3_id: 1429,
-	h4_id: 2436,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -47926,18 +42730,6 @@ Event.create!([
 	event_player_1_id: 2436,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 1867,
-	a3_id: 2309,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 2501,
-	h3_id: 1429,
-	h4_id: 2436,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "Snap",
 	home_score: 0,
 	away_score: 0,
@@ -47957,18 +42749,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 1867,
-	a3_id: 2309,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 2501,
-	h3_id: 1429,
-	h4_id: 2436,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -47988,18 +42768,6 @@ Event.create!([
 	event_player_1_id: 2016,
 	event_player_2_id: 1154,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 1867,
-	a3_id: 2309,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 2501,
-	h3_id: 1429,
-	h4_id: 2453,
-	h5_id: 88,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -48019,18 +42787,6 @@ Event.create!([
 	event_player_1_id: 1154,
 	event_player_2_id: 2016,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 1867,
-	a3_id: 2309,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 2501,
-	h3_id: 1429,
-	h4_id: 2453,
-	h5_id: 88,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -48050,18 +42806,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 1867,
-	a3_id: 2309,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 2501,
-	h3_id: 1429,
-	h4_id: 2453,
-	h5_id: 88,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -48081,18 +42825,6 @@ Event.create!([
 	event_player_1_id: 2308,
 	event_player_2_id: 2496,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 1867,
-	a3_id: 2309,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 2496,
-	h2_id: 2402,
-	h3_id: 1633,
-	h4_id: 2453,
-	h5_id: 88,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -48112,18 +42844,6 @@ Event.create!([
 	event_player_1_id: 2402,
 	event_player_2_id: 2309,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 1867,
-	a3_id: 2309,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 2496,
-	h2_id: 2402,
-	h3_id: 1633,
-	h4_id: 2453,
-	h5_id: 88,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -48143,18 +42863,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 1867,
-	a3_id: 2309,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 2496,
-	h2_id: 2402,
-	h3_id: 1633,
-	h4_id: 2453,
-	h5_id: 88,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -48174,18 +42882,6 @@ Event.create!([
 	event_player_1_id: 1867,
 	event_player_2_id: 88,
 	event_player_3_id: nil,
-	a1_id: 397,
-	a2_id: 1867,
-	a3_id: 2309,
-	a4_id: 1501,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 2496,
-	h2_id: 2402,
-	h3_id: 1633,
-	h4_id: 2453,
-	h5_id: 88,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 0,
 	away_score: 0,
@@ -48205,18 +42901,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 397,
-	a2_id: 1867,
-	a3_id: 2309,
-	a4_id: 1501,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 2496,
-	h2_id: 2402,
-	h3_id: 1633,
-	h4_id: 2453,
-	h5_id: 88,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -48236,18 +42920,6 @@ Event.create!([
 	event_player_1_id: 2656,
 	event_player_2_id: 2609,
 	event_player_3_id: nil,
-	a1_id: 1296,
-	a2_id: 397,
-	a3_id: 2609,
-	a4_id: 1267,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 2743,
-	h2_id: 1356,
-	h3_id: 2656,
-	h4_id: 114,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -48267,18 +42939,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1296,
-	a2_id: 397,
-	a3_id: 2609,
-	a4_id: 1267,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 2743,
-	h2_id: 1356,
-	h3_id: 2656,
-	h4_id: 114,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -48298,18 +42958,6 @@ Event.create!([
 	event_player_1_id: 2656,
 	event_player_2_id: 1975,
 	event_player_3_id: nil,
-	a1_id: 1296,
-	a2_id: 1805,
-	a3_id: 2609,
-	a4_id: 1267,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 2743,
-	h2_id: 1356,
-	h3_id: 2656,
-	h4_id: 114,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -48329,18 +42977,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1296,
-	a2_id: 1805,
-	a3_id: 2609,
-	a4_id: 1267,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 2743,
-	h2_id: 1356,
-	h3_id: 2656,
-	h4_id: 114,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -48360,18 +42996,6 @@ Event.create!([
 	event_player_1_id: 2743,
 	event_player_2_id: 1856,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2743,
-	h4_id: 114,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -48391,18 +43015,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2743,
-	h4_id: 114,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -48422,18 +43034,6 @@ Event.create!([
 	event_player_1_id: 2742,
 	event_player_2_id: 1154,
 	event_player_3_id: nil,
-	a1_id: 2307,
-	a2_id: 2572,
-	a3_id: 2742,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 2501,
-	h3_id: 1429,
-	h4_id: 2436,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -48453,18 +43053,6 @@ Event.create!([
 	event_player_1_id: 1429,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2307,
-	a2_id: 2572,
-	a3_id: 2742,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 2501,
-	h3_id: 1429,
-	h4_id: 2436,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -48484,18 +43072,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2307,
-	a2_id: 2572,
-	a3_id: 2742,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 2501,
-	h3_id: 1429,
-	h4_id: 2436,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -48515,18 +43091,6 @@ Event.create!([
 	event_player_1_id: 2307,
 	event_player_2_id: 2436,
 	event_player_3_id: nil,
-	a1_id: 2307,
-	a2_id: 2572,
-	a3_id: 2742,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 2501,
-	h3_id: 1429,
-	h4_id: 2436,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "Roughing(2 min)",
 	home_score: 0,
 	away_score: 0,
@@ -48546,18 +43110,6 @@ Event.create!([
 	event_player_1_id: 2308,
 	event_player_2_id: 1633,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 2309,
-	a3_id: 1501,
-	a4_id: 1843,
-	a5_id: nil,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 1633,
-	h4_id: 88,
-	h5_id: 2436,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -48577,18 +43129,6 @@ Event.create!([
 	event_player_1_id: 2436,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 2309,
-	a3_id: 1501,
-	a4_id: 1843,
-	a5_id: nil,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 1633,
-	h4_id: 88,
-	h5_id: 2436,
-	h6_id: nil,
 	description: "Slap",
 	home_score: 0,
 	away_score: 0,
@@ -48608,18 +43148,6 @@ Event.create!([
 	event_player_1_id: 2308,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 2309,
-	a3_id: 1501,
-	a4_id: 1843,
-	a5_id: nil,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 1633,
-	h4_id: 88,
-	h5_id: 2436,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 0,
 	away_score: 0,
@@ -48639,18 +43167,6 @@ Event.create!([
 	event_player_1_id: 2309,
 	event_player_2_id: 989,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 2309,
-	a3_id: 1501,
-	a4_id: 1843,
-	a5_id: nil,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 1633,
-	h4_id: 88,
-	h5_id: 2436,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 0,
 	away_score: 0,
@@ -48670,18 +43186,6 @@ Event.create!([
 	event_player_1_id: 1296,
 	event_player_2_id: 989,
 	event_player_3_id: nil,
-	a1_id: 1296,
-	a2_id: 2609,
-	a3_id: 1224,
-	a4_id: 1975,
-	a5_id: nil,
-	a6_id: nil,
-	h1_id: 2501,
-	h2_id: 989,
-	h3_id: 2430,
-	h4_id: 1429,
-	h5_id: 2453,
-	h6_id: nil,
 	description: "",
 	home_score: 0,
 	away_score: 0,
@@ -48701,18 +43205,6 @@ Event.create!([
 	event_player_1_id: 989,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1296,
-	a2_id: 2609,
-	a3_id: 1224,
-	a4_id: 1975,
-	a5_id: nil,
-	a6_id: nil,
-	h1_id: 2501,
-	h2_id: 989,
-	h3_id: 2430,
-	h4_id: 1429,
-	h5_id: 2453,
-	h6_id: nil,
 	description: "Snap",
 	home_score: 0,
 	away_score: 0,
@@ -48732,18 +43224,6 @@ Event.create!([
 	event_player_1_id: 2453,
 	event_player_2_id: 2609,
 	event_player_3_id: nil,
-	a1_id: 1296,
-	a2_id: 2609,
-	a3_id: 1224,
-	a4_id: 1975,
-	a5_id: nil,
-	a6_id: nil,
-	h1_id: 2501,
-	h2_id: 989,
-	h3_id: 2430,
-	h4_id: 1429,
-	h5_id: 2453,
-	h6_id: nil,
 	description: "Deflected",
 	home_score: 0,
 	away_score: 0,
@@ -48763,18 +43243,6 @@ Event.create!([
 	event_player_1_id: 2430,
 	event_player_2_id: 2501,
 	event_player_3_id: 989,
-	a1_id: 1296,
-	a2_id: 2609,
-	a3_id: 1224,
-	a4_id: 1975,
-	a5_id: nil,
-	a6_id: nil,
-	h1_id: 2501,
-	h2_id: 989,
-	h3_id: 2430,
-	h4_id: 1429,
-	h5_id: 2453,
-	h6_id: nil,
 	description: "Snap",
 	home_score: 0,
 	away_score: 0,
@@ -48794,18 +43262,6 @@ Event.create!([
 	event_player_1_id: 1805,
 	event_player_2_id: 989,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 88,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -48825,18 +43281,6 @@ Event.create!([
 	event_player_1_id: 88,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 88,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 1,
 	away_score: 0,
@@ -48856,18 +43300,6 @@ Event.create!([
 	event_player_1_id: 2430,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 88,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -48887,18 +43319,6 @@ Event.create!([
 	event_player_1_id: 1805,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 88,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -48918,18 +43338,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 88,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -48949,18 +43357,6 @@ Event.create!([
 	event_player_1_id: 989,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 114,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 1,
 	away_score: 0,
@@ -48980,18 +43376,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 114,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -49011,18 +43395,6 @@ Event.create!([
 	event_player_1_id: 2076,
 	event_player_2_id: 2092,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 2308,
-	a3_id: 1856,
-	a4_id: 1501,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 2496,
-	h2_id: 2402,
-	h3_id: 1633,
-	h4_id: 114,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -49042,18 +43414,6 @@ Event.create!([
 	event_player_1_id: 2308,
 	event_player_2_id: 1154,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 1867,
-	a3_id: 2309,
-	a4_id: 1501,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 2501,
-	h3_id: 1429,
-	h4_id: 114,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -49073,18 +43433,6 @@ Event.create!([
 	event_player_1_id: 2308,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 1867,
-	a3_id: 2309,
-	a4_id: 1501,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 2501,
-	h3_id: 1429,
-	h4_id: 114,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -49104,18 +43452,6 @@ Event.create!([
 	event_player_1_id: 1867,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 1867,
-	a3_id: 2309,
-	a4_id: 1501,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 2501,
-	h3_id: 1429,
-	h4_id: 114,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "Snap",
 	home_score: 1,
 	away_score: 0,
@@ -49135,18 +43471,6 @@ Event.create!([
 	event_player_1_id: 397,
 	event_player_2_id: 989,
 	event_player_3_id: nil,
-	a1_id: 1296,
-	a2_id: 397,
-	a3_id: 2609,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 1356,
-	h3_id: 2656,
-	h4_id: 2436,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -49166,18 +43490,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1296,
-	a2_id: 397,
-	a3_id: 2609,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 1356,
-	h3_id: 2656,
-	h4_id: 2436,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -49197,18 +43509,6 @@ Event.create!([
 	event_player_1_id: 1296,
 	event_player_2_id: 2656,
 	event_player_3_id: nil,
-	a1_id: 1296,
-	a2_id: 397,
-	a3_id: 2609,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 2743,
-	h2_id: 1356,
-	h3_id: 2656,
-	h4_id: 2436,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -49228,18 +43528,6 @@ Event.create!([
 	event_player_1_id: 2743,
 	event_player_2_id: 1296,
 	event_player_3_id: nil,
-	a1_id: 1296,
-	a2_id: 397,
-	a3_id: 2609,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 2743,
-	h2_id: 1356,
-	h3_id: 2656,
-	h4_id: 2436,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -49259,18 +43547,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1296,
-	a2_id: 397,
-	a3_id: 2609,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 2743,
-	h2_id: 1356,
-	h3_id: 2656,
-	h4_id: 2436,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -49290,18 +43566,6 @@ Event.create!([
 	event_player_1_id: 1805,
 	event_player_2_id: 2656,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 2743,
-	h2_id: 1356,
-	h3_id: 2656,
-	h4_id: 2436,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -49321,18 +43585,6 @@ Event.create!([
 	event_player_1_id: 1356,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 2743,
-	h2_id: 1356,
-	h3_id: 2656,
-	h4_id: 2436,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -49352,18 +43604,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 2743,
-	h2_id: 1356,
-	h3_id: 2656,
-	h4_id: 2436,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -49383,18 +43623,6 @@ Event.create!([
 	event_player_1_id: 1805,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2743,
-	h3_id: 1356,
-	h4_id: 2453,
-	h5_id: 88,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -49414,18 +43642,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2743,
-	h3_id: 1356,
-	h4_id: 2453,
-	h5_id: 88,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -49445,18 +43661,6 @@ Event.create!([
 	event_player_1_id: 2430,
 	event_player_2_id: 1856,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 2453,
-	h5_id: 88,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 1,
 	away_score: 0,
@@ -49476,18 +43680,6 @@ Event.create!([
 	event_player_1_id: 88,
 	event_player_2_id: 1805,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 2453,
-	h5_id: 88,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 1,
 	away_score: 0,
@@ -49507,18 +43699,6 @@ Event.create!([
 	event_player_1_id: 1843,
 	event_player_2_id: 2042,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 2453,
-	h5_id: 88,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -49538,18 +43718,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 2453,
-	h5_id: 88,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -49569,18 +43737,6 @@ Event.create!([
 	event_player_1_id: 2042,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 2016,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 2496,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 2453,
-	h5_id: 88,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -49600,18 +43756,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 2016,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 2496,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 2453,
-	h5_id: 88,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -49631,18 +43775,6 @@ Event.create!([
 	event_player_1_id: 1501,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2307,
-	a2_id: 2572,
-	a3_id: 2742,
-	a4_id: 1501,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 2496,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 2453,
-	h5_id: 88,
-	h6_id: nil,
 	description: "Snap",
 	home_score: 1,
 	away_score: 0,
@@ -49662,18 +43794,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2307,
-	a2_id: 2572,
-	a3_id: 2742,
-	a4_id: 1501,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 2496,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 2453,
-	h5_id: 88,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -49693,18 +43813,6 @@ Event.create!([
 	event_player_1_id: 2742,
 	event_player_2_id: 2496,
 	event_player_3_id: nil,
-	a1_id: 2307,
-	a2_id: 2572,
-	a3_id: 2742,
-	a4_id: 1501,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 2496,
-	h2_id: 2430,
-	h3_id: 1633,
-	h4_id: 2453,
-	h5_id: 88,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -49724,18 +43832,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2307,
-	a2_id: 2572,
-	a3_id: 2742,
-	a4_id: 1501,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 2496,
-	h2_id: 2430,
-	h3_id: 1633,
-	h4_id: 2453,
-	h5_id: 88,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -49755,18 +43851,6 @@ Event.create!([
 	event_player_1_id: 2307,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2307,
-	a2_id: 2572,
-	a3_id: 2742,
-	a4_id: 1501,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 2496,
-	h2_id: 2402,
-	h3_id: 1633,
-	h4_id: 2436,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 1,
 	away_score: 0,
@@ -49786,18 +43870,6 @@ Event.create!([
 	event_player_1_id: 2308,
 	event_player_2_id: 1154,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 1867,
-	a3_id: 2309,
-	a4_id: 1501,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 2501,
-	h3_id: 1429,
-	h4_id: 114,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -49817,18 +43889,6 @@ Event.create!([
 	event_player_1_id: 1267,
 	event_player_2_id: 2501,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 1867,
-	a3_id: 2309,
-	a4_id: 1501,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 2501,
-	h3_id: 1429,
-	h4_id: 114,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "Slap",
 	home_score: 1,
 	away_score: 0,
@@ -49848,18 +43908,6 @@ Event.create!([
 	event_player_1_id: 1867,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 1867,
-	a3_id: 2309,
-	a4_id: 1501,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 2501,
-	h3_id: 1429,
-	h4_id: 114,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -49879,18 +43927,6 @@ Event.create!([
 	event_player_1_id: 1867,
 	event_player_2_id: 2092,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 1867,
-	a3_id: 2309,
-	a4_id: 1501,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 2501,
-	h3_id: 1429,
-	h4_id: 114,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "Snap",
 	home_score: 1,
 	away_score: 0,
@@ -49910,18 +43946,6 @@ Event.create!([
 	event_player_1_id: 397,
 	event_player_2_id: 2656,
 	event_player_3_id: nil,
-	a1_id: 1296,
-	a2_id: 397,
-	a3_id: 2609,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 2496,
-	h2_id: 1633,
-	h3_id: 2656,
-	h4_id: 2436,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -49941,18 +43965,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1296,
-	a2_id: 397,
-	a3_id: 2609,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 2496,
-	h2_id: 1633,
-	h3_id: 2656,
-	h4_id: 2436,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -49972,18 +43984,6 @@ Event.create!([
 	event_player_1_id: 1805,
 	event_player_2_id: 2496,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 2496,
-	h2_id: 2402,
-	h3_id: 1633,
-	h4_id: 2436,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -50003,18 +44003,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 2496,
-	h2_id: 2402,
-	h3_id: 1633,
-	h4_id: 2436,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -50034,18 +44022,6 @@ Event.create!([
 	event_player_1_id: 2076,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 2453,
-	h5_id: 88,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -50065,18 +44041,6 @@ Event.create!([
 	event_player_1_id: 1805,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 2453,
-	h5_id: 88,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -50096,18 +44060,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 2453,
-	h5_id: 88,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -50127,18 +44079,6 @@ Event.create!([
 	event_player_1_id: 1356,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2307,
-	a2_id: 2572,
-	a3_id: 2742,
-	a4_id: 1501,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 2743,
-	h2_id: 1356,
-	h3_id: 2656,
-	h4_id: 2436,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 1,
 	away_score: 0,
@@ -50158,18 +44098,6 @@ Event.create!([
 	event_player_1_id: 2308,
 	event_player_2_id: 1154,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 1867,
-	a3_id: 2309,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 2501,
-	h3_id: 1429,
-	h4_id: 114,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -50189,18 +44117,6 @@ Event.create!([
 	event_player_1_id: 2092,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 1867,
-	a3_id: 2309,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 2501,
-	h3_id: 1429,
-	h4_id: 114,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 1,
 	away_score: 0,
@@ -50220,18 +44136,6 @@ Event.create!([
 	event_player_1_id: 397,
 	event_player_2_id: 1633,
 	event_player_3_id: nil,
-	a1_id: 1296,
-	a2_id: 397,
-	a3_id: 2609,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 2496,
-	h2_id: 2402,
-	h3_id: 1633,
-	h4_id: 2436,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -50251,18 +44155,6 @@ Event.create!([
 	event_player_1_id: 397,
 	event_player_2_id: 2496,
 	event_player_3_id: nil,
-	a1_id: 1296,
-	a2_id: 397,
-	a3_id: 2609,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 2496,
-	h2_id: 2402,
-	h3_id: 1633,
-	h4_id: 2436,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -50282,18 +44174,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1296,
-	a2_id: 397,
-	a3_id: 2609,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 2496,
-	h2_id: 2402,
-	h3_id: 1633,
-	h4_id: 2436,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -50313,18 +44193,6 @@ Event.create!([
 	event_player_1_id: 88,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 1867,
-	a3_id: 2309,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 2496,
-	h2_id: 2402,
-	h3_id: 1633,
-	h4_id: 2453,
-	h5_id: 88,
-	h6_id: nil,
 	description: "Snap",
 	home_score: 1,
 	away_score: 0,
@@ -50344,18 +44212,6 @@ Event.create!([
 	event_player_1_id: 2308,
 	event_player_2_id: 989,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 1867,
-	a3_id: 2309,
-	a4_id: 1501,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 114,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -50375,18 +44231,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 1867,
-	a3_id: 2309,
-	a4_id: 1501,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 114,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -50406,18 +44250,6 @@ Event.create!([
 	event_player_1_id: 2016,
 	event_player_2_id: 1429,
 	event_player_3_id: nil,
-	a1_id: 2309,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 2016,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 2501,
-	h3_id: 1429,
-	h4_id: 2453,
-	h5_id: 88,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -50437,18 +44269,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2309,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 2016,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 2501,
-	h3_id: 1429,
-	h4_id: 2453,
-	h5_id: 88,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -50468,18 +44288,6 @@ Event.create!([
 	event_player_1_id: 1429,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 2501,
-	h3_id: 1429,
-	h4_id: 2453,
-	h5_id: 88,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 1,
 	away_score: 0,
@@ -50499,18 +44307,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 2501,
-	h3_id: 1429,
-	h4_id: 2453,
-	h5_id: 88,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -50530,18 +44326,6 @@ Event.create!([
 	event_player_1_id: 2076,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 2501,
-	h3_id: 1429,
-	h4_id: 2453,
-	h5_id: 88,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 1,
 	away_score: 0,
@@ -50561,18 +44345,6 @@ Event.create!([
 	event_player_1_id: 397,
 	event_player_2_id: 989,
 	event_player_3_id: nil,
-	a1_id: 1296,
-	a2_id: 397,
-	a3_id: 2609,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2430,
-	h3_id: 1633,
-	h4_id: 2436,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -50592,18 +44364,6 @@ Event.create!([
 	event_player_1_id: 2436,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1296,
-	a2_id: 397,
-	a3_id: 2609,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2430,
-	h3_id: 1633,
-	h4_id: 2436,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "Slap",
 	home_score: 1,
 	away_score: 0,
@@ -50623,18 +44383,6 @@ Event.create!([
 	event_player_1_id: 1805,
 	event_player_2_id: 2656,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 2309,
-	a3_id: 1805,
-	a4_id: 1501,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 2042,
-	h3_id: 2656,
-	h4_id: 2453,
-	h5_id: 2436,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -50654,18 +44402,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 2309,
-	a3_id: 1805,
-	a4_id: 1501,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 2042,
-	h3_id: 2656,
-	h4_id: 2453,
-	h5_id: 2436,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -50685,18 +44421,6 @@ Event.create!([
 	event_player_1_id: 1805,
 	event_player_2_id: 989,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 2453,
-	h5_id: 88,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -50716,18 +44440,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 2453,
-	h5_id: 88,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -50747,18 +44459,6 @@ Event.create!([
 	event_player_1_id: 1805,
 	event_player_2_id: 88,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 1267,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 2453,
-	h5_id: 88,
-	h6_id: nil,
 	description: "Snap",
 	home_score: 1,
 	away_score: 0,
@@ -50778,18 +44478,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 1267,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 2453,
-	h5_id: 88,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -50809,18 +44497,6 @@ Event.create!([
 	event_player_1_id: 2309,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 1867,
-	a3_id: 2309,
-	a4_id: 1501,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 2453,
-	h5_id: 88,
-	h6_id: nil,
 	description: "Backhand",
 	home_score: 1,
 	away_score: 0,
@@ -50840,18 +44516,6 @@ Event.create!([
 	event_player_1_id: 1501,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 1867,
-	a3_id: 2309,
-	a4_id: 1501,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 2453,
-	h5_id: 88,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 1,
 	away_score: 0,
@@ -50871,18 +44535,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 1867,
-	a3_id: 2309,
-	a4_id: 1501,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 2453,
-	h5_id: 88,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -50902,18 +44554,6 @@ Event.create!([
 	event_player_1_id: 1867,
 	event_player_2_id: 88,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 1867,
-	a3_id: 2309,
-	a4_id: 1501,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 2501,
-	h2_id: 2042,
-	h3_id: 1429,
-	h4_id: 2453,
-	h5_id: 88,
-	h6_id: nil,
 	description: "Deflected",
 	home_score: 1,
 	away_score: 0,
@@ -50933,18 +44573,6 @@ Event.create!([
 	event_player_1_id: 2308,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 1867,
-	a3_id: 2309,
-	a4_id: 1501,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 2501,
-	h2_id: 2042,
-	h3_id: 1429,
-	h4_id: 2453,
-	h5_id: 88,
-	h6_id: nil,
 	description: "Tip-In",
 	home_score: 1,
 	away_score: 0,
@@ -50964,18 +44592,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 1867,
-	a3_id: 2309,
-	a4_id: 1501,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 2501,
-	h2_id: 2042,
-	h3_id: 1429,
-	h4_id: 2453,
-	h5_id: 88,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -50995,18 +44611,6 @@ Event.create!([
 	event_player_1_id: 397,
 	event_player_2_id: 1154,
 	event_player_3_id: nil,
-	a1_id: 1296,
-	a2_id: 397,
-	a3_id: 2609,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 2501,
-	h3_id: 1429,
-	h4_id: 2453,
-	h5_id: 88,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -51026,18 +44630,6 @@ Event.create!([
 	event_player_1_id: 1843,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1296,
-	a2_id: 397,
-	a3_id: 2609,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 2501,
-	h3_id: 1429,
-	h4_id: 2453,
-	h5_id: 88,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -51057,18 +44649,6 @@ Event.create!([
 	event_player_1_id: 1843,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1296,
-	a2_id: 397,
-	a3_id: 2609,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 2501,
-	h3_id: 1429,
-	h4_id: 2453,
-	h5_id: 88,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -51088,18 +44668,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1296,
-	a2_id: 397,
-	a3_id: 2609,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 2501,
-	h3_id: 1429,
-	h4_id: 2453,
-	h5_id: 88,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -51119,18 +44687,6 @@ Event.create!([
 	event_player_1_id: 1154,
 	event_player_2_id: 2016,
 	event_player_3_id: nil,
-	a1_id: 1296,
-	a2_id: 397,
-	a3_id: 2609,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 2501,
-	h3_id: 1429,
-	h4_id: 2436,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -51150,18 +44706,6 @@ Event.create!([
 	event_player_1_id: 1429,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1296,
-	a2_id: 397,
-	a3_id: 2609,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 2501,
-	h3_id: 1429,
-	h4_id: 2436,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -51181,18 +44725,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1296,
-	a2_id: 397,
-	a3_id: 2609,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 2501,
-	h3_id: 1429,
-	h4_id: 2436,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -51212,18 +44744,6 @@ Event.create!([
 	event_player_1_id: 1805,
 	event_player_2_id: 2496,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 2496,
-	h2_id: 2402,
-	h3_id: 1633,
-	h4_id: 114,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -51243,18 +44763,6 @@ Event.create!([
 	event_player_1_id: 2092,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 2496,
-	h2_id: 2402,
-	h3_id: 1633,
-	h4_id: 114,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "Snap",
 	home_score: 1,
 	away_score: 0,
@@ -51274,18 +44782,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 2496,
-	h2_id: 2402,
-	h3_id: 1633,
-	h4_id: 114,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -51305,18 +44801,6 @@ Event.create!([
 	event_player_1_id: 2742,
 	event_player_2_id: 1356,
 	event_player_3_id: nil,
-	a1_id: 2307,
-	a2_id: 2572,
-	a3_id: 2742,
-	a4_id: 1501,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 2743,
-	h2_id: 1356,
-	h3_id: 2656,
-	h4_id: 114,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -51336,18 +44820,6 @@ Event.create!([
 	event_player_1_id: 114,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2307,
-	a2_id: 2572,
-	a3_id: 2742,
-	a4_id: 1501,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 2743,
-	h2_id: 1356,
-	h3_id: 2656,
-	h4_id: 114,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -51367,18 +44839,6 @@ Event.create!([
 	event_player_1_id: 2307,
 	event_player_2_id: 114,
 	event_player_3_id: nil,
-	a1_id: 2307,
-	a2_id: 2572,
-	a3_id: 2742,
-	a4_id: 1501,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 2743,
-	h2_id: 1356,
-	h3_id: 2656,
-	h4_id: 114,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -51398,18 +44858,6 @@ Event.create!([
 	event_player_1_id: 2572,
 	event_player_2_id: 1356,
 	event_player_3_id: nil,
-	a1_id: 2307,
-	a2_id: 2572,
-	a3_id: 2742,
-	a4_id: 1501,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 2743,
-	h2_id: 1356,
-	h3_id: 2656,
-	h4_id: 114,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -51429,18 +44877,6 @@ Event.create!([
 	event_player_1_id: 114,
 	event_player_2_id: 2307,
 	event_player_3_id: nil,
-	a1_id: 2307,
-	a2_id: 2572,
-	a3_id: 2742,
-	a4_id: 1501,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 2743,
-	h2_id: 1356,
-	h3_id: 2656,
-	h4_id: 114,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "Slashing(2 min)",
 	home_score: 1,
 	away_score: 0,
@@ -51460,18 +44896,6 @@ Event.create!([
 	event_player_1_id: 1805,
 	event_player_2_id: 989,
 	event_player_3_id: nil,
-	a1_id: 397,
-	a2_id: 1867,
-	a3_id: 1805,
-	a4_id: 1856,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 88,
-	h4_id: 2640,
-	h5_id: nil,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -51491,18 +44915,6 @@ Event.create!([
 	event_player_1_id: 2042,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 397,
-	a2_id: 1867,
-	a3_id: 1805,
-	a4_id: 1856,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 88,
-	h4_id: 2640,
-	h5_id: nil,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 1,
 	away_score: 0,
@@ -51522,18 +44934,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 397,
-	a2_id: 1867,
-	a3_id: 1805,
-	a4_id: 1856,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 88,
-	h4_id: 2640,
-	h5_id: nil,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -51553,18 +44953,6 @@ Event.create!([
 	event_player_1_id: 1267,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 397,
-	a2_id: 1867,
-	a3_id: 1805,
-	a4_id: 1267,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 2042,
-	h2_id: 1429,
-	h3_id: 88,
-	h4_id: 2640,
-	h5_id: nil,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -51584,18 +44972,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 397,
-	a2_id: 1867,
-	a3_id: 1805,
-	a4_id: 1267,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 2042,
-	h2_id: 1429,
-	h3_id: 88,
-	h4_id: 2640,
-	h5_id: nil,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -51615,18 +44991,6 @@ Event.create!([
 	event_player_1_id: 1975,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 397,
-	a2_id: 1867,
-	a3_id: 1805,
-	a4_id: 1267,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 1356,
-	h2_id: 1429,
-	h3_id: 88,
-	h4_id: 2092,
-	h5_id: nil,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 1,
 	away_score: 0,
@@ -51646,18 +45010,6 @@ Event.create!([
 	event_player_1_id: 2308,
 	event_player_2_id: 2656,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 2308,
-	a3_id: 2309,
-	a4_id: 2016,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 1356,
-	h2_id: 2656,
-	h3_id: 2453,
-	h4_id: 2092,
-	h5_id: nil,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -51677,18 +45029,6 @@ Event.create!([
 	event_player_1_id: 2308,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 2308,
-	a3_id: 2309,
-	a4_id: 2016,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 1356,
-	h2_id: 2656,
-	h3_id: 2453,
-	h4_id: 2092,
-	h5_id: nil,
-	h6_id: nil,
 	description: "Snap",
 	home_score: 1,
 	away_score: 0,
@@ -51708,18 +45048,6 @@ Event.create!([
 	event_player_1_id: 2308,
 	event_player_2_id: 2656,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 2308,
-	a3_id: 2309,
-	a4_id: 2016,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 1356,
-	h2_id: 2656,
-	h3_id: 2453,
-	h4_id: 2092,
-	h5_id: nil,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -51739,18 +45067,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 2308,
-	a3_id: 2309,
-	a4_id: 2016,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 1356,
-	h2_id: 2656,
-	h3_id: 2453,
-	h4_id: 2092,
-	h5_id: nil,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -51770,18 +45086,6 @@ Event.create!([
 	event_player_1_id: 2436,
 	event_player_2_id: 2742,
 	event_player_3_id: nil,
-	a1_id: 2307,
-	a2_id: 2572,
-	a3_id: 2742,
-	a4_id: 1224,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 2501,
-	h3_id: 1429,
-	h4_id: 2436,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -51801,18 +45105,6 @@ Event.create!([
 	event_player_1_id: 2307,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2307,
-	a2_id: 2572,
-	a3_id: 2742,
-	a4_id: 1224,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 2501,
-	h3_id: 1429,
-	h4_id: 2436,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "Snap",
 	home_score: 1,
 	away_score: 0,
@@ -51832,18 +45124,6 @@ Event.create!([
 	event_player_1_id: 2307,
 	event_player_2_id: 2640,
 	event_player_3_id: nil,
-	a1_id: 2307,
-	a2_id: 2572,
-	a3_id: 2742,
-	a4_id: 1224,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 2501,
-	h3_id: 1429,
-	h4_id: 2436,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -51863,18 +45143,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2307,
-	a2_id: 2572,
-	a3_id: 2742,
-	a4_id: 1224,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 2501,
-	h3_id: 1429,
-	h4_id: 2436,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -51894,18 +45162,6 @@ Event.create!([
 	event_player_1_id: 1429,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2307,
-	a2_id: 2572,
-	a3_id: 2742,
-	a4_id: 1224,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 2501,
-	h3_id: 1429,
-	h4_id: 114,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "Snap",
 	home_score: 1,
 	away_score: 0,
@@ -51925,18 +45181,6 @@ Event.create!([
 	event_player_1_id: 1805,
 	event_player_2_id: 989,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 1501,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 88,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -51956,18 +45200,6 @@ Event.create!([
 	event_player_1_id: 88,
 	event_player_2_id: 1267,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 1501,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 88,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "Snap",
 	home_score: 1,
 	away_score: 0,
@@ -51987,18 +45219,6 @@ Event.create!([
 	event_player_1_id: 1805,
 	event_player_2_id: 989,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 1501,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 88,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -52018,18 +45238,6 @@ Event.create!([
 	event_player_1_id: 989,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 1501,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 88,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "Backhand",
 	home_score: 1,
 	away_score: 0,
@@ -52049,18 +45257,6 @@ Event.create!([
 	event_player_1_id: 2092,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 1501,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 88,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "Slap",
 	home_score: 1,
 	away_score: 0,
@@ -52080,18 +45276,6 @@ Event.create!([
 	event_player_1_id: 397,
 	event_player_2_id: 2496,
 	event_player_3_id: nil,
-	a1_id: 1296,
-	a2_id: 397,
-	a3_id: 2609,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 2496,
-	h2_id: 2402,
-	h3_id: 1633,
-	h4_id: 2436,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -52111,18 +45295,6 @@ Event.create!([
 	event_player_1_id: 2496,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1296,
-	a2_id: 397,
-	a3_id: 2609,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 2496,
-	h2_id: 2402,
-	h3_id: 1633,
-	h4_id: 2436,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "Snap",
 	home_score: 1,
 	away_score: 0,
@@ -52142,18 +45314,6 @@ Event.create!([
 	event_player_1_id: 2402,
 	event_player_2_id: 2016,
 	event_player_3_id: nil,
-	a1_id: 1296,
-	a2_id: 397,
-	a3_id: 2609,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 2496,
-	h2_id: 2402,
-	h3_id: 1633,
-	h4_id: 2436,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 1,
 	away_score: 0,
@@ -52173,18 +45333,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1296,
-	a2_id: 397,
-	a3_id: 2609,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 2496,
-	h2_id: 2402,
-	h3_id: 1633,
-	h4_id: 2436,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -52204,18 +45352,6 @@ Event.create!([
 	event_player_1_id: 2640,
 	event_player_2_id: 2609,
 	event_player_3_id: nil,
-	a1_id: 1296,
-	a2_id: 397,
-	a3_id: 2609,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 2496,
-	h2_id: 2402,
-	h3_id: 1633,
-	h4_id: 2436,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -52235,18 +45371,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1296,
-	a2_id: 397,
-	a3_id: 2609,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 2496,
-	h2_id: 2402,
-	h3_id: 1633,
-	h4_id: 2436,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -52266,18 +45390,6 @@ Event.create!([
 	event_player_1_id: 2309,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 1867,
-	a3_id: 2309,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 2501,
-	h3_id: 1429,
-	h4_id: 2453,
-	h5_id: 114,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 1,
 	away_score: 0,
@@ -52297,18 +45409,6 @@ Event.create!([
 	event_player_1_id: 114,
 	event_player_2_id: 2308,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 1867,
-	a3_id: 2309,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 2501,
-	h3_id: 1429,
-	h4_id: 2453,
-	h5_id: 114,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -52328,18 +45428,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 1867,
-	a3_id: 2309,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 2501,
-	h3_id: 1429,
-	h4_id: 2453,
-	h5_id: 114,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -52359,18 +45447,6 @@ Event.create!([
 	event_player_1_id: 1867,
 	event_player_2_id: 1429,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 1867,
-	a3_id: 2309,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 2501,
-	h3_id: 1429,
-	h4_id: 2436,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -52390,18 +45466,6 @@ Event.create!([
 	event_player_1_id: 2308,
 	event_player_2_id: 2436,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 1867,
-	a3_id: 2309,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 2501,
-	h3_id: 1429,
-	h4_id: 2436,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -52421,18 +45485,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 1867,
-	a3_id: 2309,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 2501,
-	h3_id: 1429,
-	h4_id: 2436,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -52452,18 +45504,6 @@ Event.create!([
 	event_player_1_id: 88,
 	event_player_2_id: 1843,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 1501,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 88,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 1,
 	away_score: 0,
@@ -52483,18 +45523,6 @@ Event.create!([
 	event_player_1_id: 2430,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 1501,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 88,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "Tip-In",
 	home_score: 1,
 	away_score: 0,
@@ -52514,18 +45542,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 1501,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 88,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -52545,18 +45561,6 @@ Event.create!([
 	event_player_1_id: 2076,
 	event_player_2_id: 2092,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 1501,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 2042,
-	h2_id: 2743,
-	h3_id: 2656,
-	h4_id: 88,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -52576,18 +45580,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 1501,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 2042,
-	h2_id: 2743,
-	h3_id: 2656,
-	h4_id: 88,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -52607,18 +45599,6 @@ Event.create!([
 	event_player_1_id: 2656,
 	event_player_2_id: 2307,
 	event_player_3_id: nil,
-	a1_id: 2307,
-	a2_id: 2572,
-	a3_id: 2742,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 2743,
-	h2_id: 1356,
-	h3_id: 2656,
-	h4_id: 88,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -52638,18 +45618,6 @@ Event.create!([
 	event_player_1_id: 1843,
 	event_player_2_id: 2743,
 	event_player_3_id: nil,
-	a1_id: 2307,
-	a2_id: 2572,
-	a3_id: 2742,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 2743,
-	h2_id: 1356,
-	h3_id: 2656,
-	h4_id: 88,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "Roughing(2 min)",
 	home_score: 1,
 	away_score: 0,
@@ -52669,18 +45637,6 @@ Event.create!([
 	event_player_1_id: 2743,
 	event_player_2_id: 1843,
 	event_player_3_id: nil,
-	a1_id: 2307,
-	a2_id: 2572,
-	a3_id: 2742,
-	a4_id: 2016,
-	a5_id: nil,
-	a6_id: nil,
-	h1_id: 2743,
-	h2_id: 1356,
-	h3_id: 2656,
-	h4_id: 88,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "Charging(2 min)",
 	home_score: 1,
 	away_score: 0,
@@ -52700,18 +45656,6 @@ Event.create!([
 	event_player_1_id: 1843,
 	event_player_2_id: 2743,
 	event_player_3_id: nil,
-	a1_id: 2307,
-	a2_id: 2572,
-	a3_id: 2742,
-	a4_id: 2016,
-	a5_id: nil,
-	a6_id: nil,
-	h1_id: 1356,
-	h2_id: 2656,
-	h3_id: 88,
-	h4_id: 2092,
-	h5_id: nil,
-	h6_id: nil,
 	description: "Fighting (maj)(5 min)",
 	home_score: 1,
 	away_score: 0,
@@ -52731,18 +45675,6 @@ Event.create!([
 	event_player_1_id: 2743,
 	event_player_2_id: 1843,
 	event_player_3_id: nil,
-	a1_id: 2307,
-	a2_id: 2572,
-	a3_id: 2742,
-	a4_id: 2016,
-	a5_id: nil,
-	a6_id: nil,
-	h1_id: 1356,
-	h2_id: 2656,
-	h3_id: 88,
-	h4_id: 2092,
-	h5_id: nil,
-	h6_id: nil,
 	description: "Fighting (maj)(5 min)",
 	home_score: 1,
 	away_score: 0,
@@ -52762,18 +45694,6 @@ Event.create!([
 	event_player_1_id: 397,
 	event_player_2_id: 2656,
 	event_player_3_id: nil,
-	a1_id: 1296,
-	a2_id: 397,
-	a3_id: 2609,
-	a4_id: 1501,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 2496,
-	h2_id: 1633,
-	h3_id: 2656,
-	h4_id: 2453,
-	h5_id: 114,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -52793,18 +45713,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1296,
-	a2_id: 397,
-	a3_id: 2609,
-	a4_id: 1501,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 2496,
-	h2_id: 1633,
-	h3_id: 2656,
-	h4_id: 2453,
-	h5_id: 114,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -52824,18 +45732,6 @@ Event.create!([
 	event_player_1_id: 2453,
 	event_player_2_id: 2609,
 	event_player_3_id: nil,
-	a1_id: 1296,
-	a2_id: 397,
-	a3_id: 2609,
-	a4_id: 1501,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 2496,
-	h2_id: 2402,
-	h3_id: 1633,
-	h4_id: 2453,
-	h5_id: 2436,
-	h6_id: nil,
 	description: "Snap",
 	home_score: 1,
 	away_score: 0,
@@ -52855,18 +45751,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1296,
-	a2_id: 397,
-	a3_id: 2609,
-	a4_id: 1501,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 2496,
-	h2_id: 2402,
-	h3_id: 1633,
-	h4_id: 2453,
-	h5_id: 2436,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -52886,18 +45770,6 @@ Event.create!([
 	event_player_1_id: 2436,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 1867,
-	a3_id: 2309,
-	a4_id: 2016,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 2501,
-	h3_id: 1429,
-	h4_id: 114,
-	h5_id: 2436,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 1,
 	away_score: 0,
@@ -52917,18 +45789,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 1867,
-	a3_id: 2309,
-	a4_id: 2016,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 2501,
-	h3_id: 1429,
-	h4_id: 114,
-	h5_id: 2436,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -52948,18 +45808,6 @@ Event.create!([
 	event_player_1_id: 1429,
 	event_player_2_id: 1805,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 2016,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 989,
-	h3_id: 1429,
-	h4_id: 114,
-	h5_id: 2436,
-	h6_id: nil,
 	description: "Tripping(2 min)",
 	home_score: 1,
 	away_score: 0,
@@ -52979,18 +45827,6 @@ Event.create!([
 	event_player_1_id: 1805,
 	event_player_2_id: 989,
 	event_player_3_id: nil,
-	a1_id: 397,
-	a2_id: 1867,
-	a3_id: 1805,
-	a4_id: 1856,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 88,
-	h4_id: 2092,
-	h5_id: nil,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -53010,18 +45846,6 @@ Event.create!([
 	event_player_1_id: 1867,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 397,
-	a2_id: 1867,
-	a3_id: 1805,
-	a4_id: 1856,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 88,
-	h4_id: 2092,
-	h5_id: nil,
-	h6_id: nil,
 	description: "Tip-In",
 	home_score: 1,
 	away_score: 0,
@@ -53041,18 +45865,6 @@ Event.create!([
 	event_player_1_id: 1805,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 397,
-	a2_id: 1867,
-	a3_id: 1805,
-	a4_id: 1856,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 88,
-	h4_id: 2092,
-	h5_id: nil,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -53072,18 +45884,6 @@ Event.create!([
 	event_player_1_id: 88,
 	event_player_2_id: 1856,
 	event_player_3_id: nil,
-	a1_id: 397,
-	a2_id: 1867,
-	a3_id: 1805,
-	a4_id: 1856,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 88,
-	h4_id: 2092,
-	h5_id: nil,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -53103,18 +45903,6 @@ Event.create!([
 	event_player_1_id: 397,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 397,
-	a2_id: 1867,
-	a3_id: 1805,
-	a4_id: 1856,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 88,
-	h4_id: 2092,
-	h5_id: nil,
-	h6_id: nil,
 	description: "Tip-In",
 	home_score: 1,
 	away_score: 0,
@@ -53134,18 +45922,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 397,
-	a2_id: 1867,
-	a3_id: 1805,
-	a4_id: 1856,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 88,
-	h4_id: 2092,
-	h5_id: nil,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -53165,18 +45941,6 @@ Event.create!([
 	event_player_1_id: 1805,
 	event_player_2_id: 2656,
 	event_player_3_id: nil,
-	a1_id: 397,
-	a2_id: 1867,
-	a3_id: 1805,
-	a4_id: 1856,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 1356,
-	h2_id: 2656,
-	h3_id: 88,
-	h4_id: 2092,
-	h5_id: nil,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -53196,18 +45960,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 397,
-	a2_id: 1867,
-	a3_id: 1805,
-	a4_id: 1856,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 1356,
-	h2_id: 2656,
-	h3_id: 88,
-	h4_id: 2092,
-	h5_id: nil,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -53227,18 +45979,6 @@ Event.create!([
 	event_player_1_id: 2092,
 	event_player_2_id: 2742,
 	event_player_3_id: nil,
-	a1_id: 1805,
-	a2_id: 1856,
-	a3_id: 2742,
-	a4_id: 1224,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 1356,
-	h2_id: 2656,
-	h3_id: 88,
-	h4_id: 2092,
-	h5_id: nil,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -53258,18 +45998,6 @@ Event.create!([
 	event_player_1_id: 1224,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1805,
-	a2_id: 1856,
-	a3_id: 2742,
-	a4_id: 1224,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 1356,
-	h2_id: 2656,
-	h3_id: 88,
-	h4_id: 2092,
-	h5_id: nil,
-	h6_id: nil,
 	description: "Snap",
 	home_score: 1,
 	away_score: 0,
@@ -53289,18 +46017,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1805,
-	a2_id: 1856,
-	a3_id: 2742,
-	a4_id: 1224,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 1356,
-	h2_id: 2656,
-	h3_id: 88,
-	h4_id: 2092,
-	h5_id: nil,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -53320,18 +46036,6 @@ Event.create!([
 	event_player_1_id: 2656,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 397,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 1224,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 1356,
-	h2_id: 1429,
-	h3_id: 2656,
-	h4_id: 2436,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 1,
 	away_score: 0,
@@ -53351,18 +46055,6 @@ Event.create!([
 	event_player_1_id: 397,
 	event_player_2_id: 2501,
 	event_player_3_id: nil,
-	a1_id: 1296,
-	a2_id: 397,
-	a3_id: 2609,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 2501,
-	h2_id: 1633,
-	h3_id: 1429,
-	h4_id: 2436,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -53382,18 +46074,6 @@ Event.create!([
 	event_player_1_id: 2436,
 	event_player_2_id: 1296,
 	event_player_3_id: nil,
-	a1_id: 1296,
-	a2_id: 397,
-	a3_id: 2609,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 2501,
-	h2_id: 1633,
-	h3_id: 1429,
-	h4_id: 2436,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 1,
 	away_score: 0,
@@ -53413,18 +46093,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1296,
-	a2_id: 397,
-	a3_id: 2609,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 2501,
-	h2_id: 1633,
-	h3_id: 1429,
-	h4_id: 2436,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -53444,18 +46112,6 @@ Event.create!([
 	event_player_1_id: 2742,
 	event_player_2_id: 2656,
 	event_player_3_id: nil,
-	a1_id: 2307,
-	a2_id: 2572,
-	a3_id: 2742,
-	a4_id: 1501,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 2402,
-	h2_id: 1356,
-	h3_id: 2656,
-	h4_id: 2453,
-	h5_id: 114,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -53475,18 +46131,6 @@ Event.create!([
 	event_player_1_id: 2402,
 	event_player_2_id: 1501,
 	event_player_3_id: nil,
-	a1_id: 2307,
-	a2_id: 2572,
-	a3_id: 2742,
-	a4_id: 1501,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 2402,
-	h2_id: 1356,
-	h3_id: 2656,
-	h4_id: 2453,
-	h5_id: 114,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -53506,18 +46150,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2307,
-	a2_id: 2572,
-	a3_id: 2742,
-	a4_id: 1501,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 2402,
-	h2_id: 1356,
-	h3_id: 2656,
-	h4_id: 2453,
-	h5_id: 114,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -53537,18 +46169,6 @@ Event.create!([
 	event_player_1_id: 2572,
 	event_player_2_id: 1356,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 2309,
-	a3_id: 2572,
-	a4_id: 1224,
-	a5_id: 2016,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2430,
-	h3_id: 1356,
-	h4_id: 2453,
-	h5_id: 114,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -53568,18 +46188,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 2309,
-	a3_id: 2572,
-	a4_id: 1224,
-	a5_id: 2016,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2430,
-	h3_id: 1356,
-	h4_id: 2453,
-	h5_id: 114,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -53599,18 +46207,6 @@ Event.create!([
 	event_player_1_id: 2436,
 	event_player_2_id: 1224,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 2309,
-	a3_id: 2572,
-	a4_id: 1224,
-	a5_id: 2016,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 2436,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "Slap",
 	home_score: 1,
 	away_score: 0,
@@ -53630,18 +46226,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 2309,
-	a3_id: 2572,
-	a4_id: 1224,
-	a5_id: 2016,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 2436,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -53661,18 +46245,6 @@ Event.create!([
 	event_player_1_id: 1867,
 	event_player_2_id: 2436,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 1867,
-	a3_id: 2309,
-	a4_id: 1224,
-	a5_id: 2016,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 2436,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -53692,18 +46264,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 1867,
-	a3_id: 2309,
-	a4_id: 1224,
-	a5_id: 2016,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 2436,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -53723,18 +46283,6 @@ Event.create!([
 	event_player_1_id: 88,
 	event_player_2_id: 1856,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 1501,
-	a5_id: 2016,
-	a6_id: nil,
-	h1_id: 2496,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 88,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -53754,18 +46302,6 @@ Event.create!([
 	event_player_1_id: 1501,
 	event_player_2_id: 2430,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 1501,
-	a5_id: 2016,
-	a6_id: nil,
-	h1_id: 2496,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 88,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 1,
 	away_score: 0,
@@ -53785,18 +46321,6 @@ Event.create!([
 	event_player_1_id: 1805,
 	event_player_2_id: 2430,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 1501,
-	a5_id: 2016,
-	a6_id: nil,
-	h1_id: 2496,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 88,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -53816,18 +46340,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 1501,
-	a5_id: 2016,
-	a6_id: nil,
-	h1_id: 2496,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 88,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -53847,18 +46359,6 @@ Event.create!([
 	event_player_1_id: 1154,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 397,
-	a3_id: 1856,
-	a4_id: 1501,
-	a5_id: 2016,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 2501,
-	h3_id: 1633,
-	h4_id: 88,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -53878,18 +46378,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 397,
-	a3_id: 1856,
-	a4_id: 1501,
-	a5_id: 2016,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 2501,
-	h3_id: 1633,
-	h4_id: 88,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -53909,18 +46397,6 @@ Event.create!([
 	event_player_1_id: 1975,
 	event_player_2_id: 2501,
 	event_player_3_id: nil,
-	a1_id: 1296,
-	a2_id: 397,
-	a3_id: 2609,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 2501,
-	h3_id: 1633,
-	h4_id: 2453,
-	h5_id: 114,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 1,
 	away_score: 0,
@@ -53940,18 +46416,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1296,
-	a2_id: 397,
-	a3_id: 2609,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 2501,
-	h3_id: 1633,
-	h4_id: 2453,
-	h5_id: 114,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -53971,18 +46435,6 @@ Event.create!([
 	event_player_1_id: 397,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1296,
-	a2_id: 397,
-	a3_id: 2609,
-	a4_id: 1267,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 2501,
-	h3_id: 1633,
-	h4_id: 2453,
-	h5_id: 114,
-	h6_id: nil,
 	description: "Wrap",
 	home_score: 1,
 	away_score: 0,
@@ -54002,18 +46454,6 @@ Event.create!([
 	event_player_1_id: 2308,
 	event_player_2_id: 2656,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 1867,
-	a3_id: 2309,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 1356,
-	h2_id: 1429,
-	h3_id: 2656,
-	h4_id: 114,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -54033,18 +46473,6 @@ Event.create!([
 	event_player_1_id: 2309,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 1867,
-	a3_id: 2309,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 1356,
-	h2_id: 1429,
-	h3_id: 2656,
-	h4_id: 114,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "Snap",
 	home_score: 1,
 	away_score: 0,
@@ -54064,18 +46492,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 1867,
-	a3_id: 2309,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 1356,
-	h2_id: 1429,
-	h3_id: 2656,
-	h4_id: 114,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -54095,18 +46511,6 @@ Event.create!([
 	event_player_1_id: 1805,
 	event_player_2_id: 989,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 1501,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 989,
-	h3_id: 1633,
-	h4_id: 88,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -54126,18 +46530,6 @@ Event.create!([
 	event_player_1_id: 989,
 	event_player_2_id: 1805,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 1501,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 989,
-	h3_id: 1633,
-	h4_id: 88,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 1,
 	away_score: 0,
@@ -54157,18 +46549,6 @@ Event.create!([
 	event_player_1_id: 1805,
 	event_player_2_id: 989,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 88,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -54188,18 +46568,6 @@ Event.create!([
 	event_player_1_id: 1224,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 88,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "Slap",
 	home_score: 1,
 	away_score: 0,
@@ -54219,18 +46587,6 @@ Event.create!([
 	event_player_1_id: 397,
 	event_player_2_id: 989,
 	event_player_3_id: nil,
-	a1_id: 397,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 2016,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 1633,
-	h3_id: 2656,
-	h4_id: 88,
-	h5_id: 114,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -54250,18 +46606,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 397,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 2016,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 1633,
-	h3_id: 2656,
-	h4_id: 88,
-	h5_id: 114,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -54281,18 +46625,6 @@ Event.create!([
 	event_player_1_id: 1805,
 	event_player_2_id: 989,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 2453,
-	h5_id: 88,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -54312,18 +46644,6 @@ Event.create!([
 	event_player_1_id: 2430,
 	event_player_2_id: 1975,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 2453,
-	h5_id: 88,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 1,
 	away_score: 0,
@@ -54343,18 +46663,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 2453,
-	h5_id: 88,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -54374,18 +46682,6 @@ Event.create!([
 	event_player_1_id: 1805,
 	event_player_2_id: 1154,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 2501,
-	h3_id: 1429,
-	h4_id: 114,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -54405,18 +46701,6 @@ Event.create!([
 	event_player_1_id: 2501,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 2501,
-	h3_id: 1429,
-	h4_id: 114,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "Snap",
 	home_score: 1,
 	away_score: 0,
@@ -54436,18 +46720,6 @@ Event.create!([
 	event_player_1_id: 2076,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 2501,
-	h3_id: 1429,
-	h4_id: 114,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -54467,18 +46739,6 @@ Event.create!([
 	event_player_1_id: 2501,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 2501,
-	h3_id: 1429,
-	h4_id: 114,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 1,
 	away_score: 0,
@@ -54498,18 +46758,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 2501,
-	h3_id: 1429,
-	h4_id: 114,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -54529,18 +46777,6 @@ Event.create!([
 	event_player_1_id: 2436,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 1867,
-	a3_id: 2309,
-	a4_id: 1501,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 2496,
-	h2_id: 2402,
-	h3_id: 1633,
-	h4_id: 2436,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "Slap",
 	home_score: 1,
 	away_score: 0,
@@ -54560,18 +46796,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 1867,
-	a3_id: 2309,
-	a4_id: 1501,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 2496,
-	h2_id: 2402,
-	h3_id: 1633,
-	h4_id: 2436,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -54591,18 +46815,6 @@ Event.create!([
 	event_player_1_id: 1867,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 1867,
-	a3_id: 2309,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 2496,
-	h2_id: 2402,
-	h3_id: 1633,
-	h4_id: 2436,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -54622,18 +46834,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 1867,
-	a3_id: 2309,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 2496,
-	h2_id: 2402,
-	h3_id: 1633,
-	h4_id: 2436,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -54653,18 +46853,6 @@ Event.create!([
 	event_player_1_id: 397,
 	event_player_2_id: 2496,
 	event_player_3_id: nil,
-	a1_id: 1296,
-	a2_id: 397,
-	a3_id: 2609,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 2496,
-	h2_id: 2402,
-	h3_id: 1633,
-	h4_id: 2436,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -54684,18 +46872,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1296,
-	a2_id: 397,
-	a3_id: 2609,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 2496,
-	h2_id: 2402,
-	h3_id: 1633,
-	h4_id: 2436,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -54715,18 +46891,6 @@ Event.create!([
 	event_player_1_id: 2742,
 	event_player_2_id: 2656,
 	event_player_3_id: nil,
-	a1_id: 2307,
-	a2_id: 2572,
-	a3_id: 2742,
-	a4_id: 1501,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 2743,
-	h2_id: 1356,
-	h3_id: 2656,
-	h4_id: 114,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -54746,18 +46910,6 @@ Event.create!([
 	event_player_1_id: 2743,
 	event_player_2_id: 1501,
 	event_player_3_id: nil,
-	a1_id: 2307,
-	a2_id: 2572,
-	a3_id: 2742,
-	a4_id: 1501,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 2743,
-	h2_id: 1356,
-	h3_id: 2656,
-	h4_id: 114,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -54777,18 +46929,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2307,
-	a2_id: 2572,
-	a3_id: 2742,
-	a4_id: 1501,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 2743,
-	h2_id: 1356,
-	h3_id: 2656,
-	h4_id: 114,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -54808,18 +46948,6 @@ Event.create!([
 	event_player_1_id: 2572,
 	event_player_2_id: 989,
 	event_player_3_id: nil,
-	a1_id: 2307,
-	a2_id: 2572,
-	a3_id: 2742,
-	a4_id: 1501,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2743,
-	h4_id: 2453,
-	h5_id: 88,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -54839,18 +46967,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2307,
-	a2_id: 2572,
-	a3_id: 2742,
-	a4_id: 1501,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2743,
-	h4_id: 2453,
-	h5_id: 88,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -54870,18 +46986,6 @@ Event.create!([
 	event_player_1_id: 88,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 2307,
-	a3_id: 1867,
-	a4_id: 1224,
-	a5_id: 1501,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 2453,
-	h5_id: 88,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -54901,18 +47005,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 2307,
-	a3_id: 1867,
-	a4_id: 1224,
-	a5_id: 1501,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 2453,
-	h5_id: 88,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 0,
@@ -54932,18 +47024,6 @@ Event.create!([
 	event_player_1_id: 1975,
 	event_player_2_id: 2042,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 2309,
-	a3_id: 1856,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 2501,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 2453,
-	h5_id: 88,
-	h6_id: nil,
 	description: "Slap",
 	home_score: 1,
 	away_score: 0,
@@ -54963,18 +47043,6 @@ Event.create!([
 	event_player_1_id: 1224,
 	event_player_2_id: 2430,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 2309,
-	a3_id: 1856,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 2501,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 2453,
-	h5_id: 88,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 1,
 	away_score: 0,
@@ -54994,18 +47062,6 @@ Event.create!([
 	event_player_1_id: 2308,
 	event_player_2_id: 1856,
 	event_player_3_id: 2309,
-	a1_id: 2308,
-	a2_id: 2309,
-	a3_id: 1856,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 2501,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 2453,
-	h5_id: 88,
-	h6_id: nil,
 	description: "Tip-In",
 	home_score: 1,
 	away_score: 0,
@@ -55025,18 +47081,6 @@ Event.create!([
 	event_player_1_id: 1805,
 	event_player_2_id: 1154,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 2501,
-	h3_id: 1429,
-	h4_id: 114,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -55056,18 +47100,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 2501,
-	h3_id: 1429,
-	h4_id: 114,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -55087,18 +47119,6 @@ Event.create!([
 	event_player_1_id: 397,
 	event_player_2_id: 1154,
 	event_player_3_id: nil,
-	a1_id: 1296,
-	a2_id: 397,
-	a3_id: 2609,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 2501,
-	h3_id: 1429,
-	h4_id: 114,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -55118,18 +47138,6 @@ Event.create!([
 	event_player_1_id: 1843,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1296,
-	a2_id: 397,
-	a3_id: 2609,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 2501,
-	h3_id: 1429,
-	h4_id: 114,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -55149,18 +47157,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1296,
-	a2_id: 397,
-	a3_id: 2609,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 2501,
-	h3_id: 1429,
-	h4_id: 114,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -55180,18 +47176,6 @@ Event.create!([
 	event_player_1_id: 397,
 	event_player_2_id: 2640,
 	event_player_3_id: nil,
-	a1_id: 1296,
-	a2_id: 397,
-	a3_id: 2609,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 2501,
-	h2_id: 1633,
-	h3_id: 1429,
-	h4_id: 2436,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "Slap",
 	home_score: 1,
 	away_score: 1,
@@ -55211,18 +47195,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1296,
-	a2_id: 397,
-	a3_id: 2609,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 2501,
-	h2_id: 1633,
-	h3_id: 1429,
-	h4_id: 2436,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -55242,18 +47214,6 @@ Event.create!([
 	event_player_1_id: 2496,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1296,
-	a2_id: 397,
-	a3_id: 2609,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 2496,
-	h2_id: 2402,
-	h3_id: 1633,
-	h4_id: 2436,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "Snap",
 	home_score: 1,
 	away_score: 1,
@@ -55273,18 +47233,6 @@ Event.create!([
 	event_player_1_id: 1633,
 	event_player_2_id: 1296,
 	event_player_3_id: nil,
-	a1_id: 1296,
-	a2_id: 397,
-	a3_id: 2609,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 2496,
-	h2_id: 2402,
-	h3_id: 1633,
-	h4_id: 2436,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 1,
 	away_score: 1,
@@ -55304,18 +47252,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1296,
-	a2_id: 397,
-	a3_id: 2609,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 2496,
-	h2_id: 2402,
-	h3_id: 1633,
-	h4_id: 2436,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -55335,18 +47271,6 @@ Event.create!([
 	event_player_1_id: 2609,
 	event_player_2_id: 2436,
 	event_player_3_id: nil,
-	a1_id: 1296,
-	a2_id: 2609,
-	a3_id: 2742,
-	a4_id: 1501,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 2496,
-	h2_id: 2402,
-	h3_id: 1633,
-	h4_id: 2436,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 1,
 	away_score: 1,
@@ -55366,18 +47290,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1296,
-	a2_id: 2609,
-	a3_id: 2742,
-	a4_id: 1501,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 2496,
-	h2_id: 2402,
-	h3_id: 1633,
-	h4_id: 2436,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -55397,18 +47309,6 @@ Event.create!([
 	event_player_1_id: 2307,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 2307,
-	a3_id: 2572,
-	a4_id: 1501,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 2743,
-	h2_id: 1356,
-	h3_id: 2656,
-	h4_id: 114,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "Snap",
 	home_score: 1,
 	away_score: 1,
@@ -55428,18 +47328,6 @@ Event.create!([
 	event_player_1_id: 114,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 2307,
-	a3_id: 2572,
-	a4_id: 1501,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 2743,
-	h2_id: 1356,
-	h3_id: 2656,
-	h4_id: 114,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "Slap",
 	home_score: 1,
 	away_score: 1,
@@ -55459,18 +47347,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 2307,
-	a3_id: 2572,
-	a4_id: 1501,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 2743,
-	h2_id: 1356,
-	h3_id: 2656,
-	h4_id: 114,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -55490,18 +47366,6 @@ Event.create!([
 	event_player_1_id: 2453,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 1867,
-	a3_id: 2309,
-	a4_id: 1224,
-	a5_id: 1501,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 2453,
-	h5_id: 88,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 1,
 	away_score: 1,
@@ -55521,18 +47385,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 1867,
-	a3_id: 2309,
-	a4_id: 1224,
-	a5_id: 1501,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 2453,
-	h5_id: 88,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -55552,18 +47404,6 @@ Event.create!([
 	event_player_1_id: 989,
 	event_player_2_id: 2309,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 1867,
-	a3_id: 2309,
-	a4_id: 1805,
-	a5_id: 1224,
-	a6_id: 1975,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 2453,
-	h5_id: 88,
-	h6_id: nil,
 	description: "Holding(2 min)",
 	home_score: 1,
 	away_score: 1,
@@ -55583,18 +47423,6 @@ Event.create!([
 	event_player_1_id: 1805,
 	event_player_2_id: 1154,
 	event_player_3_id: nil,
-	a1_id: 397,
-	a2_id: 1867,
-	a3_id: 1805,
-	a4_id: 1856,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 1429,
-	h3_id: 88,
-	h4_id: 2092,
-	h5_id: nil,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -55614,18 +47442,6 @@ Event.create!([
 	event_player_1_id: 2092,
 	event_player_2_id: 1867,
 	event_player_3_id: nil,
-	a1_id: 397,
-	a2_id: 1867,
-	a3_id: 1805,
-	a4_id: 1856,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 1429,
-	h3_id: 88,
-	h4_id: 2092,
-	h5_id: nil,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -55645,18 +47461,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 397,
-	a2_id: 1867,
-	a3_id: 1805,
-	a4_id: 1856,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 1429,
-	h3_id: 88,
-	h4_id: 2092,
-	h5_id: nil,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -55676,18 +47480,6 @@ Event.create!([
 	event_player_1_id: 2656,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 397,
-	a2_id: 2309,
-	a3_id: 1805,
-	a4_id: 1856,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 1356,
-	h2_id: 2656,
-	h3_id: 114,
-	h4_id: 2640,
-	h5_id: nil,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -55707,18 +47499,6 @@ Event.create!([
 	event_player_1_id: 2309,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 397,
-	a2_id: 2309,
-	a3_id: 1805,
-	a4_id: 1856,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 1356,
-	h2_id: 2656,
-	h3_id: 114,
-	h4_id: 2640,
-	h5_id: nil,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -55738,18 +47518,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 397,
-	a2_id: 2309,
-	a3_id: 1805,
-	a4_id: 1856,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 1356,
-	h2_id: 2656,
-	h3_id: 114,
-	h4_id: 2640,
-	h5_id: nil,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -55769,18 +47537,6 @@ Event.create!([
 	event_player_1_id: 1356,
 	event_player_2_id: 1267,
 	event_player_3_id: nil,
-	a1_id: 397,
-	a2_id: 2309,
-	a3_id: 1805,
-	a4_id: 1856,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 1356,
-	h3_id: 114,
-	h4_id: 2640,
-	h5_id: nil,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -55800,18 +47556,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 397,
-	a2_id: 2309,
-	a3_id: 1805,
-	a4_id: 1856,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 1356,
-	h3_id: 114,
-	h4_id: 2640,
-	h5_id: nil,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -55831,18 +47575,6 @@ Event.create!([
 	event_player_1_id: 2016,
 	event_player_2_id: 1154,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 2308,
-	a3_id: 2309,
-	a4_id: 2016,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 1429,
-	h3_id: 114,
-	h4_id: 2640,
-	h5_id: nil,
-	h6_id: nil,
 	description: "Slap",
 	home_score: 1,
 	away_score: 1,
@@ -55862,18 +47594,6 @@ Event.create!([
 	event_player_1_id: 1975,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 2308,
-	a3_id: 2309,
-	a4_id: 2016,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 1429,
-	h3_id: 114,
-	h4_id: 2640,
-	h5_id: nil,
-	h6_id: nil,
 	description: "Slap",
 	home_score: 1,
 	away_score: 1,
@@ -55893,18 +47613,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 2308,
-	a3_id: 2309,
-	a4_id: 2016,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 1429,
-	h3_id: 114,
-	h4_id: 2640,
-	h5_id: nil,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -55924,18 +47632,6 @@ Event.create!([
 	event_player_1_id: 2308,
 	event_player_2_id: 989,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 2308,
-	a3_id: 2309,
-	a4_id: 2016,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 2436,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -55955,18 +47651,6 @@ Event.create!([
 	event_player_1_id: 2308,
 	event_player_2_id: 989,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 2308,
-	a3_id: 2309,
-	a4_id: 2016,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 2436,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -55986,18 +47670,6 @@ Event.create!([
 	event_player_1_id: 989,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 2308,
-	a3_id: 2309,
-	a4_id: 2016,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 2436,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "Snap",
 	home_score: 1,
 	away_score: 1,
@@ -56017,18 +47689,6 @@ Event.create!([
 	event_player_1_id: 2430,
 	event_player_2_id: 2016,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 2308,
-	a3_id: 2309,
-	a4_id: 2016,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 2436,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -56048,18 +47708,6 @@ Event.create!([
 	event_player_1_id: 2308,
 	event_player_2_id: 989,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 2308,
-	a3_id: 2309,
-	a4_id: 2016,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 2436,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -56079,18 +47727,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 2308,
-	a3_id: 2309,
-	a4_id: 2016,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 2436,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -56110,18 +47746,6 @@ Event.create!([
 	event_player_1_id: 989,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1805,
-	a2_id: 1856,
-	a3_id: 2742,
-	a4_id: 1224,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 2453,
-	h5_id: 88,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 1,
 	away_score: 1,
@@ -56141,18 +47765,6 @@ Event.create!([
 	event_player_1_id: 2430,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1805,
-	a2_id: 1856,
-	a3_id: 2742,
-	a4_id: 1224,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 2453,
-	h5_id: 88,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 1,
 	away_score: 1,
@@ -56172,18 +47784,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1805,
-	a2_id: 1856,
-	a3_id: 2742,
-	a4_id: 1224,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 2453,
-	h5_id: 88,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -56203,18 +47803,6 @@ Event.create!([
 	event_player_1_id: 1224,
 	event_player_2_id: 2430,
 	event_player_3_id: nil,
-	a1_id: 1805,
-	a2_id: 1856,
-	a3_id: 2742,
-	a4_id: 1224,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 2496,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 2453,
-	h5_id: 88,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -56234,18 +47822,6 @@ Event.create!([
 	event_player_1_id: 2742,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1805,
-	a2_id: 1856,
-	a3_id: 2742,
-	a4_id: 1224,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 2496,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 2453,
-	h5_id: 88,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -56265,18 +47841,6 @@ Event.create!([
 	event_player_1_id: 1805,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1805,
-	a2_id: 1856,
-	a3_id: 2742,
-	a4_id: 1224,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 2496,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 2453,
-	h5_id: 88,
-	h6_id: nil,
 	description: "Snap",
 	home_score: 1,
 	away_score: 1,
@@ -56296,18 +47860,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1805,
-	a2_id: 1856,
-	a3_id: 2742,
-	a4_id: 1224,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 2496,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 2453,
-	h5_id: 88,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -56327,18 +47879,6 @@ Event.create!([
 	event_player_1_id: 2402,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1296,
-	a2_id: 397,
-	a3_id: 2609,
-	a4_id: 1501,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 2496,
-	h2_id: 2402,
-	h3_id: 1633,
-	h4_id: 114,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "Backhand",
 	home_score: 1,
 	away_score: 1,
@@ -56358,18 +47898,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1296,
-	a2_id: 397,
-	a3_id: 2609,
-	a4_id: 1501,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 2496,
-	h2_id: 2402,
-	h3_id: 1633,
-	h4_id: 114,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -56389,18 +47917,6 @@ Event.create!([
 	event_player_1_id: 1429,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 1867,
-	a3_id: 2309,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 2501,
-	h3_id: 1429,
-	h4_id: 2436,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 1,
 	away_score: 1,
@@ -56420,18 +47936,6 @@ Event.create!([
 	event_player_1_id: 2436,
 	event_player_2_id: 1224,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 1867,
-	a3_id: 2309,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 2501,
-	h3_id: 1429,
-	h4_id: 2436,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "Slap",
 	home_score: 1,
 	away_score: 1,
@@ -56451,18 +47955,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 1867,
-	a3_id: 2309,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 2501,
-	h3_id: 1429,
-	h4_id: 2436,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -56482,18 +47974,6 @@ Event.create!([
 	event_player_1_id: 2743,
 	event_player_2_id: 2742,
 	event_player_3_id: nil,
-	a1_id: 2307,
-	a2_id: 2572,
-	a3_id: 2742,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 2743,
-	h2_id: 1356,
-	h3_id: 2656,
-	h4_id: 2453,
-	h5_id: 114,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -56513,18 +47993,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2307,
-	a2_id: 2572,
-	a3_id: 2742,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 2743,
-	h2_id: 1356,
-	h3_id: 2656,
-	h4_id: 2453,
-	h5_id: 114,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -56544,18 +48012,6 @@ Event.create!([
 	event_player_1_id: 2016,
 	event_player_2_id: 2743,
 	event_player_3_id: nil,
-	a1_id: 2307,
-	a2_id: 2572,
-	a3_id: 2742,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 2743,
-	h2_id: 1356,
-	h3_id: 2656,
-	h4_id: 114,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -56575,18 +48031,6 @@ Event.create!([
 	event_player_1_id: 114,
 	event_player_2_id: 1843,
 	event_player_3_id: nil,
-	a1_id: 2307,
-	a2_id: 2572,
-	a3_id: 2742,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 2743,
-	h2_id: 1356,
-	h3_id: 2656,
-	h4_id: 114,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 1,
 	away_score: 1,
@@ -56606,18 +48050,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2307,
-	a2_id: 2572,
-	a3_id: 2742,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 2743,
-	h2_id: 1356,
-	h3_id: 2656,
-	h4_id: 114,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -56637,18 +48069,6 @@ Event.create!([
 	event_player_1_id: 2307,
 	event_player_2_id: 2743,
 	event_player_3_id: nil,
-	a1_id: 2307,
-	a2_id: 2572,
-	a3_id: 2742,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2743,
-	h3_id: 1356,
-	h4_id: 2656,
-	h5_id: 114,
-	h6_id: 2640,
 	description: "Slashing(2 min)",
 	home_score: 1,
 	away_score: 1,
@@ -56668,18 +48088,6 @@ Event.create!([
 	event_player_1_id: 2308,
 	event_player_2_id: 989,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 2309,
-	a3_id: 1224,
-	a4_id: 1501,
-	a5_id: nil,
-	a6_id: nil,
-	h1_id: 2501,
-	h2_id: 989,
-	h3_id: 2430,
-	h4_id: 1429,
-	h5_id: 2453,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -56699,18 +48107,6 @@ Event.create!([
 	event_player_1_id: 1429,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 2309,
-	a3_id: 1224,
-	a4_id: 1501,
-	a5_id: nil,
-	a6_id: nil,
-	h1_id: 2501,
-	h2_id: 989,
-	h3_id: 2430,
-	h4_id: 1429,
-	h5_id: 2453,
-	h6_id: nil,
 	description: "Slap",
 	home_score: 1,
 	away_score: 1,
@@ -56730,18 +48126,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 2309,
-	a3_id: 1224,
-	a4_id: 1501,
-	a5_id: nil,
-	a6_id: nil,
-	h1_id: 2501,
-	h2_id: 989,
-	h3_id: 2430,
-	h4_id: 1429,
-	h5_id: 2453,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -56761,18 +48145,6 @@ Event.create!([
 	event_player_1_id: 1224,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1296,
-	a2_id: 2742,
-	a3_id: 1224,
-	a4_id: 1501,
-	a5_id: nil,
-	a6_id: nil,
-	h1_id: 2501,
-	h2_id: 989,
-	h3_id: 2430,
-	h4_id: 1429,
-	h5_id: 2453,
-	h6_id: nil,
 	description: "Backhand",
 	home_score: 1,
 	away_score: 1,
@@ -56792,18 +48164,6 @@ Event.create!([
 	event_player_1_id: 2430,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1296,
-	a2_id: 2742,
-	a3_id: 1224,
-	a4_id: 1501,
-	a5_id: nil,
-	a6_id: nil,
-	h1_id: 2501,
-	h2_id: 989,
-	h3_id: 2430,
-	h4_id: 1429,
-	h5_id: 2453,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -56823,18 +48183,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1296,
-	a2_id: 2742,
-	a3_id: 1224,
-	a4_id: 1501,
-	a5_id: nil,
-	a6_id: nil,
-	h1_id: 2501,
-	h2_id: 989,
-	h3_id: 2430,
-	h4_id: 1429,
-	h5_id: 2453,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -56854,18 +48202,6 @@ Event.create!([
 	event_player_1_id: 2436,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 2309,
-	a3_id: 1843,
-	a4_id: 1975,
-	a5_id: nil,
-	a6_id: nil,
-	h1_id: 2496,
-	h2_id: 1633,
-	h3_id: 2453,
-	h4_id: 88,
-	h5_id: 2436,
-	h6_id: nil,
 	description: "Slap",
 	home_score: 1,
 	away_score: 1,
@@ -56885,18 +48221,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 2309,
-	a3_id: 1843,
-	a4_id: 1975,
-	a5_id: nil,
-	a6_id: nil,
-	h1_id: 2496,
-	h2_id: 1633,
-	h3_id: 2453,
-	h4_id: 88,
-	h5_id: 2436,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -56916,18 +48240,6 @@ Event.create!([
 	event_player_1_id: 114,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1296,
-	a2_id: 2307,
-	a3_id: 2742,
-	a4_id: 1224,
-	a5_id: 1501,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 114,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "Snap",
 	home_score: 1,
 	away_score: 1,
@@ -56947,18 +48259,6 @@ Event.create!([
 	event_player_1_id: 2307,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1296,
-	a2_id: 2307,
-	a3_id: 2742,
-	a4_id: 1224,
-	a5_id: 1501,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 114,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "Backhand",
 	home_score: 1,
 	away_score: 1,
@@ -56978,18 +48278,6 @@ Event.create!([
 	event_player_1_id: 1805,
 	event_player_2_id: 989,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 2016,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 88,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -57009,18 +48297,6 @@ Event.create!([
 	event_player_1_id: 2076,
 	event_player_2_id: 989,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 2016,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 88,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -57040,18 +48316,6 @@ Event.create!([
 	event_player_1_id: 1856,
 	event_player_2_id: 2430,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 2016,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 88,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "Snap",
 	home_score: 1,
 	away_score: 1,
@@ -57071,18 +48335,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 2016,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 88,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -57102,18 +48354,6 @@ Event.create!([
 	event_player_1_id: 397,
 	event_player_2_id: 989,
 	event_player_3_id: nil,
-	a1_id: 1296,
-	a2_id: 397,
-	a3_id: 2609,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 88,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -57133,18 +48373,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 1296,
-	a2_id: 397,
-	a3_id: 2609,
-	a4_id: 1224,
-	a5_id: 1975,
-	a6_id: nil,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 88,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -57164,18 +48392,6 @@ Event.create!([
 	event_player_1_id: 1805,
 	event_player_2_id: 1154,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 2501,
-	h3_id: 1429,
-	h4_id: 114,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -57195,18 +48411,6 @@ Event.create!([
 	event_player_1_id: 1856,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 2501,
-	h3_id: 1429,
-	h4_id: 114,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -57226,18 +48430,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 2501,
-	h3_id: 1429,
-	h4_id: 114,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "",
 	home_score: 1,
 	away_score: 1,
@@ -57257,18 +48449,6 @@ Event.create!([
 	event_player_1_id: 2092,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 2501,
-	h3_id: 1429,
-	h4_id: 2436,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "Slap",
 	home_score: 1,
 	away_score: 1,
@@ -57288,18 +48468,6 @@ Event.create!([
 	event_player_1_id: 1154,
 	event_player_2_id: 2092,
 	event_player_3_id: 2501,
-	a1_id: 2076,
-	a2_id: 1805,
-	a3_id: 1856,
-	a4_id: 2016,
-	a5_id: 1843,
-	a6_id: nil,
-	h1_id: 1154,
-	h2_id: 2501,
-	h3_id: 1429,
-	h4_id: 2436,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 1,
 	away_score: 1,
@@ -57319,18 +48487,6 @@ Event.create!([
 	event_player_1_id: 2308,
 	event_player_2_id: 2656,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 1867,
-	a3_id: 2309,
-	a4_id: 1224,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 1633,
-	h2_id: 1356,
-	h3_id: 2656,
-	h4_id: 114,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 1,
@@ -57350,18 +48506,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2308,
-	a2_id: 1867,
-	a3_id: 2309,
-	a4_id: 1224,
-	a5_id: 1267,
-	a6_id: nil,
-	h1_id: 1633,
-	h2_id: 1356,
-	h3_id: 2656,
-	h4_id: 114,
-	h5_id: 2092,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 1,
@@ -57381,18 +48525,6 @@ Event.create!([
 	event_player_1_id: 989,
 	event_player_2_id: 2016,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 397,
-	a3_id: 1805,
-	a4_id: 1856,
-	a5_id: 2016,
-	a6_id: 1975,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 88,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "Wrist",
 	home_score: 2,
 	away_score: 1,
@@ -57412,18 +48544,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: 2076,
-	a2_id: 397,
-	a3_id: 1805,
-	a4_id: 1856,
-	a5_id: 2016,
-	a6_id: 1975,
-	h1_id: 989,
-	h2_id: 2042,
-	h3_id: 2430,
-	h4_id: 88,
-	h5_id: 2640,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 1,
@@ -57443,18 +48563,6 @@ Event.create!([
 	event_player_1_id: 2042,
 	event_player_2_id: 2076,
 	event_player_3_id: nil,
-	a1_id: nil,
-	a2_id: nil,
-	a3_id: nil,
-	a4_id: nil,
-	a5_id: nil,
-	a6_id: nil,
-	h1_id: nil,
-	h2_id: nil,
-	h3_id: nil,
-	h4_id: nil,
-	h5_id: nil,
-	h6_id: nil,
 	description: "Elbowing(2 min)",
 	home_score: 2,
 	away_score: 1,
@@ -57474,18 +48582,6 @@ Event.create!([
 	event_player_1_id: nil,
 	event_player_2_id: nil,
 	event_player_3_id: nil,
-	a1_id: nil,
-	a2_id: nil,
-	a3_id: nil,
-	a4_id: nil,
-	a5_id: nil,
-	a6_id: nil,
-	h1_id: nil,
-	h2_id: nil,
-	h3_id: nil,
-	h4_id: nil,
-	h5_id: nil,
-	h6_id: nil,
 	description: "",
 	home_score: 2,
 	away_score: 1,
@@ -110184,11136 +101280,6 @@ Participant.create!([
 {
 	event_id: 742,
 	event_role: 'h6',
-	player_id: nil
-},
-{
-	event_id: 1,
-	event_role: 'ep1',
-	player_id: 2074
-},
-{
-	event_id: 2,
-	event_role: 'ep1',
-	player_id: 2074
-},
-{
-	event_id: 3,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 4,
-	event_role: 'ep1',
-	player_id: 1445
-},
-{
-	event_id: 5,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 6,
-	event_role: 'ep1',
-	player_id: 2034
-},
-{
-	event_id: 7,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 8,
-	event_role: 'ep1',
-	player_id: 993
-},
-{
-	event_id: 9,
-	event_role: 'ep1',
-	player_id: 146
-},
-{
-	event_id: 10,
-	event_role: 'ep1',
-	player_id: 2738
-},
-{
-	event_id: 11,
-	event_role: 'ep1',
-	player_id: 2740
-},
-{
-	event_id: 12,
-	event_role: 'ep1',
-	player_id: 1452
-},
-{
-	event_id: 13,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 14,
-	event_role: 'ep1',
-	player_id: 993
-},
-{
-	event_id: 15,
-	event_role: 'ep1',
-	player_id: 993
-},
-{
-	event_id: 16,
-	event_role: 'ep1',
-	player_id: 2055
-},
-{
-	event_id: 17,
-	event_role: 'ep1',
-	player_id: 509
-},
-{
-	event_id: 18,
-	event_role: 'ep1',
-	player_id: 2055
-},
-{
-	event_id: 19,
-	event_role: 'ep1',
-	player_id: 2539
-},
-{
-	event_id: 20,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 21,
-	event_role: 'ep1',
-	player_id: 2455
-},
-{
-	event_id: 22,
-	event_role: 'ep1',
-	player_id: 18
-},
-{
-	event_id: 23,
-	event_role: 'ep1',
-	player_id: 1452
-},
-{
-	event_id: 24,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 25,
-	event_role: 'ep1',
-	player_id: 2349
-},
-{
-	event_id: 26,
-	event_role: 'ep1',
-	player_id: 2349
-},
-{
-	event_id: 27,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 28,
-	event_role: 'ep1',
-	player_id: 2113
-},
-{
-	event_id: 29,
-	event_role: 'ep1',
-	player_id: 2349
-},
-{
-	event_id: 30,
-	event_role: 'ep1',
-	player_id: 1120
-},
-{
-	event_id: 31,
-	event_role: 'ep1',
-	player_id: 2110
-},
-{
-	event_id: 32,
-	event_role: 'ep1',
-	player_id: 2110
-},
-{
-	event_id: 33,
-	event_role: 'ep1',
-	player_id: 1120
-},
-{
-	event_id: 34,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 35,
-	event_role: 'ep1',
-	player_id: 1120
-},
-{
-	event_id: 36,
-	event_role: 'ep1',
-	player_id: 2034
-},
-{
-	event_id: 37,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 38,
-	event_role: 'ep1',
-	player_id: 1445
-},
-{
-	event_id: 39,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 40,
-	event_role: 'ep1',
-	player_id: 2739
-},
-{
-	event_id: 41,
-	event_role: 'ep1',
-	player_id: 2739
-},
-{
-	event_id: 42,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 43,
-	event_role: 'ep1',
-	player_id: 1939
-},
-{
-	event_id: 44,
-	event_role: 'ep1',
-	player_id: 2055
-},
-{
-	event_id: 45,
-	event_role: 'ep1',
-	player_id: 2055
-},
-{
-	event_id: 46,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 47,
-	event_role: 'ep1',
-	player_id: 1939
-},
-{
-	event_id: 48,
-	event_role: 'ep1',
-	player_id: 2074
-},
-{
-	event_id: 49,
-	event_role: 'ep1',
-	player_id: 1452
-},
-{
-	event_id: 50,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 51,
-	event_role: 'ep1',
-	player_id: 1452
-},
-{
-	event_id: 52,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 53,
-	event_role: 'ep1',
-	player_id: 1590
-},
-{
-	event_id: 54,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 55,
-	event_role: 'ep1',
-	player_id: 1120
-},
-{
-	event_id: 56,
-	event_role: 'ep1',
-	player_id: 509
-},
-{
-	event_id: 57,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 58,
-	event_role: 'ep1',
-	player_id: 509
-},
-{
-	event_id: 59,
-	event_role: 'ep1',
-	player_id: 2110
-},
-{
-	event_id: 60,
-	event_role: 'ep1',
-	player_id: 2055
-},
-{
-	event_id: 61,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 62,
-	event_role: 'ep1',
-	player_id: 2055
-},
-{
-	event_id: 63,
-	event_role: 'ep1',
-	player_id: 1946
-},
-{
-	event_id: 64,
-	event_role: 'ep1',
-	player_id: 2055
-},
-{
-	event_id: 65,
-	event_role: 'ep1',
-	player_id: 2055
-},
-{
-	event_id: 66,
-	event_role: 'ep1',
-	player_id: 2113
-},
-{
-	event_id: 67,
-	event_role: 'ep1',
-	player_id: 2311
-},
-{
-	event_id: 68,
-	event_role: 'ep1',
-	player_id: 2311
-},
-{
-	event_id: 69,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 70,
-	event_role: 'ep1',
-	player_id: 2603
-},
-{
-	event_id: 71,
-	event_role: 'ep1',
-	player_id: 2074
-},
-{
-	event_id: 72,
-	event_role: 'ep1',
-	player_id: 2074
-},
-{
-	event_id: 73,
-	event_role: 'ep1',
-	player_id: 1581
-},
-{
-	event_id: 74,
-	event_role: 'ep1',
-	player_id: 2739
-},
-{
-	event_id: 75,
-	event_role: 'ep1',
-	player_id: 29
-},
-{
-	event_id: 76,
-	event_role: 'ep1',
-	player_id: 29
-},
-{
-	event_id: 77,
-	event_role: 'ep1',
-	player_id: 1445
-},
-{
-	event_id: 78,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 79,
-	event_role: 'ep1',
-	player_id: 2110
-},
-{
-	event_id: 80,
-	event_role: 'ep1',
-	player_id: 1452
-},
-{
-	event_id: 81,
-	event_role: 'ep1',
-	player_id: 2738
-},
-{
-	event_id: 82,
-	event_role: 'ep1',
-	player_id: 1120
-},
-{
-	event_id: 83,
-	event_role: 'ep1',
-	player_id: 1452
-},
-{
-	event_id: 84,
-	event_role: 'ep1',
-	player_id: 2474
-},
-{
-	event_id: 85,
-	event_role: 'ep1',
-	player_id: 2474
-},
-{
-	event_id: 86,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 87,
-	event_role: 'ep1',
-	player_id: 2074
-},
-{
-	event_id: 88,
-	event_role: 'ep1',
-	player_id: 29
-},
-{
-	event_id: 89,
-	event_role: 'ep1',
-	player_id: 1939
-},
-{
-	event_id: 90,
-	event_role: 'ep1',
-	player_id: 2738
-},
-{
-	event_id: 91,
-	event_role: 'ep1',
-	player_id: 1120
-},
-{
-	event_id: 92,
-	event_role: 'ep1',
-	player_id: 1452
-},
-{
-	event_id: 93,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 94,
-	event_role: 'ep1',
-	player_id: 2015
-},
-{
-	event_id: 95,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 96,
-	event_role: 'ep1',
-	player_id: 2474
-},
-{
-	event_id: 97,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 98,
-	event_role: 'ep1',
-	player_id: 1619
-},
-{
-	event_id: 99,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 100,
-	event_role: 'ep1',
-	player_id: 2539
-},
-{
-	event_id: 101,
-	event_role: 'ep1',
-	player_id: 2055
-},
-{
-	event_id: 102,
-	event_role: 'ep1',
-	player_id: 1253
-},
-{
-	event_id: 103,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 104,
-	event_role: 'ep1',
-	player_id: 2034
-},
-{
-	event_id: 105,
-	event_role: 'ep1',
-	player_id: 2603
-},
-{
-	event_id: 106,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 107,
-	event_role: 'ep1',
-	player_id: 2226
-},
-{
-	event_id: 108,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 109,
-	event_role: 'ep1',
-	player_id: 1939
-},
-{
-	event_id: 110,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 111,
-	event_role: 'ep1',
-	player_id: 1253
-},
-{
-	event_id: 112,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 113,
-	event_role: 'ep1',
-	player_id: 2454
-},
-{
-	event_id: 114,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 115,
-	event_role: 'ep1',
-	player_id: 2474
-},
-{
-	event_id: 116,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 117,
-	event_role: 'ep1',
-	player_id: 2474
-},
-{
-	event_id: 118,
-	event_role: 'ep1',
-	player_id: 2311
-},
-{
-	event_id: 119,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 120,
-	event_role: 'ep1',
-	player_id: 2329
-},
-{
-	event_id: 121,
-	event_role: 'ep1',
-	player_id: 18
-},
-{
-	event_id: 122,
-	event_role: 'ep1',
-	player_id: 2740
-},
-{
-	event_id: 123,
-	event_role: 'ep1',
-	player_id: 1120
-},
-{
-	event_id: 124,
-	event_role: 'ep1',
-	player_id: 2311
-},
-{
-	event_id: 125,
-	event_role: 'ep1',
-	player_id: 2603
-},
-{
-	event_id: 126,
-	event_role: 'ep1',
-	player_id: 2055
-},
-{
-	event_id: 127,
-	event_role: 'ep1',
-	player_id: 509
-},
-{
-	event_id: 128,
-	event_role: 'ep1',
-	player_id: 2034
-},
-{
-	event_id: 129,
-	event_role: 'ep1',
-	player_id: 2074
-},
-{
-	event_id: 130,
-	event_role: 'ep1',
-	player_id: 2015
-},
-{
-	event_id: 131,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 132,
-	event_role: 'ep1',
-	player_id: 2074
-},
-{
-	event_id: 133,
-	event_role: 'ep1',
-	player_id: 1939
-},
-{
-	event_id: 134,
-	event_role: 'ep1',
-	player_id: 1939
-},
-{
-	event_id: 135,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 136,
-	event_role: 'ep1',
-	player_id: 1536
-},
-{
-	event_id: 137,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 138,
-	event_role: 'ep1',
-	player_id: 2539
-},
-{
-	event_id: 139,
-	event_role: 'ep1',
-	player_id: 993
-},
-{
-	event_id: 140,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 141,
-	event_role: 'ep1',
-	player_id: 2740
-},
-{
-	event_id: 142,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 143,
-	event_role: 'ep1',
-	player_id: 2474
-},
-{
-	event_id: 144,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 145,
-	event_role: 'ep1',
-	player_id: 2329
-},
-{
-	event_id: 146,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 147,
-	event_role: 'ep1',
-	player_id: 1452
-},
-{
-	event_id: 148,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 149,
-	event_role: 'ep1',
-	player_id: 1946
-},
-{
-	event_id: 150,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 151,
-	event_role: 'ep1',
-	player_id: 2455
-},
-{
-	event_id: 152,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 153,
-	event_role: 'ep1',
-	player_id: 1939
-},
-{
-	event_id: 154,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 155,
-	event_role: 'ep1',
-	player_id: 1120
-},
-{
-	event_id: 156,
-	event_role: 'ep1',
-	player_id: 18
-},
-{
-	event_id: 157,
-	event_role: 'ep1',
-	player_id: 509
-},
-{
-	event_id: 158,
-	event_role: 'ep1',
-	player_id: 1619
-},
-{
-	event_id: 159,
-	event_role: 'ep1',
-	player_id: 1120
-},
-{
-	event_id: 160,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 161,
-	event_role: 'ep1',
-	player_id: 2055
-},
-{
-	event_id: 162,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 163,
-	event_role: 'ep1',
-	player_id: 2055
-},
-{
-	event_id: 164,
-	event_role: 'ep1',
-	player_id: 2311
-},
-{
-	event_id: 165,
-	event_role: 'ep1',
-	player_id: 2455
-},
-{
-	event_id: 166,
-	event_role: 'ep1',
-	player_id: 1946
-},
-{
-	event_id: 167,
-	event_role: 'ep1',
-	player_id: 2329
-},
-{
-	event_id: 168,
-	event_role: 'ep1',
-	player_id: 1946
-},
-{
-	event_id: 169,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 170,
-	event_role: 'ep1',
-	player_id: 2113
-},
-{
-	event_id: 171,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 172,
-	event_role: 'ep1',
-	player_id: 2015
-},
-{
-	event_id: 173,
-	event_role: 'ep1',
-	player_id: 1445
-},
-{
-	event_id: 174,
-	event_role: 'ep1',
-	player_id: 2015
-},
-{
-	event_id: 175,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 176,
-	event_role: 'ep1',
-	player_id: 1619
-},
-{
-	event_id: 177,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 178,
-	event_role: 'ep1',
-	player_id: 1120
-},
-{
-	event_id: 179,
-	event_role: 'ep1',
-	player_id: 2539
-},
-{
-	event_id: 180,
-	event_role: 'ep1',
-	player_id: 1619
-},
-{
-	event_id: 181,
-	event_role: 'ep1',
-	player_id: 2074
-},
-{
-	event_id: 182,
-	event_role: 'ep1',
-	player_id: 2113
-},
-{
-	event_id: 183,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 184,
-	event_role: 'ep1',
-	player_id: 1452
-},
-{
-	event_id: 185,
-	event_role: 'ep1',
-	player_id: 2113
-},
-{
-	event_id: 186,
-	event_role: 'ep1',
-	player_id: 1120
-},
-{
-	event_id: 187,
-	event_role: 'ep1',
-	player_id: 2738
-},
-{
-	event_id: 188,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 189,
-	event_role: 'ep1',
-	player_id: 1120
-},
-{
-	event_id: 190,
-	event_role: 'ep1',
-	player_id: 1120
-},
-{
-	event_id: 191,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 192,
-	event_role: 'ep1',
-	player_id: 2055
-},
-{
-	event_id: 193,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 194,
-	event_role: 'ep1',
-	player_id: 2311
-},
-{
-	event_id: 195,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 196,
-	event_role: 'ep1',
-	player_id: 1246
-},
-{
-	event_id: 197,
-	event_role: 'ep1',
-	player_id: 2113
-},
-{
-	event_id: 198,
-	event_role: 'ep1',
-	player_id: 2074
-},
-{
-	event_id: 199,
-	event_role: 'ep1',
-	player_id: 18
-},
-{
-	event_id: 200,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 201,
-	event_role: 'ep1',
-	player_id: 1120
-},
-{
-	event_id: 202,
-	event_role: 'ep1',
-	player_id: 2454
-},
-{
-	event_id: 203,
-	event_role: 'ep1',
-	player_id: 2740
-},
-{
-	event_id: 204,
-	event_role: 'ep1',
-	player_id: 2539
-},
-{
-	event_id: 205,
-	event_role: 'ep1',
-	player_id: 2074
-},
-{
-	event_id: 206,
-	event_role: 'ep1',
-	player_id: 1445
-},
-{
-	event_id: 207,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 208,
-	event_role: 'ep1',
-	player_id: 2739
-},
-{
-	event_id: 209,
-	event_role: 'ep1',
-	player_id: 146
-},
-{
-	event_id: 210,
-	event_role: 'ep1',
-	player_id: 2739
-},
-{
-	event_id: 211,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 212,
-	event_role: 'ep1',
-	player_id: 1939
-},
-{
-	event_id: 213,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 214,
-	event_role: 'ep1',
-	player_id: 2055
-},
-{
-	event_id: 215,
-	event_role: 'ep1',
-	player_id: 2603
-},
-{
-	event_id: 216,
-	event_role: 'ep1',
-	player_id: 1246
-},
-{
-	event_id: 217,
-	event_role: 'ep1',
-	player_id: 1120
-},
-{
-	event_id: 218,
-	event_role: 'ep1',
-	player_id: 2738
-},
-{
-	event_id: 219,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 220,
-	event_role: 'ep1',
-	player_id: 18
-},
-{
-	event_id: 221,
-	event_role: 'ep1',
-	player_id: 993
-},
-{
-	event_id: 222,
-	event_role: 'ep1',
-	player_id: 1471
-},
-{
-	event_id: 223,
-	event_role: 'ep1',
-	player_id: 2074
-},
-{
-	event_id: 224,
-	event_role: 'ep1',
-	player_id: 2113
-},
-{
-	event_id: 225,
-	event_role: 'ep1',
-	player_id: 2739
-},
-{
-	event_id: 226,
-	event_role: 'ep1',
-	player_id: 2113
-},
-{
-	event_id: 227,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 228,
-	event_role: 'ep1',
-	player_id: 2311
-},
-{
-	event_id: 229,
-	event_role: 'ep1',
-	player_id: 1590
-},
-{
-	event_id: 230,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 231,
-	event_role: 'ep1',
-	player_id: 18
-},
-{
-	event_id: 232,
-	event_role: 'ep1',
-	player_id: 2349
-},
-{
-	event_id: 233,
-	event_role: 'ep1',
-	player_id: 1536
-},
-{
-	event_id: 234,
-	event_role: 'ep1',
-	player_id: 1120
-},
-{
-	event_id: 235,
-	event_role: 'ep1',
-	player_id: 1445
-},
-{
-	event_id: 236,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 237,
-	event_role: 'ep1',
-	player_id: 2015
-},
-{
-	event_id: 238,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 239,
-	event_role: 'ep1',
-	player_id: 2113
-},
-{
-	event_id: 240,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 241,
-	event_role: 'ep1',
-	player_id: 2110
-},
-{
-	event_id: 242,
-	event_role: 'ep1',
-	player_id: 993
-},
-{
-	event_id: 243,
-	event_role: 'ep1',
-	player_id: 2603
-},
-{
-	event_id: 244,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 245,
-	event_role: 'ep1',
-	player_id: 1445
-},
-{
-	event_id: 246,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 247,
-	event_role: 'ep1',
-	player_id: 1471
-},
-{
-	event_id: 248,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 249,
-	event_role: 'ep1',
-	player_id: 18
-},
-{
-	event_id: 250,
-	event_role: 'ep1',
-	player_id: 2110
-},
-{
-	event_id: 251,
-	event_role: 'ep1',
-	player_id: 2110
-},
-{
-	event_id: 252,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 253,
-	event_role: 'ep1',
-	player_id: 1566
-},
-{
-	event_id: 254,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 255,
-	event_role: 'ep1',
-	player_id: 2474
-},
-{
-	event_id: 256,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 257,
-	event_role: 'ep1',
-	player_id: 2055
-},
-{
-	event_id: 258,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 259,
-	event_role: 'ep1',
-	player_id: 2329
-},
-{
-	event_id: 260,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 261,
-	event_role: 'ep1',
-	player_id: 2226
-},
-{
-	event_id: 262,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 263,
-	event_role: 'ep1',
-	player_id: 2074
-},
-{
-	event_id: 264,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 265,
-	event_role: 'ep1',
-	player_id: 2074
-},
-{
-	event_id: 266,
-	event_role: 'ep1',
-	player_id: 1939
-},
-{
-	event_id: 267,
-	event_role: 'ep1',
-	player_id: 2113
-},
-{
-	event_id: 268,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 269,
-	event_role: 'ep1',
-	player_id: 2474
-},
-{
-	event_id: 270,
-	event_role: 'ep1',
-	player_id: 1120
-},
-{
-	event_id: 271,
-	event_role: 'ep1',
-	player_id: 2474
-},
-{
-	event_id: 272,
-	event_role: 'ep1',
-	player_id: 1120
-},
-{
-	event_id: 273,
-	event_role: 'ep1',
-	player_id: 2474
-},
-{
-	event_id: 274,
-	event_role: 'ep1',
-	player_id: 1120
-},
-{
-	event_id: 275,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 276,
-	event_role: 'ep1',
-	player_id: 1120
-},
-{
-	event_id: 277,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 278,
-	event_role: 'ep1',
-	player_id: 993
-},
-{
-	event_id: 279,
-	event_role: 'ep1',
-	player_id: 18
-},
-{
-	event_id: 280,
-	event_role: 'ep1',
-	player_id: 1619
-},
-{
-	event_id: 281,
-	event_role: 'ep1',
-	player_id: 2603
-},
-{
-	event_id: 282,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 283,
-	event_role: 'ep1',
-	player_id: 18
-},
-{
-	event_id: 284,
-	event_role: 'ep1',
-	player_id: 2455
-},
-{
-	event_id: 285,
-	event_role: 'ep1',
-	player_id: 29
-},
-{
-	event_id: 286,
-	event_role: 'ep1',
-	player_id: 1120
-},
-{
-	event_id: 287,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 288,
-	event_role: 'ep1',
-	player_id: 2455
-},
-{
-	event_id: 289,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 290,
-	event_role: 'ep1',
-	player_id: 146
-},
-{
-	event_id: 291,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 292,
-	event_role: 'ep1',
-	player_id: 1246
-},
-{
-	event_id: 293,
-	event_role: 'ep1',
-	player_id: 1246
-},
-{
-	event_id: 294,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 295,
-	event_role: 'ep1',
-	player_id: 2113
-},
-{
-	event_id: 296,
-	event_role: 'ep1',
-	player_id: 2454
-},
-{
-	event_id: 297,
-	event_role: 'ep1',
-	player_id: 2539
-},
-{
-	event_id: 298,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 299,
-	event_role: 'ep1',
-	player_id: 18
-},
-{
-	event_id: 300,
-	event_role: 'ep1',
-	player_id: 1536
-},
-{
-	event_id: 301,
-	event_role: 'ep1',
-	player_id: 2303
-},
-{
-	event_id: 302,
-	event_role: 'ep1',
-	player_id: 1471
-},
-{
-	event_id: 303,
-	event_role: 'ep1',
-	player_id: 1619
-},
-{
-	event_id: 304,
-	event_role: 'ep1',
-	player_id: 2303
-},
-{
-	event_id: 305,
-	event_role: 'ep1',
-	player_id: 2349
-},
-{
-	event_id: 306,
-	event_role: 'ep1',
-	player_id: 146
-},
-{
-	event_id: 307,
-	event_role: 'ep1',
-	player_id: 1536
-},
-{
-	event_id: 308,
-	event_role: 'ep1',
-	player_id: 18
-},
-{
-	event_id: 309,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 310,
-	event_role: 'ep1',
-	player_id: 2110
-},
-{
-	event_id: 311,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 312,
-	event_role: 'ep1',
-	player_id: 993
-},
-{
-	event_id: 313,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 314,
-	event_role: 'ep1',
-	player_id: 2074
-},
-{
-	event_id: 315,
-	event_role: 'ep1',
-	player_id: 993
-},
-{
-	event_id: 316,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 317,
-	event_role: 'ep1',
-	player_id: 2074
-},
-{
-	event_id: 318,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 319,
-	event_role: 'ep1',
-	player_id: 2110
-},
-{
-	event_id: 320,
-	event_role: 'ep1',
-	player_id: 2110
-},
-{
-	event_id: 321,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 322,
-	event_role: 'ep1',
-	player_id: 1452
-},
-{
-	event_id: 323,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 324,
-	event_role: 'ep1',
-	player_id: 1445
-},
-{
-	event_id: 325,
-	event_role: 'ep1',
-	player_id: 18
-},
-{
-	event_id: 326,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 327,
-	event_role: 'ep1',
-	player_id: 18
-},
-{
-	event_id: 328,
-	event_role: 'ep1',
-	player_id: 2455
-},
-{
-	event_id: 329,
-	event_role: 'ep1',
-	player_id: 2455
-},
-{
-	event_id: 330,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 331,
-	event_role: 'ep1',
-	player_id: 1581
-},
-{
-	event_id: 332,
-	event_role: 'ep1',
-	player_id: 1253
-},
-{
-	event_id: 333,
-	event_role: 'ep1',
-	player_id: 1246
-},
-{
-	event_id: 334,
-	event_role: 'ep1',
-	player_id: 2055
-},
-{
-	event_id: 335,
-	event_role: 'ep1',
-	player_id: 2074
-},
-{
-	event_id: 336,
-	event_role: 'ep1',
-	player_id: 2738
-},
-{
-	event_id: 337,
-	event_role: 'ep1',
-	player_id: 2074
-},
-{
-	event_id: 338,
-	event_role: 'ep1',
-	player_id: 2474
-},
-{
-	event_id: 339,
-	event_role: 'ep1',
-	player_id: 2474
-},
-{
-	event_id: 340,
-	event_role: 'ep1',
-	player_id: 2454
-},
-{
-	event_id: 341,
-	event_role: 'ep1',
-	player_id: 2740
-},
-{
-	event_id: 342,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 343,
-	event_role: 'ep1',
-	player_id: 2455
-},
-{
-	event_id: 344,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 345,
-	event_role: 'ep1',
-	player_id: 2603
-},
-{
-	event_id: 346,
-	event_role: 'ep1',
-	player_id: 18
-},
-{
-	event_id: 347,
-	event_role: 'ep1',
-	player_id: 2074
-},
-{
-	event_id: 348,
-	event_role: 'ep1',
-	player_id: 2113
-},
-{
-	event_id: 349,
-	event_role: 'ep1',
-	player_id: 1939
-},
-{
-	event_id: 350,
-	event_role: 'ep1',
-	player_id: 2113
-},
-{
-	event_id: 351,
-	event_role: 'ep1',
-	player_id: 1253
-},
-{
-	event_id: 352,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 353,
-	event_role: 'ep1',
-	player_id: 2074
-},
-{
-	event_id: 354,
-	event_role: 'ep1',
-	player_id: 2015
-},
-{
-	event_id: 355,
-	event_role: 'ep1',
-	player_id: 2034
-},
-{
-	event_id: 356,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 357,
-	event_role: 'ep1',
-	player_id: 2311
-},
-{
-	event_id: 358,
-	event_role: 'ep1',
-	player_id: 1939
-},
-{
-	event_id: 359,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 360,
-	event_role: 'ep1',
-	player_id: 1120
-},
-{
-	event_id: 361,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 362,
-	event_role: 'ep1',
-	player_id: 1120
-},
-{
-	event_id: 363,
-	event_role: 'ep1',
-	player_id: 1445
-},
-{
-	event_id: 364,
-	event_role: 'ep1',
-	player_id: 2015
-},
-{
-	event_id: 365,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 366,
-	event_role: 'ep1',
-	player_id: 2015
-},
-{
-	event_id: 367,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 368,
-	event_role: 'ep1',
-	player_id: 2055
-},
-{
-	event_id: 369,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 370,
-	event_role: 'ep1',
-	player_id: 2455
-},
-{
-	event_id: 371,
-	event_role: 'ep1',
-	player_id: 2603
-},
-{
-	event_id: 372,
-	event_role: 'ep1',
-	player_id: 18
-},
-{
-	event_id: 373,
-	event_role: 'ep1',
-	player_id: 18
-},
-{
-	event_id: 374,
-	event_role: 'ep1',
-	player_id: 2226
-},
-{
-	event_id: 375,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 376,
-	event_role: 'ep1',
-	player_id: 2739
-},
-{
-	event_id: 377,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 378,
-	event_role: 'ep1',
-	player_id: 2738
-},
-{
-	event_id: 379,
-	event_role: 'ep1',
-	player_id: 1120
-},
-{
-	event_id: 380,
-	event_role: 'ep1',
-	player_id: 1120
-},
-{
-	event_id: 381,
-	event_role: 'ep1',
-	player_id: 18
-},
-{
-	event_id: 382,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 383,
-	event_role: 'ep1',
-	player_id: 18
-},
-{
-	event_id: 384,
-	event_role: 'ep1',
-	player_id: 1445
-},
-{
-	event_id: 385,
-	event_role: 'ep1',
-	player_id: 2226
-},
-{
-	event_id: 386,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 387,
-	event_role: 'ep1',
-	player_id: 1805
-},
-{
-	event_id: 388,
-	event_role: 'ep1',
-	player_id: 1224
-},
-{
-	event_id: 389,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 390,
-	event_role: 'ep1',
-	player_id: 2308
-},
-{
-	event_id: 391,
-	event_role: 'ep1',
-	player_id: 2308
-},
-{
-	event_id: 392,
-	event_role: 'ep1',
-	player_id: 2308
-},
-{
-	event_id: 393,
-	event_role: 'ep1',
-	player_id: 1501
-},
-{
-	event_id: 394,
-	event_role: 'ep1',
-	player_id: 1867
-},
-{
-	event_id: 395,
-	event_role: 'ep1',
-	player_id: 1154
-},
-{
-	event_id: 396,
-	event_role: 'ep1',
-	player_id: 114
-},
-{
-	event_id: 397,
-	event_role: 'ep1',
-	player_id: 397
-},
-{
-	event_id: 398,
-	event_role: 'ep1',
-	player_id: 2609
-},
-{
-	event_id: 399,
-	event_role: 'ep1',
-	player_id: 2496
-},
-{
-	event_id: 400,
-	event_role: 'ep1',
-	player_id: 2436
-},
-{
-	event_id: 401,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 402,
-	event_role: 'ep1',
-	player_id: 2609
-},
-{
-	event_id: 403,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 404,
-	event_role: 'ep1',
-	player_id: 2572
-},
-{
-	event_id: 405,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 406,
-	event_role: 'ep1',
-	player_id: 2307
-},
-{
-	event_id: 407,
-	event_role: 'ep1',
-	player_id: 2742
-},
-{
-	event_id: 408,
-	event_role: 'ep1',
-	player_id: 114
-},
-{
-	event_id: 409,
-	event_role: 'ep1',
-	player_id: 2743
-},
-{
-	event_id: 410,
-	event_role: 'ep1',
-	player_id: 2656
-},
-{
-	event_id: 411,
-	event_role: 'ep1',
-	player_id: 2307
-},
-{
-	event_id: 412,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 413,
-	event_role: 'ep1',
-	player_id: 2076
-},
-{
-	event_id: 414,
-	event_role: 'ep1',
-	player_id: 2453
-},
-{
-	event_id: 415,
-	event_role: 'ep1',
-	player_id: 1267
-},
-{
-	event_id: 416,
-	event_role: 'ep1',
-	player_id: 989
-},
-{
-	event_id: 417,
-	event_role: 'ep1',
-	player_id: 88
-},
-{
-	event_id: 418,
-	event_role: 'ep1',
-	player_id: 2308
-},
-{
-	event_id: 419,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 420,
-	event_role: 'ep1',
-	player_id: 2436
-},
-{
-	event_id: 421,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 422,
-	event_role: 'ep1',
-	player_id: 397
-},
-{
-	event_id: 423,
-	event_role: 'ep1',
-	player_id: 1224
-},
-{
-	event_id: 424,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 425,
-	event_role: 'ep1',
-	player_id: 1356
-},
-{
-	event_id: 426,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 427,
-	event_role: 'ep1',
-	player_id: 2742
-},
-{
-	event_id: 428,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 429,
-	event_role: 'ep1',
-	player_id: 2016
-},
-{
-	event_id: 430,
-	event_role: 'ep1',
-	player_id: 1805
-},
-{
-	event_id: 431,
-	event_role: 'ep1',
-	player_id: 2076
-},
-{
-	event_id: 432,
-	event_role: 'ep1',
-	player_id: 88
-},
-{
-	event_id: 433,
-	event_role: 'ep1',
-	player_id: 2308
-},
-{
-	event_id: 434,
-	event_role: 'ep1',
-	player_id: 2436
-},
-{
-	event_id: 435,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 436,
-	event_role: 'ep1',
-	player_id: 2016
-},
-{
-	event_id: 437,
-	event_role: 'ep1',
-	player_id: 1154
-},
-{
-	event_id: 438,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 439,
-	event_role: 'ep1',
-	player_id: 2308
-},
-{
-	event_id: 440,
-	event_role: 'ep1',
-	player_id: 2402
-},
-{
-	event_id: 441,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 442,
-	event_role: 'ep1',
-	player_id: 1867
-},
-{
-	event_id: 443,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 444,
-	event_role: 'ep1',
-	player_id: 2656
-},
-{
-	event_id: 445,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 446,
-	event_role: 'ep1',
-	player_id: 2656
-},
-{
-	event_id: 447,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 448,
-	event_role: 'ep1',
-	player_id: 2743
-},
-{
-	event_id: 449,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 450,
-	event_role: 'ep1',
-	player_id: 2742
-},
-{
-	event_id: 451,
-	event_role: 'ep1',
-	player_id: 1429
-},
-{
-	event_id: 452,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 453,
-	event_role: 'ep1',
-	player_id: 2307
-},
-{
-	event_id: 454,
-	event_role: 'ep1',
-	player_id: 2308
-},
-{
-	event_id: 455,
-	event_role: 'ep1',
-	player_id: 2436
-},
-{
-	event_id: 456,
-	event_role: 'ep1',
-	player_id: 2308
-},
-{
-	event_id: 457,
-	event_role: 'ep1',
-	player_id: 2309
-},
-{
-	event_id: 458,
-	event_role: 'ep1',
-	player_id: 1296
-},
-{
-	event_id: 459,
-	event_role: 'ep1',
-	player_id: 989
-},
-{
-	event_id: 460,
-	event_role: 'ep1',
-	player_id: 2453
-},
-{
-	event_id: 461,
-	event_role: 'ep1',
-	player_id: 2430
-},
-{
-	event_id: 462,
-	event_role: 'ep1',
-	player_id: 1805
-},
-{
-	event_id: 463,
-	event_role: 'ep1',
-	player_id: 88
-},
-{
-	event_id: 464,
-	event_role: 'ep1',
-	player_id: 2430
-},
-{
-	event_id: 465,
-	event_role: 'ep1',
-	player_id: 1805
-},
-{
-	event_id: 466,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 467,
-	event_role: 'ep1',
-	player_id: 989
-},
-{
-	event_id: 468,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 469,
-	event_role: 'ep1',
-	player_id: 2076
-},
-{
-	event_id: 470,
-	event_role: 'ep1',
-	player_id: 2308
-},
-{
-	event_id: 471,
-	event_role: 'ep1',
-	player_id: 2308
-},
-{
-	event_id: 472,
-	event_role: 'ep1',
-	player_id: 1867
-},
-{
-	event_id: 473,
-	event_role: 'ep1',
-	player_id: 397
-},
-{
-	event_id: 474,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 475,
-	event_role: 'ep1',
-	player_id: 1296
-},
-{
-	event_id: 476,
-	event_role: 'ep1',
-	player_id: 2743
-},
-{
-	event_id: 477,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 478,
-	event_role: 'ep1',
-	player_id: 1805
-},
-{
-	event_id: 479,
-	event_role: 'ep1',
-	player_id: 1356
-},
-{
-	event_id: 480,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 481,
-	event_role: 'ep1',
-	player_id: 1805
-},
-{
-	event_id: 482,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 483,
-	event_role: 'ep1',
-	player_id: 2430
-},
-{
-	event_id: 484,
-	event_role: 'ep1',
-	player_id: 88
-},
-{
-	event_id: 485,
-	event_role: 'ep1',
-	player_id: 1843
-},
-{
-	event_id: 486,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 487,
-	event_role: 'ep1',
-	player_id: 2042
-},
-{
-	event_id: 488,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 489,
-	event_role: 'ep1',
-	player_id: 1501
-},
-{
-	event_id: 490,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 491,
-	event_role: 'ep1',
-	player_id: 2742
-},
-{
-	event_id: 492,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 493,
-	event_role: 'ep1',
-	player_id: 2307
-},
-{
-	event_id: 494,
-	event_role: 'ep1',
-	player_id: 2308
-},
-{
-	event_id: 495,
-	event_role: 'ep1',
-	player_id: 1267
-},
-{
-	event_id: 496,
-	event_role: 'ep1',
-	player_id: 1867
-},
-{
-	event_id: 497,
-	event_role: 'ep1',
-	player_id: 1867
-},
-{
-	event_id: 498,
-	event_role: 'ep1',
-	player_id: 397
-},
-{
-	event_id: 499,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 500,
-	event_role: 'ep1',
-	player_id: 1805
-},
-{
-	event_id: 501,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 502,
-	event_role: 'ep1',
-	player_id: 2076
-},
-{
-	event_id: 503,
-	event_role: 'ep1',
-	player_id: 1805
-},
-{
-	event_id: 504,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 505,
-	event_role: 'ep1',
-	player_id: 1356
-},
-{
-	event_id: 506,
-	event_role: 'ep1',
-	player_id: 2308
-},
-{
-	event_id: 507,
-	event_role: 'ep1',
-	player_id: 2092
-},
-{
-	event_id: 508,
-	event_role: 'ep1',
-	player_id: 397
-},
-{
-	event_id: 509,
-	event_role: 'ep1',
-	player_id: 397
-},
-{
-	event_id: 510,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 511,
-	event_role: 'ep1',
-	player_id: 88
-},
-{
-	event_id: 512,
-	event_role: 'ep1',
-	player_id: 2308
-},
-{
-	event_id: 513,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 514,
-	event_role: 'ep1',
-	player_id: 2016
-},
-{
-	event_id: 515,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 516,
-	event_role: 'ep1',
-	player_id: 1429
-},
-{
-	event_id: 517,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 518,
-	event_role: 'ep1',
-	player_id: 2076
-},
-{
-	event_id: 519,
-	event_role: 'ep1',
-	player_id: 397
-},
-{
-	event_id: 520,
-	event_role: 'ep1',
-	player_id: 2436
-},
-{
-	event_id: 521,
-	event_role: 'ep1',
-	player_id: 1805
-},
-{
-	event_id: 522,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 523,
-	event_role: 'ep1',
-	player_id: 1805
-},
-{
-	event_id: 524,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 525,
-	event_role: 'ep1',
-	player_id: 1805
-},
-{
-	event_id: 526,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 527,
-	event_role: 'ep1',
-	player_id: 2309
-},
-{
-	event_id: 528,
-	event_role: 'ep1',
-	player_id: 1501
-},
-{
-	event_id: 529,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 530,
-	event_role: 'ep1',
-	player_id: 1867
-},
-{
-	event_id: 531,
-	event_role: 'ep1',
-	player_id: 2308
-},
-{
-	event_id: 532,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 533,
-	event_role: 'ep1',
-	player_id: 397
-},
-{
-	event_id: 534,
-	event_role: 'ep1',
-	player_id: 1843
-},
-{
-	event_id: 535,
-	event_role: 'ep1',
-	player_id: 1843
-},
-{
-	event_id: 536,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 537,
-	event_role: 'ep1',
-	player_id: 1154
-},
-{
-	event_id: 538,
-	event_role: 'ep1',
-	player_id: 1429
-},
-{
-	event_id: 539,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 540,
-	event_role: 'ep1',
-	player_id: 1805
-},
-{
-	event_id: 541,
-	event_role: 'ep1',
-	player_id: 2092
-},
-{
-	event_id: 542,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 543,
-	event_role: 'ep1',
-	player_id: 2742
-},
-{
-	event_id: 544,
-	event_role: 'ep1',
-	player_id: 114
-},
-{
-	event_id: 545,
-	event_role: 'ep1',
-	player_id: 2307
-},
-{
-	event_id: 546,
-	event_role: 'ep1',
-	player_id: 2572
-},
-{
-	event_id: 547,
-	event_role: 'ep1',
-	player_id: 114
-},
-{
-	event_id: 548,
-	event_role: 'ep1',
-	player_id: 1805
-},
-{
-	event_id: 549,
-	event_role: 'ep1',
-	player_id: 2042
-},
-{
-	event_id: 550,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 551,
-	event_role: 'ep1',
-	player_id: 1267
-},
-{
-	event_id: 552,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 553,
-	event_role: 'ep1',
-	player_id: 1975
-},
-{
-	event_id: 554,
-	event_role: 'ep1',
-	player_id: 2308
-},
-{
-	event_id: 555,
-	event_role: 'ep1',
-	player_id: 2308
-},
-{
-	event_id: 556,
-	event_role: 'ep1',
-	player_id: 2308
-},
-{
-	event_id: 557,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 558,
-	event_role: 'ep1',
-	player_id: 2436
-},
-{
-	event_id: 559,
-	event_role: 'ep1',
-	player_id: 2307
-},
-{
-	event_id: 560,
-	event_role: 'ep1',
-	player_id: 2307
-},
-{
-	event_id: 561,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 562,
-	event_role: 'ep1',
-	player_id: 1429
-},
-{
-	event_id: 563,
-	event_role: 'ep1',
-	player_id: 1805
-},
-{
-	event_id: 564,
-	event_role: 'ep1',
-	player_id: 88
-},
-{
-	event_id: 565,
-	event_role: 'ep1',
-	player_id: 1805
-},
-{
-	event_id: 566,
-	event_role: 'ep1',
-	player_id: 989
-},
-{
-	event_id: 567,
-	event_role: 'ep1',
-	player_id: 2092
-},
-{
-	event_id: 568,
-	event_role: 'ep1',
-	player_id: 397
-},
-{
-	event_id: 569,
-	event_role: 'ep1',
-	player_id: 2496
-},
-{
-	event_id: 570,
-	event_role: 'ep1',
-	player_id: 2402
-},
-{
-	event_id: 571,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 572,
-	event_role: 'ep1',
-	player_id: 2640
-},
-{
-	event_id: 573,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 574,
-	event_role: 'ep1',
-	player_id: 2309
-},
-{
-	event_id: 575,
-	event_role: 'ep1',
-	player_id: 114
-},
-{
-	event_id: 576,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 577,
-	event_role: 'ep1',
-	player_id: 1867
-},
-{
-	event_id: 578,
-	event_role: 'ep1',
-	player_id: 2308
-},
-{
-	event_id: 579,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 580,
-	event_role: 'ep1',
-	player_id: 88
-},
-{
-	event_id: 581,
-	event_role: 'ep1',
-	player_id: 2430
-},
-{
-	event_id: 582,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 583,
-	event_role: 'ep1',
-	player_id: 2076
-},
-{
-	event_id: 584,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 585,
-	event_role: 'ep1',
-	player_id: 2656
-},
-{
-	event_id: 586,
-	event_role: 'ep1',
-	player_id: 1843
-},
-{
-	event_id: 587,
-	event_role: 'ep1',
-	player_id: 2743
-},
-{
-	event_id: 588,
-	event_role: 'ep1',
-	player_id: 1843
-},
-{
-	event_id: 589,
-	event_role: 'ep1',
-	player_id: 2743
-},
-{
-	event_id: 590,
-	event_role: 'ep1',
-	player_id: 397
-},
-{
-	event_id: 591,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 592,
-	event_role: 'ep1',
-	player_id: 2453
-},
-{
-	event_id: 593,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 594,
-	event_role: 'ep1',
-	player_id: 2436
-},
-{
-	event_id: 595,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 596,
-	event_role: 'ep1',
-	player_id: 1429
-},
-{
-	event_id: 597,
-	event_role: 'ep1',
-	player_id: 1805
-},
-{
-	event_id: 598,
-	event_role: 'ep1',
-	player_id: 1867
-},
-{
-	event_id: 599,
-	event_role: 'ep1',
-	player_id: 1805
-},
-{
-	event_id: 600,
-	event_role: 'ep1',
-	player_id: 88
-},
-{
-	event_id: 601,
-	event_role: 'ep1',
-	player_id: 397
-},
-{
-	event_id: 602,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 603,
-	event_role: 'ep1',
-	player_id: 1805
-},
-{
-	event_id: 604,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 605,
-	event_role: 'ep1',
-	player_id: 2092
-},
-{
-	event_id: 606,
-	event_role: 'ep1',
-	player_id: 1224
-},
-{
-	event_id: 607,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 608,
-	event_role: 'ep1',
-	player_id: 2656
-},
-{
-	event_id: 609,
-	event_role: 'ep1',
-	player_id: 397
-},
-{
-	event_id: 610,
-	event_role: 'ep1',
-	player_id: 2436
-},
-{
-	event_id: 611,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 612,
-	event_role: 'ep1',
-	player_id: 2742
-},
-{
-	event_id: 613,
-	event_role: 'ep1',
-	player_id: 2402
-},
-{
-	event_id: 614,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 615,
-	event_role: 'ep1',
-	player_id: 2572
-},
-{
-	event_id: 616,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 617,
-	event_role: 'ep1',
-	player_id: 2436
-},
-{
-	event_id: 618,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 619,
-	event_role: 'ep1',
-	player_id: 1867
-},
-{
-	event_id: 620,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 621,
-	event_role: 'ep1',
-	player_id: 88
-},
-{
-	event_id: 622,
-	event_role: 'ep1',
-	player_id: 1501
-},
-{
-	event_id: 623,
-	event_role: 'ep1',
-	player_id: 1805
-},
-{
-	event_id: 624,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 625,
-	event_role: 'ep1',
-	player_id: 1154
-},
-{
-	event_id: 626,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 627,
-	event_role: 'ep1',
-	player_id: 1975
-},
-{
-	event_id: 628,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 629,
-	event_role: 'ep1',
-	player_id: 397
-},
-{
-	event_id: 630,
-	event_role: 'ep1',
-	player_id: 2308
-},
-{
-	event_id: 631,
-	event_role: 'ep1',
-	player_id: 2309
-},
-{
-	event_id: 632,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 633,
-	event_role: 'ep1',
-	player_id: 1805
-},
-{
-	event_id: 634,
-	event_role: 'ep1',
-	player_id: 989
-},
-{
-	event_id: 635,
-	event_role: 'ep1',
-	player_id: 1805
-},
-{
-	event_id: 636,
-	event_role: 'ep1',
-	player_id: 1224
-},
-{
-	event_id: 637,
-	event_role: 'ep1',
-	player_id: 397
-},
-{
-	event_id: 638,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 639,
-	event_role: 'ep1',
-	player_id: 1805
-},
-{
-	event_id: 640,
-	event_role: 'ep1',
-	player_id: 2430
-},
-{
-	event_id: 641,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 642,
-	event_role: 'ep1',
-	player_id: 1805
-},
-{
-	event_id: 643,
-	event_role: 'ep1',
-	player_id: 2501
-},
-{
-	event_id: 644,
-	event_role: 'ep1',
-	player_id: 2076
-},
-{
-	event_id: 645,
-	event_role: 'ep1',
-	player_id: 2501
-},
-{
-	event_id: 646,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 647,
-	event_role: 'ep1',
-	player_id: 2436
-},
-{
-	event_id: 648,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 649,
-	event_role: 'ep1',
-	player_id: 1867
-},
-{
-	event_id: 650,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 651,
-	event_role: 'ep1',
-	player_id: 397
-},
-{
-	event_id: 652,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 653,
-	event_role: 'ep1',
-	player_id: 2742
-},
-{
-	event_id: 654,
-	event_role: 'ep1',
-	player_id: 2743
-},
-{
-	event_id: 655,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 656,
-	event_role: 'ep1',
-	player_id: 2572
-},
-{
-	event_id: 657,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 658,
-	event_role: 'ep1',
-	player_id: 88
-},
-{
-	event_id: 659,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 660,
-	event_role: 'ep1',
-	player_id: 1975
-},
-{
-	event_id: 661,
-	event_role: 'ep1',
-	player_id: 1224
-},
-{
-	event_id: 662,
-	event_role: 'ep1',
-	player_id: 2308
-},
-{
-	event_id: 663,
-	event_role: 'ep1',
-	player_id: 1805
-},
-{
-	event_id: 664,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 665,
-	event_role: 'ep1',
-	player_id: 397
-},
-{
-	event_id: 666,
-	event_role: 'ep1',
-	player_id: 1843
-},
-{
-	event_id: 667,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 668,
-	event_role: 'ep1',
-	player_id: 397
-},
-{
-	event_id: 669,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 670,
-	event_role: 'ep1',
-	player_id: 2496
-},
-{
-	event_id: 671,
-	event_role: 'ep1',
-	player_id: 1633
-},
-{
-	event_id: 672,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 673,
-	event_role: 'ep1',
-	player_id: 2609
-},
-{
-	event_id: 674,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 675,
-	event_role: 'ep1',
-	player_id: 2307
-},
-{
-	event_id: 676,
-	event_role: 'ep1',
-	player_id: 114
-},
-{
-	event_id: 677,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 678,
-	event_role: 'ep1',
-	player_id: 2453
-},
-{
-	event_id: 679,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 680,
-	event_role: 'ep1',
-	player_id: 989
-},
-{
-	event_id: 681,
-	event_role: 'ep1',
-	player_id: 1805
-},
-{
-	event_id: 682,
-	event_role: 'ep1',
-	player_id: 2092
-},
-{
-	event_id: 683,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 684,
-	event_role: 'ep1',
-	player_id: 2656
-},
-{
-	event_id: 685,
-	event_role: 'ep1',
-	player_id: 2309
-},
-{
-	event_id: 686,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 687,
-	event_role: 'ep1',
-	player_id: 1356
-},
-{
-	event_id: 688,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 689,
-	event_role: 'ep1',
-	player_id: 2016
-},
-{
-	event_id: 690,
-	event_role: 'ep1',
-	player_id: 1975
-},
-{
-	event_id: 691,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 692,
-	event_role: 'ep1',
-	player_id: 2308
-},
-{
-	event_id: 693,
-	event_role: 'ep1',
-	player_id: 2308
-},
-{
-	event_id: 694,
-	event_role: 'ep1',
-	player_id: 989
-},
-{
-	event_id: 695,
-	event_role: 'ep1',
-	player_id: 2430
-},
-{
-	event_id: 696,
-	event_role: 'ep1',
-	player_id: 2308
-},
-{
-	event_id: 697,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 698,
-	event_role: 'ep1',
-	player_id: 989
-},
-{
-	event_id: 699,
-	event_role: 'ep1',
-	player_id: 2430
-},
-{
-	event_id: 700,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 701,
-	event_role: 'ep1',
-	player_id: 1224
-},
-{
-	event_id: 702,
-	event_role: 'ep1',
-	player_id: 2742
-},
-{
-	event_id: 703,
-	event_role: 'ep1',
-	player_id: 1805
-},
-{
-	event_id: 704,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 705,
-	event_role: 'ep1',
-	player_id: 2402
-},
-{
-	event_id: 706,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 707,
-	event_role: 'ep1',
-	player_id: 1429
-},
-{
-	event_id: 708,
-	event_role: 'ep1',
-	player_id: 2436
-},
-{
-	event_id: 709,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 710,
-	event_role: 'ep1',
-	player_id: 2743
-},
-{
-	event_id: 711,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 712,
-	event_role: 'ep1',
-	player_id: 2016
-},
-{
-	event_id: 713,
-	event_role: 'ep1',
-	player_id: 114
-},
-{
-	event_id: 714,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 715,
-	event_role: 'ep1',
-	player_id: 2307
-},
-{
-	event_id: 716,
-	event_role: 'ep1',
-	player_id: 2308
-},
-{
-	event_id: 717,
-	event_role: 'ep1',
-	player_id: 1429
-},
-{
-	event_id: 718,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 719,
-	event_role: 'ep1',
-	player_id: 1224
-},
-{
-	event_id: 720,
-	event_role: 'ep1',
-	player_id: 2430
-},
-{
-	event_id: 721,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 722,
-	event_role: 'ep1',
-	player_id: 2436
-},
-{
-	event_id: 723,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 724,
-	event_role: 'ep1',
-	player_id: 114
-},
-{
-	event_id: 725,
-	event_role: 'ep1',
-	player_id: 2307
-},
-{
-	event_id: 726,
-	event_role: 'ep1',
-	player_id: 1805
-},
-{
-	event_id: 727,
-	event_role: 'ep1',
-	player_id: 2076
-},
-{
-	event_id: 728,
-	event_role: 'ep1',
-	player_id: 1856
-},
-{
-	event_id: 729,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 730,
-	event_role: 'ep1',
-	player_id: 397
-},
-{
-	event_id: 731,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 732,
-	event_role: 'ep1',
-	player_id: 1805
-},
-{
-	event_id: 733,
-	event_role: 'ep1',
-	player_id: 1856
-},
-{
-	event_id: 734,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 735,
-	event_role: 'ep1',
-	player_id: 2092
-},
-{
-	event_id: 736,
-	event_role: 'ep1',
-	player_id: 1154
-},
-{
-	event_id: 737,
-	event_role: 'ep1',
-	player_id: 2308
-},
-{
-	event_id: 738,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 739,
-	event_role: 'ep1',
-	player_id: 989
-},
-{
-	event_id: 740,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 741,
-	event_role: 'ep1',
-	player_id: 2042
-},
-{
-	event_id: 742,
-	event_role: 'ep1',
-	player_id: nil
-},
-{
-	event_id: 1,
-	event_role: 'ep2',
-	player_id: 2034
-},
-{
-	event_id: 2,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 3,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 4,
-	event_role: 'ep2',
-	player_id: 2329
-},
-{
-	event_id: 5,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 6,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 7,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 8,
-	event_role: 'ep2',
-	player_id: 2474
-},
-{
-	event_id: 9,
-	event_role: 'ep2',
-	player_id: 2738
-},
-{
-	event_id: 10,
-	event_role: 'ep2',
-	player_id: 1536
-},
-{
-	event_id: 11,
-	event_role: 'ep2',
-	player_id: 2474
-},
-{
-	event_id: 12,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 13,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 14,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 15,
-	event_role: 'ep2',
-	player_id: 1536
-},
-{
-	event_id: 16,
-	event_role: 'ep2',
-	player_id: 1946
-},
-{
-	event_id: 17,
-	event_role: 'ep2',
-	player_id: 1566
-},
-{
-	event_id: 18,
-	event_role: 'ep2',
-	player_id: 1946
-},
-{
-	event_id: 19,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 20,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 21,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 22,
-	event_role: 'ep2',
-	player_id: 2349
-},
-{
-	event_id: 23,
-	event_role: 'ep2',
-	player_id: 1471
-},
-{
-	event_id: 24,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 25,
-	event_role: 'ep2',
-	player_id: 18
-},
-{
-	event_id: 26,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 27,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 28,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 29,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 30,
-	event_role: 'ep2',
-	player_id: 2110
-},
-{
-	event_id: 31,
-	event_role: 'ep2',
-	player_id: 2474
-},
-{
-	event_id: 32,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 33,
-	event_role: 'ep2',
-	player_id: 2034
-},
-{
-	event_id: 34,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 35,
-	event_role: 'ep2',
-	player_id: 2015
-},
-{
-	event_id: 36,
-	event_role: 'ep2',
-	player_id: 1536
-},
-{
-	event_id: 37,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 38,
-	event_role: 'ep2',
-	player_id: 2113
-},
-{
-	event_id: 39,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 40,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 41,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 42,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 43,
-	event_role: 'ep2',
-	player_id: 2739
-},
-{
-	event_id: 44,
-	event_role: 'ep2',
-	player_id: 1946
-},
-{
-	event_id: 45,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 46,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 47,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 48,
-	event_role: 'ep2',
-	player_id: 2034
-},
-{
-	event_id: 49,
-	event_role: 'ep2',
-	player_id: 2739
-},
-{
-	event_id: 50,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 51,
-	event_role: 'ep2',
-	player_id: 2074
-},
-{
-	event_id: 52,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 53,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 54,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 55,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 56,
-	event_role: 'ep2',
-	player_id: 2738
-},
-{
-	event_id: 57,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 58,
-	event_role: 'ep2',
-	player_id: 2740
-},
-{
-	event_id: 59,
-	event_role: 'ep2',
-	player_id: 2738
-},
-{
-	event_id: 60,
-	event_role: 'ep2',
-	player_id: 1946
-},
-{
-	event_id: 61,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 62,
-	event_role: 'ep2',
-	player_id: 1946
-},
-{
-	event_id: 63,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 64,
-	event_role: 'ep2',
-	player_id: 2455
-},
-{
-	event_id: 65,
-	event_role: 'ep2',
-	player_id: 1946
-},
-{
-	event_id: 66,
-	event_role: 'ep2',
-	player_id: 1946
-},
-{
-	event_id: 67,
-	event_role: 'ep2',
-	player_id: 1246
-},
-{
-	event_id: 68,
-	event_role: 'ep2',
-	player_id: 2741
-},
-{
-	event_id: 69,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 70,
-	event_role: 'ep2',
-	player_id: 1536
-},
-{
-	event_id: 71,
-	event_role: 'ep2',
-	player_id: 2034
-},
-{
-	event_id: 72,
-	event_role: 'ep2',
-	player_id: 2034
-},
-{
-	event_id: 73,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 74,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 75,
-	event_role: 'ep2',
-	player_id: 2074
-},
-{
-	event_id: 76,
-	event_role: 'ep2',
-	player_id: 2739
-},
-{
-	event_id: 77,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 78,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 79,
-	event_role: 'ep2',
-	player_id: 2226
-},
-{
-	event_id: 80,
-	event_role: 'ep2',
-	player_id: 2226
-},
-{
-	event_id: 81,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 82,
-	event_role: 'ep2',
-	player_id: 2110
-},
-{
-	event_id: 83,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 84,
-	event_role: 'ep2',
-	player_id: 2110
-},
-{
-	event_id: 85,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 86,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 87,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 88,
-	event_role: 'ep2',
-	player_id: 1536
-},
-{
-	event_id: 89,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 90,
-	event_role: 'ep2',
-	player_id: 2739
-},
-{
-	event_id: 91,
-	event_role: 'ep2',
-	player_id: 1619
-},
-{
-	event_id: 92,
-	event_role: 'ep2',
-	player_id: 2454
-},
-{
-	event_id: 93,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 94,
-	event_role: 'ep2',
-	player_id: 2454
-},
-{
-	event_id: 95,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 96,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 97,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 98,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 99,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 100,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 101,
-	event_role: 'ep2',
-	player_id: 2034
-},
-{
-	event_id: 102,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 103,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 104,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 105,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 106,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 107,
-	event_role: 'ep2',
-	player_id: 2740
-},
-{
-	event_id: 108,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 109,
-	event_role: 'ep2',
-	player_id: 29
-},
-{
-	event_id: 110,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 111,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 112,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 113,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 114,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 115,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 116,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 117,
-	event_role: 'ep2',
-	player_id: 2311
-},
-{
-	event_id: 118,
-	event_role: 'ep2',
-	player_id: 2474
-},
-{
-	event_id: 119,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 120,
-	event_role: 'ep2',
-	player_id: 2015
-},
-{
-	event_id: 121,
-	event_role: 'ep2',
-	player_id: 2034
-},
-{
-	event_id: 122,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 123,
-	event_role: 'ep2',
-	player_id: 2110
-},
-{
-	event_id: 124,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 125,
-	event_role: 'ep2',
-	player_id: 1120
-},
-{
-	event_id: 126,
-	event_role: 'ep2',
-	player_id: 2034
-},
-{
-	event_id: 127,
-	event_role: 'ep2',
-	player_id: 2740
-},
-{
-	event_id: 128,
-	event_role: 'ep2',
-	player_id: 2740
-},
-{
-	event_id: 129,
-	event_role: 'ep2',
-	player_id: 2034
-},
-{
-	event_id: 130,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 131,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 132,
-	event_role: 'ep2',
-	player_id: 2034
-},
-{
-	event_id: 133,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 134,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 135,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 136,
-	event_role: 'ep2',
-	player_id: 1619
-},
-{
-	event_id: 137,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 138,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 139,
-	event_role: 'ep2',
-	player_id: 2539
-},
-{
-	event_id: 140,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 141,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 142,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 143,
-	event_role: 'ep2',
-	player_id: 2740
-},
-{
-	event_id: 144,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 145,
-	event_role: 'ep2',
-	player_id: 993
-},
-{
-	event_id: 146,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 147,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 148,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 149,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 150,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 151,
-	event_role: 'ep2',
-	player_id: 1536
-},
-{
-	event_id: 152,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 153,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 154,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 155,
-	event_role: 'ep2',
-	player_id: 2329
-},
-{
-	event_id: 156,
-	event_role: 'ep2',
-	player_id: 2349
-},
-{
-	event_id: 157,
-	event_role: 'ep2',
-	player_id: 1619
-},
-{
-	event_id: 158,
-	event_role: 'ep2',
-	player_id: 18
-},
-{
-	event_id: 159,
-	event_role: 'ep2',
-	player_id: 2110
-},
-{
-	event_id: 160,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 161,
-	event_role: 'ep2',
-	player_id: 2455
-},
-{
-	event_id: 162,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 163,
-	event_role: 'ep2',
-	player_id: 2455
-},
-{
-	event_id: 164,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 165,
-	event_role: 'ep2',
-	player_id: 1246
-},
-{
-	event_id: 166,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 167,
-	event_role: 'ep2',
-	player_id: 1946
-},
-{
-	event_id: 168,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 169,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 170,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 171,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 172,
-	event_role: 'ep2',
-	player_id: 1536
-},
-{
-	event_id: 173,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 174,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 175,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 176,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 177,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 178,
-	event_role: 'ep2',
-	player_id: 2349
-},
-{
-	event_id: 179,
-	event_role: 'ep2',
-	player_id: 2303
-},
-{
-	event_id: 180,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 181,
-	event_role: 'ep2',
-	player_id: 2034
-},
-{
-	event_id: 182,
-	event_role: 'ep2',
-	player_id: 1253
-},
-{
-	event_id: 183,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 184,
-	event_role: 'ep2',
-	player_id: 2739
-},
-{
-	event_id: 185,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 186,
-	event_role: 'ep2',
-	player_id: 2349
-},
-{
-	event_id: 187,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 188,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 189,
-	event_role: 'ep2',
-	player_id: 2455
-},
-{
-	event_id: 190,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 191,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 192,
-	event_role: 'ep2',
-	player_id: 2349
-},
-{
-	event_id: 193,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 194,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 195,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 196,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 197,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 198,
-	event_role: 'ep2',
-	player_id: 2034
-},
-{
-	event_id: 199,
-	event_role: 'ep2',
-	player_id: 2349
-},
-{
-	event_id: 200,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 201,
-	event_role: 'ep2',
-	player_id: 2349
-},
-{
-	event_id: 202,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 203,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 204,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 205,
-	event_role: 'ep2',
-	player_id: 2034
-},
-{
-	event_id: 206,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 207,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 208,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 209,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 210,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 211,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 212,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 213,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 214,
-	event_role: 'ep2',
-	player_id: 1946
-},
-{
-	event_id: 215,
-	event_role: 'ep2',
-	player_id: 2055
-},
-{
-	event_id: 216,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 217,
-	event_role: 'ep2',
-	player_id: 2110
-},
-{
-	event_id: 218,
-	event_role: 'ep2',
-	player_id: 1120
-},
-{
-	event_id: 219,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 220,
-	event_role: 'ep2',
-	player_id: 2110
-},
-{
-	event_id: 221,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 222,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 223,
-	event_role: 'ep2',
-	player_id: 2034
-},
-{
-	event_id: 224,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 225,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 226,
-	event_role: 'ep2',
-	player_id: 2015
-},
-{
-	event_id: 227,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 228,
-	event_role: 'ep2',
-	player_id: 1246
-},
-{
-	event_id: 229,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 230,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 231,
-	event_role: 'ep2',
-	player_id: 2349
-},
-{
-	event_id: 232,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 233,
-	event_role: 'ep2',
-	player_id: 1619
-},
-{
-	event_id: 234,
-	event_role: 'ep2',
-	player_id: 2015
-},
-{
-	event_id: 235,
-	event_role: 'ep2',
-	player_id: 509
-},
-{
-	event_id: 236,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 237,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 238,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 239,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 240,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 241,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 242,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 243,
-	event_role: 'ep2',
-	player_id: 2055
-},
-{
-	event_id: 244,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 245,
-	event_role: 'ep2',
-	player_id: 2113
-},
-{
-	event_id: 246,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 247,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 248,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 249,
-	event_role: 'ep2',
-	player_id: 2110
-},
-{
-	event_id: 250,
-	event_role: 'ep2',
-	player_id: 2329
-},
-{
-	event_id: 251,
-	event_role: 'ep2',
-	player_id: 2329
-},
-{
-	event_id: 252,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 253,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 254,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 255,
-	event_role: 'ep2',
-	player_id: 2740
-},
-{
-	event_id: 256,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 257,
-	event_role: 'ep2',
-	player_id: 1946
-},
-{
-	event_id: 258,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 259,
-	event_role: 'ep2',
-	player_id: 2303
-},
-{
-	event_id: 260,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 261,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 262,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 263,
-	event_role: 'ep2',
-	player_id: 2349
-},
-{
-	event_id: 264,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 265,
-	event_role: 'ep2',
-	player_id: 2034
-},
-{
-	event_id: 266,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 267,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 268,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 269,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 270,
-	event_role: 'ep2',
-	player_id: 2110
-},
-{
-	event_id: 271,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 272,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 273,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 274,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 275,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 276,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 277,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 278,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 279,
-	event_role: 'ep2',
-	player_id: 2349
-},
-{
-	event_id: 280,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 281,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 282,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 283,
-	event_role: 'ep2',
-	player_id: 1566
-},
-{
-	event_id: 284,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 285,
-	event_role: 'ep2',
-	player_id: 2226
-},
-{
-	event_id: 286,
-	event_role: 'ep2',
-	player_id: 1566
-},
-{
-	event_id: 287,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 288,
-	event_role: 'ep2',
-	player_id: 2055
-},
-{
-	event_id: 289,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 290,
-	event_role: 'ep2',
-	player_id: 1445
-},
-{
-	event_id: 291,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 292,
-	event_role: 'ep2',
-	player_id: 2311
-},
-{
-	event_id: 293,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 294,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 295,
-	event_role: 'ep2',
-	player_id: 2074
-},
-{
-	event_id: 296,
-	event_role: 'ep2',
-	player_id: 2110
-},
-{
-	event_id: 297,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 298,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 299,
-	event_role: 'ep2',
-	player_id: 2349
-},
-{
-	event_id: 300,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 301,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 302,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 303,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 304,
-	event_role: 'ep2',
-	player_id: 1536
-},
-{
-	event_id: 305,
-	event_role: 'ep2',
-	player_id: 18
-},
-{
-	event_id: 306,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 307,
-	event_role: 'ep2',
-	player_id: 1619
-},
-{
-	event_id: 308,
-	event_role: 'ep2',
-	player_id: 2110
-},
-{
-	event_id: 309,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 310,
-	event_role: 'ep2',
-	player_id: 2329
-},
-{
-	event_id: 311,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 312,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 313,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 314,
-	event_role: 'ep2',
-	player_id: 2110
-},
-{
-	event_id: 315,
-	event_role: 'ep2',
-	player_id: 1536
-},
-{
-	event_id: 316,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 317,
-	event_role: 'ep2',
-	player_id: 1253
-},
-{
-	event_id: 318,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 319,
-	event_role: 'ep2',
-	player_id: 2113
-},
-{
-	event_id: 320,
-	event_role: 'ep2',
-	player_id: 2329
-},
-{
-	event_id: 321,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 322,
-	event_role: 'ep2',
-	player_id: 2474
-},
-{
-	event_id: 323,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 324,
-	event_role: 'ep2',
-	player_id: 146
-},
-{
-	event_id: 325,
-	event_role: 'ep2',
-	player_id: 2455
-},
-{
-	event_id: 326,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 327,
-	event_role: 'ep2',
-	player_id: 2455
-},
-{
-	event_id: 328,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 329,
-	event_role: 'ep2',
-	player_id: 2539
-},
-{
-	event_id: 330,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 331,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 332,
-	event_role: 'ep2',
-	player_id: 1246
-},
-{
-	event_id: 333,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 334,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 335,
-	event_role: 'ep2',
-	player_id: 2110
-},
-{
-	event_id: 336,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 337,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 338,
-	event_role: 'ep2',
-	player_id: 2455
-},
-{
-	event_id: 339,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 340,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 341,
-	event_role: 'ep2',
-	player_id: 2454
-},
-{
-	event_id: 342,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 343,
-	event_role: 'ep2',
-	player_id: 1536
-},
-{
-	event_id: 344,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 345,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 346,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 347,
-	event_role: 'ep2',
-	player_id: 2110
-},
-{
-	event_id: 348,
-	event_role: 'ep2',
-	player_id: 1253
-},
-{
-	event_id: 349,
-	event_role: 'ep2',
-	player_id: 29
-},
-{
-	event_id: 350,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 351,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 352,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 353,
-	event_role: 'ep2',
-	player_id: 2034
-},
-{
-	event_id: 354,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 355,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 356,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 357,
-	event_role: 'ep2',
-	player_id: 1939
-},
-{
-	event_id: 358,
-	event_role: 'ep2',
-	player_id: 2603
-},
-{
-	event_id: 359,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 360,
-	event_role: 'ep2',
-	player_id: 2455
-},
-{
-	event_id: 361,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 362,
-	event_role: 'ep2',
-	player_id: 2034
-},
-{
-	event_id: 363,
-	event_role: 'ep2',
-	player_id: 2454
-},
-{
-	event_id: 364,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 365,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 366,
-	event_role: 'ep2',
-	player_id: 2454
-},
-{
-	event_id: 367,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 368,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 369,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 370,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 371,
-	event_role: 'ep2',
-	player_id: 2455
-},
-{
-	event_id: 372,
-	event_role: 'ep2',
-	player_id: 2349
-},
-{
-	event_id: 373,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 374,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 375,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 376,
-	event_role: 'ep2',
-	player_id: 29
-},
-{
-	event_id: 377,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 378,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 379,
-	event_role: 'ep2',
-	player_id: 1452
-},
-{
-	event_id: 380,
-	event_role: 'ep2',
-	player_id: 2454
-},
-{
-	event_id: 381,
-	event_role: 'ep2',
-	player_id: 2034
-},
-{
-	event_id: 382,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 383,
-	event_role: 'ep2',
-	player_id: 2034
-},
-{
-	event_id: 384,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 385,
-	event_role: 'ep2',
-	player_id: 1253
-},
-{
-	event_id: 386,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 387,
-	event_role: 'ep2',
-	player_id: 989
-},
-{
-	event_id: 388,
-	event_role: 'ep2',
-	player_id: 2042
-},
-{
-	event_id: 389,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 390,
-	event_role: 'ep2',
-	player_id: 2501
-},
-{
-	event_id: 391,
-	event_role: 'ep2',
-	player_id: 2092
-},
-{
-	event_id: 392,
-	event_role: 'ep2',
-	player_id: 2501
-},
-{
-	event_id: 393,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 394,
-	event_role: 'ep2',
-	player_id: 114
-},
-{
-	event_id: 395,
-	event_role: 'ep2',
-	player_id: 1267
-},
-{
-	event_id: 396,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 397,
-	event_role: 'ep2',
-	player_id: 2496
-},
-{
-	event_id: 398,
-	event_role: 'ep2',
-	player_id: 2640
-},
-{
-	event_id: 399,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 400,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 401,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 402,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 403,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 404,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 405,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 406,
-	event_role: 'ep2',
-	player_id: 2656
-},
-{
-	event_id: 407,
-	event_role: 'ep2',
-	player_id: 2656
-},
-{
-	event_id: 408,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 409,
-	event_role: 'ep2',
-	player_id: 1224
-},
-{
-	event_id: 410,
-	event_role: 'ep2',
-	player_id: 2307
-},
-{
-	event_id: 411,
-	event_role: 'ep2',
-	player_id: 2092
-},
-{
-	event_id: 412,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 413,
-	event_role: 'ep2',
-	player_id: 989
-},
-{
-	event_id: 414,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 415,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 416,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 417,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 418,
-	event_role: 'ep2',
-	player_id: 2501
-},
-{
-	event_id: 419,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 420,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 421,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 422,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 423,
-	event_role: 'ep2',
-	player_id: 1633
-},
-{
-	event_id: 424,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 425,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 426,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 427,
-	event_role: 'ep2',
-	player_id: 114
-},
-{
-	event_id: 428,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 429,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 430,
-	event_role: 'ep2',
-	player_id: 989
-},
-{
-	event_id: 431,
-	event_role: 'ep2',
-	player_id: 88
-},
-{
-	event_id: 432,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 433,
-	event_role: 'ep2',
-	player_id: 1154
-},
-{
-	event_id: 434,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 435,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 436,
-	event_role: 'ep2',
-	player_id: 1154
-},
-{
-	event_id: 437,
-	event_role: 'ep2',
-	player_id: 2016
-},
-{
-	event_id: 438,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 439,
-	event_role: 'ep2',
-	player_id: 2496
-},
-{
-	event_id: 440,
-	event_role: 'ep2',
-	player_id: 2309
-},
-{
-	event_id: 441,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 442,
-	event_role: 'ep2',
-	player_id: 88
-},
-{
-	event_id: 443,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 444,
-	event_role: 'ep2',
-	player_id: 2609
-},
-{
-	event_id: 445,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 446,
-	event_role: 'ep2',
-	player_id: 1975
-},
-{
-	event_id: 447,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 448,
-	event_role: 'ep2',
-	player_id: 1856
-},
-{
-	event_id: 449,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 450,
-	event_role: 'ep2',
-	player_id: 1154
-},
-{
-	event_id: 451,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 452,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 453,
-	event_role: 'ep2',
-	player_id: 2436
-},
-{
-	event_id: 454,
-	event_role: 'ep2',
-	player_id: 1633
-},
-{
-	event_id: 455,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 456,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 457,
-	event_role: 'ep2',
-	player_id: 989
-},
-{
-	event_id: 458,
-	event_role: 'ep2',
-	player_id: 989
-},
-{
-	event_id: 459,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 460,
-	event_role: 'ep2',
-	player_id: 2609
-},
-{
-	event_id: 461,
-	event_role: 'ep2',
-	player_id: 2501
-},
-{
-	event_id: 462,
-	event_role: 'ep2',
-	player_id: 989
-},
-{
-	event_id: 463,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 464,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 465,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 466,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 467,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 468,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 469,
-	event_role: 'ep2',
-	player_id: 2092
-},
-{
-	event_id: 470,
-	event_role: 'ep2',
-	player_id: 1154
-},
-{
-	event_id: 471,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 472,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 473,
-	event_role: 'ep2',
-	player_id: 989
-},
-{
-	event_id: 474,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 475,
-	event_role: 'ep2',
-	player_id: 2656
-},
-{
-	event_id: 476,
-	event_role: 'ep2',
-	player_id: 1296
-},
-{
-	event_id: 477,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 478,
-	event_role: 'ep2',
-	player_id: 2656
-},
-{
-	event_id: 479,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 480,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 481,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 482,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 483,
-	event_role: 'ep2',
-	player_id: 1856
-},
-{
-	event_id: 484,
-	event_role: 'ep2',
-	player_id: 1805
-},
-{
-	event_id: 485,
-	event_role: 'ep2',
-	player_id: 2042
-},
-{
-	event_id: 486,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 487,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 488,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 489,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 490,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 491,
-	event_role: 'ep2',
-	player_id: 2496
-},
-{
-	event_id: 492,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 493,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 494,
-	event_role: 'ep2',
-	player_id: 1154
-},
-{
-	event_id: 495,
-	event_role: 'ep2',
-	player_id: 2501
-},
-{
-	event_id: 496,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 497,
-	event_role: 'ep2',
-	player_id: 2092
-},
-{
-	event_id: 498,
-	event_role: 'ep2',
-	player_id: 2656
-},
-{
-	event_id: 499,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 500,
-	event_role: 'ep2',
-	player_id: 2496
-},
-{
-	event_id: 501,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 502,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 503,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 504,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 505,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 506,
-	event_role: 'ep2',
-	player_id: 1154
-},
-{
-	event_id: 507,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 508,
-	event_role: 'ep2',
-	player_id: 1633
-},
-{
-	event_id: 509,
-	event_role: 'ep2',
-	player_id: 2496
-},
-{
-	event_id: 510,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 511,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 512,
-	event_role: 'ep2',
-	player_id: 989
-},
-{
-	event_id: 513,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 514,
-	event_role: 'ep2',
-	player_id: 1429
-},
-{
-	event_id: 515,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 516,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 517,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 518,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 519,
-	event_role: 'ep2',
-	player_id: 989
-},
-{
-	event_id: 520,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 521,
-	event_role: 'ep2',
-	player_id: 2656
-},
-{
-	event_id: 522,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 523,
-	event_role: 'ep2',
-	player_id: 989
-},
-{
-	event_id: 524,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 525,
-	event_role: 'ep2',
-	player_id: 88
-},
-{
-	event_id: 526,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 527,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 528,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 529,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 530,
-	event_role: 'ep2',
-	player_id: 88
-},
-{
-	event_id: 531,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 532,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 533,
-	event_role: 'ep2',
-	player_id: 1154
-},
-{
-	event_id: 534,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 535,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 536,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 537,
-	event_role: 'ep2',
-	player_id: 2016
-},
-{
-	event_id: 538,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 539,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 540,
-	event_role: 'ep2',
-	player_id: 2496
-},
-{
-	event_id: 541,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 542,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 543,
-	event_role: 'ep2',
-	player_id: 1356
-},
-{
-	event_id: 544,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 545,
-	event_role: 'ep2',
-	player_id: 114
-},
-{
-	event_id: 546,
-	event_role: 'ep2',
-	player_id: 1356
-},
-{
-	event_id: 547,
-	event_role: 'ep2',
-	player_id: 2307
-},
-{
-	event_id: 548,
-	event_role: 'ep2',
-	player_id: 989
-},
-{
-	event_id: 549,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 550,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 551,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 552,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 553,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 554,
-	event_role: 'ep2',
-	player_id: 2656
-},
-{
-	event_id: 555,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 556,
-	event_role: 'ep2',
-	player_id: 2656
-},
-{
-	event_id: 557,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 558,
-	event_role: 'ep2',
-	player_id: 2742
-},
-{
-	event_id: 559,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 560,
-	event_role: 'ep2',
-	player_id: 2640
-},
-{
-	event_id: 561,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 562,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 563,
-	event_role: 'ep2',
-	player_id: 989
-},
-{
-	event_id: 564,
-	event_role: 'ep2',
-	player_id: 1267
-},
-{
-	event_id: 565,
-	event_role: 'ep2',
-	player_id: 989
-},
-{
-	event_id: 566,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 567,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 568,
-	event_role: 'ep2',
-	player_id: 2496
-},
-{
-	event_id: 569,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 570,
-	event_role: 'ep2',
-	player_id: 2016
-},
-{
-	event_id: 571,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 572,
-	event_role: 'ep2',
-	player_id: 2609
-},
-{
-	event_id: 573,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 574,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 575,
-	event_role: 'ep2',
-	player_id: 2308
-},
-{
-	event_id: 576,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 577,
-	event_role: 'ep2',
-	player_id: 1429
-},
-{
-	event_id: 578,
-	event_role: 'ep2',
-	player_id: 2436
-},
-{
-	event_id: 579,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 580,
-	event_role: 'ep2',
-	player_id: 1843
-},
-{
-	event_id: 581,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 582,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 583,
-	event_role: 'ep2',
-	player_id: 2092
-},
-{
-	event_id: 584,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 585,
-	event_role: 'ep2',
-	player_id: 2307
-},
-{
-	event_id: 586,
-	event_role: 'ep2',
-	player_id: 2743
-},
-{
-	event_id: 587,
-	event_role: 'ep2',
-	player_id: 1843
-},
-{
-	event_id: 588,
-	event_role: 'ep2',
-	player_id: 2743
-},
-{
-	event_id: 589,
-	event_role: 'ep2',
-	player_id: 1843
-},
-{
-	event_id: 590,
-	event_role: 'ep2',
-	player_id: 2656
-},
-{
-	event_id: 591,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 592,
-	event_role: 'ep2',
-	player_id: 2609
-},
-{
-	event_id: 593,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 594,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 595,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 596,
-	event_role: 'ep2',
-	player_id: 1805
-},
-{
-	event_id: 597,
-	event_role: 'ep2',
-	player_id: 989
-},
-{
-	event_id: 598,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 599,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 600,
-	event_role: 'ep2',
-	player_id: 1856
-},
-{
-	event_id: 601,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 602,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 603,
-	event_role: 'ep2',
-	player_id: 2656
-},
-{
-	event_id: 604,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 605,
-	event_role: 'ep2',
-	player_id: 2742
-},
-{
-	event_id: 606,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 607,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 608,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 609,
-	event_role: 'ep2',
-	player_id: 2501
-},
-{
-	event_id: 610,
-	event_role: 'ep2',
-	player_id: 1296
-},
-{
-	event_id: 611,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 612,
-	event_role: 'ep2',
-	player_id: 2656
-},
-{
-	event_id: 613,
-	event_role: 'ep2',
-	player_id: 1501
-},
-{
-	event_id: 614,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 615,
-	event_role: 'ep2',
-	player_id: 1356
-},
-{
-	event_id: 616,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 617,
-	event_role: 'ep2',
-	player_id: 1224
-},
-{
-	event_id: 618,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 619,
-	event_role: 'ep2',
-	player_id: 2436
-},
-{
-	event_id: 620,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 621,
-	event_role: 'ep2',
-	player_id: 1856
-},
-{
-	event_id: 622,
-	event_role: 'ep2',
-	player_id: 2430
-},
-{
-	event_id: 623,
-	event_role: 'ep2',
-	player_id: 2430
-},
-{
-	event_id: 624,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 625,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 626,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 627,
-	event_role: 'ep2',
-	player_id: 2501
-},
-{
-	event_id: 628,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 629,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 630,
-	event_role: 'ep2',
-	player_id: 2656
-},
-{
-	event_id: 631,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 632,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 633,
-	event_role: 'ep2',
-	player_id: 989
-},
-{
-	event_id: 634,
-	event_role: 'ep2',
-	player_id: 1805
-},
-{
-	event_id: 635,
-	event_role: 'ep2',
-	player_id: 989
-},
-{
-	event_id: 636,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 637,
-	event_role: 'ep2',
-	player_id: 989
-},
-{
-	event_id: 638,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 639,
-	event_role: 'ep2',
-	player_id: 989
-},
-{
-	event_id: 640,
-	event_role: 'ep2',
-	player_id: 1975
-},
-{
-	event_id: 641,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 642,
-	event_role: 'ep2',
-	player_id: 1154
-},
-{
-	event_id: 643,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 644,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 645,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 646,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 647,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 648,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 649,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 650,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 651,
-	event_role: 'ep2',
-	player_id: 2496
-},
-{
-	event_id: 652,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 653,
-	event_role: 'ep2',
-	player_id: 2656
-},
-{
-	event_id: 654,
-	event_role: 'ep2',
-	player_id: 1501
-},
-{
-	event_id: 655,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 656,
-	event_role: 'ep2',
-	player_id: 989
-},
-{
-	event_id: 657,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 658,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 659,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 660,
-	event_role: 'ep2',
-	player_id: 2042
-},
-{
-	event_id: 661,
-	event_role: 'ep2',
-	player_id: 2430
-},
-{
-	event_id: 662,
-	event_role: 'ep2',
-	player_id: 1856
-},
-{
-	event_id: 663,
-	event_role: 'ep2',
-	player_id: 1154
-},
-{
-	event_id: 664,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 665,
-	event_role: 'ep2',
-	player_id: 1154
-},
-{
-	event_id: 666,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 667,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 668,
-	event_role: 'ep2',
-	player_id: 2640
-},
-{
-	event_id: 669,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 670,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 671,
-	event_role: 'ep2',
-	player_id: 1296
-},
-{
-	event_id: 672,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 673,
-	event_role: 'ep2',
-	player_id: 2436
-},
-{
-	event_id: 674,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 675,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 676,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 677,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 678,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 679,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 680,
-	event_role: 'ep2',
-	player_id: 2309
-},
-{
-	event_id: 681,
-	event_role: 'ep2',
-	player_id: 1154
-},
-{
-	event_id: 682,
-	event_role: 'ep2',
-	player_id: 1867
-},
-{
-	event_id: 683,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 684,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 685,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 686,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 687,
-	event_role: 'ep2',
-	player_id: 1267
-},
-{
-	event_id: 688,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 689,
-	event_role: 'ep2',
-	player_id: 1154
-},
-{
-	event_id: 690,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 691,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 692,
-	event_role: 'ep2',
-	player_id: 989
-},
-{
-	event_id: 693,
-	event_role: 'ep2',
-	player_id: 989
-},
-{
-	event_id: 694,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 695,
-	event_role: 'ep2',
-	player_id: 2016
-},
-{
-	event_id: 696,
-	event_role: 'ep2',
-	player_id: 989
-},
-{
-	event_id: 697,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 698,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 699,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 700,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 701,
-	event_role: 'ep2',
-	player_id: 2430
-},
-{
-	event_id: 702,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 703,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 704,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 705,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 706,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 707,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 708,
-	event_role: 'ep2',
-	player_id: 1224
-},
-{
-	event_id: 709,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 710,
-	event_role: 'ep2',
-	player_id: 2742
-},
-{
-	event_id: 711,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 712,
-	event_role: 'ep2',
-	player_id: 2743
-},
-{
-	event_id: 713,
-	event_role: 'ep2',
-	player_id: 1843
-},
-{
-	event_id: 714,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 715,
-	event_role: 'ep2',
-	player_id: 2743
-},
-{
-	event_id: 716,
-	event_role: 'ep2',
-	player_id: 989
-},
-{
-	event_id: 717,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 718,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 719,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 720,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 721,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 722,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 723,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 724,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 725,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 726,
-	event_role: 'ep2',
-	player_id: 989
-},
-{
-	event_id: 727,
-	event_role: 'ep2',
-	player_id: 989
-},
-{
-	event_id: 728,
-	event_role: 'ep2',
-	player_id: 2430
-},
-{
-	event_id: 729,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 730,
-	event_role: 'ep2',
-	player_id: 989
-},
-{
-	event_id: 731,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 732,
-	event_role: 'ep2',
-	player_id: 1154
-},
-{
-	event_id: 733,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 734,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 735,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 736,
-	event_role: 'ep2',
-	player_id: 2092
-},
-{
-	event_id: 737,
-	event_role: 'ep2',
-	player_id: 2656
-},
-{
-	event_id: 738,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 739,
-	event_role: 'ep2',
-	player_id: 2016
-},
-{
-	event_id: 740,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 741,
-	event_role: 'ep2',
-	player_id: 2076
-},
-{
-	event_id: 742,
-	event_role: 'ep2',
-	player_id: nil
-},
-{
-	event_id: 1,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 2,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 3,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 4,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 5,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 6,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 7,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 8,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 9,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 10,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 11,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 12,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 13,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 14,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 15,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 16,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 17,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 18,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 19,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 20,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 21,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 22,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 23,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 24,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 25,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 26,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 27,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 28,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 29,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 30,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 31,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 32,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 33,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 34,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 35,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 36,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 37,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 38,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 39,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 40,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 41,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 42,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 43,
-	event_role: 'ep3',
-	player_id: 2329
-},
-{
-	event_id: 44,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 45,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 46,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 47,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 48,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 49,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 50,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 51,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 52,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 53,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 54,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 55,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 56,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 57,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 58,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 59,
-	event_role: 'ep3',
-	player_id: 993
-},
-{
-	event_id: 60,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 61,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 62,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 63,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 64,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 65,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 66,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 67,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 68,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 69,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 70,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 71,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 72,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 73,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 74,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 75,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 76,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 77,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 78,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 79,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 80,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 81,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 82,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 83,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 84,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 85,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 86,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 87,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 88,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 89,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 90,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 91,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 92,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 93,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 94,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 95,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 96,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 97,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 98,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 99,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 100,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 101,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 102,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 103,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 104,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 105,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 106,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 107,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 108,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 109,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 110,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 111,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 112,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 113,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 114,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 115,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 116,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 117,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 118,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 119,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 120,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 121,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 122,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 123,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 124,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 125,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 126,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 127,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 128,
-	event_role: 'ep3',
-	player_id: 1253
-},
-{
-	event_id: 129,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 130,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 131,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 132,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 133,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 134,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 135,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 136,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 137,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 138,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 139,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 140,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 141,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 142,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 143,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 144,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 145,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 146,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 147,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 148,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 149,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 150,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 151,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 152,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 153,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 154,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 155,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 156,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 157,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 158,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 159,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 160,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 161,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 162,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 163,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 164,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 165,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 166,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 167,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 168,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 169,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 170,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 171,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 172,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 173,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 174,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 175,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 176,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 177,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 178,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 179,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 180,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 181,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 182,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 183,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 184,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 185,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 186,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 187,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 188,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 189,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 190,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 191,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 192,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 193,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 194,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 195,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 196,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 197,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 198,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 199,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 200,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 201,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 202,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 203,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 204,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 205,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 206,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 207,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 208,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 209,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 210,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 211,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 212,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 213,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 214,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 215,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 216,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 217,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 218,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 219,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 220,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 221,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 222,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 223,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 224,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 225,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 226,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 227,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 228,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 229,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 230,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 231,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 232,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 233,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 234,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 235,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 236,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 237,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 238,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 239,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 240,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 241,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 242,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 243,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 244,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 245,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 246,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 247,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 248,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 249,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 250,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 251,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 252,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 253,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 254,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 255,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 256,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 257,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 258,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 259,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 260,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 261,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 262,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 263,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 264,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 265,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 266,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 267,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 268,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 269,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 270,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 271,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 272,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 273,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 274,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 275,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 276,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 277,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 278,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 279,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 280,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 281,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 282,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 283,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 284,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 285,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 286,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 287,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 288,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 289,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 290,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 291,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 292,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 293,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 294,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 295,
-	event_role: 'ep3',
-	player_id: 2739
-},
-{
-	event_id: 296,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 297,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 298,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 299,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 300,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 301,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 302,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 303,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 304,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 305,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 306,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 307,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 308,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 309,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 310,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 311,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 312,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 313,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 314,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 315,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 316,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 317,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 318,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 319,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 320,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 321,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 322,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 323,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 324,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 325,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 326,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 327,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 328,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 329,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 330,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 331,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 332,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 333,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 334,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 335,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 336,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 337,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 338,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 339,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 340,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 341,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 342,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 343,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 344,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 345,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 346,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 347,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 348,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 349,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 350,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 351,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 352,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 353,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 354,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 355,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 356,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 357,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 358,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 359,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 360,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 361,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 362,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 363,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 364,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 365,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 366,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 367,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 368,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 369,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 370,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 371,
-	event_role: 'ep3',
-	player_id: 1946
-},
-{
-	event_id: 372,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 373,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 374,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 375,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 376,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 377,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 378,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 379,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 380,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 381,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 382,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 383,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 384,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 385,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 386,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 387,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 388,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 389,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 390,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 391,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 392,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 393,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 394,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 395,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 396,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 397,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 398,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 399,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 400,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 401,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 402,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 403,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 404,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 405,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 406,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 407,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 408,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 409,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 410,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 411,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 412,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 413,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 414,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 415,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 416,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 417,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 418,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 419,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 420,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 421,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 422,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 423,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 424,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 425,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 426,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 427,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 428,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 429,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 430,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 431,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 432,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 433,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 434,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 435,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 436,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 437,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 438,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 439,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 440,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 441,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 442,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 443,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 444,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 445,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 446,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 447,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 448,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 449,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 450,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 451,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 452,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 453,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 454,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 455,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 456,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 457,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 458,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 459,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 460,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 461,
-	event_role: 'ep3',
-	player_id: 989
-},
-{
-	event_id: 462,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 463,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 464,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 465,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 466,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 467,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 468,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 469,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 470,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 471,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 472,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 473,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 474,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 475,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 476,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 477,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 478,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 479,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 480,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 481,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 482,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 483,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 484,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 485,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 486,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 487,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 488,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 489,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 490,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 491,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 492,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 493,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 494,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 495,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 496,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 497,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 498,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 499,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 500,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 501,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 502,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 503,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 504,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 505,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 506,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 507,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 508,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 509,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 510,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 511,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 512,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 513,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 514,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 515,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 516,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 517,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 518,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 519,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 520,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 521,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 522,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 523,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 524,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 525,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 526,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 527,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 528,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 529,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 530,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 531,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 532,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 533,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 534,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 535,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 536,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 537,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 538,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 539,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 540,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 541,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 542,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 543,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 544,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 545,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 546,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 547,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 548,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 549,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 550,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 551,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 552,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 553,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 554,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 555,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 556,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 557,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 558,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 559,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 560,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 561,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 562,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 563,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 564,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 565,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 566,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 567,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 568,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 569,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 570,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 571,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 572,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 573,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 574,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 575,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 576,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 577,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 578,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 579,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 580,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 581,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 582,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 583,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 584,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 585,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 586,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 587,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 588,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 589,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 590,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 591,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 592,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 593,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 594,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 595,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 596,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 597,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 598,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 599,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 600,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 601,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 602,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 603,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 604,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 605,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 606,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 607,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 608,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 609,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 610,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 611,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 612,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 613,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 614,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 615,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 616,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 617,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 618,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 619,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 620,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 621,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 622,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 623,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 624,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 625,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 626,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 627,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 628,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 629,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 630,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 631,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 632,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 633,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 634,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 635,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 636,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 637,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 638,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 639,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 640,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 641,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 642,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 643,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 644,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 645,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 646,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 647,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 648,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 649,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 650,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 651,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 652,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 653,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 654,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 655,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 656,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 657,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 658,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 659,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 660,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 661,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 662,
-	event_role: 'ep3',
-	player_id: 2309
-},
-{
-	event_id: 663,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 664,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 665,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 666,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 667,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 668,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 669,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 670,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 671,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 672,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 673,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 674,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 675,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 676,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 677,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 678,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 679,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 680,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 681,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 682,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 683,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 684,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 685,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 686,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 687,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 688,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 689,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 690,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 691,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 692,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 693,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 694,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 695,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 696,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 697,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 698,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 699,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 700,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 701,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 702,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 703,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 704,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 705,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 706,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 707,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 708,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 709,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 710,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 711,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 712,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 713,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 714,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 715,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 716,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 717,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 718,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 719,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 720,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 721,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 722,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 723,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 724,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 725,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 726,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 727,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 728,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 729,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 730,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 731,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 732,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 733,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 734,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 735,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 736,
-	event_role: 'ep3',
-	player_id: 2501
-},
-{
-	event_id: 737,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 738,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 739,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 740,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 741,
-	event_role: 'ep3',
-	player_id: nil
-},
-{
-	event_id: 742,
-	event_role: 'ep3',
 	player_id: nil
 }])
 
