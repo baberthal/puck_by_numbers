@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '4.2.0'
-gem 'sqlite3'
+gem 'rails', '4.2.1'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.1.0'
@@ -14,6 +13,8 @@ gem 'composite_primary_keys'
 gem 'mysql2'
 gem 'activerecord-mysql-unsigned'
 gem 'puma'
+gem 'bootstrap-sass'
+gem 'autoprefixer-rails'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

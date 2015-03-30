@@ -7,7 +7,22 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
+	<header>
+		<%= image_tag "PuckByNumbers_logo.png", alt: "Puck by Numbers logo", height: 80 %>
+		<nav>
+			<ul>
+				<li>HOME</li>
+				<li>RECENT GAMES</li>
+				<li>TEAMS</li>
+				<li>SKATERS</li>
+				<li>GOALIES</li>
+				<li>ABOUT</li>
+				<li>BLOG</li>
+				<li>HELP</li>
+				<li>CONTACT</li>
+			</ul>
+		</nav>
+	</header>
 <%= yield %>
 
 </body>
