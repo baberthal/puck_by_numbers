@@ -18,6 +18,14 @@ class Game < ActiveRecord::Base
 		team_game_summaries.find_by(team_id: away_team_id)
 	end
 
+	def home_players
+		players.where(team_id: home_team_id).uniq
+	end
+
+	def away_players
+		players.where(team_id: away_team_id).uniq
+	end
+
 	def create_team_summary(team)
 		TeamGameSummary.create(team_id: team.id) do |ts|
 			ts.game_id = id

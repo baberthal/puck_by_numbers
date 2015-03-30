@@ -13,7 +13,7 @@ gem 'composite_primary_keys'
 gem 'mysql2'
 gem 'activerecord-mysql-unsigned'
 gem 'puma'
-gem 'bootstrap-sass'
+gem 'bootstrap-sass', '~> 3.3.4'
 gem 'autoprefixer-rails'
 
 # Use ActiveModel has_secure_password

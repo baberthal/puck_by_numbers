@@ -1,6 +1,6 @@
 <p id="notice"><%= notice %></p>
 
-<table>
+<table class="table">
   <thead>
     <tr>
       <th>Team</th>
@@ -11,7 +11,7 @@
 			<th>FF</th>
 			<th>FA</th>
 			<th>F +/-</th>
-			<th colspan="5"></th>
+			<th colspan="3"></th>
     </tr>
   </thead>
 
@@ -25,15 +25,53 @@
 			<td><%= @game.home_team_summary.cf %></td>
 			<td><%= @game.away_team_summary.cf %></td>
 			<td><%= ((@game.home_team_summary.cf)-(@game.away_team_summary.cf)) %></td>
-  </tbody>
+		</tr>
+		<tr>
+			<td><%= @game.away_team.name %>
+			<td><%= @game.fscore_away %>
+			<td><%= @game.away_team_summary.sf %></td>
+			<td><%= @game.away_team_summary.msf %></td>
+			<td><%= @game.away_team_summary.bsf %></td>
+			<td><%= @game.away_team_summary.cf %></td>
+			<td><%= @game.home_team_summary.cf %></td>
+			<td><%= ((@game.away_team_summary.cf)-(@game.home_team_summary.cf)) %></td>
+		</tr>
+	</tbody>
 </table>
 
-<table>
+<table class="table">
 	<thead>
 		<tr>
-
+			<th>Player</th>
+			<th>G</th>
+			<th>A1</th>
+			<th>A2</th>
+			<th>P</th>
+			<th>iSC</th>
+			<th>iCF</th>
+			<th>C+/-</th>
+			<th>F+/-</th>
+			<th>G+/-</th>
+			<th>CF</th>
+			<th>FF</th>
+			<th>ZSO</th>
+			<th>ZSD</th>
+			<th>BL</th>
+			<th>FOW</th>
+			<th>FOL</th>
+			<th>H</th>
+			<th>Ht</th>
+			<th>Pen</th>
+			<th>PenD</th>
+			<th>TOI</th>
 		</tr>
 	</thead>
+
+	<tbody>
+		<% @game.player_game_summaries.each do |pgs| %>
+			<td><%= pgs.player.first_name %> <%= pgs.player.last_name %></td>
+		<% end %>
+	</tbody>
 </table>
 
 
