@@ -1,20 +1,47 @@
 module Summarizable
-	def create_team_summary(team)
-		TeamGameSummary.create(team_id: team.id) do |ts|
-			ts.game_id = id
-			ts.gf = goals.where(event_team_id: team.id).count
-			ts.sf = shots.where(event_team_id: team.id).count
-			ts.msf = misses.where(event_team_id: team.id).count
-			ts.bsf = blocks.where(event_team_id: team.id).count
-			ts.cf = corsi_events.where(event_team_id: team.id).count
-			ts.hits = hits.where(event_team_id: team.id).count
-			ts.pen = penalties.where(event_team_id: team.id).count
-			ts.fo_won = faceoffs.where(event_team_id: team.id).count
-			ts.c_diff = ((corsi_events.where(event_team_id: team.id).count)-(corsi_events.where.not(event_team_id: team.id).count))
+	def create_team_summary(team, options={})
+		if options[:situation].downcase == "5v5"
+			skater_opts = { hs: 6, as: 6 }
+			goalie_not_opts = { hG: nil, aG: nil }
+
+		elsif options[:situation].downcase == "pplay"
 			if team.id == home_team_id
-				ts.zso = zone_starts_o_home.count
+				skater_opts = { hs: 6, as: 5 }
+				goalie_not_opts = { hG: nil, aG: nil }
 			else
-				ts.zso = zone_starts_o_away.count
+				skater_opts = { hs: 5, as: 6 }
+				goalie_not_opts = { hG: nil, aG: nil }
+			end
+
+		elsif options[:situation].downcase == "short"
+			if team.id == home_team_id
+				skater_opts = { hs: 5, as: 6 }
+				goalie_not_opts = { hG: nil, aG: nil }
+			else
+				skater_opts = { hs: 6, as: 5 }
+				goalie_not_opts = { hG: nil, aG: nil }
+			end
+
+		elsif options[:situation].downcase == "4v4"
+			skater_opts = { hs: 5, as: 5 }
+			goalie_not_opts = { hG: nil, aG: nil }
+		end
+
+		TeamGameSummary.create(team_id: team.id, situation: options[:situation].downcase) do |ts|
+			ts.game_id = id
+			ts.gf = goals.where(event_team_id: team.id).where("home_skaters = :hs, away_skaters = :as", skater_opts).where.not("away_G_id = :aG, home_G_id = :hG", goalie_not_opts).count
+			ts.sf = shots.where(event_team_id: team.id).where("home_skaters = :hs, away_skaters = :as", skater_opts).where.not("away_G_id = :aG, home_G_id = :hG", goalie_not_opts).count
+			ts.msf = misses.where(event_team_id: team.id).where("home_skaters = :hs, away_skaters = :as", skater_opts).where.not("away_G_id = :aG, home_G_id = :hG", goalie_not_opts).count
+			ts.bsf = blocks.where(event_team_id: team.id).where("home_skaters = :hs, away_skaters = :as", skater_opts).where.not("away_G_id = :aG, home_G_id = :hG", goalie_not_opts).count
+			ts.cf = corsi_events.where(event_team_id: team.id).where("home_skaters = :hs, away_skaters = :as", skater_opts).where.not("away_G_id = :aG, home_G_id = :hG", goalie_not_opts).count
+			ts.hits = hits.where(event_team_id: team.id).where("home_skaters = :hs, away_skaters = :as", skater_opts).where.not("away_G_id = :aG, home_G_id = :hG", goalie_not_opts).count
+			ts.pen = penalties.where(event_team_id: team.id).where("home_skaters = :hs, away_skaters = :as", skater_opts).where.not("away_G_id = :aG, home_G_id = :hG", goalie_not_opts).count
+			ts.fo_won = faceoffs.where(event_team_id: team.id).where("home_skaters = :hs, away_skaters = :as", skater_opts).where.not("away_G_id = :aG, home_G_id = :hG", goalie_not_opts).count
+			ts.c_diff = (corsi_events.where(event_team_id: team.id).where("home_skaters = :hs, away_skaters = :as", skater_opts).where.not("away_G_id = :aG, home_G_id = :hG", goalie_not_opts).count)-(corsi_events.where(event_team_id: team.id).where("home_skaters = :hs, away_skaters = :as", skater_opts).where.not("away_G_id = :aG, home_G_id = :hG", goalie_not_opts).count)
+			if team.id == home_team_id
+				ts.zso = zone_starts_o_home.where("home_skaters = :hs, away_skaters = :as", skater_opts).where.not("away_G_id = :aG, home_G_id = :hG", goalie_not_opts).count
+			else
+				ts.zso = zone_starts_o_away.where("home_skaters = :hs, away_skaters = :as", skater_opts).where.not("away_G_id = :aG, home_G_id = :hG", goalie_not_opts).count
 			end
 		end
 	end
