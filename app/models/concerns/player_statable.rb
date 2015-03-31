@@ -59,6 +59,12 @@ module PlayerStatable
 		events.where(event_type: "GOAL").uniq
 	end
 
+	def ind_scoring_chances
+		a = primary_events.joins(:location, :game).where(event_type: "SHOT", locations: {:new_location_section => [1,2,3,4]})
+		b = primary_events.joins(:location, :game).where(event_type: ["SHOT", "BLOCK"], locations: {:new_location_section => [4,5,6,7]})
+		a + b
+	end
+
 	def zone_starts_o_home
 		events.joins(:location, :game).where(event_type: "FAC", locations: {:home_zone => "Off"}, games: {:home_team_id => team.id}).uniq
 	end

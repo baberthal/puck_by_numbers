@@ -17,7 +17,9 @@ class GamesController < ApplicationController
   # GET /games/1.json
 	def show
 		@game = @season.games.find(params[:id])
-		@home_ps_grid = initialize_grid(@game.player_game_summaries.where(player: @game.home_players))
+		@home_ps_grid = initialize_grid(@game.player_game_summaries.where(player: @game.home_players), name:'home_play_g')
+		@away_ps_grid = initialize_grid(@game.player_game_summaries.where(player: @game.away_players), name:'away_play_g')
+		@team_sum_grid = initialize_grid(@game.team_game_summaries, name:'away_team_summ_grid')
 	end
 
   # GET /games/new

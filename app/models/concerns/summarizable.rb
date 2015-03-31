@@ -10,6 +10,12 @@ module Summarizable
 			ts.hits = hits.where(event_team_id: team.id).count
 			ts.pen = penalties.where(event_team_id: team.id).count
 			ts.fo_won = faceoffs.where(event_team_id: team.id).count
+			ts.c_diff = ((corsi_events.where(event_team_id: team.id).count)-(corsi_events.where.not(event_team_id: team.id).count))
+			if team.id == home_team_id
+				ts.zso = zone_starts_o_home.count
+			else
+				ts.zso = zone_starts_o_away.count
+			end
 		end
 	end
 

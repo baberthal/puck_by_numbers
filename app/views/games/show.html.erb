@@ -1,72 +1,89 @@
 <p id="notice"><%= notice %></p>
 
-<table class="table">
-  <thead>
-    <tr>
-      <th>Team</th>
-      <th>Final Score</th>
-      <th>CF</th>
-      <th>CA</th>
-			<th>C +/-</th>
-			<th>FF</th>
-			<th>FA</th>
-			<th>F +/-</th>
-			<th colspan="3"></th>
-    </tr>
-  </thead>
+<div class="container">
+	<h3>Team Statistics</h3>
 
-  <tbody>
-		<tr>
-			<td><%= link_to @game.home_team.name, team_path(@game.home_team) %>
-			<td><%= @game.fscore_home %>
-			<td><%= @game.home_team_summary.sf %></td>
-			<td><%= @game.home_team_summary.msf %></td>
-			<td><%= @game.home_team_summary.bsf %></td>
-			<td><%= @game.home_team_summary.cf %></td>
-			<td><%= @game.away_team_summary.cf %></td>
-			<td><%= ((@game.home_team_summary.cf)-(@game.away_team_summary.cf)) %></td>
-		</tr>
-		<tr>
-			<td><%= link_to @game.away_team.name, team_path(@game.away_team) %>
-			<td><%= @game.fscore_away %>
-			<td><%= @game.away_team_summary.sf %></td>
-			<td><%= @game.away_team_summary.msf %></td>
-			<td><%= @game.away_team_summary.bsf %></td>
-			<td><%= @game.away_team_summary.cf %></td>
-			<td><%= @game.home_team_summary.cf %></td>
-			<td><%= ((@game.away_team_summary.cf)-(@game.home_team_summary.cf)) %></td>
-		</tr>
-	</tbody>
-</table>
+	<%= grid(@team_sum_grid) do |g|
+		g.column name: "Team" do |team_game_summary|
+			link_to(team_game_summary.team.name, team_path(team_game_summary.team_id))
+		end
+		g.column name: "G", attribute: 'gf', filter: false
+		g.column name: "S", attribute: 'sf', filter: false
+		g.column name: "MISS", attribute: 'msf', filter: false
+		g.column name: "BS", attribute: 'bsf', filter: false
+		g.column name: "SCf", attribute: 'scf', filter: false
+		g.column name: "CF", attribute: 'cf', filter: false
+		g.column name: "C +/-", attribute: 'c_diff', filter: false
+		g.column name: "ZSO", attribute: 'zso', filter: false
+		g.column name: "HIT", attribute: 'hits', filter: false
+		g.column name: "PEN", attribute: 'pen', filter: false
+		g.column name: "FOw", attribute: 'fo_won', filter: false
+		g.column name: "TOI", attribute: 'toi', filter: false
+	end -%>
 
+</div>
 
-<h2>Home Statistics</h2>
-<%= grid(@home_ps_grid) do |g|
+<div class="container">
 
-	g.column name: "Name" do |player_game_summary|
-		link_to(player_game_summary.player.last_name, team_player_path(player_game_summary.player.team_id, player_game_summary.player.id))
-	end
-	g.column name: "G", attribute: 'goals', filter: false
-	g.column name: "A1", attribute: 'a1', filter: false
-	g.column name: "A2", attribute: 'a2', filter: false
-	g.column name: "P", attribute: 'points', filter: false
-	g.column name: "iSC", attribute: 'ind_sc', filter: false
-	g.column name: "iCF", attribute: 'ind_cf', filter: false
-	g.column name: "C +/-", attribute: 'c_diff', filter: false
-	g.column name: "F +/-", attribute: 'f_diff', filter: false
-	g.column name: "G +/-", attribute: 'g_diff', filter: false
-	g.column name: "CF", attribute: 'cf', filter: false
-	g.column name: "FF", attribute: 'ff', filter: false
-	g.column name: "ZSO", attribute: 'zso', filter: false
-	g.column name: "ZSD", attribute: 'zsd', filter: false
-	g.column name: "BS", attribute: 'blocks', filter: false
-	g.column name: "FOw", attribute: 'fo_won', filter: false
-	g.column name: "FOl", attribute: 'fo_lost', filter: false
-	g.column name: "HITS", attribute: 'hits', filter: false
-	g.column name: "HITSt", attribute: 'hits_taken', filter: false
-	g.column name: "PEN", attribute: 'pen', filter: false
-	g.column name: "PENd", attribute: 'pen_drawn', filter: false
-	g.column name: "TOI", attribute: 'toi', filter: false
+	<h3>Home Statistics</h3>
+	<%= grid(@home_ps_grid) do |g|
 
-end -%>
+		g.column name: "Name" do |player_game_summary|
+			link_to(player_game_summary.player.last_name, team_player_path(player_game_summary.player.team_id, player_game_summary.player.id))
+		end
+		g.column name: "G", attribute: 'goals', filter: false
+		g.column name: "A1", attribute: 'a1', filter: false
+		g.column name: "A2", attribute: 'a2', filter: false
+		g.column name: "P", attribute: 'points', filter: false
+		g.column name: "iSC", attribute: 'ind_sc', filter: false
+		g.column name: "iCF", attribute: 'ind_cf', filter: false
+		g.column name: "C +/-", attribute: 'c_diff', filter: false
+		g.column name: "F +/-", attribute: 'f_diff', filter: false
+		g.column name: "G +/-", attribute: 'g_diff', filter: false
+		g.column name: "CF", attribute: 'cf', filter: false
+		g.column name: "FF", attribute: 'ff', filter: false
+		g.column name: "ZSO", attribute: 'zso', filter: false
+		g.column name: "ZSD", attribute: 'zsd', filter: false
+		g.column name: "BS", attribute: 'blocks', filter: false
+		g.column name: "FOw", attribute: 'fo_won', filter: false
+		g.column name: "FOl", attribute: 'fo_lost', filter: false
+		g.column name: "HITS", attribute: 'hits', filter: false
+		g.column name: "HITSt", attribute: 'hits_taken', filter: false
+		g.column name: "PEN", attribute: 'pen', filter: false
+		g.column name: "PENd", attribute: 'pen_drawn', filter: false
+		g.column name: "TOI", attribute: 'toi', filter: false
+
+	end -%>
+</div>
+<div class="container">
+	<h3>Away Statistics</h3>
+	<%= grid(@away_ps_grid) do |g|
+
+		g.column name: "Name" do |player_game_summary|
+			link_to(player_game_summary.player.last_name, team_player_path(player_game_summary.player.team_id, player_game_summary.player.id))
+		end
+		g.column name: "G", attribute: 'goals', filter: false
+		g.column name: "A1", attribute: 'a1', filter: false
+		g.column name: "A2", attribute: 'a2', filter: false
+		g.column name: "P", attribute: 'points', filter: false
+		g.column name: "iSC", attribute: 'ind_sc', filter: false
+		g.column name: "iCF", attribute: 'ind_cf', filter: false
+		g.column name: "C +/-", attribute: 'c_diff', filter: false
+		g.column name: "F +/-", attribute: 'f_diff', filter: false
+		g.column name: "G +/-", attribute: 'g_diff', filter: false
+		g.column name: "CF", attribute: 'cf', filter: false
+		g.column name: "FF", attribute: 'ff', filter: false
+		g.column name: "ZSO", attribute: 'zso', filter: false
+		g.column name: "ZSD", attribute: 'zsd', filter: false
+		g.column name: "BS", attribute: 'blocks', filter: false
+		g.column name: "FOw", attribute: 'fo_won', filter: false
+		g.column name: "FOl", attribute: 'fo_lost', filter: false
+		g.column name: "HITS", attribute: 'hits', filter: false
+		g.column name: "HITSt", attribute: 'hits_taken', filter: false
+		g.column name: "PEN", attribute: 'pen', filter: false
+		g.column name: "PENd", attribute: 'pen_drawn', filter: false
+		g.column name: "TOI", attribute: 'toi', filter: false
+
+	end -%>
+</div>
 <%= link_to 'Back', season_games_path %>

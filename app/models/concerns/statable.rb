@@ -35,4 +35,12 @@ module Statable
 		events.where(event_type: "FAC")
 	end
 
+	def zone_starts_o_home
+		events.joins(:location).where(event_type: "FAC", locations: {:home_zone => "Off" })
+	end
+
+	def zone_starts_o_away
+		events.joins(:location).where(event_type: "FAC", locations: {:home_zone => "Def" })
+	end
+
 end
