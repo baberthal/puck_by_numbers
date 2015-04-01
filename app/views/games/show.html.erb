@@ -1,36 +1,41 @@
 <p id="notice"><%= notice %></p>
 
 <div class="container">
-	<h3>Team Statistics</h3>
 
-	<%= grid(@team_sum_grid) do |g|
-		g.column name: "Team" do |team_game_summary|
+	<%= define_grid(@team_sum_grid, show_filters: :always, class: 'text-center') do |g|
+		g.column name: "Team", class: 'name-col' do |team_game_summary|
 			link_to(team_game_summary.team.name, team_path(team_game_summary.team_id))
 		end
-		g.column name: "G", attribute: 'gf', filter: false
-		g.column name: "S", attribute: 'sf', filter: false
-		g.column name: "MISS", attribute: 'msf', filter: false
-		g.column name: "BS", attribute: 'bsf', filter: false
-		g.column name: "SCf", attribute: 'scf', filter: false
-		g.column name: "CF", attribute: 'cf', filter: false
-		g.column name: "C +/-", attribute: 'c_diff', filter: false
-		g.column name: "ZSO", attribute: 'zso', filter: false
-		g.column name: "HIT", attribute: 'hits', filter: false
-		g.column name: "PEN", attribute: 'pen', filter: false
-		g.column name: "FOw", attribute: 'fo_won', filter: false
-		g.column name: "TOI", attribute: 'toi', filter: false
+
+		g.column name: "Situation", attribute: 'situation', custom_filter: [['Even Strength 5v5', '5v5'], ['Powerplay', 'pplay'], ['Shorthanded', 'short'], ['Even Strength 4v4', '4v4'], ['Team Goalie Pulled', 'goalie-pull'], ['Opposing Goalie Pulled', 'opposing-goalie-pull'], ["All", 'any']], detach_with_id: :situation_filter, auto_reload: :true, class: 'hidden'
+		g.column name: "G", attribute: 'gf', filter: false, class: 'col-xs-1'
+		g.column name: "S", attribute: 'sf', filter: false, class: 'col-xs-1'
+		g.column name: "MISS", attribute: 'msf', filter: false, class: 'col-xs-1'
+		g.column name: "BS", attribute: 'bsf', filter: false, class: 'col-xs-1'
+		g.column name: "SCf", attribute: 'scf', filter: false, class: 'col-xs-1'
+		g.column name: "CF", attribute: 'cf', filter: false, class: 'col-xs-1'
+		g.column name: "C +/-", attribute: 'c_diff', filter: false, class: 'col-xs-1'
+		g.column name: "ZSO", attribute: 'zso', filter: false, class: 'col-xs-1'
+		g.column name: "HIT", attribute: 'hits', filter: false, class: 'col-xs-1'
+		g.column name: "PEN", attribute: 'pen', filter: false, class: 'col-xs-1'
+		g.column name: "FOw", attribute: 'fo_won', filter: false, class: 'col-xs-1'
+		g.column name: "TOI", attribute: 'toi', filter: false, class: 'col-xs-1'
 	end -%>
 
+	<%= grid_filter @team_sum_grid, :situation_filter %>
+	<h3>Team Statistics</h3>
+	<%= render_grid(@team_sum_grid) %>
 </div>
 
 <div class="container">
 
 	<h3>Home Statistics</h3>
-	<%= grid(@home_ps_grid) do |g|
+	<%= define_grid(@home_ps_grid, show_filters: :always, class: 'text-center') do |g|
 
-		g.column name: "Name" do |player_game_summary|
+		g.column name: "Name", class: 'name-col' do |player_game_summary|
 			link_to(player_game_summary.player.last_name, team_player_path(player_game_summary.player.team_id, player_game_summary.player.id))
 		end
+		g.column name: "situation", attribute: 'situation', custom_filter: [['Even Strength 5v5', '5v5'], ['Powerplay', 'pplay'], ['Shorthanded', 'short'], ['Even Strength 4v4', '4v4'], ['Team Goalie Pulled', 'goalie-pull'], ['Opposing Goalie Pulled', 'opposing-goalie-pull'], ["All", 'any']], detach_with_id: :situation_filter, auto_reload: :true, class: 'hidden'
 		g.column name: "G", attribute: 'goals', filter: false
 		g.column name: "A1", attribute: 'a1', filter: false
 		g.column name: "A2", attribute: 'a2', filter: false
@@ -54,14 +59,17 @@
 		g.column name: "TOI", attribute: 'toi', filter: false
 
 	end -%>
+ <%= grid_filter @home_ps_grid, :situation_filter %>
+<%= render_grid(@home_ps_grid) %>
 </div>
 <div class="container">
 	<h3>Away Statistics</h3>
-	<%= grid(@away_ps_grid) do |g|
+	<%= define_grid(@away_ps_grid, show_filters: :always, class: 'table table-striped text-center table-layout:fixed') do |g|
 
-		g.column name: "Name" do |player_game_summary|
+		g.column name: "Name", class: 'name-col' do |player_game_summary|
 			link_to(player_game_summary.player.last_name, team_player_path(player_game_summary.player.team_id, player_game_summary.player.id))
 		end
+		g.column name: "situation", attribute: 'situation', custom_filter: [['Even Strength 5v5', '5v5'], ['Powerplay', 'pplay'], ['Shorthanded', 'short'], ['Even Strength 4v4', '4v4'], ['Team Goalie Pulled', 'goalie-pull'], ['Opposing Goalie Pulled', 'opposing-goalie-pull'], ["All", 'any']], detach_with_id: :situation_filter, auto_reload: :true, class: 'hidden'
 		g.column name: "G", attribute: 'goals', filter: false
 		g.column name: "A1", attribute: 'a1', filter: false
 		g.column name: "A2", attribute: 'a2', filter: false
@@ -85,5 +93,7 @@
 		g.column name: "TOI", attribute: 'toi', filter: false
 
 	end -%>
+<%= grid_filter @away_ps_grid, :situation_filter %>
+<%= render_grid(@away_ps_grid) %>
 </div>
 <%= link_to 'Back', season_games_path %>

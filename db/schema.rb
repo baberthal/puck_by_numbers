@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150331051816) do
+ActiveRecord::Schema.define(version: 20150331204300) do
 
   create_table "events", force: :cascade do |t|
     t.integer "game_id",           limit: 4
@@ -109,8 +109,9 @@ ActiveRecord::Schema.define(version: 20150331051816) do
     t.integer  "pen",        limit: 4
     t.integer  "pen_drawn",  limit: 4
     t.float    "toi",        limit: 24
-    t.datetime "created_at",            null: false
-    t.datetime "updated_at",            null: false
+    t.datetime "created_at",             null: false
+    t.datetime "updated_at",             null: false
+    t.string   "situation",  limit: 255
   end
 
   add_index "player_game_summaries", ["game_id"], name: "index_player_game_summaries_on_game_id", using: :btree
@@ -155,6 +156,7 @@ ActiveRecord::Schema.define(version: 20150331051816) do
     t.integer  "c_diff",     limit: 4
     t.integer  "f_diff",     limit: 4
     t.string   "situation",  limit: 255
+    t.integer  "ca",         limit: 4
   end
 
   add_index "team_game_summaries", ["game_id"], name: "index_team_game_summaries_on_game_id", using: :btree

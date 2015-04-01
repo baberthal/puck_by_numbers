@@ -13,3 +13,56 @@
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+body {
+	background-color: #eee;
+}
+
+h1 {
+	color: #0776A0;
+}
+
+h2 {
+	color: #0776A0;
+}
+
+h3 {
+	color: #0776A0;
+}
+
+.table-bordered {
+	border-color: #0776A0;
+}
+
+.puck-logo {
+	margin-top: -9px;
+}
+
+.navbar-static-top {
+	min-height: 60px;
+}
+
+.navbar-default {
+	background-color: #ddd;
+}
+.nav navbar-nav {
+	min-height: 60px;
+	line-height: 60px;
+	color: #606A6E;
+}
+
+tfoot {
+	visibility: hidden;
+}
+
+th {
+	text-align: center;
+}
+
+.wice-grid {
+	border-color: #0776A0;
+}
+
+.name-col {
+	text-align: left;
+}

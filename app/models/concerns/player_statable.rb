@@ -105,14 +105,8 @@ module PlayerStatable
 		secondary_events.where(event_type: "FAC").uniq
 	end
 
-	def time_on_ice(options = {})
-		if options[:game_id]
-			a = events.where(game_id: options[:game_id]).pluck(:event_length)
-		else
-			a = events.pluck(:event_length)
-		end
-		b = a.inject{|sum,x| sum + x }
-		(b/60).round(1)
+	def time_on_ice(game)
+		events.where(game_id: game.id)
 	end
 
 end

@@ -2,7 +2,7 @@ class PlayerGameSummary < ActiveRecord::Base
 	belongs_to :player
 	belongs_to :game
 
-	validates_uniqueness_of :player_id, scope: :game_id
+	validates :player_id, :uniqueness => { :scope => [:game_id, :situation] }
 
 end
 
