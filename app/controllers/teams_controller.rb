@@ -10,6 +10,8 @@ class TeamsController < ApplicationController
   # GET /teams/1
   # GET /teams/1.json
   def show
+		@stats_grid = initialize_grid(@team.team_game_summaries, name: 'stats_grid')
+		@roster_grid = initialize_grid(@team.players, include: :players, name: 'roster_grid')
   end
 
 	def games

@@ -1,26 +1,19 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Listing Seasons</h1>
+<div class="container">
+	<h1>Seasons</h1>
+	<%= grid(@season_grid, show_filters: :always, class: 'text-center') do |g|
+		g.column name: "Season", attribute: 'season_years', filter: false do |season|
+			link_to(season.season_years, season_path(season.id))
+		end
 
-<table>
-  <thead>
-    <tr>
-      <th>Season years</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
+		g.column name: "Games",  filter: false do |season|
+			season.games.count
+		end
 
-  <tbody>
-    <% @seasons.each do |season| %>
-      <tr>
-        <td><%= season.season_years %></td>
-        <td><%= link_to 'Show', season %></td>
-        <td><%= link_to 'Edit', edit_season_path(season) %></td>
-        <td><%= link_to 'Destroy', season, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
+	end -%>
+</div>
+
 
 <br>
 

@@ -1,0 +1,20 @@
+	<%= define_grid(team_sum_grid, show_filters: :always, class: 'text-center') do |g|
+		g.column name: "Team", class: 'name-col', attribute: 'name', model: Team, filter: false do |team_game_summary|
+			link_to(team_game_summary.team.name, team_path(team_game_summary.team_id))
+		end
+
+		g.column name: "Situation", attribute: 'situation', custom_filter: [['Even Strength 5v5', '5v5'], ['Powerplay', 'pplay'], ['Shorthanded', 'short'], ['Even Strength 4v4', '4v4'], ['Team Goalie Pulled', 'goalie-pull'], ['Opposing Goalie Pulled', 'opposing-goalie-pull'], ["All", 'any']], detach_with_id: :situation_filter, auto_reload: :true, class: 'hidden'
+		g.column name: "G", attribute: 'gf', filter: false, class: 'col-xs-1'
+		g.column name: "S", attribute: 'sf', filter: false, class: 'col-xs-1'
+		g.column name: "MISS", attribute: 'msf', filter: false, class: 'col-xs-1'
+		g.column name: "BS", attribute: 'bsf', filter: false, class: 'col-xs-1'
+		g.column name: "SCf", attribute: 'scf', filter: false, class: 'col-xs-1'
+		g.column name: "CF", attribute: 'cf', filter: false, class: 'col-xs-1'
+		g.column name: "C +/-", attribute: 'c_diff', filter: false, class: 'col-xs-1'
+		g.column name: "ZSO", attribute: 'zso', filter: false, class: 'col-xs-1'
+		g.column name: "HIT", attribute: 'hits', filter: false, class: 'col-xs-1'
+		g.column name: "PEN", attribute: 'pen', filter: false, class: 'col-xs-1'
+		g.column name: "FOw", attribute: 'fo_won', filter: false, class: 'col-xs-1'
+		g.column name: "TOI", attribute: 'toi', filter: false, class: 'col-xs-1'
+	end -%>
+

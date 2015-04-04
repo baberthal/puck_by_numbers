@@ -11,44 +11,85 @@
  * file per style scope.
  */
 
+$brand-primary:	#0776A0 !default;
+$brand-success: #07A07E !default;
+$brand-info:		#00D3FF !default;
+$brand-warning:	#FFb600 !default;
+$brand-danger:	#FF2C00 !default;
+
+$body-bg:				#eee !default;
+
+$font-family-sans-serif:	Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-family-monospace:		Inconsolata, Menlo, Monaco, Consolas, "Courier New", monospace !default;
+
+$navbar-height:								60px !default;
+// $navbar-margin-bottom:
+// $navbar-border-radius:
+// $navbar-padding-horizontal:
+// $navbar-padding-vertical:
+// $navbar-collapse-max-height:
+
+
+$navbar-default-color:								#fff !default;
+$navbar-default-bg:										#00d3ff !default;
+
+$navbar-default-link-color:						#fff !default;
+$navbar-default-link-hover-color:			#fff !default;
+$navbar-default-link-hover-bg:				#0776A0 !default;
+$navbar-default-link-active-color:		#fff !default;
+$navbar-default-link-active-bg:				#0776a0 !default;
+$navbar-default-link-disabled-color:	#fff !default;
+$navbar-default-link-disabled-bg:			#00d3ff !default;
+
+$navbar-default-brand-color:					#0776A0 !default;
+$navbar-default-brand-hover-color:		#fff !default;
+$navbar-default-brand-hover-bg:				#00D3FF !default;
+
+$navbar-default-toggle-hover-bg:			#00d3ff !default;
+$navbar-default-toggle-icon-bar-bg:		#888 !default;
+$navbar-default-toggle-border-color:	#ddd !default;
+
+$nav-link-hover-bg:										#0776a0 !default;
+$nav-disabled-link-color:							#fff !default;
+$nav-disabled-link-hover-color: 			#fff !default;
+
+$dropdown-bg:													#ddd !default;
+$dropdown-link-color:									#0776a0 !default;
+$dropdown-link-hover-color:						#fff !default;
+$dropdown-link-hover-bg:							#07a07e !default;
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-body {
-	background-color: #eee;
+.navbar-brand,
+.nav-pills li a {
+	line-height: 60px;
+	height: 60px;
+	padding-top: 0;
+	color: #606a0e;
+	font-weight: bold;
 }
 
-h1 {
-	color: #0776A0;
+.nav-pills li a:hover {
+	color: #fff;
 }
 
-h2 {
-	color: #0776A0;
+.nav-pills li a:active {
+	color: #fff;
 }
 
-h3 {
-	color: #0776A0;
+.dropdown .open {
+	color: #fff;
 }
 
-.table-bordered {
-	border-color: #0776A0;
+.dropdown-menu li a {
+	color: #444;
+	line-height: 40px;
+	height: 40px;
 }
 
 .puck-logo {
-	margin-top: -9px;
-}
-
-.navbar-static-top {
-	min-height: 60px;
-}
-
-.navbar-default {
-	background-color: #ddd;
-}
-.nav navbar-nav {
-	min-height: 60px;
-	line-height: 60px;
-	color: #606A6E;
+	margin-top: 7px;
 }
 
 tfoot {
@@ -66,3 +107,43 @@ th {
 .name-col {
 	text-align: left;
 }
+
+.wice-grid-title-row {
+	background-color: #0776A0;
+}
+
+th {
+	vertical-align: center;
+}
+th a {
+	color: #fff;
+}
+
+th a:hover{
+	color: #00D3FF;
+}
+
+h1 {
+	color: #0776A0;
+	font-family: Futura, Avenir, Helvetica, sans-serif;
+}
+
+h2 {
+	color: #0776A0;
+	font-family: Avenir, Helvetica, sans-serif;
+}
+
+h3 {
+	color: #0776A0;
+	font-family: Avenir, Helvetica, sans-serif;
+}
+
+h4 {
+	color: #0776A0;
+	font-family: Avenir, Helvetica, sans-serif;
+}
+
+body {
+	font-family: Avenir, Helvetica, sans-serif;
+}
+

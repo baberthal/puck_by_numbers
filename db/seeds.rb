@@ -16,123 +16,181 @@ Participant.destroy_all
 Team.create!([
 {
 	name: "Anaheim",
-	abbr: "ANA"
+	abbr: "ANA",
+	nickname: "Ducks",
+	image_path: "teams/ana.gif"
 },
 {
 	name: "Arizona",
-	abbr: "ARI"
+	abbr: "ARI",
+	nickname: "Coyotes",
+	image_path: "teams/ari.gif"
 },
 {
 	name: "Boston",
-	abbr: "BOS"
+	abbr: "BOS",
+	nickname: "Bruins",
+	image_path: "teams/bos.gif"
 },
 {
 	name: "Buffalo",
-	abbr: "BUF"
+	abbr: "BUF",
+	nickname: "Sabres",
+	image_path: "teams/buf.gif"
 },
 {
 	name: "Carolina",
-	abbr: "CAR"
+	abbr: "CAR",
+	nickname: "Hurricanes",
+	image_path: "teams/car.gif"
 },
 {
 	name: "Columbus",
-	abbr: "CBJ"
+	abbr: "CBJ",
+	nickname: "Blue Jackets",
+	image_path: "teams/cbj.gif"
 },
 {
 	name: "Calgary",
-	abbr: "CGY"
+	abbr: "CGY",
+	nickname: "Flames",
+	image_path: "teams/cgy.gif"
 },
 {
 	name: "Chicago",
-	abbr: "CHI"
+	abbr: "CHI",
+	nickname: "Blackhawks",
+	image_path: "teams/chi.gif"
 },
 {
 	name: "Colorado",
-	abbr: "COL"
+	abbr: "COL",
+	nickname: "Avalanche",
+	image_path: "teams/col.gif"
 },
 {
 	name: "Dallas",
-	abbr: "DAL"
+	abbr: "DAL",
+	nickname: "Stars",
+	image_path: "teams/dal.gif"
 },
 {
 	name: "Detroit",
-	abbr: "DET"
+	abbr: "DET",
+	nickname: "Red Wings",
+	image_path: "teams/det.gif"
 },
 {
 	name: "Edmonton",
-	abbr: "EDM"
+	abbr: "EDM",
+	nickname: "Oilers",
+	image_path: "teams/edm.gif"
 },
 {
 	name: "Florida",
-	abbr: "FLA"
+	abbr: "FLA",
+	nickname: "Panthers",
+	image_path: "teams/fla.gif"
 },
 {
 	name: "Los Angeles",
-	abbr: "L.A"
+	abbr: "L.A",
+	nickname: "Kings",
+	image_path: "teams/lak.gif"
 },
 {
 	name: "Minnesota",
-	abbr: "MIN"
+	abbr: "MIN",
+	nickname: "Wild",
+	image_path: "teams/min.gif"
 },
 {
 	name: "Montreal",
-	abbr: "MTL"
+	abbr: "MTL",
+	nickname: "Canadiens",
+	image_path: "teams/mtl.gif"
 },
 {
 	name: "New Jersey",
-	abbr: "N.J"
+	abbr: "N.J",
+	nickname: "Devils",
+	image_path: "teams/njd.gif"
 },
 {
 	name: "Nashville",
-	abbr: "NSH"
+	abbr: "NSH",
+	nickname: "Predators",
+	image_path: "teams/nsh.gif"
 },
 {
 	name: "New York Islanders",
-	abbr: "NYI"
+	abbr: "NYI",
+	image_path: "teams/nyi.gif"
 },
 {
 	name: "New York Rangers",
-	abbr: "NYR"
+	abbr: "NYR",
+	image_path: "teams/nyr.gif"
 },
 {
 	name: "Ottawa",
-	abbr: "OTT"
+	abbr: "OTT",
+	nickname: "Senators",
+	image_path: "teams/ott.gif"
 },
 {
 	name: "Philadelphia",
-	abbr: "PHI"
+	abbr: "PHI",
+	nickname: "Flyers",
+	image_path: "teams/phi.gif"
 },
 {
 	name: "Pittsburgh",
-	abbr: "PIT"
+	abbr: "PIT",
+	nickname: "Penguins",
+	image_path: "teams/pit.gif"
 },
 {
 	name: "San Jose",
-	abbr: "S.J"
+	abbr: "S.J",
+	nickname: "Sharks",
+	image_path: "teams/sjs.gif"
 },
 {
 	name: "St. Louis",
-	abbr: "STL"
+	abbr: "STL",
+	nickname: "Blues",
+	image_path: "teams/stl.gif"
 },
 {
 	name: "Tampa Bay",
-	abbr: "T.B"
+	abbr: "T.B",
+	nickname: "Lightning",
+	image_path: "teams/tbl.gif"
 },
 {
 	name: "Toronto",
-	abbr: "TOR"
+	abbr: "TOR",
+	nickname: "Maple Leafs",
+	image_path: "teams/tor.gif"
 },
 {
 	name: "Vancouver",
-	abbr: "VAN"
+	abbr: "VAN",
+	nickname: "Canucks",
+	image_path: "teams/van.gif"
 },
 {
 	name: "Winnipeg",
-	abbr: "WPG"
+	abbr: "WPG",
+	nickname: "Jets",
+	image_path: "teams/wpg.gif"
 },
 {
 	name: "Washington",
-	abbr: "WSH"
+	abbr: "WSH",
+	nickname: "Capitals",
+	image_path: "teams/wsh.gif"
 },
 ])
 

@@ -33,6 +33,10 @@ if defined?(Wice::Defaults)
   # Default CSV field separator
   Wice::Defaults::CSV_FIELD_SEPARATOR = ','
 
+	Wice::Defaults::ADDITIONAL_COLUMN_PROCESSORS = {
+		situation_filter: ['ViewColumnSituationFilter', 'ConditionsGeneratorSituationFilter']
+	}
+
 
   # The strategy when to show the filter.
   # * <tt>:when_filtered</tt> - when the table is the result of filtering

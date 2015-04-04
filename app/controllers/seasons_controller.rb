@@ -5,11 +5,13 @@ class SeasonsController < ApplicationController
   # GET /seasons.json
   def index
     @seasons = Season.all
+		@season_grid = initialize_grid(Season)
   end
 
   # GET /seasons/1
   # GET /seasons/1.json
   def show
+		@season_games_grid = initialize_grid(@season.games, include: [:home_team, :away_team])
   end
 
   # GET /seasons/new

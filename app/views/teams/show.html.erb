@@ -1,9 +1,16 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Name:</strong>
-  <%= @team.name %>
-</p>
+<div class="container">
+	<%= image_tag(@team.image_path, width: 100, style: 'float:left') %><h1 class="text-center"><%= @team.name %> <%= @team.nickname %></h1>
 
+
+	<%= grid(@stats_grid, show_filters: :always, class: 'text-center') do |g|
+
+		g.column name: "G", attribute: 'gf', model: TeamGameSummary, filter: false, class: 'col-xs-1' do |team_game_summary|
+			team_game_summary.gf.sum(:all)
+		end
+
+	end -%>
+</div>
 <%= link_to 'Edit', edit_team_path(@team) %> |
 <%= link_to 'Back', teams_path %>

@@ -2,98 +2,37 @@
 
 <div class="container">
 
-	<%= define_grid(@team_sum_grid, show_filters: :always, class: 'text-center') do |g|
-		g.column name: "Team", class: 'name-col' do |team_game_summary|
-			link_to(team_game_summary.team.name, team_path(team_game_summary.team_id))
-		end
+	<h1 class="text-center game-header"><%= image_tag(@game.away_team.image_path, width: 100, style: 'float:left') %></span><%= @game.away_team.name %> <%= @game.away_team.nickname %>: <%= @game.fscore_away %> @ <%= @game.home_team.name %> <%= @game.home_team.nickname %>: <%= @game.fscore_home %><%= image_tag(@game.home_team.image_path, width: 100, style: 'float:right') %></h1>
 
-		g.column name: "Situation", attribute: 'situation', custom_filter: [['Even Strength 5v5', '5v5'], ['Powerplay', 'pplay'], ['Shorthanded', 'short'], ['Even Strength 4v4', '4v4'], ['Team Goalie Pulled', 'goalie-pull'], ['Opposing Goalie Pulled', 'opposing-goalie-pull'], ["All", 'any']], detach_with_id: :situation_filter, auto_reload: :true, class: 'hidden'
-		g.column name: "G", attribute: 'gf', filter: false, class: 'col-xs-1'
-		g.column name: "S", attribute: 'sf', filter: false, class: 'col-xs-1'
-		g.column name: "MISS", attribute: 'msf', filter: false, class: 'col-xs-1'
-		g.column name: "BS", attribute: 'bsf', filter: false, class: 'col-xs-1'
-		g.column name: "SCf", attribute: 'scf', filter: false, class: 'col-xs-1'
-		g.column name: "CF", attribute: 'cf', filter: false, class: 'col-xs-1'
-		g.column name: "C +/-", attribute: 'c_diff', filter: false, class: 'col-xs-1'
-		g.column name: "ZSO", attribute: 'zso', filter: false, class: 'col-xs-1'
-		g.column name: "HIT", attribute: 'hits', filter: false, class: 'col-xs-1'
-		g.column name: "PEN", attribute: 'pen', filter: false, class: 'col-xs-1'
-		g.column name: "FOw", attribute: 'fo_won', filter: false, class: 'col-xs-1'
-		g.column name: "TOI", attribute: 'toi', filter: false, class: 'col-xs-1'
-	end -%>
+	<h4 class="text-center"><%= @game.game_start.strftime("%A, %B %-d, %Y - %I:%M %p") %></h4>
+</div>
 
-	<%= grid_filter @team_sum_grid, :situation_filter %>
-	<h3>Team Statistics</h3>
+<div class="row"></div>
+<div class="row"></div>
+<div class="row"></div>
+<div class="row"></div>
+
+<%= render partial: 'team_grid', locals: {team_sum_grid: @team_sum_grid} %>
+<%= render partial: 'player_grid', locals: {ps_grid: @home_ps_grid} %>
+<%= render partial: 'player_grid', locals: {ps_grid: @away_ps_grid} %>
+
+
+<div class="container">
+<%= grid_filter @team_sum_grid, :situation_filter %>
+<%= grid_filter @home_ps_grid, :situation_filter %>
+<%= grid_filter @away_ps_grid, :situation_filter %>
+
+<h3>Team Statistics</h3>
 	<%= render_grid(@team_sum_grid) %>
 </div>
 
 <div class="container">
 
 	<h3>Home Statistics</h3>
-	<%= define_grid(@home_ps_grid, show_filters: :always, class: 'text-center') do |g|
-
-		g.column name: "Name", class: 'name-col' do |player_game_summary|
-			link_to(player_game_summary.player.last_name, team_player_path(player_game_summary.player.team_id, player_game_summary.player.id))
-		end
-		g.column name: "situation", attribute: 'situation', custom_filter: [['Even Strength 5v5', '5v5'], ['Powerplay', 'pplay'], ['Shorthanded', 'short'], ['Even Strength 4v4', '4v4'], ['Team Goalie Pulled', 'goalie-pull'], ['Opposing Goalie Pulled', 'opposing-goalie-pull'], ["All", 'any']], detach_with_id: :situation_filter, auto_reload: :true, class: 'hidden'
-		g.column name: "G", attribute: 'goals', filter: false
-		g.column name: "A1", attribute: 'a1', filter: false
-		g.column name: "A2", attribute: 'a2', filter: false
-		g.column name: "P", attribute: 'points', filter: false
-		g.column name: "iSC", attribute: 'ind_sc', filter: false
-		g.column name: "iCF", attribute: 'ind_cf', filter: false
-		g.column name: "C +/-", attribute: 'c_diff', filter: false
-		g.column name: "F +/-", attribute: 'f_diff', filter: false
-		g.column name: "G +/-", attribute: 'g_diff', filter: false
-		g.column name: "CF", attribute: 'cf', filter: false
-		g.column name: "FF", attribute: 'ff', filter: false
-		g.column name: "ZSO", attribute: 'zso', filter: false
-		g.column name: "ZSD", attribute: 'zsd', filter: false
-		g.column name: "BS", attribute: 'blocks', filter: false
-		g.column name: "FOw", attribute: 'fo_won', filter: false
-		g.column name: "FOl", attribute: 'fo_lost', filter: false
-		g.column name: "HITS", attribute: 'hits', filter: false
-		g.column name: "HITSt", attribute: 'hits_taken', filter: false
-		g.column name: "PEN", attribute: 'pen', filter: false
-		g.column name: "PENd", attribute: 'pen_drawn', filter: false
-		g.column name: "TOI", attribute: 'toi', filter: false
-
-	end -%>
- <%= grid_filter @home_ps_grid, :situation_filter %>
-<%= render_grid(@home_ps_grid) %>
+	<%= render_grid(@home_ps_grid) %>
 </div>
 <div class="container">
 	<h3>Away Statistics</h3>
-	<%= define_grid(@away_ps_grid, show_filters: :always, class: 'table table-striped text-center table-layout:fixed') do |g|
-
-		g.column name: "Name", class: 'name-col' do |player_game_summary|
-			link_to(player_game_summary.player.last_name, team_player_path(player_game_summary.player.team_id, player_game_summary.player.id))
-		end
-		g.column name: "situation", attribute: 'situation', custom_filter: [['Even Strength 5v5', '5v5'], ['Powerplay', 'pplay'], ['Shorthanded', 'short'], ['Even Strength 4v4', '4v4'], ['Team Goalie Pulled', 'goalie-pull'], ['Opposing Goalie Pulled', 'opposing-goalie-pull'], ["All", 'any']], detach_with_id: :situation_filter, auto_reload: :true, class: 'hidden'
-		g.column name: "G", attribute: 'goals', filter: false
-		g.column name: "A1", attribute: 'a1', filter: false
-		g.column name: "A2", attribute: 'a2', filter: false
-		g.column name: "P", attribute: 'points', filter: false
-		g.column name: "iSC", attribute: 'ind_sc', filter: false
-		g.column name: "iCF", attribute: 'ind_cf', filter: false
-		g.column name: "C +/-", attribute: 'c_diff', filter: false
-		g.column name: "F +/-", attribute: 'f_diff', filter: false
-		g.column name: "G +/-", attribute: 'g_diff', filter: false
-		g.column name: "CF", attribute: 'cf', filter: false
-		g.column name: "FF", attribute: 'ff', filter: false
-		g.column name: "ZSO", attribute: 'zso', filter: false
-		g.column name: "ZSD", attribute: 'zsd', filter: false
-		g.column name: "BS", attribute: 'blocks', filter: false
-		g.column name: "FOw", attribute: 'fo_won', filter: false
-		g.column name: "FOl", attribute: 'fo_lost', filter: false
-		g.column name: "HITS", attribute: 'hits', filter: false
-		g.column name: "HITSt", attribute: 'hits_taken', filter: false
-		g.column name: "PEN", attribute: 'pen', filter: false
-		g.column name: "PENd", attribute: 'pen_drawn', filter: false
-		g.column name: "TOI", attribute: 'toi', filter: false
-
-	end -%>
-<%= grid_filter @away_ps_grid, :situation_filter %>
-<%= render_grid(@away_ps_grid) %>
+	<%= render_grid(@away_ps_grid) %>
 </div>
 <%= link_to 'Back', season_games_path %>

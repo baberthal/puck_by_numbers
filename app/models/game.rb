@@ -11,6 +11,8 @@ class Game < ActiveRecord::Base
 	has_many :team_game_summaries
 	has_many :participants, through: :events
 
+	scope :recent, -> { where("game_start >= ?", 2.days.ago)}
+
 	accepts_nested_attributes_for :events
 
 	def home_team_summary

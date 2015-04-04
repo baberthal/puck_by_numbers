@@ -1,9 +1,36 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Season years:</strong>
-  <%= @season.season_years %>
-</p>
+<div class="container">
+	<h1 class="text-center"><%= @season.season_years.to_s[0..3] %> - <%= @season.season_years.to_s[4..-1] %> NHL Season</h1>
 
-<%= link_to 'Edit', edit_season_path(@season) %> |
+	<%=grid(@season_games_grid, show_filters: :always, class: 'text-center') do |g|
+
+		g.column name: "Game Number", attribute: 'gcode', filter: false, class: 'col-xs-1' do |game|
+			link_to(game.gcode, season_game_path(@season.id, game.id))
+		end
+
+		g.column name: "Home", attribute: 'name', model: Team, filter: false, class: 'col-xs-1' do |game|
+			link_to(game.home_team.name, team_path(game.home_team.id))
+		end
+
+		g.column name: "Away", attribute: 'name', model: Team, filter: false, class: 'col-xs-1' do |game|
+			link_to(game.away_team.name, team_path(game.away_team.id))
+		end
+
+		g.column name: "Final", attribute: 'fscore_home', filter: false, class: 'col-xs-1' do |game|
+			link_to(game.fscore_home.to_s + " - " + game.fscore_away.to_s, season_game_path(@season.id, game.id))
+		end
+
+		g.column name: "Game Start", attribute: 'game_start', filter: false, class: 'col-xs-1' do |game|
+			game.game_start.strftime("%F || %H:%M")
+		end
+
+		g.column name: "Game End", attribute: 'game_end', filter: false, class: 'col-xs-1' do |game|
+			game.game_end.strftime("%F || %H:%M")
+		end
+
+
+	end -%>
+
+</div>
 <%= link_to 'Back', seasons_path %>

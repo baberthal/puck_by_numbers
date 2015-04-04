@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150331204300) do
+ActiveRecord::Schema.define(version: 20150401074144) do
 
   create_table "events", force: :cascade do |t|
     t.integer "game_id",           limit: 4
@@ -163,9 +163,10 @@ ActiveRecord::Schema.define(version: 20150331204300) do
   add_index "team_game_summaries", ["team_id"], name: "index_team_game_summaries_on_team_id", using: :btree
 
   create_table "teams", force: :cascade do |t|
-    t.string "name",     limit: 255
-    t.string "abbr",     limit: 3
-    t.string "nickname", limit: 255
+    t.string "name",       limit: 255
+    t.string "abbr",       limit: 3
+    t.string "nickname",   limit: 255
+    t.string "image_path", limit: 255
   end
 
 end
