@@ -18,4 +18,4 @@
 *~
 *.swp
 *.swa
-config/database.yml
+/config/database.yml
