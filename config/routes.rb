@@ -9,6 +9,8 @@ Rails.application.routes.draw do
 		end
 	end
 
+	root 'seasons#show', :id => '1'
+
   # Example resource route with options:
   #   resources :products do
   #     member do

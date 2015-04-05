@@ -59,7 +59,7 @@ module Summarizable
 		hits_query = hits.where(team_params).where(skater_params).where.not(goalie_not_params).where(goalie_params).count
 		pen_query = penalties.where(team_params).where(skater_params).where.not(goalie_not_params).where(goalie_params).count
 		fow_query = faceoffs.where(team_params).where(skater_params).where.not(goalie_not_params).where(goalie_params).count
-		toi_query = (events.where(team_params).where(skater_params).where.not(goalie_not_params).where(goalie_params).sum(:event_length)/60).round(1)
+		toi_query = (events.where(skater_params).where.not(goalie_not_params).where(goalie_params).sum(:event_length)/60).round(1)
 		if team.id == home_team_id
 			zso_query = zone_starts_o_home.where(skater_params).where.not(goalie_not_params).where(goalie_params).count
 		else

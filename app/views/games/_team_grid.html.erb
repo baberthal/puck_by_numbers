@@ -4,17 +4,17 @@
 		end
 
 		g.column name: "Situation", attribute: 'situation', custom_filter: [['Even Strength 5v5', '5v5'], ['Powerplay', 'pplay'], ['Shorthanded', 'short'], ['Even Strength 4v4', '4v4'], ['Team Goalie Pulled', 'goalie-pull'], ['Opposing Goalie Pulled', 'opposing-goalie-pull'], ["All", 'any']], detach_with_id: :situation_filter, auto_reload: :true, class: 'hidden'
-		g.column name: "G", attribute: 'gf', filter: false, class: 'col-xs-1'
-		g.column name: "S", attribute: 'sf', filter: false, class: 'col-xs-1'
-		g.column name: "MISS", attribute: 'msf', filter: false, class: 'col-xs-1'
-		g.column name: "BS", attribute: 'bsf', filter: false, class: 'col-xs-1'
-		g.column name: "SCf", attribute: 'scf', filter: false, class: 'col-xs-1'
-		g.column name: "CF", attribute: 'cf', filter: false, class: 'col-xs-1'
-		g.column name: "C +/-", attribute: 'c_diff', filter: false, class: 'col-xs-1'
-		g.column name: "ZSO", attribute: 'zso', filter: false, class: 'col-xs-1'
-		g.column name: "HIT", attribute: 'hits', filter: false, class: 'col-xs-1'
-		g.column name: "PEN", attribute: 'pen', filter: false, class: 'col-xs-1'
-		g.column name: "FOw", attribute: 'fo_won', filter: false, class: 'col-xs-1'
-		g.column name: "TOI", attribute: 'toi', filter: false, class: 'col-xs-1'
+		g.column name: "G", attribute: 'gf', filter: false, class: 'col-xs-1', html: { title: "On-Ice Goals For"}
+		g.column name: "S", attribute: 'sf', filter: false, class: 'col-xs-1', html: { title: "On-Ice Shots For"}
+		g.column name: "MISS", attribute: 'msf', filter: false, class: 'col-xs-1', html: { title: "Missed Shots For"}
+		g.column name: "BS", attribute: 'bsf', filter: false, class: 'col-xs-1', html: { title: "Blocked Shots For"}
+		g.column name: "SCf", attribute: 'scf', filter: false, class: 'col-xs-1', html: { title: "Scoring Chances For"}
+		g.column name: "CF", attribute: 'cf', filter: false, class: 'col-xs-1', html: { title: "Corsi For"}
+		g.column name: "C +/-", attribute: 'c_diff', filter: false, class: 'col-xs-1', html: { title: "On-Ice Corsi Differential"}
+		g.column name: "ZSO", attribute: 'zso', filter: false, class: 'col-xs-1', html: { title: "Offensive Zone Starts"}
+		g.column name: "HIT", attribute: 'hits', filter: false, class: 'col-xs-1', html: { title: "Hits For"}
+		g.column name: "PEN", attribute: 'pen', filter: false, class: 'col-xs-1', html: { title: "Penalties For"}
+		g.column name: "FOw", attribute: 'fo_won', filter: false, class: 'col-xs-1', html: { title: "Faceoffs Won"}
+		g.column name: "TOI", attribute: 'toi', filter: false, class: 'col-xs-1', html: { title: "Time On Ice"}
 	end -%>
 

@@ -1,29 +1,29 @@
 <%= define_grid(ps_grid, show_filters: :always, class: 'text-center') do |g|
 
 	g.column name: "Name", class: 'name-col', attribute: 'last_name', model: Player, filter: false do |player_game_summary|
-		link_to(player_game_summary.player.last_name, team_player_path(player_game_summary.player.team_id, player_game_summary.player.id))
+		link_to(player_game_summary.player.first_name.to_s[0] + ". " + player_game_summary.player.last_name.to_s, team_player_path(player_game_summary.player.team_id, player_game_summary.player.id))
 		end
 	g.column name: "situation", attribute: 'situation', custom_filter: [['Even Strength 5v5', '5v5'], ['Powerplay', 'pplay'], ['Shorthanded', 'short'], ['Even Strength 4v4', '4v4'], ['Team Goalie Pulled', 'goalie-pull'], ['Opposing Goalie Pulled', 'opposing-goalie-pull'], ["All", 'any']], detach_with_id: :situation_filter, auto_reload: :true, class: 'hidden'
-	g.column name: "G", attribute: 'goals', filter: false
-	g.column name: "A1", attribute: 'a1', filter: false
-	g.column name: "A2", attribute: 'a2', filter: false
-	g.column name: "P", attribute: 'points', filter: false
-	g.column name: "iSC", attribute: 'ind_sc', filter: false
-	g.column name: "iCF", attribute: 'ind_cf', filter: false
-	g.column name: "C +/-", attribute: 'c_diff', filter: false
-	g.column name: "F +/-", attribute: 'f_diff', filter: false
-	g.column name: "G +/-", attribute: 'g_diff', filter: false
-	g.column name: "CF", attribute: 'cf', filter: false
-	g.column name: "FF", attribute: 'ff', filter: false
-	g.column name: "ZSO", attribute: 'zso', filter: false
-	g.column name: "ZSD", attribute: 'zsd', filter: false
-	g.column name: "BS", attribute: 'blocks', filter: false
-	g.column name: "FOw", attribute: 'fo_won', filter: false
-	g.column name: "FOl", attribute: 'fo_lost', filter: false
-	g.column name: "HITS", attribute: 'hits', filter: false
-	g.column name: "HITSt", attribute: 'hits_taken', filter: false
-	g.column name: "PEN", attribute: 'pen', filter: false
-	g.column name: "PENd", attribute: 'pen_drawn', filter: false
-	g.column name: "TOI", attribute: 'toi', filter: false
+	g.column name: "G", attribute: 'goals', filter: false, html: { title: "Goals Scored" }
+	g.column name: "A1", attribute: 'a1', filter: false, html: { title: "Primary Assists" }
+	g.column name: "A2", attribute: 'a2', filter: false, html: { title: "Secondary Assists" }
+	g.column name: "P", attribute: 'points', filter: false, html: { title: "Points" }
+	g.column name: "iSC", attribute: 'ind_sc', filter: false, html: { title: "Individual Scoring Chances" }
+	g.column name: "iCF", attribute: 'ind_cf', filter: false, html: { title: "Individual Corsi Events" }
+	g.column name: "C +/-", attribute: 'c_diff', filter: false, html: { title: "On-Ice Corsi Differential" }
+	g.column name: "F +/-", attribute: 'f_diff', filter: false, html: { title: "On-Ice Fenwick Differential" }
+	g.column name: "G +/-", attribute: 'g_diff', filter: false, html: { title: "On-Ice Goal Differential" }
+	g.column name: "CF", attribute: 'cf', filter: false, html: { title: "On-Ice Corsi For" }
+	g.column name: "FF", attribute: 'ff', filter: false, html: { title: "On-Ice Fenwick For" }
+	g.column name: "ZSO", attribute: 'zso', filter: false, html: { title: "Offensive Zone Starts" }
+	g.column name: "ZSD", attribute: 'zsd', filter: false, html: { title: "Defensive Zone Starts" }
+	g.column name: "BS", attribute: 'blocks', filter: false, html: { title: "Blocked Shots" }
+	g.column name: "FOw", attribute: 'fo_won', filter: false, html: { title: "Faceoffs Won" }
+	g.column name: "FOl", attribute: 'fo_lost', filter: false, html: { title: "Faceoffs Lost" }
+	g.column name: "HITS", attribute: 'hits', filter: false, html: { title: "Hits" }
+	g.column name: "HITSt", attribute: 'hits_taken', filter: false, html: { title: "Hits Taken" }
+	g.column name: "PEN", attribute: 'pen', filter: false, html: { title: "Penalties Taken" }
+	g.column name: "PENd", attribute: 'pen_drawn', filter: false, html: { title: "Penalties Drawn" }
+	g.column name: "TOI", attribute: 'toi', filter: false, html: { title: "Time on Ice" }
 
 end -%>

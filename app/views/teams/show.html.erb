@@ -3,14 +3,48 @@
 <div class="container">
 	<%= image_tag(@team.image_path, width: 100, style: 'float:left') %><h1 class="text-center"><%= @team.name %> <%= @team.nickname %></h1>
 
-
-	<%= grid(@stats_grid, show_filters: :always, class: 'text-center') do |g|
-
-		g.column name: "G", attribute: 'gf', model: TeamGameSummary, filter: false, class: 'col-xs-1' do |team_game_summary|
-			team_game_summary.gf.sum(:all)
-		end
-
-	end -%>
 </div>
+
+<div class="container">
+	<div class="panel panel-default">
+		<div class="panel-heading"><%= @team.name %> <%= @team.nickname %> Summary by Season</div>
+		<table class="table table-hover">
+			<thead>
+				<tr>
+					<th>Season</th>
+					<th>G</th>
+					<th>S</th>
+					<th>Miss</th>
+					<th>Block</th>
+					<th>SCf</th>
+					<th>CF</th>
+					<th>ZSO</th>
+					<th>HIT</th>
+					<th>PEN</th>
+					<th>TOI</th>
+				</tr>
+			</thead>
+			<tbody class="text-center">
+				<% @team.team_game_summaries.each do |tgs|	%>
+					<tr>
+						<td>2014 - 2015</td>
+						<td><%= tgs.gf %></td>
+						<td><%= tgs.sf %></td>
+						<td><%= tgs.msf %></td>
+						<td><%= tgs.bsf %></td>
+						<td><%= tgs.scf %></td>
+						<td><%= tgs.cf %></td>
+						<td><%= tgs.zso %></td>
+						<td><%= tgs.hits %></td>
+						<td><%= tgs.pen %></td>
+						<td><%= tgs.toi %></td>
+					</tr>
+				<% end %>
+			</tbody>
+		</table>
+	</div>
+
+</div>
+
 <%= link_to 'Edit', edit_team_path(@team) %> |
 <%= link_to 'Back', teams_path %>
