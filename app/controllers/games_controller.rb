@@ -17,9 +17,22 @@ class GamesController < ApplicationController
   # GET /games/1.json
 	def show
 		@game = @season.games.find(params[:id])
-		@home_ps_grid = initialize_grid(@game.player_game_summaries.where(player: @game.home_players), include: :player, name:'home_ps_grid')
-		@away_ps_grid = initialize_grid(@game.player_game_summaries.where(player: @game.away_players), include: :player, name:'away_ps_grid')
-		@team_sum_grid = initialize_grid(@game.team_game_summaries, name:'team_sum_grid')
+
+		@situation = params[:situation]
+
+		@home_ps_grid = initialize_grid(@game.player_game_summaries,
+																		:include => [:player, :game],
+																		:name => 'home_ps_grid'
+																		)
+
+		@away_ps_grid = initialize_grid(@game.player_game_summaries.where(player: @game.away_players),
+																		:include => [:player, :game],
+																		:name => 'away_ps_grid'
+																		)
+
+		@team_sum_grid = initialize_grid(@game.team_game_summaries,
+																		name: 'team_sum_grid'
+																		)
 	end
 
   # GET /games/new

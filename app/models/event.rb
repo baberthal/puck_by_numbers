@@ -10,10 +10,4 @@ class Event < ActiveRecord::Base
 	has_many :participants
 	has_many :players, through: :participants
 
-	after_create :determine_player_teams, if: 'seconds = 3600'
-
-	def determine_player_teams
-		event_player_1.change_team(self.event_team_id) unless event_team.nil? || event_type == "FAC"
-	end
-
 end

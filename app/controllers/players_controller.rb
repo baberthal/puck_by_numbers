@@ -5,9 +5,20 @@ class PlayersController < ApplicationController
   # GET /players.json
   def index
 		@players = Player.includes(:events).all
+		@player_grid = initialize_grid(Player,
+																	:include => [:team],
+																	)
   end
 
-  # GET /players/1
+	def skaters
+		@players = Player.skaters
+	end
+
+	def goalies
+		@players = Player.goalies
+	end
+
+	# GET /players/1
   # GET /players/1.json
   def show
   end

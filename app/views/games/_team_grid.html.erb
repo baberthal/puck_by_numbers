@@ -3,7 +3,7 @@
 			link_to(team_game_summary.team.name, team_path(team_game_summary.team_id))
 		end
 
-		g.column name: "Situation", attribute: 'situation', custom_filter: [['Even Strength 5v5', '5v5'], ['Powerplay', 'pplay'], ['Shorthanded', 'short'], ['Even Strength 4v4', '4v4'], ['Team Goalie Pulled', 'goalie-pull'], ['Opposing Goalie Pulled', 'opposing-goalie-pull'], ["All", 'any']], detach_with_id: :situation_filter, auto_reload: :true, class: 'hidden'
+		g.column name: "Situation", attribute: 'situation', custom_filter: [['Even Strength 5v5', '1'], ['Powerplay', '2'], ['Shorthanded', '3'], ['Even Strength 4v4', '4'], ['Team Goalie Pulled', '5'], ['Opposing Goalie Pulled', '6'], ["All", '7']], detach_with_id: :situation_filter, auto_reload: :true, class: 'hidden'
 		g.column name: "G", attribute: 'gf', filter: false, class: 'col-xs-1', html: { title: "On-Ice Goals For"}
 		g.column name: "S", attribute: 'sf', filter: false, class: 'col-xs-1', html: { title: "On-Ice Shots For"}
 		g.column name: "MISS", attribute: 'msf', filter: false, class: 'col-xs-1', html: { title: "Missed Shots For"}

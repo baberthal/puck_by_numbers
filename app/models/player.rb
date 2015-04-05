@@ -9,9 +9,23 @@ class Player < ActiveRecord::Base
 	has_many :games, through: :events
 	has_many :player_game_summaries
 
-	def change_team(new_team_id)
-		self.team_id = new_team_id
+	scope :goalies, -> { where(position: "G") }
+	scope :skaters, -> { where.not(position: "G") }
+
+	def change_team(new_team)
+		self.team = new_team
 		self.save
 	end
 
+	def determine_team
+		unless self.events.nil?
+			a = self.events.joins(:participants, :game).last
+			if a.participants.find_by(player: self).event_role[0].to_s.downcase == "a"
+				t = a.game.away_team
+			elsif a.participants.find_by(player: self).event_role[0].to_s.downcase == "h"
+				t = a.game.home_team
+			end
+		end
+		change_team(t)
+	end
 end

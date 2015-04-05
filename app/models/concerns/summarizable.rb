@@ -3,10 +3,12 @@ module Summarizable
 		team_params = { event_team_id: team.id }
 
 		if options[:situation] == "5v5"
+			sit_id = 1
 			skater_params = { home_skaters: 6, away_skaters: 6 }
 			goalie_not_params = { home_G_id: nil, away_G_id: nil }
 
 		elsif options[:situation] == "pplay"
+			sit_id = 2
 			if team.id == home_team_id
 				skater_params = { home_skaters: 6, away_skaters: 5 }
 			else
@@ -15,6 +17,7 @@ module Summarizable
 			goalie_not_params = { home_G_id: nil, away_G_id: nil }
 
 		elsif options[:situation] == "short"
+			sit_id = 3
 			if team.id == home_team_id
 				skater_params = { home_skaters: 5, away_skaters: 6 }
 			else
@@ -23,10 +26,12 @@ module Summarizable
 			goalie_not_params = { home_G_id: nil, away_G_id: nil }
 
 		elsif options[:situation] == "4v4"
+			sit_id = 4
 			skater_params = { home_skaters: 5, away_skaters: 5 }
 			goalie_not_params = { home_G_id: nil, away_G_id: nil }
 
 		elsif options[:situation] == "goalie-pull"
+			sit_id = 5
 			skater_params = { home_skaters: [1,2,3,4,5,6], away_skaters: [1,2,3,4,5,6] }
 			if team.id == home_team_id
 				goalie_params = { home_G_id: nil }
@@ -37,6 +42,7 @@ module Summarizable
 			end
 
 		elsif options[:situation] == "opposing-goalie-pull"
+			sit_id = 6
 			if team.id == home_team_id
 				goalie_params = { away_G_id: nil }
 				goalie_not_params = { home_G_id: nil }
@@ -46,6 +52,7 @@ module Summarizable
 			end
 
 		elsif options[:situation] == "any"
+			sit_id = 7
 			skater_params = { home_skaters: [1,2,3,4,5,6], away_skaters: [1,2,3,4,5,6] }
 			goalie_not_params = { home_G_id: 1, away_G_id: 1 }
 		end
@@ -59,14 +66,14 @@ module Summarizable
 		hits_query = hits.where(team_params).where(skater_params).where.not(goalie_not_params).where(goalie_params).count
 		pen_query = penalties.where(team_params).where(skater_params).where.not(goalie_not_params).where(goalie_params).count
 		fow_query = faceoffs.where(team_params).where(skater_params).where.not(goalie_not_params).where(goalie_params).count
-		toi_query = (events.where(skater_params).where.not(goalie_not_params).where(goalie_params).sum(:event_length)/60).round(1)
+		toi_query = (events.where(skater_params).sum(:event_length)/60).round(1)
 		if team.id == home_team_id
 			zso_query = zone_starts_o_home.where(skater_params).where.not(goalie_not_params).where(goalie_params).count
 		else
 			zso_query = zone_starts_o_away.where(skater_params).where.not(goalie_not_params).where(goalie_params).count
 		end
 
-		TeamGameSummary.create(team_id: team.id, game_id: id, situation: options[:situation]) do |ts|
+		TeamGameSummary.create(team_id: team.id, game_id: id, situation: sit_id) do |ts|
 			ts.gf = goals_query
 			ts.sf = shots_query
 			ts.msf = miss_query
@@ -87,10 +94,12 @@ module Summarizable
 			game_params = { game_id: id }
 
 			if options[:situation] == "5v5"
+				sit_id = 1
 				skater_params = { home_skaters: 6, away_skaters: 6 }
 				goalie_not_params = { home_G_id: nil, away_G_id: nil }
 
 			elsif options[:situation] == "pplay"
+				sit_id = 2
 				if player.team_id == home_team_id
 					skater_params = { home_skaters: 6, away_skaters: 5 }
 				else
@@ -99,6 +108,7 @@ module Summarizable
 				goalie_not_params = { home_G_id: nil, away_G_id: nil }
 
 			elsif options[:situation] == "short"
+				sit_id = 3
 				if player.team_id == home_team_id
 					skater_params = { home_skaters: 5, away_skaters: 6 }
 				else
@@ -107,10 +117,12 @@ module Summarizable
 				goalie_not_params = { home_G_id: nil, away_G_id: nil }
 
 			elsif options[:situation] == "4v4"
+				sit_id = 4
 				skater_params = { home_skaters: 5, away_skaters: 5 }
 				goalie_not_params = { home_G_id: nil, away_G_id: nil }
 
 			elsif options[:situation] == "goalie-pull"
+				sit_id = 5
 				skater_params = { home_skaters: [1,2,3,4,5,6], away_skaters: [1,2,3,4,5,6] }
 				if player.team_id == home_team_id
 					goalie_params = { home_G_id: nil }
@@ -121,6 +133,7 @@ module Summarizable
 				end
 
 			elsif options[:situation] == "opposing-goalie-pull"
+				sit_id = 6
 				if player.team_id == home_team_id
 					goalie_params = { away_G_id: nil }
 					goalie_not_params = { home_G_id: nil }
@@ -130,11 +143,12 @@ module Summarizable
 				end
 
 			elsif options[:situation] == "any"
+				sit_id = 7
 				skater_params = { home_skaters: [1,2,3,4,5,6], away_skaters: [1,2,3,4,5,6] }
 				goalie_not_params = { home_G_id: 1, away_G_id: 1 }
 			end
 
-			PlayerGameSummary.create(player: player, game_id: id, situation: options[:situation]) do |ps|
+			PlayerGameSummary.create(player: player, game_id: id, situation: sit_id) do |ps|
 				ps.goals = player.goals.where(game_params).where(skater_params).where.not(goalie_not_params).where(goalie_params).count
 				ps.a1 = player.primary_assists.where(game_params).where(skater_params).where.not(goalie_not_params).where(goalie_params).count
 				ps.a2 = player.secondary_assists.where(game_params).where(skater_params).where.not(goalie_not_params).where(goalie_params).count

@@ -2,15 +2,16 @@
 
 <div class="container">
 
-	<h1 class="text-center game-header"><%= image_tag(@game.away_team.image_path, width: 100, style: 'float:left') %></span><%= @game.away_team.name %> <%= @game.away_team.nickname %>: <%= @game.fscore_away %> @ <%= @game.home_team.name %> <%= @game.home_team.nickname %>: <%= @game.fscore_home %><%= image_tag(@game.home_team.image_path, width: 100, style: 'float:right') %></h1>
+	<div class="row">
+		<h1 class="text-center game-header"><%= image_tag(@game.away_team.image_path, width: 100, style: 'float:left') %><%= @game.away_team.name %> <%= @game.away_team.nickname %>: <%= @game.fscore_away %> @ <%= @game.home_team.name %> <%= @game.home_team.nickname %>: <%= @game.fscore_home %><%= image_tag(@game.home_team.image_path, width: 100, style: 'float:right') %></h1>
+	</div>
 
-	<h4 class="text-center"><%= @game.game_start.strftime("%A, %B %-d, %Y - %I:%M %p") %></h4>
+	<div class="row">
+		<h4 class="text-center"><%= @game.game_start.strftime("%A, %B %-d, %Y - %I:%M %p") %></h4>
+	</div>
+
 </div>
 
-<div class="row"></div>
-<div class="row"></div>
-<div class="row"></div>
-<div class="row"></div>
 
 <%= render partial: 'team_grid', locals: {team_sum_grid: @team_sum_grid} %>
 <%= render partial: 'player_grid', locals: {ps_grid: @home_ps_grid} %>
@@ -18,21 +19,27 @@
 
 
 <div class="container">
-<%= grid_filter @team_sum_grid, :situation_filter %>
-<%= grid_filter @home_ps_grid, :situation_filter %>
-<%= grid_filter @away_ps_grid, :situation_filter %>
-
-<h3>Team Statistics</h3>
-	<%= render_grid(@team_sum_grid) %>
+		<%= grid_filter @team_sum_grid, :situation_filter %>
+		<%= grid_filter @home_ps_grid, :situation_filter %>
+		<%= grid_filter @away_ps_grid, :situation_filter %>
 </div>
+
+<div class="container">
+
+	<h3>Team Statistics</h3>
+	<%= render_grid(@team_sum_grid) %>
+
+</div>
+
 
 <div class="container">
 
 	<h3>Home Statistics</h3>
 	<%= render_grid(@home_ps_grid) %>
-</div>
-<div class="container">
+
 	<h3>Away Statistics</h3>
 	<%= render_grid(@away_ps_grid) %>
+
 </div>
+
 <%= link_to 'Back', season_games_path %>

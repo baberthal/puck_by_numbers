@@ -1,9 +1,9 @@
 <%= define_grid(ps_grid, show_filters: :always, class: 'text-center') do |g|
 
 	g.column name: "Name", class: 'name-col', attribute: 'last_name', model: Player, filter: false do |player_game_summary|
-		link_to(player_game_summary.player.first_name.to_s[0] + ". " + player_game_summary.player.last_name.to_s, team_player_path(player_game_summary.player.team_id, player_game_summary.player.id))
+		link_to(player_game_summary.player.first_name.to_s[0] + ". " + player_game_summary.player.last_name.to_s.titleize, player_path(player_game_summary.player.id))
 		end
-	g.column name: "situation", attribute: 'situation', custom_filter: [['Even Strength 5v5', '5v5'], ['Powerplay', 'pplay'], ['Shorthanded', 'short'], ['Even Strength 4v4', '4v4'], ['Team Goalie Pulled', 'goalie-pull'], ['Opposing Goalie Pulled', 'opposing-goalie-pull'], ["All", 'any']], detach_with_id: :situation_filter, auto_reload: :true, class: 'hidden'
+	g.column name: "situation", attribute: 'situation', custom_filter: [['Even Strength 5v5', '1'], ['Powerplay', '2'], ['Shorthanded', '3'], ['Even Strength 4v4', '4'], ['Team Goalie Pulled', '5'], ['Opposing Goalie Pulled', '6'], ["All", '7']], detach_with_id: :situation_filter, auto_reload: :true, class: 'hidden'
 	g.column name: "G", attribute: 'goals', filter: false, html: { title: "Goals Scored" }
 	g.column name: "A1", attribute: 'a1', filter: false, html: { title: "Primary Assists" }
 	g.column name: "A2", attribute: 'a2', filter: false, html: { title: "Secondary Assists" }
