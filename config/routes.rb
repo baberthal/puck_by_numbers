@@ -1,14 +1,22 @@
 Rails.application.routes.draw do
-  resources :teams
-	resources :players
+  concern :summaries do
+    resources :team_game_summaries, only: [:index, :show]
+    resources :player_game_summaries, only: [:index, :show]
+  end
 
-	resources :seasons do
-		resources :games do
-			resources :events
-		end
-	end
+  resources :teams do
+    resources :team_game_summaries, only: [:index, :show]
+  end
 
-	root 'seasons#show', :id => '1'
+  resources :players do
+    resources :player_game_summaries, only: [:index, :show]
+  end
+
+  resources :seasons do
+    resources :games, concerns: :summaries
+  end
+
+  root 'seasons#show', :id => '1'
 
   # Example resource route with options:
   #   resources :products do

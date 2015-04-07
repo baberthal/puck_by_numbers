@@ -11,6 +11,7 @@ class Player < ActiveRecord::Base
 
 	scope :goalies, -> { where(position: "G") }
 	scope :skaters, -> { where.not(position: "G") }
+	scope :active, -> { joins(:games).where.not(id: 1).where(games: { season_id: 1 }).uniq }
 
 	def change_team(new_team)
 		self.team = new_team
@@ -27,5 +28,13 @@ class Player < ActiveRecord::Base
 			end
 		end
 		change_team(t)
+	end
+
+	def self.search(search)
+		if search
+			where('last_name LIKE ?', "%#{search}%")
+		else
+			all
+		end
 	end
 end

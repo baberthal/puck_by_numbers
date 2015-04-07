@@ -1,0 +1,27 @@
+<table class="table table-hover table-striped">
+	<thead class="title-row-jml">
+		<tr>
+			<th><%= sortable "game_start", "Date" %></th>
+			<th class="white-border"><%= sortable "gcode", "Game Number" %></th>
+			<th class="white-border"><%= sortable "home_team.name", "Home" %></th>
+			<th class="white-border"><%= sortable "away_team.name", "Away Team" %></th>
+			<th class="white-border">Final</th>
+			<th class="white-border"><%= sortable "game_start", "Start" %></th>
+			<th><%= sortable "game_end", "End" %></th>
+		</tr>
+	</thead>
+
+	<tbody>
+		<% @season.games.each do |game| %>
+			<tr>
+				<td class="text-center"><%= game.game_start.strftime("%D") %></td>
+				<td class="text-center dot-col-border"><%= link_to game.gcode, season_game_path(@season, game) %></td>
+				<td class="text-center dot-col-border"><%= link_to "#{game.home_team.name} #{game.home_team.nickname}", team_path(game.home_team) %></td>
+				<td class="text-center dot-col-border"><%= link_to "#{game.away_team.name} #{game.away_team.nickname}", team_path(game.away_team) %></td>
+				<td class="text-center dot-col-border"><%= link_to "#{game.fscore_home} - #{game.fscore_away}", season_game_path(@season, game) %></td>
+				<td class="text-center dot-col-border"><%= game.game_start.strftime("%T") %></td>
+				<td class="text-center"><%= game.game_end.strftime("%T") %></td>
+			</tr>
+		<% end %>
+	</tbody>
+</table>

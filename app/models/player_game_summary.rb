@@ -4,5 +4,6 @@ class PlayerGameSummary < ActiveRecord::Base
 
 	validates :player_id, :uniqueness => { :scope => [:game_id, :situation] }
 
+	scope :sit, ->(skaters) { where("situation = ?", skaters) }
 end
 

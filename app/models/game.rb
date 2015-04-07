@@ -23,6 +23,14 @@ class Game < ActiveRecord::Base
 		team_game_summaries.find_by(team_id: away_team_id)
 	end
 
+	def away_player_summaries
+		player_game_summaries.joins(:player).where(player: {team: away_team})
+	end
+
+	def home_player_summaries
+		player_game_summaries.joins(:player).where(player: {team: home_team})
+	end
+
 	def home_players
 		players.where(team_id: home_team_id).uniq
 	end

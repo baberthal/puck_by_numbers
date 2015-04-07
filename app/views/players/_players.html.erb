@@ -1,0 +1,27 @@
+<table class="table table-hover">
+  <thead class="title-row-jml">
+    <tr>
+      <th class="name-col"><%= sortable "last_name", "Name" %> <span class="glyphicon glyphicon-menu-up"></span></th>
+      <th class="white-border"><%= sortable "position", "Pos." %></th>
+      <th><%= sortable "teams.name", "Current Team" %></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @players.each do |player| %>
+      <tr>
+        <td class="col-xs-3"><%= link_to player.first_name.to_s.titleize + " " + player.last_name.to_s.titleize, player_path(player) %></td>
+        <td class="text-center dot-col-border col-xs-1"><%= player.position %></td>
+        <% if player.team.nil? %>
+          <td class="text-center col-xs-3"> - </td>
+        <% else %>
+          <td class="text-center col-xs-3"><%= link_to("#{player.team.name} #{player.team.nickname}", player.team) %></td>
+        <% end %>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<%= will_paginate @players, renderer: BootstrapPagination::Rails %>
+
+

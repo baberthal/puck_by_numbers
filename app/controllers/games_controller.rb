@@ -1,6 +1,7 @@
 class GamesController < ApplicationController
   before_action :set_game, only: [:show, :edit, :update, :destroy]
 	before_filter :get_season
+	helper_method :sort_column, :sort_direction
 
 	def get_season
 		@season = Season.find(params[:season_id])
@@ -17,22 +18,6 @@ class GamesController < ApplicationController
   # GET /games/1.json
 	def show
 		@game = @season.games.find(params[:id])
-
-		@situation = params[:situation]
-
-		@home_ps_grid = initialize_grid(@game.player_game_summaries,
-																		:include => [:player, :game],
-																		:name => 'home_ps_grid'
-																		)
-
-		@away_ps_grid = initialize_grid(@game.player_game_summaries.where(player: @game.away_players),
-																		:include => [:player, :game],
-																		:name => 'away_ps_grid'
-																		)
-
-		@team_sum_grid = initialize_grid(@game.team_game_summaries,
-																		name: 'team_sum_grid'
-																		)
 	end
 
   # GET /games/new
@@ -94,4 +79,12 @@ class GamesController < ApplicationController
     def game_params
       params[:game]
     end
+
+		def sort_column
+			PlayerGameSummary.column_names.include?(params[:sort]) ? params[:sort] : "last_name"
+		end
+
+		def sort_direction
+			%w[asc desc].include?(params[:direction]) ? params[:direction] : "asc"
+		end
 end
