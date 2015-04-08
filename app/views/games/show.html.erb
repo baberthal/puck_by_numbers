@@ -11,55 +11,53 @@
 	</div>
 
 </div>
+
 <div class="row">
-	<div class="container">
-		<%= form_tag(season_game_team_game_summaries_path(game_id: @game.id), method: :get, remote: true, id: "game-summary-tables")	%>
-			<p>
-			<%= select_tag(:situation_id, options_from_collection_for_select(Situation.all, :id, :name))	%>
-			</p>
+	<div class="medium-3 columns">
+		<%= search_form_for @q do |f| %>
+			<div class="field">
+				<%= f.label :situation %>
+				<%= f.text_field :situation %>
+			</div>
+			<div class="actions"> <%= f.submit "Search" %></div>
+		<% end %>
 	</div>
 </div>
 
 <div class="container">
-	<div class="panel panel-default">
-		<div class="panel-heading">
-			<div class="row">
-				<ul class="nav nav-tabs pull-left">
-					<li role="presentation" class="active"><a href="#">Team Statistics</a></li>
-				</ul>
-			</div>
-		</div>
-		<div id="team-stats">
+	<div class="row">
+		<ul class="nav nav-tabs pull-left">
+			<li role="presentation" class="active"><a href="#">Team Statistics</a></li>
+		</ul>
+	</div>
+	<div class="row">
+		<div class="small-12 columns" id="team-stats">
 			<%= render 'team_table' %>
 		</div>
 	</div>
 </div>
 
 <div class="container">
-	<div class="panel panel-default">
-		<div class="panel-heading">
-			<div class="row">
-				<ul class="nav nav-tabs pull-left">
-					<li role="presentation" class="active"><a href="#">Away Statistics</a></li>
-				</ul>
-			</div>
-		</div>
-		<div id="away-stats">
+	<div class="row">
+		<ul class="nav nav-tabs pull-left">
+			<li role="presentation" class="active"><a href="#">Away Statistics</a></li>
+		</ul>
+	</div>
+	<div class="row">
+		<div class="small-12 columns" id="away-stats">
 			<%= render 'away_player_table' %>
 		</div>
 	</div>
 </div>
 
 <div class="container">
-	<div class="panel panel-default">
-		<div class="panel-heading">
-			<div class="row">
-				<ul class="nav nav-tabs pull-left">
-					<li role="presentation" class="active"><a href="#">Home Statistics</a></li>
-				</ul>
-			</div>
-		</div>
-		<div id="home-stats">
+	<div class="row">
+		<ul class="nav nav-tabs pull-left">
+			<li role="presentation" class="active"><a href="#">Home Statistics</a></li>
+		</ul>
+	</div>
+	<div class="row">
+		<div class="small-12 columns" id="home-stats">
 			<%= render 'home_player_table' %>
 		</div>
 	</div>

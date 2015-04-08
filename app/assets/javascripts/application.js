@@ -12,9 +12,10 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require foundation
 //= require turbolinks
-//= require bootstrap-sprockets
 //= require_tree .
+//= require_tree ../../../vendor/assets/javascripts/.
 
 $(function() {
 	$("#players th a, #players .pagination a").on("click", function() {
@@ -26,3 +27,5 @@ $(function() {
 		return false;
 	});
 });
+
+$(function(){ $(document).foundation(); });

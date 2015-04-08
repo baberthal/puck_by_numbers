@@ -1,20 +1,12 @@
 Rails.application.routes.draw do
-  concern :summaries do
-    resources :team_game_summaries, only: [:index, :show]
-    resources :player_game_summaries, only: [:index, :show]
-  end
-
-  resources :teams do
-    resources :team_game_summaries, only: [:index, :show]
-  end
-
-  resources :players do
-    resources :player_game_summaries, only: [:index, :show]
-  end
+  resources :teams
+  resources :players
 
   resources :seasons do
-    resources :games, concerns: :summaries
+    resources :games
   end
+
+  resources :team_game_summaries, only: :index
 
   root 'seasons#show', :id => '1'
 

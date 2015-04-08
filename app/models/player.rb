@@ -30,6 +30,11 @@ class Player < ActiveRecord::Base
 		change_team(t)
 	end
 
+	def pretty_last_name
+		last = self.last_name.to_s.titleize.split
+		last.join
+	end
+
 	def self.search(search)
 		if search
 			where('last_name LIKE ?', "%#{search}%")

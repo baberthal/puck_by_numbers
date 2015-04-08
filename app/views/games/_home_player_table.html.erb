@@ -1,63 +1,63 @@
 <div class="table-responsive">
 
-<table class="table table-hover table-condensed player-table table-striped">
+  <table class="player-table table-hover" role="grid">
 
-	<thead class="title-row-jml">
-		<tr>
-			<th class="name-col" data-width="8%">Name</span></th>
-			<th class="white-border" data-width="4%"><%= sortable "position", "Pos." %></th>
-			<th class="white-border" data-width="4%"><%= sortable "goals", "G" %></th>
-			<th class="white-border" data-width="4%"><%= sortable "a1", "A1" %></th>
-			<th class="white-border" data-width="4%"><%= sortable "a2", "A2" %></th>
-			<th class="white-border" data-width="4%"><%= sortable "points", "P" %></th>
-			<th class="white-border" data-width="4%"><%= sortable "ind_sc", "iSC"  %></th>
-			<th class="white-border" data-width="4%"><%= sortable "ind_cf", "iCF" %></th>
-			<th class="white-border" data-width="4%"><%= sortable "c_diff", "C +/-" %></th>
-			<th class="white-border" data-width="4%"><%= sortable "f_diff", "F +/-" %></th>
-			<th class="white-border" data-width="4%"><%= sortable "g_diff", "G +/-" %></th>
-			<th class="white-border" data-width="4%"><%= sortable "cf", "CF" %></th>
-			<th class="white-border" data-width="4%"><%= sortable "ff", "FF" %></th>
-			<th class="white-border" data-width="4%"><%= sortable "zso", "ZSO" %></th>
-			<th class="white-border" data-width="4%"><%= sortable "zsd", "ZSD" %></th>
-			<th class="white-border" data-width="4%"><%= sortable "blocks", "BS" %></th>
-			<th class="white-border" data-width="4%"><%= sortable "fo_won", "FOw" %></th>
-			<th class="white-border" data-width="4%"><%= sortable "fo_lost", "FOl" %></th>
-			<th class="white-border" data-width="4%"><%= sortable "hits", "HIT" %></th>
-			<th class="white-border" data-width="4%"><%= sortable "hits_taken", "HIT-" %></th>
-			<th class="white-border" data-width="4%"><%= sortable "pen", "PEN" %></th>
-			<th class="white-border" data-width="4%"><%= sortable "pen_drawn", "PENd" %></th>
-			<th class="white-border" data-width="4%"><%= sortable "toi", "TOI" %></th>
-		</tr>
-	</thead>
+  <thead>
+    <tr>
+      <th class="name-col" width="115">Name</th>
+      <th class="text-center" width=47><%= sortable "position", "Pos.", "Position" %></th>
+      <th class="text-center" width=47><%= sortable "goals", "G", "Goals Scored" %></th>
+      <th class="text-center" width=47><%= sortable "a1", "A1", "Primary Assists" %></th>
+      <th class="text-center" width=47><%= sortable "a2", "A2", "Secondary Assists" %></th>
+      <th class="text-center" width=47><%= sortable "points", "P", "Points" %></th>
+      <th class="text-center" width=47><%= sortable "ind_sc", "iSC", "Individual Scoring Chances"  %></th>
+      <th class="text-center" width=47><%= sortable "ind_cf", "iCF", "Individual Corsi Events" %></th>
+      <th class="text-center" width=47><%= sortable "c_diff", "C+/-", "On-Ice Corsi Differential" %></th>
+      <th class="text-center" width=47><%= sortable "f_diff", "F+/-", "On-Ice Fenwick Differential" %></th>
+      <th class="text-center" width=47><%= sortable "g_diff", "G+/-", "On-Ice Goal Differential" %></th>
+      <th class="text-center" width=47><%= sortable "cf", "CF", "On-Ice Corsi For" %></th>
+      <th class="text-center" width=47><%= sortable "ff", "FF", "On-Ice Fenwick For" %></th>
+      <th class="text-center" width=47><%= sortable "zso", "ZSO", "Offensive Zone Starts" %></th>
+      <th class="text-center" width=47><%= sortable "zsd", "ZSD", "Defensive Zone Starts" %></th>
+      <th class="text-center" width=47><%= sortable "blocks", "BS", "Shots Blocked by Player" %></th>
+      <th class="text-center" width=47><%= sortable "fo_won", "FOw", "Faceoffs Won" %></th>
+      <th class="text-center" width=47><%= sortable "fo_lost", "FOl", "Faceoffs Lost" %></th>
+      <th class="text-center" width=47><%= sortable "hits", "HT", "Hits by Player" %></th>
+      <th class="text-center" width=47><%= sortable "hits_taken", "HT-", "Hits Taken by Player" %></th>
+      <th class="text-center" width=47><%= sortable "pen", "PN", "Penalties Taken by Player" %></th>
+      <th class="text-center" width=47><%= sortable "pen_drawn", "PN-", "Penalties Drawn by Player" %></th>
+      <th class="text-center" width=47><%= sortable "toi", "TOI", "Time on Ice" %></th>
+    </tr>
+  </thead>
 
-	<tbody>
-		<% @game.home_player_summaries.each do |pgs|  %>
-			<tr>
-				<td class="col-xs-3"><%= link_to pgs.player.first_name.to_s[0] + " " + pgs.player.last_name.to_s.titleize, player_path(pgs.player) %></td>
-				<td class="text-center dot-col-border"><%= pgs.player.position %></td>
-				<td class="text-center dot-col-border"><%= pgs.goals %></td>
-				<td class="text-center dot-col-border"><%= pgs.a1 %></td>
-				<td class="text-center dot-col-border"><%= pgs.a2 %></td>
-				<td class="text-center dot-col-border"><%= pgs.points %></td>
-				<td class="text-center dot-col-border"><%= pgs.ind_sc %></td>
-				<td class="text-center dot-col-border"><%= pgs.ind_cf %></td>
-				<td class="text-center dot-col-border"><%= pgs.c_diff %></td>
-				<td class="text-center dot-col-border"><%= pgs.f_diff %></td>
-				<td class="text-center dot-col-border"><%= pgs.g_diff %></td>
-				<td class="text-center dot-col-border"><%= pgs.cf %></td>
-				<td class="text-center dot-col-border"><%= pgs.ff %></td>
-				<td class="text-center dot-col-border"><%= pgs.zso %></td>
-				<td class="text-center dot-col-border"><%= pgs.zsd %></td>
-				<td class="text-center dot-col-border"><%= pgs.blocks %></td>
-				<td class="text-center dot-col-border"><%= pgs.fo_won %></td>
-				<td class="text-center dot-col-border"><%= pgs.fo_lost %></td>
-				<td class="text-center dot-col-border"><%= pgs.hits %></td>
-				<td class="text-center dot-col-border"><%= pgs.hits_taken %></td>
-				<td class="text-center dot-col-border"><%= pgs.pen %></td>
-				<td class="text-center dot-col-border"><%= pgs.pen_drawn %></td>
-				<td class="text-center dot-col-border"><%= pgs.toi %></td>
-			</tr>
-		<% end %>
-	</tbody>
+  <tbody>
+    <% @game.away_player_summaries.each do |pgs|  %>
+      <tr>
+        <td><%= link_to pgs.player.first_name.to_s[0] + ". " + pgs.player.pretty_last_name, player_path(pgs.player) %></td>
+        <td class="text-center"><%= pgs.player.position %></td>
+        <td class="text-center"><%= pgs.goals %></td>
+        <td class="text-center"><%= pgs.a1 %></td>
+        <td class="text-center"><%= pgs.a2 %></td>
+        <td class="text-center"><%= pgs.points %></td>
+        <td class="text-center"><%= pgs.ind_sc %></td>
+        <td class="text-center"><%= pgs.ind_cf %></td>
+        <td class="text-center"><%= pgs.c_diff %></td>
+        <td class="text-center"><%= pgs.f_diff %></td>
+        <td class="text-center"><%= pgs.g_diff %></td>
+        <td class="text-center"><%= pgs.cf %></td>
+        <td class="text-center"><%= pgs.ff %></td>
+        <td class="text-center"><%= pgs.zso %></td>
+        <td class="text-center"><%= pgs.zsd %></td>
+        <td class="text-center"><%= pgs.blocks %></td>
+        <td class="text-center"><%= pgs.fo_won %></td>
+        <td class="text-center"><%= pgs.fo_lost %></td>
+        <td class="text-center"><%= pgs.hits %></td>
+        <td class="text-center"><%= pgs.hits_taken %></td>
+        <td class="text-center"><%= pgs.pen %></td>
+        <td class="text-center"><%= pgs.pen_drawn %></td>
+        <td class="text-center"><%= pgs.toi %></td>
+      </tr>
+    <% end %>
+  </tbody>
 </table>
 </div>

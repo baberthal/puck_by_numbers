@@ -5,4 +5,8 @@ class TeamGameSummary < ActiveRecord::Base
 	validates :team_id, :uniqueness => { :scope => [:game_id, :situation] }
 
 	scope :sit, ->(skaters) { where("situation = ?", skaters) }
+
+	def self.by_game(game)
+		where(game: game)
+	end
 end

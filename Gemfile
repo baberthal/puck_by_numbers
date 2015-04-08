@@ -13,10 +13,10 @@ gem 'composite_primary_keys'
 gem 'mysql2'
 gem 'activerecord-mysql-unsigned'
 gem 'puma'
-gem 'bootstrap-sass', '~> 3.3.4'
-gem 'autoprefixer-rails'
 gem 'squeel'
-gem 'will_paginate-bootstrap'
+gem 'foundation-rails'
+gem 'will_paginate-foundation'
+gem 'ransack'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
@@ -31,6 +31,6 @@ group :development, :test do
   gem 'byebug'
   gem 'web-console', '~> 2.0'
   gem 'spring'
-	gem 'rspec', '~> 3.0'
+  gem 'rspec', '~> 3.0'
 end
 

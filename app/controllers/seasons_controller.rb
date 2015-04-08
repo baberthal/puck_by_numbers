@@ -1,6 +1,6 @@
 class SeasonsController < ApplicationController
   before_action :set_season, only: [:show, :edit, :update, :destroy]
-	helper_method :sort_column, :sort_direction
+  helper_method :sort_column, :sort_direction
 
   # GET /seasons
   # GET /seasons.json
@@ -11,7 +11,7 @@ class SeasonsController < ApplicationController
   # GET /seasons/1
   # GET /seasons/1.json
   def show
-		@season.games.includes(:home_team, :away_team).order(sort_column + " " + sort_direction).paginate(:per_page => 20, :page => params[:page])
+    @season.games.includes(:home_team, :away_team).order(sort_column + " " + sort_direction).paginate(:per_page => 20, :page => params[:page])
   end
 
   # GET /seasons/new
@@ -74,12 +74,12 @@ class SeasonsController < ApplicationController
       params.require(:season).permit(:season_years)
     end
 
-		def sort_column
-			@season.games.column_names.include?(params[:sort]) ? params[:sort] : "gcode"
-		end
+    def sort_column
+      @season.games.column_names.include?(params[:sort]) ? params[:sort] : "gcode"
+    end
 
-		def sort_direction
-			%w[asc desc].include?(params[:direction]) ? params[:direction] : "desc"
-		end
+    def sort_direction
+      %w[asc desc].include?(params[:direction]) ? params[:direction] : "desc"
+    end
 
 end

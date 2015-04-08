@@ -1,0 +1,126 @@
+.puck-logo {
+  margin-top: -2px;
+  height: 40px;
+}
+
+th {
+  text-align: center;
+}
+
+.name-col {
+  text-align: left;
+}
+
+th {
+  vertical-align: center;
+}
+th a {
+  color: #fff;
+}
+
+th a:hover{
+  color: #00D3FF;
+}
+
+h1 {
+  color: #0776A0;
+  font-family: Futura, Avenir, Helvetica, sans-serif;
+}
+
+h2 {
+  color: #0776A0;
+  font-family: Avenir, Helvetica, sans-serif;
+}
+
+h3 {
+  color: #0776A0;
+  font-family: Avenir, Helvetica, sans-serif;
+}
+
+h4 {
+  color: #0776A0;
+  font-family: Avenir, Helvetica, sans-serif;
+}
+
+body {
+  font-family: Avenir, Helvetica, sans-serif;
+}
+
+.panel-default {
+  border-color: #0776a0;
+}
+
+.title-row-jml {
+  background-color: #0776a0;
+  color: #fff;
+}
+
+.white-border {
+  border-right: 1px solid #fff;
+  border-left: 1px solid #fff;
+}
+
+.dot-col-border {
+  border-right: 1px dotted #ccc;
+  border-left: 1px dotted #ccc;
+}
+
+.nav-tabs {
+  padding-left: 10px;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  color: #fff;
+  background-color: #0776a0;
+}
+
+.search-box {
+  color: #0776a0;
+  font-size: 14px;
+  padding: 10px;
+  padding-bottom: 0px;
+  font-weight: normal;
+}
+
+.search-button {
+  color: #05526f;
+  padding: 5px;
+  line-height: 15px;
+}
+
+.search-button:hover {
+  color: #fff;
+}
+
+.paginator {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.pagination {
+  margin: 0;
+}
+
+.table {
+  margin-bottom: 0px;
+}
+
+.table tr {
+  border-bottom: 1px solid #ddd;
+}
+
+.panel-default > .panel-heading {
+  background-color: #ddd;
+}
+
+.panel-heading > h3 {
+  margin: 0;
+  margin-top: 5px;
+}
+
+.pagination {
+  padding: 10px;
+  margin-top: 5px;
+}

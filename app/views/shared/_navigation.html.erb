@@ -1,40 +1,42 @@
-<nav class="navbar navbar-default navbar-static-top" role="navigation">
-	<div class="container-fluid">
-		<div class="navbar-header">
-			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
-			<a class="navbar-brand" href="/">
-				<%= image_tag("PuckByNumbers_logo_small.png", height: '50', class: "puck-logo") %>
-			</a>
-		</div>
+<div class="sticky">
 
-		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-			<ul class="nav nav-pills nav-justified">
-				<li class="dropdown">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">GAMES <span class="caret"></span></a>
-					<ul class="dropdown-menu" role="menu">
-						<li><a href="#">Recent</a></li>
-						<li><a href="#">By Season</a></li>
-					</ul>
-				</li>
-				<li><%= link_to("TEAMS", teams_path, data: { toggle: "pill"}, role: "pill") %></li>
-				<li class="dropdown">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="botton" aria-expanded="false">PLAYERS <span class="caret"></span></a>
-					<ul class="dropdown-menu" role="menu">
-						<li><%= link_to("SKATERS", players_path(:goalies => false)) %></li>
-						<li><%= link_to("GOALIES", players_path(:goalies => true)) %></li>
-					</ul>
-				</li>
-				<li><a href="#" data-toggle="pill" role="pill">ABOUT </a></li>
-				<li><a href="#" data-toggle="pill" role="pill">BLOG </a></li>
-				<li><a href="#" data-toggle="pill" role="pill">HELP </a></li>
-				<li><a href="#" data-toggle="pill" role="pill">CONTACT </a></li>
-			</ul>
+  <nav class="top-bar" data-topbar role="navigation">
+    <ul class="title-area">
+      <li class="name">
+        <h1><a href="#"><%= image_tag("PuckByNumbers_logo_small.png", alt: "PBN Logo", height: '40', class: "puck-logo") %></a></h1>
+      </li>
+      <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+    </ul>
 
-		</div>
-	</div>
-</nav>
+    <section class="top-bar-section">
+      <ul class="right">
+        <li class="has-dropdown">
+          <a href="#">MORE</a>
+          <ul class="dropdown">
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">BLOG</a></li>
+            <li><a href="#">HELP</a></li>
+            <li><a href="#">CONTACT</a></li>
+          </ul>
+        </li>
+      </ul>
+
+      <ul class="left">
+        <li class="has-dropdown"><a href="#">GAMES</a>
+          <ul class="dropdown">
+            <li><%= link_to "RECENT", season_games_path(@games, season_id: 1) %></li>
+            <li class="has-dropdown"><a href="#">BY SEASON</a>
+              <ul class="dropdown">
+                <li> <%= link_to "2014 - 2015", season_path(id: 1) %></li>
+                <li><a href="#">2013 - 2014</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+
+        <li><a href="#">PLAYERS</a></li>
+        <li><a href="#">TEAMS</a></li>
+      </ul>
+    </section>
+  </nav>
+</div>

@@ -1,11 +1,11 @@
 class PlayersController < ApplicationController
   before_action :set_player, only: [:show, :edit, :update, :destroy]
-        helper_method :sort_column, :sort_direction
+  helper_method :sort_column, :sort_direction
 
   # GET /players
   # GET /players.json
   def index
-                @players = Player.includes(:team).active.search(params[:search]).order(sort_column + " " + sort_direction).paginate(:per_page => 20, :page => params[:page])
+    @players = Player.includes(:team).active.search(params[:search]).order(sort_column + " " + sort_direction).paginate(:per_page => 20, :page => params[:page])
   end
 
         # GET /players/1

@@ -4,8 +4,8 @@ class EventsController < ApplicationController
   # GET /events
   # GET /events.json
   def index
-		@events = Event.includes(:event_team, :participants).all
-	end
+    @events = Event.includes(:event_team, :participants).all
+  end
 
   # GET /events/1
   # GET /events/1.json

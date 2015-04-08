@@ -4,20 +4,13 @@ class TeamsController < ApplicationController
   # GET /teams
   # GET /teams.json
   def index
-		@teams = Team.includes(:games, :events).all
+    @teams = Team.includes(:home_games, :away_games).all
   end
 
   # GET /teams/1
   # GET /teams/1.json
   def show
-		@stats_grid = initialize_grid(@team.team_game_summaries, name: 'stats_grid')
-		@roster_grid = initialize_grid(@team.players, include: :players, name: 'roster_grid')
   end
-
-	def games
-		@team = Team.find(params[:team_id])
-		@games = Game.where("home_team_id = :team_id OR away_team_id = :team_id", {team_id: @team.id})
-	end
 
   # GET /teams/new
   def new

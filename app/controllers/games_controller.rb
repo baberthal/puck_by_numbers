@@ -1,28 +1,29 @@
 class GamesController < ApplicationController
   before_action :set_game, only: [:show, :edit, :update, :destroy]
-	before_filter :get_season
-	helper_method :sort_column, :sort_direction
+  before_filter :get_season
+  helper_method :sort_column, :sort_direction, :sit
 
-	def get_season
-		@season = Season.find(params[:season_id])
-	end
+  def get_season
+    @season = Season.find(params[:season_id])
+  end
 
 
   # GET /games
   # GET /games.json
   def index
-		@games = @season.games.includes(:home_team, :away_team, :team_game_summaries, :player_game_summaries).all
+    @games = @season.games.includes(:home_team, :away_team, :team_game_summaries, :player_game_summaries).all
   end
 
   # GET /games/1
   # GET /games/1.json
-	def show
-		@game = @season.games.find(params[:id])
-	end
+  def show
+    @q = @season.games.ransack(params[:q])
+    @game = @q.result.includes(:home_team, :away_team, :team_game_summaries, :player_game_summaries)
+  end
 
   # GET /games/new
   def new
-		@game = Game.new
+    @game = Game.new
   end
 
   # GET /games/1/edit
@@ -80,11 +81,15 @@ class GamesController < ApplicationController
       params[:game]
     end
 
-		def sort_column
-			PlayerGameSummary.column_names.include?(params[:sort]) ? params[:sort] : "last_name"
-		end
+    def sort_column
+      PlayerGameSummary.column_names.include?(params[:sort]) ? params[:sort] : "last_name"
+    end
 
-		def sort_direction
-			%w[asc desc].include?(params[:direction]) ? params[:direction] : "asc"
-		end
+    def sort_direction
+      %w[asc desc].include?(params[:direction]) ? params[:direction] : "asc"
+    end
+
+    def sit
+      Situation.ids.include?(params[:sit]) ? params[:sit] : "1"
+    end
 end
