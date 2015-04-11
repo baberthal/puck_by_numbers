@@ -1,3 +1,5 @@
+@import "foundation_and_overrides";
+
 .puck-logo {
   margin-top: -2px;
   height: 40px;
@@ -7,7 +9,11 @@ th {
   text-align: center;
 }
 
-.name-col {
+.name-col,
+td .name-col {
+  overflow: hidden;
+  text-overflow: clip;
+  white-space: nowrap;
   text-align: left;
 }
 
@@ -15,30 +21,30 @@ th {
   vertical-align: center;
 }
 th a {
-  color: #fff;
+  color: $white;
 }
 
 th a:hover{
-  color: #00D3FF;
+  color: $secondary-color;
 }
 
 h1 {
-  color: #0776A0;
+  color: $primary-color;
   font-family: Futura, Avenir, Helvetica, sans-serif;
 }
 
 h2 {
-  color: #0776A0;
+  color: $primary-color;
   font-family: Avenir, Helvetica, sans-serif;
 }
 
 h3 {
-  color: #0776A0;
+  color: $primary-color;
   font-family: Avenir, Helvetica, sans-serif;
 }
 
 h4 {
-  color: #0776A0;
+  color: $primary-color;
   font-family: Avenir, Helvetica, sans-serif;
 }
 
@@ -47,37 +53,26 @@ body {
 }
 
 .panel-default {
-  border-color: #0776a0;
+  border-color: $primary-color;
 }
 
 .title-row-jml {
-  background-color: #0776a0;
-  color: #fff;
+  background-color: $primary-color;
+  color: $white;
 }
 
 .white-border {
-  border-right: 1px solid #fff;
-  border-left: 1px solid #fff;
+  border-right: 1px solid $white;
+  border-left: 1px solid $white;
 }
 
 .dot-col-border {
-  border-right: 1px dotted #ccc;
-  border-left: 1px dotted #ccc;
-}
-
-.nav-tabs {
-  padding-left: 10px;
-}
-
-.nav-tabs > li.active > a,
-.nav-tabs > li.active > a:hover,
-.nav-tabs > li.active > a:focus {
-  color: #fff;
-  background-color: #0776a0;
+  border-right: 1px dotted $iron;
+  border-left: 1px dotted $iron;
 }
 
 .search-box {
-  color: #0776a0;
+  color: $primary-color;
   font-size: 14px;
   padding: 10px;
   padding-bottom: 0px;
@@ -91,7 +86,7 @@ body {
 }
 
 .search-button:hover {
-  color: #fff;
+  color: $white;
 }
 
 .paginator {
@@ -108,11 +103,11 @@ body {
 }
 
 .table tr {
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid $gainsboro;
 }
 
 .panel-default > .panel-heading {
-  background-color: #ddd;
+  background-color: $gainsboro;
 }
 
 .panel-heading > h3 {
@@ -123,4 +118,147 @@ body {
 .pagination {
   padding: 10px;
   margin-top: 5px;
+}
+
+.right .teamlogo {
+  float: right;
+}
+
+.left .teamlogo {
+  float: left;
+}
+
+.sub-nav dt {
+  font-weight: bold;
+  color: $primary-color;
+
+  dl {
+    width: 1000px;
+  }
+}
+
+.sit-panel {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: auto;
+  background-color: $gainsboro;
+  border-radius: 3px;
+  border-color: $primary-color;
+  margin: {
+    bottom: 10px;
+    top: 5px;
+  }
+
+   dd.active a {
+    border-radius: 5px;
+    color: $white !important;
+  }
+
+  .sub-nav {
+    padding-top: 4px;
+    padding-bottom: 4px;
+
+    dd a {
+      color: $charcoal;
+      padding: {
+  left: 0.8rem;
+  right: 0.8rem;
+      }
+      &:hover {
+  color: $white;
+  background-color: #06658a;
+  border-radius: 5px;
+      }
+    }
+  }
+
+}
+
+.small-offset-c {
+  margin: {
+    left: 50px !important;
+  }
+}
+
+.rounded-panel {
+  @include panel();
+  border-radius: $global-radius;
+}
+
+.with-tabs {
+  border-radius: 0 $global-radius $global-radius $global-radius;
+}
+
+.jml-table {
+  @include table();
+  border-radius: 3px;
+}
+
+.gutters {
+  padding: {
+    left: 40px;
+    right: 40px;
+  }
+}
+
+.tabs-pretty.tabs > .tab-title {
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border: 1px solid #d8d8d8;
+  margin: {
+    right: 4px !important;
+    }
+  .active a {
+    border-bottom: none;
+    color: $primary-color;
+  }
+}
+
+.tabs .tab-title > a {
+  margin-bottom: -1px;
+  background-color: transparent;
+  font-size: .85rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: $primary-color;
+}
+
+.tabs .tab-title.active a {
+  color: $primary-color;
+  background-color: $ghost;
+}
+
+$nav-tabs-border-color: #d8d8d8;
+
+.nav-tabs {
+  > li {
+    float: left;
+    margin-bottom: -1px;
+
+    > a {
+      margin-right: 4px;
+      border: 1px solid transparent;
+      border-radius: $global-radius $global-radius 0 0;
+      &:hover {
+        border-color: $secondary-color $secondary-color transparent;
+      }
+    }
+
+    &.active > a {
+      &,
+      &:hover,
+      &:focus {
+        border: 1px solid $nav-tabs-border-color;
+        border-bottom-color: transparent;
+        cursor: default;
+      }
+    }
+  }
+}
+
+.running-events {
+  width: 100%;
+  height: 100%;
 }

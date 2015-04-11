@@ -81,7 +81,7 @@ $include-xl-html-grid-classes: true;
 
 $row-width: rem-calc(1200);
 // $total-columns: 12;
-// $column-gutter: rem-calc(30);
+$column-gutter: rem-calc(30);
 
 // $last-child-float: $opposite-direction;
 
@@ -142,7 +142,7 @@ $default-float: left;
 $last-child-float: $opposite-direction;
 
 // We use these to make sure border radius matches unless we want it different.
-// $global-radius: 3px;
+$global-radius: 3px;
 // $global-rounded: 1000px;
 
 // We use these to control inset shadow shiny edges and depressions.
@@ -965,12 +965,12 @@ $xxlarge-only: "#{$screen} and (min-width:#{lower-bound($xxlarge-range)}) and (m
 // 21. Panels
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
-// $include-html-panel-classes: $include-html-classes;
+$include-html-panel-classes: $include-html-classes;
 
 // We use these to control the background and border styles
-// $panel-bg: scale-color($white, $lightness: -5%);
-// $panel-border-style: solid;
-// $panel-border-size: 1px;
+$panel-bg: $ghost;
+$panel-border-style: solid;
+$panel-border-size: 1px;
 
 // We use this % to control how much we darken things on hover
 // $panel-function-factor: -11%;
@@ -981,7 +981,7 @@ $xxlarge-only: "#{$screen} and (min-width:#{lower-bound($xxlarge-range)}) and (m
 // $panel-padding: rem-calc(20);
 
 // We use these to set default font colors
-// $panel-font-color: $oil;
+$panel-font-color: $oil;
 // $panel-font-color-alt: $white;
 
 // $panel-header-adjust: true;
@@ -1220,8 +1220,8 @@ $xxlarge-only: "#{$screen} and (min-width:#{lower-bound($xxlarge-range)}) and (m
 // $include-html-nav-classes: $include-html-classes;
 
 // We use these to control margin and padding
-// $sub-nav-list-margin: rem-calc(-4 0 18);
-// $sub-nav-list-padding-top: rem-calc(4);
+$sub-nav-list-margin: rem-calc(-4 0 18);
+$sub-nav-list-padding-top: rem-calc(4);
 
 // We use this to control the definition
 // $sub-nav-font-family: $body-font-family;
@@ -1244,7 +1244,7 @@ $xxlarge-only: "#{$screen} and (min-width:#{lower-bound($xxlarge-range)}) and (m
 // $sub-nav-active-cursor: default;
 
 // $sub-nav-item-divider: "";
-// $sub-nav-item-divider-margin: rem-calc(12);
+$sub-nav-item-divider-margin: rem-calc(10);
 
 // 29. Switch
 // - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -1316,21 +1316,21 @@ $table-line-height: rem-calc(17);
 // 31. Tabs
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
-// $include-html-tabs-classes: $include-html-classes;
+$include-html-tabs-classes: $include-html-classes;
 
-// $tabs-navigation-padding: rem-calc(16);
-// $tabs-navigation-bg-color: $silver;
-// $tabs-navigation-active-bg-color: $white;
-// $tabs-navigation-hover-bg-color: scale-color($tabs-navigation-bg-color, $lightness: -6%);
-// $tabs-navigation-font-color: $jet;
-// $tabs-navigation-active-font-color: $tabs-navigation-font-color;
-// $tabs-navigation-font-size: rem-calc(16);
-// $tabs-navigation-font-family: $body-font-family;
+$tabs-navigation-padding: rem-calc(12);
+$tabs-navigation-bg-color: $white;
+$tabs-navigation-active-bg-color: scale-color($white, $lightness: -5%);
+$tabs-navigation-hover-bg-color: scale-color($tabs-navigation-bg-color, $lightness: -6%);
+$tabs-navigation-font-color: $jet;
+$tabs-navigation-active-font-color: $tabs-navigation-font-color;
+$tabs-navigation-font-size: rem-calc(16);
+$tabs-navigation-font-family: $body-font-family;
 
-// $tabs-content-margin-bottom: rem-calc(24);
-// $tabs-content-padding: ($column-gutter/2);
+$tabs-content-margin-bottom: rem-calc(24);
+$tabs-content-padding: ($column-gutter/2);
 
-// $tabs-vertical-navigation-margin-bottom: 1.25rem;
+$tabs-vertical-navigation-margin-bottom: 1.25rem;
 
 // 32. Thumbnails
 // - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -1421,7 +1421,7 @@ $topbar-dropdown-link-bg: $primary-color;
 $topbar-dropdown-link-bg-hover: $secondary-color;
 $topbar-dropdown-link-weight: $font-weight-normal;
 $topbar-dropdown-toggle-size: 5px;
-$topbar-dropdown-toggle-color: $white;
+$topbar-dropdown-toggle-color: $primary-color;
 $topbar-dropdown-toggle-alpha: 0.4;
 
 $topbar-dropdown-label-color: $monsoon;

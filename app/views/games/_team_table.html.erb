@@ -1,41 +1,14 @@
-<div class="table-responsive">
-
-<table class="team-table table-hover">
-
-	<thead>
-		<tr>
-			<th class="name-col" width="250">Name</span></th>
-			<th class="text-center" width=100><%= sortable "gf", "G" %></th>
-			<th class="text-center" width=100><%= sortable "sf", "S" %></th>
-			<th class="text-center" width=100><%= sortable "msf", "MS" %></th>
-			<th class="text-center" width=100><%= sortable "bsf", "BS" %></th>
-			<th class="text-center" width=100><%= sortable "scf", "SCf" %></th>
-			<th class="text-center" width=100><%= sortable "cf", "CF"  %></th>
-			<th class="text-center" width=100><%= sortable "zso", "ZSO" %></th>
-			<th class="text-center" width=100><%= sortable "hits", "HIT" %></th>
-			<th class="text-center" width=100><%= sortable "pen", "PEN" %></th>
-			<th class="text-center" width=100><%= sortable "fo_won", "FOw" %></th>
-			<th class="text-center" width=100><%= sortable "toi", "TOI" %></th>
-		</tr>
-	</thead>
-
-	<tbody>
-		<% @game.team_game_summaries.each do |tgs|  %>
-			<tr>
-				<td><%= link_to tgs.team.name.to_s.titleize, team_path(tgs.team) %></td>
-				<td class="text-center"><%= tgs.gf %></td>
-				<td class="text-center"><%= tgs.sf %></td>
-				<td class="text-center"><%= tgs.msf %></td>
-				<td class="text-center"><%= tgs.bsf %></td>
-				<td class="text-center"><%= tgs.scf %></td>
-				<td class="text-center"><%= tgs.cf %></td>
-				<td class="text-center"><%= tgs.zso %></td>
-				<td class="text-center"><%= tgs.hits %></td>
-				<td class="text-center"><%= tgs.pen %></td>
-				<td class="text-center"><%= tgs.fo_won %></td>
-				<td class="text-center"><%= tgs.toi %></td>
-			</tr>
-		<% end %>
-	</tbody>
-</table>
-</div>
+<tr>
+	<td><%= link_to team_game_summary.team.name.to_s.titleize, team_path(team_game_summary.team) %></td>
+	<td class="text-center"><%= team_game_summary.gf %></td>
+	<td class="text-center"><%= team_game_summary.sf %></td>
+	<td class="text-center"><%= team_game_summary.msf %></td>
+	<td class="text-center"><%= team_game_summary.bsf %></td>
+	<td class="text-center"><%= team_game_summary.scf %></td>
+	<td class="text-center"><%= team_game_summary.cf %></td>
+	<td class="text-center"><%= team_game_summary.zso %></td>
+	<td class="text-center"><%= team_game_summary.hits %></td>
+	<td class="text-center"><%= team_game_summary.pen %></td>
+	<td class="text-center"><%= team_game_summary.fo_won %></td>
+	<td class="text-center"><%= team_game_summary.toi %></td>
+</tr>

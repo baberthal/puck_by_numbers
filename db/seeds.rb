@@ -31,179 +31,189 @@ Team.create!([
 	name: "Anaheim",
 	abbr: "ANA",
 	nickname: "Ducks",
-	image_path: "teams/ana.gif"
+	logo: "teams/ana.svg",
+	color1: "#000000",
+	color2: "#91764b",
+	color3: "#ef5225"
 },
 {
 	name: "Arizona",
 	abbr: "ARI",
 	nickname: "Coyotes",
-	image_path: "teams/ari.gif"
+	logo: "teams/ari.svg",
+	color1: "#841f27",
+	color2: "#000000",
+	color3: "#efe1c6"
 },
 {
 	name: "Boston",
 	abbr: "BOS",
 	nickname: "Bruins",
-	image_path: "teams/bos.gif"
+	logo: "teams/bos.svg",
+	color1: "#000000",
+	color2: "#ffc422"
 },
 {
 	name: "Buffalo",
 	abbr: "BUF",
 	nickname: "Sabres",
-	image_path: "teams/buf.gif"
+	logo: "teams/buf.svg"
 },
 {
 	name: "Carolina",
 	abbr: "CAR",
 	nickname: "Hurricanes",
-	image_path: "teams/car.gif"
+	logo: "teams/car.svg"
 },
 {
 	name: "Columbus",
 	abbr: "CBJ",
 	nickname: "Blue Jackets",
-	image_path: "teams/cbj.gif"
+	logo: "teams/cbj.svg"
 },
 {
 	name: "Calgary",
 	abbr: "CGY",
 	nickname: "Flames",
-	image_path: "teams/cgy.gif"
+	logo: "teams/cgy.svg"
 },
 {
 	name: "Chicago",
 	abbr: "CHI",
 	nickname: "Blackhawks",
-	image_path: "teams/chi.gif"
+	logo: "teams/chi.svg"
 },
 {
 	name: "Colorado",
 	abbr: "COL",
 	nickname: "Avalanche",
-	image_path: "teams/col.gif"
+	logo: "teams/col.svg"
 },
 {
 	name: "Dallas",
 	abbr: "DAL",
 	nickname: "Stars",
-	image_path: "teams/dal.gif"
+	logo: "teams/dal.svg"
 },
 {
 	name: "Detroit",
 	abbr: "DET",
 	nickname: "Red Wings",
-	image_path: "teams/det.gif"
+	logo: "teams/det.svg"
 },
 {
 	name: "Edmonton",
 	abbr: "EDM",
 	nickname: "Oilers",
-	image_path: "teams/edm.gif"
+	logo: "teams/edm.svg"
 },
 {
 	name: "Florida",
 	abbr: "FLA",
 	nickname: "Panthers",
-	image_path: "teams/fla.gif"
+	logo: "teams/fla.svg"
 },
 {
 	name: "Los Angeles",
 	abbr: "L.A",
 	nickname: "Kings",
-	image_path: "teams/lak.gif"
+	logo: "teams/lak.svg"
 },
 {
 	name: "Minnesota",
 	abbr: "MIN",
 	nickname: "Wild",
-	image_path: "teams/min.gif"
+	logo: "teams/min.svg"
 },
 {
 	name: "Montreal",
 	abbr: "MTL",
 	nickname: "Canadiens",
-	image_path: "teams/mtl.gif"
+	logo: "teams/mtl.svg"
 },
 {
 	name: "New Jersey",
 	abbr: "N.J",
 	nickname: "Devils",
-	image_path: "teams/njd.gif"
+	logo: "teams/njd.svg"
 },
 {
 	name: "Nashville",
 	abbr: "NSH",
 	nickname: "Predators",
-	image_path: "teams/nsh.gif"
+	logo: "teams/nsh.svg"
 },
 {
 	name: "New York Islanders",
 	abbr: "NYI",
-	image_path: "teams/nyi.gif"
+	logo: "teams/nyi.svg"
 },
 {
 	name: "New York Rangers",
 	abbr: "NYR",
-	image_path: "teams/nyr.gif"
+	logo: "teams/nyr.svg"
 },
 {
 	name: "Ottawa",
 	abbr: "OTT",
 	nickname: "Senators",
-	image_path: "teams/ott.gif"
+	logo: "teams/ott.svg"
 },
 {
 	name: "Philadelphia",
 	abbr: "PHI",
 	nickname: "Flyers",
-	image_path: "teams/phi.gif"
+	logo: "teams/phi.svg",
+	color1: "#f47940",
+	color2: "#000000"
 },
 {
 	name: "Pittsburgh",
 	abbr: "PIT",
 	nickname: "Penguins",
-	image_path: "teams/pit.gif"
+	logo: "teams/pit.svg"
 },
 {
 	name: "San Jose",
 	abbr: "S.J",
 	nickname: "Sharks",
-	image_path: "teams/sjs.gif"
+	logo: "teams/sjs.svg"
 },
 {
 	name: "St. Louis",
 	abbr: "STL",
 	nickname: "Blues",
-	image_path: "teams/stl.gif"
+	logo: "teams/stl.svg"
 },
 {
 	name: "Tampa Bay",
 	abbr: "T.B",
 	nickname: "Lightning",
-	image_path: "teams/tbl.gif"
+	logo: "teams/tbl.svg"
 },
 {
 	name: "Toronto",
 	abbr: "TOR",
 	nickname: "Maple Leafs",
-	image_path: "teams/tor.gif"
+	logo: "teams/tor.svg"
 },
 {
 	name: "Vancouver",
 	abbr: "VAN",
 	nickname: "Canucks",
-	image_path: "teams/van.gif"
+	logo: "teams/van.svg"
 },
 {
 	name: "Winnipeg",
 	abbr: "WPG",
 	nickname: "Jets",
-	image_path: "teams/wpg.gif"
+	logo: "teams/wpg.svg"
 },
 {
 	name: "Washington",
 	abbr: "WSH",
 	nickname: "Capitals",
-	image_path: "teams/wsh.gif"
+	logo: "teams/wsh.svg"
 },
 ])
 

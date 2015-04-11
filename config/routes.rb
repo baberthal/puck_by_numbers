@@ -6,8 +6,6 @@ Rails.application.routes.draw do
     resources :games
   end
 
-  resources :team_game_summaries, only: :index
-
   root 'seasons#show', :id => '1'
 
   # Example resource route with options:

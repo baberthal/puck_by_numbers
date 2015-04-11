@@ -13,19 +13,22 @@
 //= require jquery
 //= require jquery_ujs
 //= require foundation
+//= require highcharts/highcharts
+//= require highcharts/highcharts-more
+//= require highcharts/highstock
+//= require highcharts/stock/highcharts-more
 //= require turbolinks
 //= require_tree .
-//= require_tree ../../../vendor/assets/javascripts/.
 
 $(function() {
-	$("#players th a, #players .pagination a").on("click", function() {
-		$.getScript(this.href);
-		return false;
-	});
-	$("#players_search input").keyup(function() {
-		$.get($("#players_search").attr("action"), $("#players_search").serialize(), null, "script");
-		return false;
-	});
+  $("#players th a, #players .pagination a").on("click", function() {
+    $.getScript(this.href);
+    return false;
+  });
+  $("#players_search input").keyup(function() {
+    $.get($("#players_search").attr("action"), $("#players_search").serialize(), null, "script");
+    return false;
+  });
 });
 
 $(function(){ $(document).foundation(); });

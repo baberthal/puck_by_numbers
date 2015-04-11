@@ -5,18 +5,19 @@ gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.1.0'
 # gem 'therubyracer', platforms: :ruby
-gem 'jquery-rails'
 gem 'turbolinks'
+gem 'jquery-rails'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'composite_primary_keys'
 gem 'mysql2'
 gem 'activerecord-mysql-unsigned'
 gem 'puma'
-gem 'squeel'
-gem 'foundation-rails'
+gem 'foundation-rails', '= 5.5.1.2'
 gem 'will_paginate-foundation'
 gem 'ransack'
+gem 'lazy_high_charts'
+
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

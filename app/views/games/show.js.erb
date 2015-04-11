@@ -1,0 +1,6 @@
+$("#stats").html("<%= escape_javascript(render("stats_table")) %>");
+
+$(".sub-nav dd").on("click", function() {
+  $(".sub-nav dd").removeClass("active");
+  $(this).addClass("active");
+});
