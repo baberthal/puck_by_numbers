@@ -12,19 +12,6 @@ Player.destroy_all
 Event.destroy_all
 Location.destroy_all
 Participant.destroy_all
-Situation.destroy_all
-
-Situation.create!([
-	{name: "Even Strength 5v5"},
-	{name: "Powerplay"},
-	{name: "Shorthanded"},
-	{name: "Even Strength 4v4"},
-	{name: "Goalie Pulled"},
-	{name: "Opposing Goalie Pulled"},
-	{name: "All"}
-	])
-
-p "Created #{Situation.count} Situations"
 
 Team.create!([
 {

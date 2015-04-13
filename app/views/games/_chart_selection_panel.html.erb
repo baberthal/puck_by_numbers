@@ -1,0 +1,21 @@
+<div class="row">
+  <div class="filter-panel panel">
+    <h4 class="subheader filter-panel-header">Chart Options</h4>
+    <div class="row">
+      <div class="small-3 columns">
+        <%= form_for :event_count_chart, url: {action: "show"} do |f| %>
+          <%= f.label(:sit, "Situation: ") %>
+          <%= f.select(:sit, options_for_select([['Even Strength 5v5', 1],
+                                                 ['Powerplay', 2],
+                                                 ['Shorthanded', 3],
+                                                 ['Even Strength 4v4', 4],
+                                                 ['Goalie Pulled', 5],
+                                                 ['Opposing Goalie Pulled', 6],
+                                                 ['All', [1,2,3,4,5,6,7]]])) %>
+
+       <% end %>
+
+      </div>
+    </div>
+  </div>
+</div>

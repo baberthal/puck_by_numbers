@@ -5,7 +5,10 @@
     <%= image_tag(@game.away_team.logo, height: 60, class: "teamlogo") %>
   </div>
   <div class="small-10 columns">
-    <h1 class="text-center game-header"><%= @game.away_team.name %> <%= @game.away_team.nickname %>: <%= @game.fscore_away %> @ <%= @game.home_team.name %> <%= @game.home_team.nickname %>: <%= @game.fscore_home %></h1>
+    <h1 class="text-center game-header">
+      <%= @game.away_team.name %> <%= @game.away_team.nickname %>:
+      <%= @game.fscore_away %> @ <%= @game.home_team.name %>
+      <%= @game.home_team.nickname %>: <%= @game.fscore_home %></h1>
   </div>
   <div class="small-1 columns">
     <%= image_tag(@game.home_team.logo, height: 60, class: "teamlogo") %>
@@ -14,7 +17,8 @@
 
 <div class="row">
   <div class="small-6 small-offset-3 medium-8 medium-offset-2 columns end">
-    <h4 class="text-center"><%= @game.game_start.strftime("%A, %B %-d, %Y - %I:%M %p") %></h4>
+    <h4 class="text-center">
+    <%= @game.game_start.strftime("%A, %B %-d, %Y - %I:%M %p") %></h4>
   </div>
 </div>
 
@@ -33,11 +37,14 @@
         </div>
       </div>
       <div class="content" id="charts">
-        <%= render 'situation_panel' %>
         <div class="row">
           <div class="small-12 columns">
+            <%= render 'chart_selection_panel'%>
             <h3 class="subheader text-center">Running Event Count</h3>
             <%= high_chart("running-events", @event_count_chart) %>
+            <div class="row">
+              <%= high_chart("heat-map", @corsi_heat_map) %>
+            </div>
           </div>
         </div>
       </div>

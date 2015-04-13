@@ -1,4 +1,5 @@
 class GamesController < ApplicationController
+  include Chartable
   before_action :set_game, only: [:show, :edit, :update, :destroy]
   before_filter :get_season
   helper_method :sort_column, :sort_direction, :sit
@@ -11,33 +12,22 @@ class GamesController < ApplicationController
   # GET /games
   # GET /games.json
   def index
-    @games = @season.games.includes(:home_team, :away_team, :team_game_summaries, :player_game_summaries).all
+    @games = @season.games.includes(:home_team,
+                                    :away_team,
+                                    :team_game_summaries,
+                                    :player_game_summaries).all
   end
 
   # GET /games/1
   # GET /games/1.json
   def show
-    @player_summaries = @game.player_game_summaries.includes(:player).sit_filter(params[:sit_id])
-    @team_summaries = @game.team_game_summaries.includes(:team).sit_filter(params[:sit_id])
-    @event_count_chart = LazyHighCharts::HighChart.new('graph') do |f|
-      f.series(:type => 'area', :name => @game.home_team.name,
-               :data => @game.running_event_count('corsi', @game.home_team),
-               :color => "#{@game.home_team.color1}")
-
-      f.series(:type => 'area', :name => @game.away_team.name,
-               :data => @game.running_event_count('corsi', @game.away_team),
-               :color => "#{@game.away_team.color1}")
-
-      f.xAxis(:title => {:text => "Time"},
-              :plotBands => [{color: "#f9f9f9", from: 0, to: 20, label: {text: "Period 1"}},
-                             {color: "#eeeeee", from: 20, to: 40, label: {text: "Period 2"}},
-                             {color: "#cccccc", from: 40, to: 60, label: {text: "Period 3"}}],
-              :min => 0,
-              :max => 60)
-      f.yAxis(:title => {:text => "Event Count"}, :floor => 0)
-      f.legend(:align => 'center', :verticalAlign => 'bottom')
-      f.chart({:height => 600})
-      end
+    @game = Game.find(params[:id])
+    @player_summaries =
+      @game.player_game_summaries.includes(:player).sit_filter(params[:sit_id])
+    @team_summaries =
+      @game.team_game_summaries.includes(:team).sit_filter(params[:sit_id])
+    @event_count_chart = event_count_chart(@game)
+    @corsi_heat_map = corsi_heat_map(@game)
   end
 
   # GET /games/new
@@ -109,6 +99,6 @@ class GamesController < ApplicationController
     end
 
     def sit
-      Situation.ids.include?(params[:sit]) ? params[:sit] : "1"
+      %w[1 2 3 4 5 6 7].include?(params[:sit]) ? params[:sit] : "1"
     end
 end

@@ -14,9 +14,8 @@
 //= require jquery_ujs
 //= require foundation
 //= require highcharts/highcharts
+//= require highcharts/modules/heatmap
 //= require highcharts/highcharts-more
-//= require highcharts/highstock
-//= require highcharts/stock/highcharts-more
 //= require turbolinks
 //= require_tree .
 

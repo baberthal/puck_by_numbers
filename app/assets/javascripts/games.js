@@ -4,4 +4,3 @@ $(function() {
     return false;
   });
 });
-
