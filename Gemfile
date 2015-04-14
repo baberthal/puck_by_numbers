@@ -18,7 +18,6 @@ gem 'will_paginate-foundation'
 gem 'ransack'
 gem 'lazy_high_charts'
 
-
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

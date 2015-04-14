@@ -1,5 +1,5 @@
 class ChartDecorator
-  attr_reader :game
+  attr_reader :game, :chart
 
   def initialize(game)
     @game = game
@@ -73,6 +73,22 @@ class ChartDecorator
         series << [i,n,@game.head_to_head(p,a)]
       end
     end
-    return series
+    GameChart.create(game_id: @game.id, chart_type: 'corsi_heat_map', data: series)
   end
+
+  def heat_map_range(options = {})
+    a = GameChart.find_by(game: @game, chart_type: 'corsi_heat_map').data
+    val_range = []
+    a.each do |x,y,v|
+      val_range << v
+    end
+    if options[:min]
+      val_range.min
+    elsif options[:max]
+      val_range.max
+    else
+      [val_range.min, val_range.max]
+    end
+  end
+
 end

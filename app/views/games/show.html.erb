@@ -42,9 +42,13 @@
             <%= render 'chart_selection_panel'%>
             <h3 class="subheader text-center">Running Event Count</h3>
             <%= high_chart("running-events", @event_count_chart) %>
-            <div class="row">
-              <%= high_chart("heat-map", @corsi_heat_map) %>
-            </div>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="small-12 columns">
+            <h3 class="subheader text-center">Corsi Heat Map</h3>
+            <%= high_chart("heat-map", @corsi_heat_map) %>
           </div>
         </div>
       </div>

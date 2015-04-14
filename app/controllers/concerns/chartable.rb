@@ -58,18 +58,32 @@ module Chartable
               title: 'Home')
       f.yAxis(categories: @decorator.flast_away,
               title: 'Away')
-      f.colorAxis(min: -1,
-                  minColor: @decorator.acolor,
-                  maxColor: @decorator.hcolor)
-      f.legend(align: 'right',
-               layout: 'vertical',
-               margin: 0,
-               verticalAlign: 'top',
-               y: 0,
-               symbolHeight: 280)
+      f.tooltip(backgroundColor: nil,
+                borderWidth: 0,
+                distance: 10,
+                shadow: false,
+                useHTML: true,
+                pointFormat: '<span> {series.xAxis.categories.point} {point.y} {point.value} </span>')
+      f.colorAxis(dataClasses: [{from: -100,
+                                 to: -1,
+                                 color: @decorator.acolor,
+                                 name: "#{game.away_team.name} Advantage"},
+                                {from: 0,
+                                 to: 0,
+                                 color: "#FFFFFF",
+                                 name: "No Advantage"},
+                                {from: 1,
+                                 to: 100,
+                                 color: @decorator.hcolor,
+                                 name: "#{game.home_team.name} Advantage"}],
+                  min: @decorator.heat_map_range(min: true),
+                  max: @decorator.heat_map_range(max: true),
+                  startOnTick: false,
+                  stopOnTick: false)
       f.series({name: 'Head to Head Corsi',
                 borderWidth: 1,
-                data: @decorator.heat_map_series,
+                data: GameChart.find_by(game: game, chart_type: 'corsi_heat_map').data,
+                nullColor:'#FFFFFF',
                 dataLabels: {enabled: true,
                              color: '#FFFFFF'}})
     end

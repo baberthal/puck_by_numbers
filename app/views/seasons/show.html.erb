@@ -1,11 +1,13 @@
 <p id="notice"><%= notice %></p>
 
 <div class="container">
-
-	<div class="panel panel-default season-panel">
-		<div class="panel-heading"><%= "#{@season.season_years.to_s[0..3]} - #{@season.season_years.to_s[4..-1]} NHL Season" %></div>
-
-		<div id="season-games"><%= render partial: 'game_grid' %></div>
-	</div>
+  <div class="row">
+    <div class="small-12 columns gutters">
+      <h1 class="text-center"> <%= @decorator.header %></h1>
+      <div class="panel rounded-panel">
+        <div id="season-games"><%= render partial: 'game_grid' %></div>
+      </div>
+    </div>
+  </div>
 </div>
 <%= link_to 'Back', seasons_path %>

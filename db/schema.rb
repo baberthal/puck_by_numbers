@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150411052411) do
+ActiveRecord::Schema.define(version: 20150413230747) do
 
   create_table "events", force: :cascade do |t|
     t.integer "game_id",           limit: 4
@@ -41,6 +41,14 @@ ActiveRecord::Schema.define(version: 20150411052411) do
   add_index "events", ["event_team_id"], name: "index_events_on_event_team_id", using: :btree
   add_index "events", ["game_id"], name: "index_events_on_game_id", using: :btree
   add_index "events", ["home_G_id"], name: "index_events_on_home_G_id", using: :btree
+
+  create_table "game_charts", force: :cascade do |t|
+    t.integer  "game_id",    limit: 4
+    t.string   "chart_type", limit: 255
+    t.text     "data",       limit: 65535
+    t.datetime "created_at",               null: false
+    t.datetime "updated_at",               null: false
+  end
 
   create_table "games", force: :cascade do |t|
     t.integer  "season_id",    limit: 4

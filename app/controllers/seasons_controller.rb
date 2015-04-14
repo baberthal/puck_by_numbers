@@ -11,6 +11,7 @@ class SeasonsController < ApplicationController
   # GET /seasons/1
   # GET /seasons/1.json
   def show
+    @decorator = SeasonDecorator.new(@season)
     @season.games.includes(:home_team, :away_team).order(sort_column + " " + sort_direction).paginate(:per_page => 20, :page => params[:page])
   end
 

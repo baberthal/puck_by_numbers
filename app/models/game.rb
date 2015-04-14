@@ -11,6 +11,7 @@ class Game < ActiveRecord::Base
   has_many :player_game_summaries
   has_many :team_game_summaries
   has_many :participants, through: :events
+  has_many :game_charts
 
   scope :recent, -> { where("game_start >= ?", 2.days.ago)}
 
@@ -78,4 +79,8 @@ class Game < ActiveRecord::Base
     end
   end
 
+
+  def corsi_heat_map_data
+    self.game_charts.where(chart_type: 'corsi_heat_map').pluck(:data)
+  end
 end
