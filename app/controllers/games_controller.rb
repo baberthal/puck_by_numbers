@@ -1,6 +1,7 @@
 class GamesController < ApplicationController
   include Chartable
   before_action :set_game, only: [:show, :edit, :update, :destroy]
+  before_action :clear_search_index, only: :index
   before_filter :get_season
   helper_method :sort_column, :sort_direction, :sit
 
@@ -12,10 +13,11 @@ class GamesController < ApplicationController
   # GET /games
   # GET /games.json
   def index
-    @games = @season.games.includes(:home_team,
-                                    :away_team,
-                                    :team_game_summaries,
-                                    :player_game_summaries).all
+    #@q = Game.ransack(params[:q])
+    #@games = @q.result.includes(:home_team,
+    #                            :away_team,
+    #                            :team_game_summaries,
+    #                            :player_game_summaries)
   end
 
   # GET /games/1
@@ -33,6 +35,11 @@ class GamesController < ApplicationController
   # GET /games/new
   def new
     @game = Game.new
+  end
+
+  def search
+    index
+    render :index
   end
 
   # GET /games/1/edit

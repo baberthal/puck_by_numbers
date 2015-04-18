@@ -57,13 +57,18 @@ body {
 }
 
 .title-row-jml {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
   background-color: $primary-color;
-  color: $white;
+  a {
+    color: $white;
+    line-height: 2.4;
+  }
 }
 
 .white-border {
-  border-right: 1px solid $white;
-  border-left: 1px solid $white;
+  border-right: 2px solid $white;
+  border-left: 2px solid $white;
 }
 
 .dot-col-border {
@@ -74,8 +79,7 @@ body {
 .search-box {
   color: $primary-color;
   font-size: 14px;
-  padding: 10px;
-  padding-bottom: 0px;
+  padding: 5px;
   font-weight: normal;
 }
 
@@ -233,6 +237,7 @@ body {
 $nav-tabs-border-color: #d8d8d8;
 
 .nav-tabs {
+  padding-top: 4px;
   > li {
     float: left;
     margin-bottom: -1px;
@@ -298,6 +303,108 @@ $nav-tabs-border-color: #d8d8d8;
 }
 
 .table-bigger {
-  font-size: 14px !important;
-  width: 100% !important;
+  @include table();
+  > thead {
+    text-transform: uppercase;
+    font-size: rem-calc(14);
+  }
+  tr td {
+    font-size: rem-calc(14);
+  }
+}
+
+.table-hover > tbody > tr:hover {
+  background-color: #a0d3e8;
+}
+
+.year, .month {
+  width: 35%;
+  font-size: rem-calc(13);
+  background-image: none;
+}
+
+.day {
+  width: 20%;
+  font-size: rem-calc(13);
+  background-image: none;
+}
+
+.filter-row {
+  > th > select {
+    text-align: center !important;
+    margin: 0 !important;
+  }
+  > th > input {
+    text-align: center !important;
+    margin: 0 !important;
+  }
+}
+
+#date-search-season * {
+  margin-bottom: 0;
+}
+
+.date-selector {
+  margin-bottom: 0 !important;
+  padding: 0 !important;
+  > .small-3.columns {
+    padding: 0;
+    > .prefix {
+      border: {
+        left: none !important;
+        top: none !important;
+        bottom: 1px solid transparent !important;
+        right: none !important;
+      }
+      height: 32px;
+      > .fi-calendar {
+        vertical-align: center;
+        font-size: rem-calc(20) !important;
+      }
+    }
+  }
+  > .small-9.columns {
+    padding: 0;
+    margin: {
+      top: 8px;
+      left: 0;
+    }
+    > .value {
+      vertical-align: center;
+      font-weight: normal;
+    }
+  }
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.player-list * {
+  font-size: rem-calc(14);
+}
+
+.accordion-navigation {
+  line-height: rem-calc(18);
+
+  &.even > a {
+    background-color: $white;
+  }
+
+  &.odd > a {
+    background-color: $smoke;
+  }
+}
+
+.hugging {
+  margin-top: 5px;
+  margin-bottom: 0 !important;
+}
+
+.tab-row-on-panel {
+  margin-bottom: -1px;
+}
+
+.panel-row-with-tabs {
+  margin-top: -1px;
 }

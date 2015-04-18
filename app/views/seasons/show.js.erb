@@ -1,0 +1,9 @@
+$('#games').html('<%= j(render("games")) %>');
+
+$(function() {
+  $("#season_game_search input").keyup(function() {
+    $.get($("#season_game_search").attr("action"),
+        $("#season_game_search").serialize(), null, "script");
+    return false;
+  });
+});

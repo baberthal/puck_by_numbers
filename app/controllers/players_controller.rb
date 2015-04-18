@@ -1,14 +1,20 @@
 class PlayersController < ApplicationController
   before_action :set_player, only: [:show, :edit, :update, :destroy]
-  helper_method :sort_column, :sort_direction
+  before_action :clear_search_index, only: :index
 
   # GET /players
   # GET /players.json
   def index
-    @players = Player.includes(:team).active.search(params[:search]).order(sort_column + " " + sort_direction).paginate(:per_page => 20, :page => params[:page])
+    @q = Player.active.ransack(search_params)
+    @q.sorts = 'last_name' if @q.sorts.empty?
+    @players = @q.result.includes(:team).decorate
+    respond_to do |format|
+      format.html
+      format.js
+    end
   end
 
-        # GET /players/1
+  # GET /players/1
   # GET /players/1.json
   def show
   end
@@ -71,13 +77,5 @@ class PlayersController < ApplicationController
     # Never trust parameters from the scary internet, only allow the white list through.
     def player_params
       params[:player]
-    end
-
-    def sort_column
-      %w[last_name position teams.name].include?(params[:sort]) ? params[:sort] : "last_name"
-    end
-
-    def sort_direction
-      %w[asc desc].include?(params[:direction]) ? params[:direction] : "asc"
     end
 end

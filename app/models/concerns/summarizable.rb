@@ -23,7 +23,7 @@ module Summarizable
       team_params = {event_team_id: team.id, situation: situation}
     end
 
-    TeamGameSummary.create(team_id: team.id, game_id: id, situation: sit) do |ts|
+    TeamGameSummary.create(team_id: team.id, game: self, situation: sit) do |ts|
       ts.gf = goals.where(team_params).count
       ts.sf = shots.where(team_params).count
       ts.msf = misses.where(team_params).count
@@ -58,12 +58,12 @@ module Summarizable
       end
 
       if sit == 7
-        game_params = { game_id: id }
+        game_params = { game: self }
       else
-        game_params = { game_id: id, situation: situation }
+        game_params = { game: self, situation: situation }
       end
 
-      PlayerGameSummary.create(player: player, game_id: id, situation: sit) do |ps|
+      PlayerGameSummary.create(player: player, game: self, situation: sit) do |ps|
         ps.goals = player.goals.where(game_params).count
         ps.a1 = player.primary_assists.where(game_params).count
         ps.a2 = player.secondary_assists.where(game_params).count
@@ -74,8 +74,8 @@ module Summarizable
         ps.c_diff = (player.on_ice_corsi_events.where(event_team: player.team).where(game_params).count) - (player.on_ice_corsi_events.where.not(event_team: player.team).where(game_params).count)
         ps.f_diff = (player.on_ice_fenwick_events.where(event_team: player.team).where(game_params).count) - (player.on_ice_fenwick_events.where.not(event_team: player.team).where(game_params).count)
         ps.g_diff = (player.on_ice_goals.where(event_team: player.team).where(game_params).count) - (player.on_ice_goals.where.not(event_team: player.team).where(game_params).count)
-        ps.zso = (player.zone_starts_o_home.where(game_id: id).count + player.zone_starts_o_away.where(game_id: id).count)
-        ps.zsd = (player.zone_starts_d_home.where(game_id: id).count + player.zone_starts_d_away.where(game_id: id).count)
+        ps.zso = (player.zone_starts_o_home.where(game: self).count + player.zone_starts_o_away.where(game: self).count)
+        ps.zsd = (player.zone_starts_d_home.where(game: self).count + player.zone_starts_d_away.where(game: self).count)
         ps.blocks = player.blocks.where(game_params).count
         ps.fo_won = player.faceoffs_won.where(game_params).count
         ps.fo_lost = player.faceoffs_lost.where(game_params).count

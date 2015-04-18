@@ -1,0 +1,20 @@
+{
+  "name": "puck_by_numbers",
+  "version": "0.0.0",
+  "authors": [
+    "Morgan Lieberthal <morgan@jmorgan.org>"
+  ],
+  "description": "A rails app for hockey stats",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor/assets/components",
+    "test",
+    "tests"
+  ]
+}

@@ -1,6 +1,6 @@
 class SeasonsController < ApplicationController
   before_action :set_season, only: [:show, :edit, :update, :destroy]
-  helper_method :sort_column, :sort_direction
+  before_action :clear_search_index, only: :show
 
   # GET /seasons
   # GET /seasons.json
@@ -12,7 +12,9 @@ class SeasonsController < ApplicationController
   # GET /seasons/1.json
   def show
     @decorator = SeasonDecorator.new(@season)
-    @season.games.includes(:home_team, :away_team).order(sort_column + " " + sort_direction).paginate(:per_page => 20, :page => params[:page])
+    @q = @season.games.ransack(search_params)
+    @q.sorts = 'start_time' if @q.sorts.empty?
+    @game = @q.result.includes(:home_team, :away_team).page(params[:page])
   end
 
   # GET /seasons/new
@@ -31,7 +33,7 @@ class SeasonsController < ApplicationController
 
     respond_to do |format|
       if @season.save
-        format.html { redirect_to @season, notice: 'Season was successfully created.' }
+        format.html { redirect_to @season, notice: 'Success' }
         format.json { render :show, status: :created, location: @season }
       else
         format.html { render :new }
@@ -73,14 +75,6 @@ class SeasonsController < ApplicationController
     # Never trust parameters from the scary internet, only allow the white list through.
     def season_params
       params.require(:season).permit(:season_years)
-    end
-
-    def sort_column
-      @season.games.column_names.include?(params[:sort]) ? params[:sort] : "gcode"
-    end
-
-    def sort_direction
-      %w[asc desc].include?(params[:direction]) ? params[:direction] : "desc"
     end
 
 end

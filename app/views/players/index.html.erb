@@ -2,26 +2,34 @@
 
 <div class="container">
 
-  <div class="panel panel-default player-panel">
-    <div class="panel-heading">
-      <div class="row">
-        <ul class="nav nav-tabs pull-left">
-          <li role="presentation"><a href="#" data-toggle="tab" role="tab">SKATERS</a></li>
-          <li role="presentation"><a href="#" data-toggle="tab" role="tab">GOALIES</a></li>
-        </ul>
+  <div class="row tab-row-on-panel">
+    <div class="small-12 columns gutters">
+      <ul class="nav nav-tabs tabs" data-tab>
+        <li class="tab-title active"><a href="#skaters">SKATERS</a></li>
+        <li class="tab-title"><a href="#goalies">GOALIES</a></li>
         <div class="pull-right search-box">
-          <%= form_tag players_path, :method => 'get', :id => "players_search", :remote => true do  %>
-            <%= hidden_field_tag :direction, params[:direction] %>
-            <%= hidden_field_tag :sort, params[:sort] %>
-            <p>
-              <%= text_field_tag :search, params[:search] %>
-              <%= submit_tag "Search", :last_name => nil, class: "btn btn-default search-button" %>
-            </p>
+          <%= search_form_for @q,
+            id: "players_search", remote: true do |f| %>
+            <%= f.search_field :first_name_or_last_name_or_team_name_or_team_nickname_cont, {class: "hugging"} %>
           <% end %>
+        </div>
+      </ul>
+    </div>
+  </div>
+
+  <div class="row panel-row-with-tabs">
+    <div class="small-12 columns gutters">
+      <div class="rounded-panel with-tabs player-panel">
+        <div class="tabs-content">
+          <div class="content active" id="skaters">
+            <%= render 'players' %>
+          </div>
+          <div class="content" id="goalies">
+            <%= render 'players' %>
+          </div>
         </div>
       </div>
     </div>
-    <div id="players"><%= render 'players' %></div>
   </div>
 
 </div>

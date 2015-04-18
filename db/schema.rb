@@ -11,10 +11,9 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150413230747) do
+ActiveRecord::Schema.define(version: 20150418231313) do
 
   create_table "events", force: :cascade do |t|
-    t.integer "game_id",           limit: 4
     t.integer "event_number",      limit: 3,   null: false, unsigned: true
     t.integer "period",            limit: 1,   null: false, unsigned: true
     t.float   "seconds",           limit: 24,  null: false
@@ -32,6 +31,8 @@ ActiveRecord::Schema.define(version: 20150413230747) do
     t.integer "home_skaters",      limit: 2,   null: false, unsigned: true
     t.integer "away_skaters",      limit: 2,   null: false, unsigned: true
     t.integer "situation",         limit: 4
+    t.integer "season_years",      limit: 8
+    t.integer "gcode",             limit: 8
   end
 
   add_index "events", ["away_G_id"], name: "index_events_on_away_G_id", using: :btree
@@ -39,22 +40,21 @@ ActiveRecord::Schema.define(version: 20150413230747) do
   add_index "events", ["event_player_2_id"], name: "index_events_on_event_player_2_id", using: :btree
   add_index "events", ["event_player_3_id"], name: "index_events_on_event_player_3_id", using: :btree
   add_index "events", ["event_team_id"], name: "index_events_on_event_team_id", using: :btree
-  add_index "events", ["game_id"], name: "index_events_on_game_id", using: :btree
   add_index "events", ["home_G_id"], name: "index_events_on_home_G_id", using: :btree
 
   create_table "game_charts", force: :cascade do |t|
-    t.integer  "game_id",    limit: 4
-    t.string   "chart_type", limit: 255
-    t.text     "data",       limit: 65535
-    t.datetime "created_at",               null: false
-    t.datetime "updated_at",               null: false
+    t.string   "chart_type",   limit: 255
+    t.text     "data",         limit: 65535
+    t.datetime "created_at",                 null: false
+    t.datetime "updated_at",                 null: false
+    t.integer  "season_years", limit: 8
+    t.integer  "gcode",        limit: 4
   end
 
   create_table "games", force: :cascade do |t|
-    t.integer  "season_id",    limit: 4
     t.integer  "game_number",  limit: 4, null: false
     t.integer  "gcode",        limit: 8, null: false
-    t.integer  "status",       limit: 1, null: false
+    t.integer  "status",       limit: 1
     t.integer  "home_team_id", limit: 4
     t.integer  "away_team_id", limit: 4
     t.integer  "fscore_home",  limit: 2, null: false
@@ -62,6 +62,8 @@ ActiveRecord::Schema.define(version: 20150413230747) do
     t.datetime "game_start",             null: false
     t.datetime "game_end",               null: false
     t.integer  "periods",      limit: 1, null: false
+    t.integer  "season_years", limit: 8
+    t.date     "date"
   end
 
   add_index "games", ["away_team_id"], name: "index_games_on_away_team_id", using: :btree
@@ -69,7 +71,6 @@ ActiveRecord::Schema.define(version: 20150413230747) do
   add_index "games", ["game_start"], name: "index_games_on_game_start", using: :btree
   add_index "games", ["gcode"], name: "index_games_on_gcode", using: :btree
   add_index "games", ["home_team_id"], name: "index_games_on_home_team_id", using: :btree
-  add_index "games", ["season_id"], name: "index_games_on_season_id", using: :btree
 
   create_table "locations", force: :cascade do |t|
     t.integer "event_id",             limit: 4
@@ -95,35 +96,35 @@ ActiveRecord::Schema.define(version: 20150413230747) do
   add_index "participants", ["player_id"], name: "index_participants_on_player_id", using: :btree
 
   create_table "player_game_summaries", force: :cascade do |t|
-    t.integer  "player_id",  limit: 4
-    t.integer  "game_id",    limit: 4
-    t.integer  "goals",      limit: 4
-    t.integer  "a1",         limit: 4
-    t.integer  "a2",         limit: 4
-    t.integer  "points",     limit: 4
-    t.integer  "ind_sc",     limit: 4
-    t.integer  "ind_cf",     limit: 4
-    t.integer  "c_diff",     limit: 4
-    t.integer  "f_diff",     limit: 4
-    t.integer  "g_diff",     limit: 4
-    t.integer  "cf",         limit: 4
-    t.integer  "ff",         limit: 4
-    t.integer  "zso",        limit: 4
-    t.integer  "zsd",        limit: 4
-    t.integer  "blocks",     limit: 4
-    t.integer  "fo_won",     limit: 4
-    t.integer  "fo_lost",    limit: 4
-    t.integer  "hits",       limit: 4
-    t.integer  "hits_taken", limit: 4
-    t.integer  "pen",        limit: 4
-    t.integer  "pen_drawn",  limit: 4
-    t.float    "toi",        limit: 24
-    t.datetime "created_at",             null: false
-    t.datetime "updated_at",             null: false
-    t.string   "situation",  limit: 255
+    t.integer  "player_id",    limit: 4
+    t.integer  "goals",        limit: 4
+    t.integer  "a1",           limit: 4
+    t.integer  "a2",           limit: 4
+    t.integer  "points",       limit: 4
+    t.integer  "ind_sc",       limit: 4
+    t.integer  "ind_cf",       limit: 4
+    t.integer  "c_diff",       limit: 4
+    t.integer  "f_diff",       limit: 4
+    t.integer  "g_diff",       limit: 4
+    t.integer  "cf",           limit: 4
+    t.integer  "ff",           limit: 4
+    t.integer  "zso",          limit: 4
+    t.integer  "zsd",          limit: 4
+    t.integer  "blocks",       limit: 4
+    t.integer  "fo_won",       limit: 4
+    t.integer  "fo_lost",      limit: 4
+    t.integer  "hits",         limit: 4
+    t.integer  "hits_taken",   limit: 4
+    t.integer  "pen",          limit: 4
+    t.integer  "pen_drawn",    limit: 4
+    t.float    "toi",          limit: 24
+    t.datetime "created_at",               null: false
+    t.datetime "updated_at",               null: false
+    t.string   "situation",    limit: 255
+    t.integer  "season_years", limit: 8
+    t.integer  "gcode",        limit: 8
   end
 
-  add_index "player_game_summaries", ["game_id"], name: "index_player_game_summaries_on_game_id", using: :btree
   add_index "player_game_summaries", ["player_id"], name: "index_player_game_summaries_on_player_id", using: :btree
 
   create_table "players", force: :cascade do |t|
@@ -142,33 +143,32 @@ ActiveRecord::Schema.define(version: 20150413230747) do
 
   add_index "players", ["team_id"], name: "index_players_on_team_id", using: :btree
 
-  create_table "seasons", force: :cascade do |t|
-    t.integer "season_years", limit: 8, null: false, unsigned: true
+  create_table "seasons", primary_key: "season_years", force: :cascade do |t|
   end
 
   create_table "team_game_summaries", force: :cascade do |t|
-    t.integer  "game_id",    limit: 4
-    t.integer  "team_id",    limit: 4
-    t.integer  "gf",         limit: 4
-    t.integer  "sf",         limit: 4
-    t.integer  "msf",        limit: 4
-    t.integer  "bsf",        limit: 4
-    t.integer  "scf",        limit: 4
-    t.integer  "cf",         limit: 4
-    t.integer  "zso",        limit: 4
-    t.integer  "hits",       limit: 4
-    t.integer  "pen",        limit: 4
-    t.integer  "fo_won",     limit: 4
-    t.float    "toi",        limit: 24
-    t.datetime "created_at",             null: false
-    t.datetime "updated_at",             null: false
-    t.integer  "c_diff",     limit: 4
-    t.integer  "f_diff",     limit: 4
-    t.string   "situation",  limit: 255
-    t.integer  "ca",         limit: 4
+    t.integer  "team_id",      limit: 4
+    t.integer  "gf",           limit: 4
+    t.integer  "sf",           limit: 4
+    t.integer  "msf",          limit: 4
+    t.integer  "bsf",          limit: 4
+    t.integer  "scf",          limit: 4
+    t.integer  "cf",           limit: 4
+    t.integer  "zso",          limit: 4
+    t.integer  "hits",         limit: 4
+    t.integer  "pen",          limit: 4
+    t.integer  "fo_won",       limit: 4
+    t.float    "toi",          limit: 24
+    t.datetime "created_at",               null: false
+    t.datetime "updated_at",               null: false
+    t.integer  "c_diff",       limit: 4
+    t.integer  "f_diff",       limit: 4
+    t.string   "situation",    limit: 255
+    t.integer  "ca",           limit: 4
+    t.integer  "season_years", limit: 8
+    t.integer  "gcode",        limit: 8
   end
 
-  add_index "team_game_summaries", ["game_id"], name: "index_team_game_summaries_on_game_id", using: :btree
   add_index "team_game_summaries", ["team_id"], name: "index_team_game_summaries_on_team_id", using: :btree
 
   create_table "teams", force: :cascade do |t|

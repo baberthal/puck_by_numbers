@@ -1,27 +1,41 @@
-<table class="table table-hover">
-  <thead class="title-row-jml">
-    <tr>
-      <th class="name-col"><%= sortable "last_name", "Name" %> <span class="glyphicon glyphicon-menu-up"></span></th>
-      <th class="white-border"><%= sortable "position", "Pos." %></th>
-      <th><%= sortable "teams.name", "Current Team" %></th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <% @players.each do |player| %>
-      <tr>
-        <td class="col-xs-3"><%= link_to player.first_name.to_s.titleize + " " + player.last_name.to_s.titleize, player_path(player) %></td>
-        <td class="text-center dot-col-border col-xs-1"><%= player.position %></td>
-        <% if player.team.nil? %>
-          <td class="text-center col-xs-3"> - </td>
-        <% else %>
-          <td class="text-center col-xs-3"><%= link_to("#{player.team.name} #{player.team.nickname}", player.team) %></td>
-        <% end %>
-      </tr>
+<div class="row title-row-jml">
+  <div class="small-5 columns">
+    <th class="name-col" width="40%"><%= sort_link @q,
+      :last_name, "Name", {remote: true, method: :post} %> </th>
+  </div>
+  <div class="small-1 columns white-border text-center">
+    <th class="text-center" width="20%"><%= sort_link @q,
+      :position, "Pos.", {remote: true, method: :post} %></th>
+  </div>
+  <div class="small-5 columns text-center">
+    <th class="text-center", width="40%"><%= sort_link @q,
+      'teams.name', "Current Team", {remote: true, method: :post} %></th>
+  </div>
+</div>
+<ul class="accordion no-margin player-list" data-accordion>
+  <% @players.each_with_index do |player,index| %>
+    <% if (index == 0) || (index % 2) == 0 %>
+      <% accordion_class = "accordion-navigation even" %>
+    <% else %>
+      <% accordion_class = "accordion-navigation odd" %>
     <% end %>
-  </tbody>
-</table>
-
-<%= will_paginate @players, renderer: FoundationPagination::Rails %>
-
-
+    <%= content_tag(:li, class: accordion_class) do %>
+      <a href="#player_<%= player.id %>">
+        <div class="row">
+          <div class="small-5 columns">
+            <td><%= player.pretty_name %></td>
+          </div>
+          <div class="small-1 columns text-center">
+            <td><%= player.pretty_pos %></td>
+          </div>
+          <div class="small-5 columns text-center">
+            <td><%= player.team_full %></td>
+          </div>
+        </div>
+      </a>
+      <%= div_for(player, class: "content") do %>
+        <%= player.team_full %>
+      <% end %>
+    <% end %>
+  <% end %>
+</ul>

@@ -210,9 +210,8 @@ Season.create!(season_years: 20142015)
 
 Game.create!([{
 	game_number: 1,
-	season_id: 1,
+	season_years: 20142015,
 	gcode: 20001,
-	status: 3,
 	home_team_id: 27,
 	away_team_id: 16,
 	fscore_home: 3,
@@ -223,9 +222,8 @@ Game.create!([{
 },
 {
 	game_number: 2,
-	season_id: 1,
+	season_years: 20142015,
 	gcode: 20002,
-	status: 3,
 	home_team_id: 3,
 	away_team_id: 22,
 	fscore_home: 2,
@@ -34562,7 +34560,8 @@ p "Created #{Player.count} players"
 
 Event.create!([
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 1,
 	period: 1,
 	seconds: 0,
@@ -34581,7 +34580,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 2,
 	period: 1,
 	seconds: 19,
@@ -34600,7 +34600,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 3,
 	period: 1,
 	seconds: 27.5,
@@ -34619,7 +34620,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 4,
 	period: 1,
 	seconds: 36,
@@ -34638,7 +34640,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 5,
 	period: 1,
 	seconds: 41.5,
@@ -34657,7 +34660,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 6,
 	period: 1,
 	seconds: 47,
@@ -34676,7 +34680,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 7,
 	period: 1,
 	seconds: 51.5,
@@ -34695,7 +34700,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 8,
 	period: 1,
 	seconds: 56,
@@ -34714,7 +34720,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 9,
 	period: 1,
 	seconds: 65,
@@ -34733,7 +34740,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 10,
 	period: 1,
 	seconds: 69,
@@ -34752,7 +34760,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 11,
 	period: 1,
 	seconds: 74,
@@ -34771,7 +34780,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 12,
 	period: 1,
 	seconds: 85,
@@ -34790,7 +34800,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 13,
 	period: 1,
 	seconds: 89,
@@ -34809,7 +34820,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 14,
 	period: 1,
 	seconds: 93,
@@ -34828,7 +34840,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 15,
 	period: 1,
 	seconds: 94,
@@ -34847,7 +34860,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 17,
 	period: 1,
 	seconds: 94,
@@ -34866,7 +34880,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 18,
 	period: 1,
 	seconds: 99,
@@ -34885,7 +34900,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 19,
 	period: 1,
 	seconds: 113,
@@ -34904,7 +34920,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 20,
 	period: 1,
 	seconds: 132,
@@ -34923,7 +34940,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 21,
 	period: 1,
 	seconds: 141,
@@ -34942,7 +34960,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 22,
 	period: 1,
 	seconds: 150,
@@ -34961,7 +34980,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 24,
 	period: 1,
 	seconds: 150,
@@ -34980,7 +35000,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 25,
 	period: 1,
 	seconds: 163,
@@ -34999,7 +35020,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 26,
 	period: 1,
 	seconds: 169.5,
@@ -35018,7 +35040,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 27,
 	period: 1,
 	seconds: 176,
@@ -35037,7 +35060,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 28,
 	period: 1,
 	seconds: 181,
@@ -35056,7 +35080,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 29,
 	period: 1,
 	seconds: 185.5,
@@ -35075,7 +35100,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 30,
 	period: 1,
 	seconds: 190,
@@ -35094,7 +35120,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 31,
 	period: 1,
 	seconds: 191,
@@ -35113,7 +35140,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 33,
 	period: 1,
 	seconds: 192,
@@ -35132,7 +35160,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 34,
 	period: 1,
 	seconds: 202,
@@ -35151,7 +35180,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 35,
 	period: 1,
 	seconds: 205,
@@ -35170,7 +35200,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 37,
 	period: 1,
 	seconds: 206,
@@ -35189,7 +35220,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 38,
 	period: 1,
 	seconds: 209.5,
@@ -35208,7 +35240,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 39,
 	period: 1,
 	seconds: 213,
@@ -35227,7 +35260,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 40,
 	period: 1,
 	seconds: 234,
@@ -35246,7 +35280,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 41,
 	period: 1,
 	seconds: 245,
@@ -35265,7 +35300,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 42,
 	period: 1,
 	seconds: 256,
@@ -35284,7 +35320,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 43,
 	period: 1,
 	seconds: 261,
@@ -35303,7 +35340,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 44,
 	period: 1,
 	seconds: 266,
@@ -35322,7 +35360,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 45,
 	period: 1,
 	seconds: 270,
@@ -35341,7 +35380,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 46,
 	period: 1,
 	seconds: 276,
@@ -35360,7 +35400,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 47,
 	period: 1,
 	seconds: 282,
@@ -35379,7 +35420,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 48,
 	period: 1,
 	seconds: 282,
@@ -35398,7 +35440,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 49,
 	period: 1,
 	seconds: 297,
@@ -35417,7 +35460,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 50,
 	period: 1,
 	seconds: 324.5,
@@ -35436,7 +35480,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 51,
 	period: 1,
 	seconds: 352,
@@ -35455,7 +35500,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 53,
 	period: 1,
 	seconds: 354,
@@ -35474,7 +35520,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 54,
 	period: 1,
 	seconds: 376,
@@ -35493,7 +35540,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 55,
 	period: 1,
 	seconds: 380,
@@ -35512,7 +35560,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 56,
 	period: 1,
 	seconds: 384,
@@ -35531,7 +35580,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 57,
 	period: 1,
 	seconds: 407,
@@ -35550,7 +35600,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 58,
 	period: 1,
 	seconds: 430,
@@ -35569,7 +35620,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 59,
 	period: 1,
 	seconds: 444,
@@ -35588,7 +35640,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 60,
 	period: 1,
 	seconds: 458,
@@ -35607,7 +35660,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 61,
 	period: 1,
 	seconds: 466,
@@ -35626,7 +35680,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 62,
 	period: 1,
 	seconds: 473.5,
@@ -35645,7 +35700,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 63,
 	period: 1,
 	seconds: 481,
@@ -35664,7 +35720,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 64,
 	period: 1,
 	seconds: 484,
@@ -35683,7 +35740,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 65,
 	period: 1,
 	seconds: 484,
@@ -35702,7 +35760,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 66,
 	period: 1,
 	seconds: 489.5,
@@ -35721,7 +35780,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 67,
 	period: 1,
 	seconds: 495,
@@ -35740,7 +35800,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 68,
 	period: 1,
 	seconds: 504,
@@ -35759,7 +35820,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 70,
 	period: 1,
 	seconds: 504,
@@ -35778,7 +35840,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 71,
 	period: 1,
 	seconds: 520,
@@ -35797,7 +35860,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 72,
 	period: 1,
 	seconds: 530,
@@ -35816,7 +35880,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 73,
 	period: 1,
 	seconds: 540,
@@ -35835,7 +35900,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 74,
 	period: 1,
 	seconds: 545,
@@ -35854,7 +35920,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 75,
 	period: 1,
 	seconds: 549,
@@ -35873,7 +35940,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 77,
 	period: 1,
 	seconds: 553,
@@ -35892,7 +35960,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 78,
 	period: 1,
 	seconds: 553,
@@ -35911,7 +35980,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 79,
 	period: 1,
 	seconds: 561,
@@ -35930,7 +36000,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 80,
 	period: 1,
 	seconds: 572,
@@ -35949,7 +36020,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 81,
 	period: 1,
 	seconds: 579,
@@ -35968,7 +36040,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 82,
 	period: 1,
 	seconds: 586,
@@ -35987,7 +36060,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 83,
 	period: 1,
 	seconds: 600,
@@ -36006,7 +36080,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 84,
 	period: 1,
 	seconds: 606,
@@ -36025,7 +36100,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 85,
 	period: 1,
 	seconds: 618.5,
@@ -36044,7 +36120,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 86,
 	period: 1,
 	seconds: 631,
@@ -36063,7 +36140,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 87,
 	period: 1,
 	seconds: 636,
@@ -36082,7 +36160,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 88,
 	period: 1,
 	seconds: 642,
@@ -36101,7 +36180,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 90,
 	period: 1,
 	seconds: 643,
@@ -36120,7 +36200,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 91,
 	period: 1,
 	seconds: 648,
@@ -36139,7 +36220,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 92,
 	period: 1,
 	seconds: 667,
@@ -36158,7 +36240,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 93,
 	period: 1,
 	seconds: 674,
@@ -36177,7 +36260,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 94,
 	period: 1,
 	seconds: 689,
@@ -36196,7 +36280,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 95,
 	period: 1,
 	seconds: 704,
@@ -36215,7 +36300,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 96,
 	period: 1,
 	seconds: 731,
@@ -36234,7 +36320,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 97,
 	period: 1,
 	seconds: 735,
@@ -36253,7 +36340,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 98,
 	period: 1,
 	seconds: 741,
@@ -36272,7 +36360,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 99,
 	period: 1,
 	seconds: 741,
@@ -36291,7 +36380,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 100,
 	period: 1,
 	seconds: 754,
@@ -36310,7 +36400,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 101,
 	period: 1,
 	seconds: 772,
@@ -36329,7 +36420,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 102,
 	period: 1,
 	seconds: 790,
@@ -36348,7 +36440,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 103,
 	period: 1,
 	seconds: 797.5,
@@ -36367,7 +36460,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 104,
 	period: 1,
 	seconds: 805,
@@ -36386,7 +36480,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 105,
 	period: 1,
 	seconds: 821,
@@ -36405,7 +36500,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 106,
 	period: 1,
 	seconds: 837,
@@ -36424,7 +36520,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 107,
 	period: 1,
 	seconds: 844,
@@ -36443,7 +36540,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 108,
 	period: 1,
 	seconds: 851,
@@ -36462,7 +36560,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 110,
 	period: 1,
 	seconds: 852,
@@ -36481,7 +36580,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 111,
 	period: 1,
 	seconds: 855,
@@ -36500,7 +36600,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 112,
 	period: 1,
 	seconds: 876,
@@ -36519,7 +36620,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 113,
 	period: 1,
 	seconds: 897,
@@ -36538,7 +36640,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 114,
 	period: 1,
 	seconds: 909,
@@ -36557,7 +36660,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 115,
 	period: 1,
 	seconds: 923,
@@ -36576,7 +36680,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 116,
 	period: 1,
 	seconds: 937,
@@ -36595,7 +36700,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 117,
 	period: 1,
 	seconds: 957.5,
@@ -36614,7 +36720,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 118,
 	period: 1,
 	seconds: 978,
@@ -36633,7 +36740,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 119,
 	period: 1,
 	seconds: 987.5,
@@ -36652,7 +36760,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 120,
 	period: 1,
 	seconds: 997,
@@ -36671,7 +36780,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 121,
 	period: 1,
 	seconds: 999,
@@ -36690,7 +36800,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 122,
 	period: 1,
 	seconds: 1001,
@@ -36709,7 +36820,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 123,
 	period: 1,
 	seconds: 1014.5,
@@ -36728,7 +36840,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 124,
 	period: 1,
 	seconds: 1028,
@@ -36747,7 +36860,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 125,
 	period: 1,
 	seconds: 1030.5,
@@ -36766,7 +36880,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 126,
 	period: 1,
 	seconds: 1033,
@@ -36785,7 +36900,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 127,
 	period: 1,
 	seconds: 1034,
@@ -36804,7 +36920,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 128,
 	period: 1,
 	seconds: 1049.5,
@@ -36823,7 +36940,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 129,
 	period: 1,
 	seconds: 1065,
@@ -36842,7 +36960,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 131,
 	period: 1,
 	seconds: 1065,
@@ -36861,7 +36980,8 @@ Event.create!([
 	away_skaters: 5,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 132,
 	period: 1,
 	seconds: 1105,
@@ -36880,7 +37000,8 @@ Event.create!([
 	away_skaters: 5,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 134,
 	period: 1,
 	seconds: 1108,
@@ -36899,7 +37020,8 @@ Event.create!([
 	away_skaters: 5,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 135,
 	period: 1,
 	seconds: 1122,
@@ -36918,7 +37040,8 @@ Event.create!([
 	away_skaters: 5,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 136,
 	period: 1,
 	seconds: 1142,
@@ -36937,7 +37060,8 @@ Event.create!([
 	away_skaters: 5,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 138,
 	period: 1,
 	seconds: 1142,
@@ -36956,7 +37080,8 @@ Event.create!([
 	away_skaters: 5,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 139,
 	period: 1,
 	seconds: 1161,
@@ -36975,7 +37100,8 @@ Event.create!([
 	away_skaters: 5,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 140,
 	period: 1,
 	seconds: 1162,
@@ -36994,7 +37120,8 @@ Event.create!([
 	away_skaters: 5,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 141,
 	period: 1,
 	seconds: 1162,
@@ -37013,7 +37140,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 142,
 	period: 1,
 	seconds: 1199,
@@ -37032,7 +37160,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 143,
 	period: 1,
 	seconds: 1200,
@@ -37051,7 +37180,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 144,
 	period: 2,
 	seconds: 1200,
@@ -37070,7 +37200,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 145,
 	period: 2,
 	seconds: 1214,
@@ -37089,7 +37220,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 146,
 	period: 2,
 	seconds: 1218,
@@ -37108,7 +37240,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 147,
 	period: 2,
 	seconds: 1251.5,
@@ -37127,7 +37260,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 148,
 	period: 2,
 	seconds: 1285,
@@ -37146,7 +37280,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 149,
 	period: 2,
 	seconds: 1301,
@@ -37165,7 +37300,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 150,
 	period: 2,
 	seconds: 1317,
@@ -37184,7 +37320,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 151,
 	period: 2,
 	seconds: 1318,
@@ -37203,7 +37340,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 152,
 	period: 2,
 	seconds: 1326,
@@ -37222,7 +37360,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 153,
 	period: 2,
 	seconds: 1334,
@@ -37241,7 +37380,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 154,
 	period: 2,
 	seconds: 1338.5,
@@ -37260,7 +37400,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 155,
 	period: 2,
 	seconds: 1343,
@@ -37279,7 +37420,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 156,
 	period: 2,
 	seconds: 1354.5,
@@ -37298,7 +37440,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 157,
 	period: 2,
 	seconds: 1366,
@@ -37317,7 +37460,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 158,
 	period: 2,
 	seconds: 1375.5,
@@ -37336,7 +37480,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 159,
 	period: 2,
 	seconds: 1385,
@@ -37355,7 +37500,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 160,
 	period: 2,
 	seconds: 1392.5,
@@ -37374,7 +37520,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 161,
 	period: 2,
 	seconds: 1400,
@@ -37393,7 +37540,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 162,
 	period: 2,
 	seconds: 1411,
@@ -37412,7 +37560,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 163,
 	period: 2,
 	seconds: 1422,
@@ -37431,7 +37580,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 164,
 	period: 2,
 	seconds: 1432,
@@ -37450,7 +37600,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 165,
 	period: 2,
 	seconds: 1442,
@@ -37469,7 +37620,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 166,
 	period: 2,
 	seconds: 1458,
@@ -37488,7 +37640,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 167,
 	period: 2,
 	seconds: 1474,
@@ -37507,7 +37660,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 168,
 	period: 2,
 	seconds: 1474,
@@ -37526,7 +37680,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 169,
 	period: 2,
 	seconds: 1497,
@@ -37545,7 +37700,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 170,
 	period: 2,
 	seconds: 1512,
@@ -37564,7 +37720,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 172,
 	period: 2,
 	seconds: 1512,
@@ -37583,7 +37740,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 173,
 	period: 2,
 	seconds: 1523.5,
@@ -37602,7 +37760,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 174,
 	period: 2,
 	seconds: 1535,
@@ -37621,7 +37780,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 175,
 	period: 2,
 	seconds: 1539.5,
@@ -37640,7 +37800,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 176,
 	period: 2,
 	seconds: 1544,
@@ -37659,7 +37820,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 177,
 	period: 2,
 	seconds: 1549,
@@ -37678,7 +37840,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 178,
 	period: 2,
 	seconds: 1551,
@@ -37697,7 +37860,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 179,
 	period: 2,
 	seconds: 1555,
@@ -37716,7 +37880,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 180,
 	period: 2,
 	seconds: 1561,
@@ -37735,7 +37900,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 181,
 	period: 2,
 	seconds: 1576,
@@ -37754,7 +37920,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 182,
 	period: 2,
 	seconds: 1582,
@@ -37773,7 +37940,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 183,
 	period: 2,
 	seconds: 1588,
@@ -37792,7 +37960,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 184,
 	period: 2,
 	seconds: 1593.5,
@@ -37811,7 +37980,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 185,
 	period: 2,
 	seconds: 1599,
@@ -37830,7 +38000,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 186,
 	period: 2,
 	seconds: 1621,
@@ -37849,7 +38020,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 187,
 	period: 2,
 	seconds: 1626,
@@ -37868,7 +38040,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 188,
 	period: 2,
 	seconds: 1637,
@@ -37887,7 +38060,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 189,
 	period: 2,
 	seconds: 1648,
@@ -37906,7 +38080,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 190,
 	period: 2,
 	seconds: 1664,
@@ -37925,7 +38100,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 191,
 	period: 2,
 	seconds: 1680,
@@ -37944,7 +38120,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 192,
 	period: 2,
 	seconds: 1687,
@@ -37963,7 +38140,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 193,
 	period: 2,
 	seconds: 1699,
@@ -37982,7 +38160,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 195,
 	period: 2,
 	seconds: 1699,
@@ -38001,7 +38180,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 196,
 	period: 2,
 	seconds: 1713,
@@ -38020,7 +38200,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 197,
 	period: 2,
 	seconds: 1720,
@@ -38039,7 +38220,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 198,
 	period: 2,
 	seconds: 1727,
@@ -38058,7 +38240,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 199,
 	period: 2,
 	seconds: 1749,
@@ -38077,7 +38260,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 201,
 	period: 2,
 	seconds: 1749,
@@ -38096,7 +38280,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 202,
 	period: 2,
 	seconds: 1758,
@@ -38115,7 +38300,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 203,
 	period: 2,
 	seconds: 1761,
@@ -38134,7 +38320,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 204,
 	period: 2,
 	seconds: 1764,
@@ -38153,7 +38340,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 205,
 	period: 2,
 	seconds: 1789,
@@ -38172,7 +38360,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 206,
 	period: 2,
 	seconds: 1796,
@@ -38191,7 +38380,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 207,
 	period: 2,
 	seconds: 1803,
@@ -38210,7 +38400,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 208,
 	period: 2,
 	seconds: 1819.5,
@@ -38229,7 +38420,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 209,
 	period: 2,
 	seconds: 1836,
@@ -38248,7 +38440,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 210,
 	period: 2,
 	seconds: 1839.5,
@@ -38267,7 +38460,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 211,
 	period: 2,
 	seconds: 1843,
@@ -38286,7 +38480,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 212,
 	period: 2,
 	seconds: 1849,
@@ -38305,7 +38500,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 214,
 	period: 2,
 	seconds: 1849,
@@ -38324,7 +38520,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 216,
 	period: 2,
 	seconds: 1867,
@@ -38343,7 +38540,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 217,
 	period: 2,
 	seconds: 1871,
@@ -38362,7 +38560,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 218,
 	period: 2,
 	seconds: 1875,
@@ -38381,7 +38580,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 219,
 	period: 2,
 	seconds: 1884,
@@ -38400,7 +38600,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 220,
 	period: 2,
 	seconds: 1897,
@@ -38419,7 +38620,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 221,
 	period: 2,
 	seconds: 1909,
@@ -38438,7 +38640,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 223,
 	period: 2,
 	seconds: 1910,
@@ -38457,7 +38660,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 224,
 	period: 2,
 	seconds: 1940,
@@ -38476,7 +38680,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 225,
 	period: 2,
 	seconds: 1949,
@@ -38495,7 +38700,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 226,
 	period: 2,
 	seconds: 1958,
@@ -38514,7 +38720,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 227,
 	period: 2,
 	seconds: 1959,
@@ -38533,7 +38740,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 228,
 	period: 2,
 	seconds: 1968,
@@ -38552,7 +38760,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 229,
 	period: 2,
 	seconds: 1975.5,
@@ -38571,7 +38780,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 230,
 	period: 2,
 	seconds: 1983,
@@ -38590,7 +38800,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 231,
 	period: 2,
 	seconds: 1993,
@@ -38609,7 +38820,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 233,
 	period: 2,
 	seconds: 2003,
@@ -38628,7 +38840,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 234,
 	period: 2,
 	seconds: 2035,
@@ -38647,7 +38860,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 235,
 	period: 2,
 	seconds: 2041,
@@ -38666,7 +38880,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 237,
 	period: 2,
 	seconds: 2041,
@@ -38685,7 +38900,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 238,
 	period: 2,
 	seconds: 2067,
@@ -38704,7 +38920,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 239,
 	period: 2,
 	seconds: 2079,
@@ -38723,7 +38940,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 240,
 	period: 2,
 	seconds: 2091,
@@ -38742,7 +38960,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 241,
 	period: 2,
 	seconds: 2098,
@@ -38761,7 +38980,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 242,
 	period: 2,
 	seconds: 2101,
@@ -38780,7 +39000,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 244,
 	period: 2,
 	seconds: 2102,
@@ -38799,7 +39020,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 245,
 	period: 2,
 	seconds: 2107,
@@ -38818,7 +39040,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 246,
 	period: 2,
 	seconds: 2133,
@@ -38837,7 +39060,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 247,
 	period: 2,
 	seconds: 2142,
@@ -38856,7 +39080,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 248,
 	period: 2,
 	seconds: 2152,
@@ -38875,7 +39100,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 249,
 	period: 2,
 	seconds: 2162,
@@ -38894,7 +39120,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 250,
 	period: 2,
 	seconds: 2176,
@@ -38913,7 +39140,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 251,
 	period: 2,
 	seconds: 2182.5,
@@ -38932,7 +39160,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 252,
 	period: 2,
 	seconds: 2189,
@@ -38951,7 +39180,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 253,
 	period: 2,
 	seconds: 2206,
@@ -38970,7 +39200,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 254,
 	period: 2,
 	seconds: 2223,
@@ -38989,7 +39220,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 255,
 	period: 2,
 	seconds: 2223,
@@ -39008,7 +39240,8 @@ Event.create!([
 	away_skaters: 5,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 256,
 	period: 2,
 	seconds: 2228,
@@ -39027,7 +39260,8 @@ Event.create!([
 	away_skaters: 5,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 257,
 	period: 2,
 	seconds: 2248.5,
@@ -39046,7 +39280,8 @@ Event.create!([
 	away_skaters: 5,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 258,
 	period: 2,
 	seconds: 2269,
@@ -39065,7 +39300,8 @@ Event.create!([
 	away_skaters: 5,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 259,
 	period: 2,
 	seconds: 2277,
@@ -39084,7 +39320,8 @@ Event.create!([
 	away_skaters: 5,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 260,
 	period: 2,
 	seconds: 2285,
@@ -39103,7 +39340,8 @@ Event.create!([
 	away_skaters: 5,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 261,
 	period: 2,
 	seconds: 2292,
@@ -39122,7 +39360,8 @@ Event.create!([
 	away_skaters: 5,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 262,
 	period: 2,
 	seconds: 2299,
@@ -39141,7 +39380,8 @@ Event.create!([
 	away_skaters: 5,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 263,
 	period: 2,
 	seconds: 2317,
@@ -39160,7 +39400,8 @@ Event.create!([
 	away_skaters: 5,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 264,
 	period: 2,
 	seconds: 2327,
@@ -39179,7 +39420,8 @@ Event.create!([
 	away_skaters: 5,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 265,
 	period: 2,
 	seconds: 2348.5,
@@ -39198,7 +39440,8 @@ Event.create!([
 	away_skaters: 5,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 266,
 	period: 2,
 	seconds: 2370,
@@ -39217,7 +39460,8 @@ Event.create!([
 	away_skaters: 5,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 267,
 	period: 2,
 	seconds: 2383,
@@ -39236,7 +39480,8 @@ Event.create!([
 	away_skaters: 5,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 268,
 	period: 2,
 	seconds: 2396,
@@ -39255,7 +39500,8 @@ Event.create!([
 	away_skaters: 5,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 269,
 	period: 2,
 	seconds: 2400,
@@ -39274,7 +39520,8 @@ Event.create!([
 	away_skaters: 5,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 270,
 	period: 3,
 	seconds: 2400,
@@ -39293,7 +39540,8 @@ Event.create!([
 	away_skaters: 5,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 271,
 	period: 3,
 	seconds: 2438,
@@ -39312,7 +39560,8 @@ Event.create!([
 	away_skaters: 5,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 272,
 	period: 3,
 	seconds: 2445,
@@ -39331,7 +39580,8 @@ Event.create!([
 	away_skaters: 5,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 273,
 	period: 3,
 	seconds: 2449,
@@ -39350,7 +39600,8 @@ Event.create!([
 	away_skaters: 5,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 274,
 	period: 3,
 	seconds: 2453,
@@ -39369,7 +39620,8 @@ Event.create!([
 	away_skaters: 5,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 275,
 	period: 3,
 	seconds: 2491.5,
@@ -39388,7 +39640,8 @@ Event.create!([
 	away_skaters: 5,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 276,
 	period: 3,
 	seconds: 2530,
@@ -39407,7 +39660,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 277,
 	period: 3,
 	seconds: 2536,
@@ -39426,7 +39680,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 278,
 	period: 3,
 	seconds: 2542,
@@ -39445,7 +39700,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 279,
 	period: 3,
 	seconds: 2575.5,
@@ -39464,7 +39720,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 280,
 	period: 3,
 	seconds: 2609,
@@ -39483,7 +39740,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 281,
 	period: 3,
 	seconds: 2615.5,
@@ -39502,7 +39760,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 282,
 	period: 3,
 	seconds: 2622,
@@ -39521,7 +39780,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 283,
 	period: 3,
 	seconds: 2638,
@@ -39540,7 +39800,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 284,
 	period: 3,
 	seconds: 2654,
@@ -39559,7 +39820,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 285,
 	period: 3,
 	seconds: 2655.5,
@@ -39578,7 +39840,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 286,
 	period: 3,
 	seconds: 2657,
@@ -39597,7 +39860,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 287,
 	period: 3,
 	seconds: 2663,
@@ -39616,7 +39880,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 288,
 	period: 3,
 	seconds: 2671,
@@ -39635,7 +39900,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 289,
 	period: 3,
 	seconds: 2689.5,
@@ -39654,7 +39920,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 290,
 	period: 3,
 	seconds: 2708,
@@ -39673,7 +39940,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 292,
 	period: 3,
 	seconds: 2710,
@@ -39692,7 +39960,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 293,
 	period: 3,
 	seconds: 2719,
@@ -39711,7 +39980,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 294,
 	period: 3,
 	seconds: 2720,
@@ -39730,7 +40000,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 295,
 	period: 3,
 	seconds: 2728,
@@ -39749,7 +40020,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 296,
 	period: 3,
 	seconds: 2735,
@@ -39768,7 +40040,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 297,
 	period: 3,
 	seconds: 2737.5,
@@ -39787,7 +40060,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 298,
 	period: 3,
 	seconds: 2740,
@@ -39806,7 +40080,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 299,
 	period: 3,
 	seconds: 2746.5,
@@ -39825,7 +40100,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 300,
 	period: 3,
 	seconds: 2753,
@@ -39844,7 +40120,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 302,
 	period: 3,
 	seconds: 2753,
@@ -39863,7 +40140,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 303,
 	period: 3,
 	seconds: 2773,
@@ -39882,7 +40160,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 304,
 	period: 3,
 	seconds: 2779,
@@ -39901,7 +40180,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 305,
 	period: 3,
 	seconds: 2782.5,
@@ -39920,7 +40200,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 306,
 	period: 3,
 	seconds: 2786,
@@ -39939,7 +40220,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 307,
 	period: 3,
 	seconds: 2792,
@@ -39958,7 +40240,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 308,
 	period: 3,
 	seconds: 2798,
@@ -39977,7 +40260,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 310,
 	period: 3,
 	seconds: 2809,
@@ -39996,7 +40280,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 311,
 	period: 3,
 	seconds: 2832,
@@ -40015,7 +40300,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 312,
 	period: 3,
 	seconds: 2855,
@@ -40034,7 +40320,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 313,
 	period: 3,
 	seconds: 2861,
@@ -40053,7 +40340,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 314,
 	period: 3,
 	seconds: 2867,
@@ -40072,7 +40360,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 315,
 	period: 3,
 	seconds: 2875.5,
@@ -40091,7 +40380,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 316,
 	period: 3,
 	seconds: 2884,
@@ -40110,7 +40400,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 317,
 	period: 3,
 	seconds: 2885,
@@ -40129,7 +40420,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 318,
 	period: 3,
 	seconds: 2903,
@@ -40148,7 +40440,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 319,
 	period: 3,
 	seconds: 2921,
@@ -40167,7 +40460,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 320,
 	period: 3,
 	seconds: 2921,
@@ -40186,7 +40480,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 321,
 	period: 3,
 	seconds: 2929,
@@ -40205,7 +40500,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 322,
 	period: 3,
 	seconds: 2937.5,
@@ -40224,7 +40520,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 323,
 	period: 3,
 	seconds: 2946,
@@ -40243,7 +40540,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 324,
 	period: 3,
 	seconds: 2955,
@@ -40262,7 +40560,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 325,
 	period: 3,
 	seconds: 2980,
@@ -40281,7 +40580,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 326,
 	period: 3,
 	seconds: 2981,
@@ -40300,7 +40600,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 327,
 	period: 3,
 	seconds: 2982,
@@ -40319,7 +40620,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 328,
 	period: 3,
 	seconds: 2984,
@@ -40338,7 +40640,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 329,
 	period: 3,
 	seconds: 2988,
@@ -40357,7 +40660,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 330,
 	period: 3,
 	seconds: 2991,
@@ -40376,7 +40680,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 331,
 	period: 3,
 	seconds: 2997,
@@ -40395,7 +40700,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 333,
 	period: 3,
 	seconds: 3005,
@@ -40414,7 +40720,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 334,
 	period: 3,
 	seconds: 3022.5,
@@ -40433,7 +40740,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 335,
 	period: 3,
 	seconds: 3040,
@@ -40452,7 +40760,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 336,
 	period: 3,
 	seconds: 3050,
@@ -40471,7 +40780,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 337,
 	period: 3,
 	seconds: 3060,
@@ -40490,7 +40800,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 338,
 	period: 3,
 	seconds: 3066.5,
@@ -40509,7 +40820,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 340,
 	period: 3,
 	seconds: 3073,
@@ -40528,7 +40840,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 341,
 	period: 3,
 	seconds: 3085,
@@ -40547,7 +40860,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 342,
 	period: 3,
 	seconds: 3091.5,
@@ -40566,7 +40880,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 343,
 	period: 3,
 	seconds: 3098,
@@ -40585,7 +40900,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 344,
 	period: 3,
 	seconds: 3106.5,
@@ -40604,7 +40920,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 345,
 	period: 3,
 	seconds: 3115,
@@ -40623,7 +40940,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 346,
 	period: 3,
 	seconds: 3120,
@@ -40642,7 +40960,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 347,
 	period: 3,
 	seconds: 3124.5,
@@ -40661,7 +40980,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 348,
 	period: 3,
 	seconds: 3129,
@@ -40680,7 +41000,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 349,
 	period: 3,
 	seconds: 3134,
@@ -40699,7 +41020,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 350,
 	period: 3,
 	seconds: 3139,
@@ -40718,7 +41040,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 352,
 	period: 3,
 	seconds: 3139,
@@ -40737,7 +41060,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 353,
 	period: 3,
 	seconds: 3148,
@@ -40756,7 +41080,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 354,
 	period: 3,
 	seconds: 3157,
@@ -40775,7 +41100,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 355,
 	period: 3,
 	seconds: 3168,
@@ -40794,7 +41120,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 356,
 	period: 3,
 	seconds: 3173,
@@ -40813,7 +41140,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 357,
 	period: 3,
 	seconds: 3186.5,
@@ -40832,7 +41160,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 358,
 	period: 3,
 	seconds: 3200,
@@ -40851,7 +41180,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 359,
 	period: 3,
 	seconds: 3206,
@@ -40870,7 +41200,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 360,
 	period: 3,
 	seconds: 3216,
@@ -40889,7 +41220,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 362,
 	period: 3,
 	seconds: 3218,
@@ -40908,7 +41240,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 363,
 	period: 3,
 	seconds: 3218,
@@ -40927,7 +41260,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 364,
 	period: 3,
 	seconds: 3233,
@@ -40946,7 +41280,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 365,
 	period: 3,
 	seconds: 3235,
@@ -40965,7 +41300,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 367,
 	period: 3,
 	seconds: 3236,
@@ -40984,7 +41320,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 368,
 	period: 3,
 	seconds: 3239,
@@ -41003,7 +41340,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 369,
 	period: 3,
 	seconds: 3259,
@@ -41022,7 +41360,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 370,
 	period: 3,
 	seconds: 3265,
@@ -41041,7 +41380,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 371,
 	period: 3,
 	seconds: 3271.5,
@@ -41060,7 +41400,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 372,
 	period: 3,
 	seconds: 3278,
@@ -41079,7 +41420,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 373,
 	period: 3,
 	seconds: 3288,
@@ -41098,7 +41440,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 374,
 	period: 3,
 	seconds: 3298,
@@ -41117,7 +41460,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 375,
 	period: 3,
 	seconds: 3305,
@@ -41136,7 +41480,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 377,
 	period: 3,
 	seconds: 3309,
@@ -41155,7 +41500,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 378,
 	period: 3,
 	seconds: 3317,
@@ -41174,7 +41520,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 379,
 	period: 3,
 	seconds: 3325,
@@ -41193,7 +41540,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 380,
 	period: 3,
 	seconds: 3333,
@@ -41212,7 +41560,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 381,
 	period: 3,
 	seconds: 3346,
@@ -41231,7 +41580,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 382,
 	period: 3,
 	seconds: 3349.5,
@@ -41250,7 +41600,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 383,
 	period: 3,
 	seconds: 3353,
@@ -41269,7 +41620,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 384,
 	period: 3,
 	seconds: 3355,
@@ -41288,7 +41640,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 385,
 	period: 3,
 	seconds: 3357,
@@ -41307,7 +41660,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 386,
 	period: 3,
 	seconds: 3363.5,
@@ -41326,7 +41680,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 387,
 	period: 3,
 	seconds: 3370,
@@ -41345,7 +41700,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 388,
 	period: 3,
 	seconds: 3371,
@@ -41364,7 +41720,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 389,
 	period: 3,
 	seconds: 3375,
@@ -41383,7 +41740,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 391,
 	period: 3,
 	seconds: 3379,
@@ -41402,7 +41760,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 392,
 	period: 3,
 	seconds: 3382.5,
@@ -41421,7 +41780,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 393,
 	period: 3,
 	seconds: 3386,
@@ -41440,7 +41800,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 394,
 	period: 3,
 	seconds: 3401,
@@ -41459,7 +41820,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 395,
 	period: 3,
 	seconds: 3421,
@@ -41478,7 +41840,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 396,
 	period: 3,
 	seconds: 3423,
@@ -41497,7 +41860,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 397,
 	period: 3,
 	seconds: 3425,
@@ -41516,7 +41880,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 398,
 	period: 3,
 	seconds: 3432,
@@ -41535,7 +41900,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 399,
 	period: 3,
 	seconds: 3439,
@@ -41554,7 +41920,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 400,
 	period: 3,
 	seconds: 3448,
@@ -41573,7 +41940,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 401,
 	period: 3,
 	seconds: 3457,
@@ -41592,7 +41960,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 402,
 	period: 3,
 	seconds: 3461,
@@ -41611,7 +41980,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 403,
 	period: 3,
 	seconds: 3461,
@@ -41630,7 +42000,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 404,
 	period: 3,
 	seconds: 3467,
@@ -41649,7 +42020,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 405,
 	period: 3,
 	seconds: 3476,
@@ -41668,7 +42040,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 406,
 	period: 3,
 	seconds: 3499,
@@ -41687,7 +42060,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 407,
 	period: 3,
 	seconds: 3522,
@@ -41706,7 +42080,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 408,
 	period: 3,
 	seconds: 3534.5,
@@ -41725,7 +42100,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 409,
 	period: 3,
 	seconds: 3547,
@@ -41744,7 +42120,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 410,
 	period: 3,
 	seconds: 3557,
@@ -41763,7 +42140,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 411,
 	period: 3,
 	seconds: 3557,
@@ -41782,7 +42160,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 412,
 	period: 3,
 	seconds: 3557,
@@ -41801,7 +42180,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 413,
 	period: 3,
 	seconds: 3567,
@@ -41820,7 +42200,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 415,
 	period: 3,
 	seconds: 3577,
@@ -41839,7 +42220,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 416,
 	period: 3,
 	seconds: 3581,
@@ -41858,7 +42240,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 417,
 	period: 3,
 	seconds: 3591,
@@ -41877,7 +42260,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 1,
+	gcode: 20001,
+  season_years: 20142015,
 	event_number: 418,
 	period: 3,
 	seconds: 3600,
@@ -41896,7 +42280,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 1,
 	period: 1,
 	seconds: 0,
@@ -41915,7 +42300,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 2,
 	period: 1,
 	seconds: 9,
@@ -41934,7 +42320,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 3,
 	period: 1,
 	seconds: 25,
@@ -41953,7 +42340,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 4,
 	period: 1,
 	seconds: 41,
@@ -41972,7 +42360,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 5,
 	period: 1,
 	seconds: 58,
@@ -41991,7 +42380,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 6,
 	period: 1,
 	seconds: 63,
@@ -42010,7 +42400,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 7,
 	period: 1,
 	seconds: 68,
@@ -42029,7 +42420,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 8,
 	period: 1,
 	seconds: 75,
@@ -42048,7 +42440,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 9,
 	period: 1,
 	seconds: 85,
@@ -42067,7 +42460,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 10,
 	period: 1,
 	seconds: 89,
@@ -42086,7 +42480,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 12,
 	period: 1,
 	seconds: 98,
@@ -42105,7 +42500,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 13,
 	period: 1,
 	seconds: 105,
@@ -42124,7 +42520,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 14,
 	period: 1,
 	seconds: 123,
@@ -42143,7 +42540,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 15,
 	period: 1,
 	seconds: 134,
@@ -42162,7 +42560,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 16,
 	period: 1,
 	seconds: 138.5,
@@ -42181,7 +42580,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 17,
 	period: 1,
 	seconds: 143,
@@ -42200,7 +42600,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 18,
 	period: 1,
 	seconds: 146,
@@ -42219,7 +42620,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 19,
 	period: 1,
 	seconds: 149,
@@ -42238,7 +42640,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 20,
 	period: 1,
 	seconds: 150.5,
@@ -42257,7 +42660,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 21,
 	period: 1,
 	seconds: 152,
@@ -42276,7 +42680,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 23,
 	period: 1,
 	seconds: 154,
@@ -42295,7 +42700,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 24,
 	period: 1,
 	seconds: 164,
@@ -42314,7 +42720,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 25,
 	period: 1,
 	seconds: 172,
@@ -42333,7 +42740,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 26,
 	period: 1,
 	seconds: 179,
@@ -42352,7 +42760,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 27,
 	period: 1,
 	seconds: 189,
@@ -42371,7 +42780,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 28,
 	period: 1,
 	seconds: 190,
@@ -42390,7 +42800,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 30,
 	period: 1,
 	seconds: 191,
@@ -42409,7 +42820,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 31,
 	period: 1,
 	seconds: 213,
@@ -42428,7 +42840,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 32,
 	period: 1,
 	seconds: 226,
@@ -42447,7 +42860,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 33,
 	period: 1,
 	seconds: 231,
@@ -42466,7 +42880,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 35,
 	period: 1,
 	seconds: 234,
@@ -42485,7 +42900,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 36,
 	period: 1,
 	seconds: 234,
@@ -42504,7 +42920,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 37,
 	period: 1,
 	seconds: 256,
@@ -42523,7 +42940,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 38,
 	period: 1,
 	seconds: 278,
@@ -42542,7 +42960,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 39,
 	period: 1,
 	seconds: 291,
@@ -42561,7 +42980,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 40,
 	period: 1,
 	seconds: 304,
@@ -42580,7 +43000,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 41,
 	period: 1,
 	seconds: 310,
@@ -42599,7 +43020,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 42,
 	period: 1,
 	seconds: 324.5,
@@ -42618,7 +43040,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 43,
 	period: 1,
 	seconds: 339,
@@ -42637,7 +43060,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 44,
 	period: 1,
 	seconds: 347,
@@ -42656,7 +43080,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 45,
 	period: 1,
 	seconds: 355,
@@ -42675,7 +43100,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 46,
 	period: 1,
 	seconds: 365,
@@ -42694,7 +43120,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 47,
 	period: 1,
 	seconds: 375,
@@ -42713,7 +43140,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 49,
 	period: 1,
 	seconds: 375,
@@ -42732,7 +43160,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 50,
 	period: 1,
 	seconds: 386,
@@ -42751,7 +43180,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 51,
 	period: 1,
 	seconds: 404,
@@ -42770,7 +43200,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 53,
 	period: 1,
 	seconds: 404,
@@ -42789,7 +43220,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 54,
 	period: 1,
 	seconds: 409,
@@ -42808,7 +43240,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 55,
 	period: 1,
 	seconds: 428,
@@ -42827,7 +43260,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 56,
 	period: 1,
 	seconds: 447,
@@ -42846,7 +43280,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 57,
 	period: 1,
 	seconds: 447,
@@ -42865,7 +43300,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 58,
 	period: 1,
 	seconds: 452,
@@ -42884,7 +43320,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 59,
 	period: 1,
 	seconds: 457,
@@ -42903,7 +43340,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 60,
 	period: 1,
 	seconds: 465,
@@ -42922,7 +43360,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 61,
 	period: 1,
 	seconds: 467.5,
@@ -42941,7 +43380,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 62,
 	period: 1,
 	seconds: 470,
@@ -42960,7 +43400,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 63,
 	period: 1,
 	seconds: 489,
@@ -42979,7 +43420,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 64,
 	period: 1,
 	seconds: 508,
@@ -42998,7 +43440,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 65,
 	period: 1,
 	seconds: 512,
@@ -43017,7 +43460,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 66,
 	period: 1,
 	seconds: 516,
@@ -43036,7 +43480,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 67,
 	period: 1,
 	seconds: 523,
@@ -43055,7 +43500,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 68,
 	period: 1,
 	seconds: 530,
@@ -43074,7 +43520,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 69,
 	period: 1,
 	seconds: 532,
@@ -43093,7 +43540,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 70,
 	period: 1,
 	seconds: 534,
@@ -43112,7 +43560,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 71,
 	period: 1,
 	seconds: 551,
@@ -43131,7 +43580,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 72,
 	period: 1,
 	seconds: 567.5,
@@ -43150,7 +43600,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 73,
 	period: 1,
 	seconds: 584,
@@ -43169,7 +43620,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 74,
 	period: 1,
 	seconds: 584,
@@ -43188,7 +43640,8 @@ Event.create!([
 	away_skaters: 5,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 75,
 	period: 1,
 	seconds: 591,
@@ -43207,7 +43660,8 @@ Event.create!([
 	away_skaters: 5,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 76,
 	period: 1,
 	seconds: 602,
@@ -43226,7 +43680,8 @@ Event.create!([
 	away_skaters: 5,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 77,
 	period: 1,
 	seconds: 606,
@@ -43245,7 +43700,8 @@ Event.create!([
 	away_skaters: 5,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 79,
 	period: 1,
 	seconds: 606,
@@ -43264,7 +43720,8 @@ Event.create!([
 	away_skaters: 5,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 80,
 	period: 1,
 	seconds: 628,
@@ -43283,7 +43740,8 @@ Event.create!([
 	away_skaters: 5,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 81,
 	period: 1,
 	seconds: 635,
@@ -43302,7 +43760,8 @@ Event.create!([
 	away_skaters: 5,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 82,
 	period: 1,
 	seconds: 639,
@@ -43321,7 +43780,8 @@ Event.create!([
 	away_skaters: 5,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 83,
 	period: 1,
 	seconds: 639,
@@ -43340,7 +43800,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 84,
 	period: 1,
 	seconds: 654,
@@ -43359,7 +43820,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 85,
 	period: 1,
 	seconds: 661,
@@ -43378,7 +43840,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 86,
 	period: 1,
 	seconds: 676,
@@ -43397,7 +43860,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 87,
 	period: 1,
 	seconds: 680.5,
@@ -43416,7 +43880,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 88,
 	period: 1,
 	seconds: 685,
@@ -43435,7 +43900,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 89,
 	period: 1,
 	seconds: 691,
@@ -43454,7 +43920,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 90,
 	period: 1,
 	seconds: 697,
@@ -43473,7 +43940,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 92,
 	period: 1,
 	seconds: 708,
@@ -43492,7 +43960,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 93,
 	period: 1,
 	seconds: 749,
@@ -43511,7 +43980,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 94,
 	period: 1,
 	seconds: 753,
@@ -43530,7 +44000,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 96,
 	period: 1,
 	seconds: 754,
@@ -43549,7 +44020,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 97,
 	period: 1,
 	seconds: 760.5,
@@ -43568,7 +44040,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 98,
 	period: 1,
 	seconds: 767,
@@ -43587,7 +44060,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 99,
 	period: 1,
 	seconds: 793,
@@ -43606,7 +44080,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 100,
 	period: 1,
 	seconds: 794,
@@ -43625,7 +44100,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 101,
 	period: 1,
 	seconds: 795,
@@ -43644,7 +44120,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 102,
 	period: 1,
 	seconds: 808,
@@ -43663,7 +44140,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 103,
 	period: 1,
 	seconds: 811.5,
@@ -43682,7 +44160,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 104,
 	period: 1,
 	seconds: 815,
@@ -43701,7 +44180,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 105,
 	period: 1,
 	seconds: 819.5,
@@ -43720,7 +44200,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 106,
 	period: 1,
 	seconds: 824,
@@ -43739,7 +44220,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 107,
 	period: 1,
 	seconds: 831,
@@ -43758,7 +44240,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 108,
 	period: 1,
 	seconds: 834,
@@ -43777,7 +44260,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 109,
 	period: 1,
 	seconds: 839.5,
@@ -43796,7 +44280,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 110,
 	period: 1,
 	seconds: 845,
@@ -43815,7 +44300,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 111,
 	period: 1,
 	seconds: 852.5,
@@ -43834,7 +44320,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 112,
 	period: 1,
 	seconds: 860,
@@ -43853,7 +44340,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 113,
 	period: 1,
 	seconds: 862.5,
@@ -43872,7 +44360,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 114,
 	period: 1,
 	seconds: 865,
@@ -43891,7 +44380,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 115,
 	period: 1,
 	seconds: 870.5,
@@ -43910,7 +44400,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 116,
 	period: 1,
 	seconds: 876,
@@ -43929,7 +44420,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 118,
 	period: 1,
 	seconds: 876,
@@ -43948,7 +44440,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 119,
 	period: 1,
 	seconds: 881,
@@ -43967,7 +44460,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 120,
 	period: 1,
 	seconds: 889,
@@ -43986,7 +44480,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 121,
 	period: 1,
 	seconds: 890,
@@ -44005,7 +44500,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 123,
 	period: 1,
 	seconds: 890,
@@ -44024,7 +44520,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 124,
 	period: 1,
 	seconds: 907,
@@ -44043,7 +44540,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 125,
 	period: 1,
 	seconds: 924,
@@ -44062,7 +44560,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 126,
 	period: 1,
 	seconds: 942,
@@ -44081,7 +44580,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 127,
 	period: 1,
 	seconds: 960,
@@ -44100,7 +44600,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 128,
 	period: 1,
 	seconds: 965,
@@ -44119,7 +44620,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 129,
 	period: 1,
 	seconds: 983.5,
@@ -44138,7 +44640,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 130,
 	period: 1,
 	seconds: 1002,
@@ -44157,7 +44660,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 132,
 	period: 1,
 	seconds: 1002,
@@ -44176,7 +44680,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 133,
 	period: 1,
 	seconds: 1025,
@@ -44195,7 +44700,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 135,
 	period: 1,
 	seconds: 1026,
@@ -44214,7 +44720,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 136,
 	period: 1,
 	seconds: 1032,
@@ -44233,7 +44740,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 137,
 	period: 1,
 	seconds: 1051.5,
@@ -44252,7 +44760,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 138,
 	period: 1,
 	seconds: 1071,
@@ -44271,7 +44780,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 140,
 	period: 1,
 	seconds: 1071,
@@ -44290,7 +44800,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 141,
 	period: 1,
 	seconds: 1093.5,
@@ -44309,7 +44820,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 142,
 	period: 1,
 	seconds: 1116,
@@ -44328,7 +44840,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 143,
 	period: 1,
 	seconds: 1136,
@@ -44347,7 +44860,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 144,
 	period: 1,
 	seconds: 1156,
@@ -44366,7 +44880,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 145,
 	period: 1,
 	seconds: 1160.5,
@@ -44385,7 +44900,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 146,
 	period: 1,
 	seconds: 1165,
@@ -44404,7 +44920,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 148,
 	period: 1,
 	seconds: 1165,
@@ -44423,7 +44940,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 149,
 	period: 1,
 	seconds: 1198,
@@ -44442,7 +44960,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 151,
 	period: 1,
 	seconds: 1198,
@@ -44461,7 +44980,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 152,
 	period: 1,
 	seconds: 1200,
@@ -44480,7 +45000,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 153,
 	period: 2,
 	seconds: 1200,
@@ -44499,7 +45020,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 154,
 	period: 2,
 	seconds: 1222,
@@ -44518,7 +45040,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 155,
 	period: 2,
 	seconds: 1244,
@@ -44537,7 +45060,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 156,
 	period: 2,
 	seconds: 1259,
@@ -44556,7 +45080,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 157,
 	period: 2,
 	seconds: 1274,
@@ -44575,7 +45100,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 158,
 	period: 2,
 	seconds: 1280,
@@ -44594,7 +45120,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 159,
 	period: 2,
 	seconds: 1288.5,
@@ -44613,7 +45140,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 160,
 	period: 2,
 	seconds: 1297,
@@ -44632,7 +45160,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 161,
 	period: 2,
 	seconds: 1301,
@@ -44651,7 +45180,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 162,
 	period: 2,
 	seconds: 1317,
@@ -44670,7 +45200,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 164,
 	period: 2,
 	seconds: 1333,
@@ -44689,7 +45220,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 165,
 	period: 2,
 	seconds: 1340,
@@ -44708,7 +45240,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 166,
 	period: 2,
 	seconds: 1342,
@@ -44727,7 +45260,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 167,
 	period: 2,
 	seconds: 1354.5,
@@ -44746,7 +45280,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 168,
 	period: 2,
 	seconds: 1367,
@@ -44765,7 +45300,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 169,
 	period: 2,
 	seconds: 1370,
@@ -44784,7 +45320,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 170,
 	period: 2,
 	seconds: 1377,
@@ -44803,7 +45340,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 172,
 	period: 2,
 	seconds: 1384,
@@ -44822,7 +45360,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 173,
 	period: 2,
 	seconds: 1395,
@@ -44841,7 +45380,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 174,
 	period: 2,
 	seconds: 1402,
@@ -44860,7 +45400,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 175,
 	period: 2,
 	seconds: 1409,
@@ -44879,7 +45420,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 176,
 	period: 2,
 	seconds: 1419,
@@ -44898,7 +45440,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 177,
 	period: 2,
 	seconds: 1424,
@@ -44917,7 +45460,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 178,
 	period: 2,
 	seconds: 1439,
@@ -44936,7 +45480,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 179,
 	period: 2,
 	seconds: 1442,
@@ -44955,7 +45500,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 180,
 	period: 2,
 	seconds: 1442,
@@ -44974,7 +45520,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 181,
 	period: 2,
 	seconds: 1488,
@@ -44993,7 +45540,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 182,
 	period: 2,
 	seconds: 1497.5,
@@ -45012,7 +45560,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 183,
 	period: 2,
 	seconds: 1507,
@@ -45031,7 +45580,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 184,
 	period: 2,
 	seconds: 1509.5,
@@ -45050,7 +45600,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 185,
 	period: 2,
 	seconds: 1512,
@@ -45069,7 +45620,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 187,
 	period: 2,
 	seconds: 1513,
@@ -45088,7 +45640,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 188,
 	period: 2,
 	seconds: 1522,
@@ -45107,7 +45660,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 189,
 	period: 2,
 	seconds: 1536,
@@ -45126,7 +45680,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 190,
 	period: 2,
 	seconds: 1561.5,
@@ -45145,7 +45700,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 191,
 	period: 2,
 	seconds: 1587,
@@ -45164,7 +45720,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 192,
 	period: 2,
 	seconds: 1598,
@@ -45183,7 +45740,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 193,
 	period: 2,
 	seconds: 1606,
@@ -45202,7 +45760,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 194,
 	period: 2,
 	seconds: 1613.5,
@@ -45221,7 +45780,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 195,
 	period: 2,
 	seconds: 1621,
@@ -45240,7 +45800,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 197,
 	period: 2,
 	seconds: 1621,
@@ -45259,7 +45820,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 198,
 	period: 2,
 	seconds: 1627,
@@ -45278,7 +45840,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 200,
 	period: 2,
 	seconds: 1633,
@@ -45297,7 +45860,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 201,
 	period: 2,
 	seconds: 1659,
@@ -45316,7 +45880,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 202,
 	period: 2,
 	seconds: 1663,
@@ -45335,7 +45900,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 204,
 	period: 2,
 	seconds: 1663,
@@ -45354,7 +45920,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 205,
 	period: 2,
 	seconds: 1674,
@@ -45373,7 +45940,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 206,
 	period: 2,
 	seconds: 1692,
@@ -45392,7 +45960,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 207,
 	period: 2,
 	seconds: 1698.5,
@@ -45411,7 +45980,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 208,
 	period: 2,
 	seconds: 1705,
@@ -45430,7 +46000,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 209,
 	period: 2,
 	seconds: 1718.5,
@@ -45449,7 +46020,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 210,
 	period: 2,
 	seconds: 1732,
@@ -45468,7 +46040,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 211,
 	period: 2,
 	seconds: 1737,
@@ -45487,7 +46060,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 212,
 	period: 2,
 	seconds: 1752,
@@ -45506,7 +46080,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 213,
 	period: 2,
 	seconds: 1767,
@@ -45525,7 +46100,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 214,
 	period: 2,
 	seconds: 1774,
@@ -45544,7 +46120,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 215,
 	period: 2,
 	seconds: 1788.5,
@@ -45563,7 +46140,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 216,
 	period: 2,
 	seconds: 1803,
@@ -45582,7 +46160,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 217,
 	period: 2,
 	seconds: 1820,
@@ -45601,7 +46180,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 218,
 	period: 2,
 	seconds: 1826.5,
@@ -45620,7 +46200,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 219,
 	period: 2,
 	seconds: 1833,
@@ -45639,7 +46220,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 220,
 	period: 2,
 	seconds: 1841.5,
@@ -45658,7 +46240,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 221,
 	period: 2,
 	seconds: 1850,
@@ -45677,7 +46260,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 222,
 	period: 2,
 	seconds: 1852,
@@ -45696,7 +46280,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 223,
 	period: 2,
 	seconds: 1852,
@@ -45715,7 +46300,8 @@ Event.create!([
 	away_skaters: 5,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 224,
 	period: 2,
 	seconds: 1852,
@@ -45734,7 +46320,8 @@ Event.create!([
 	away_skaters: 5,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 226,
 	period: 2,
 	seconds: 1852,
@@ -45753,7 +46340,8 @@ Event.create!([
 	away_skaters: 5,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 227,
 	period: 2,
 	seconds: 1852,
@@ -45772,7 +46360,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 228,
 	period: 2,
 	seconds: 1877.5,
@@ -45791,7 +46380,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 229,
 	period: 2,
 	seconds: 1903,
@@ -45810,7 +46400,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 230,
 	period: 2,
 	seconds: 1921.5,
@@ -45829,7 +46420,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 231,
 	period: 2,
 	seconds: 1940,
@@ -45848,7 +46440,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 232,
 	period: 2,
 	seconds: 1949.5,
@@ -45867,7 +46460,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 233,
 	period: 2,
 	seconds: 1959,
@@ -45886,7 +46480,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 234,
 	period: 2,
 	seconds: 1959,
@@ -45905,7 +46500,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 235,
 	period: 2,
 	seconds: 1976,
@@ -45924,7 +46520,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 236,
 	period: 2,
 	seconds: 1981,
@@ -45943,7 +46540,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 237,
 	period: 2,
 	seconds: 1992,
@@ -45962,7 +46560,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 238,
 	period: 2,
 	seconds: 1994,
@@ -45981,7 +46580,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 239,
 	period: 2,
 	seconds: 2023,
@@ -46000,7 +46600,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 240,
 	period: 2,
 	seconds: 2052,
@@ -46019,7 +46620,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 241,
 	period: 2,
 	seconds: 2062,
@@ -46038,7 +46640,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 242,
 	period: 2,
 	seconds: 2072,
@@ -46057,7 +46660,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 243,
 	period: 2,
 	seconds: 2075,
@@ -46076,7 +46680,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 244,
 	period: 2,
 	seconds: 2080,
@@ -46095,7 +46700,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 245,
 	period: 2,
 	seconds: 2085,
@@ -46114,7 +46720,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 247,
 	period: 2,
 	seconds: 2085,
@@ -46133,7 +46740,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 248,
 	period: 2,
 	seconds: 2093,
@@ -46152,7 +46760,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 249,
 	period: 2,
 	seconds: 2111,
@@ -46171,7 +46780,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 251,
 	period: 2,
 	seconds: 2129,
@@ -46190,7 +46800,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 252,
 	period: 2,
 	seconds: 2171,
@@ -46209,7 +46820,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 253,
 	period: 2,
 	seconds: 2175,
@@ -46228,7 +46840,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 254,
 	period: 2,
 	seconds: 2179,
@@ -46247,7 +46860,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 255,
 	period: 2,
 	seconds: 2186.5,
@@ -46266,7 +46880,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 256,
 	period: 2,
 	seconds: 2194,
@@ -46285,7 +46900,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 257,
 	period: 2,
 	seconds: 2198.5,
@@ -46304,7 +46920,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 258,
 	period: 2,
 	seconds: 2203,
@@ -46323,7 +46940,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 259,
 	period: 2,
 	seconds: 2237.5,
@@ -46342,7 +46960,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 260,
 	period: 2,
 	seconds: 2272,
@@ -46361,7 +46980,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 261,
 	period: 2,
 	seconds: 2281,
@@ -46380,7 +47000,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 262,
 	period: 2,
 	seconds: 2295,
@@ -46399,7 +47020,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 263,
 	period: 2,
 	seconds: 2299.5,
@@ -46418,7 +47040,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 264,
 	period: 2,
 	seconds: 2304,
@@ -46437,7 +47060,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 265,
 	period: 2,
 	seconds: 2316,
@@ -46456,7 +47080,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 266,
 	period: 2,
 	seconds: 2328,
@@ -46475,7 +47100,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 267,
 	period: 2,
 	seconds: 2330,
@@ -46494,7 +47120,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 268,
 	period: 2,
 	seconds: 2332,
@@ -46513,7 +47140,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 270,
 	period: 2,
 	seconds: 2332,
@@ -46532,7 +47160,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 271,
 	period: 2,
 	seconds: 2338,
@@ -46551,7 +47180,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 272,
 	period: 2,
 	seconds: 2347.5,
@@ -46570,7 +47200,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 273,
 	period: 2,
 	seconds: 2357,
@@ -46589,7 +47220,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 274,
 	period: 2,
 	seconds: 2370,
@@ -46608,7 +47240,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 276,
 	period: 2,
 	seconds: 2370,
@@ -46627,7 +47260,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 277,
 	period: 2,
 	seconds: 2393,
@@ -46646,7 +47280,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 279,
 	period: 2,
 	seconds: 2393,
@@ -46665,7 +47300,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 280,
 	period: 2,
 	seconds: 2400,
@@ -46684,7 +47320,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 281,
 	period: 3,
 	seconds: 2400,
@@ -46703,7 +47340,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 282,
 	period: 3,
 	seconds: 2424,
@@ -46722,7 +47360,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 283,
 	period: 3,
 	seconds: 2429,
@@ -46741,7 +47380,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 284,
 	period: 3,
 	seconds: 2434,
@@ -46760,7 +47400,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 285,
 	period: 3,
 	seconds: 2440,
@@ -46779,7 +47420,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 286,
 	period: 3,
 	seconds: 2446,
@@ -46798,7 +47440,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 287,
 	period: 3,
 	seconds: 2453,
@@ -46817,7 +47460,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 288,
 	period: 3,
 	seconds: 2477,
@@ -46836,7 +47480,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 289,
 	period: 3,
 	seconds: 2501,
@@ -46855,7 +47500,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 290,
 	period: 3,
 	seconds: 2512,
@@ -46874,7 +47520,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 291,
 	period: 3,
 	seconds: 2523,
@@ -46893,7 +47540,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 292,
 	period: 3,
 	seconds: 2526,
@@ -46912,7 +47560,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 293,
 	period: 3,
 	seconds: 2529,
@@ -46931,7 +47580,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 294,
 	period: 3,
 	seconds: 2549.5,
@@ -46950,7 +47600,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 295,
 	period: 3,
 	seconds: 2570,
@@ -46969,7 +47620,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 296,
 	period: 3,
 	seconds: 2588,
@@ -46988,7 +47640,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 297,
 	period: 3,
 	seconds: 2600.5,
@@ -47007,7 +47660,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 298,
 	period: 3,
 	seconds: 2613,
@@ -47026,7 +47680,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 299,
 	period: 3,
 	seconds: 2619,
@@ -47045,7 +47700,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 300,
 	period: 3,
 	seconds: 2625,
@@ -47064,7 +47720,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 301,
 	period: 3,
 	seconds: 2640.5,
@@ -47083,7 +47740,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 302,
 	period: 3,
 	seconds: 2656,
@@ -47102,7 +47760,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 303,
 	period: 3,
 	seconds: 2656,
@@ -47121,7 +47780,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 304,
 	period: 3,
 	seconds: 2659,
@@ -47140,7 +47800,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 306,
 	period: 3,
 	seconds: 2659,
@@ -47159,7 +47820,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 307,
 	period: 3,
 	seconds: 2673.5,
@@ -47178,7 +47840,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 308,
 	period: 3,
 	seconds: 2688,
@@ -47197,7 +47860,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 309,
 	period: 3,
 	seconds: 2708,
@@ -47216,7 +47880,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 310,
 	period: 3,
 	seconds: 2715.5,
@@ -47235,7 +47900,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 311,
 	period: 3,
 	seconds: 2723,
@@ -47254,7 +47920,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 312,
 	period: 3,
 	seconds: 2734,
@@ -47273,7 +47940,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 313,
 	period: 3,
 	seconds: 2745,
@@ -47292,7 +47960,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 314,
 	period: 3,
 	seconds: 2755,
@@ -47311,7 +47980,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 315,
 	period: 3,
 	seconds: 2758,
@@ -47330,7 +48000,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 316,
 	period: 3,
 	seconds: 2761,
@@ -47349,7 +48020,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 317,
 	period: 3,
 	seconds: 2774.5,
@@ -47368,7 +48040,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 318,
 	period: 3,
 	seconds: 2788,
@@ -47387,7 +48060,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 319,
 	period: 3,
 	seconds: 2796,
@@ -47406,7 +48080,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 320,
 	period: 3,
 	seconds: 2806,
@@ -47425,7 +48100,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 321,
 	period: 3,
 	seconds: 2816,
@@ -47444,7 +48120,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 322,
 	period: 3,
 	seconds: 2823.5,
@@ -47463,7 +48140,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 323,
 	period: 3,
 	seconds: 2831,
@@ -47482,7 +48160,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 325,
 	period: 3,
 	seconds: 2831,
@@ -47501,7 +48180,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 326,
 	period: 3,
 	seconds: 2862,
@@ -47520,7 +48200,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 327,
 	period: 3,
 	seconds: 2872,
@@ -47539,7 +48220,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 328,
 	period: 3,
 	seconds: 2882,
@@ -47558,7 +48240,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 329,
 	period: 3,
 	seconds: 2887,
@@ -47577,7 +48260,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 330,
 	period: 3,
 	seconds: 2889.5,
@@ -47596,7 +48280,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 331,
 	period: 3,
 	seconds: 2892,
@@ -47615,7 +48300,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 332,
 	period: 3,
 	seconds: 2911,
@@ -47634,7 +48320,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 333,
 	period: 3,
 	seconds: 2930,
@@ -47653,7 +48340,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 334,
 	period: 3,
 	seconds: 2944,
@@ -47672,7 +48360,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 335,
 	period: 3,
 	seconds: 2953,
@@ -47691,7 +48380,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 336,
 	period: 3,
 	seconds: 2962,
@@ -47710,7 +48400,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 338,
 	period: 3,
 	seconds: 2975,
@@ -47729,7 +48420,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 339,
 	period: 3,
 	seconds: 2979,
@@ -47748,7 +48440,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 340,
 	period: 3,
 	seconds: 2986,
@@ -47767,7 +48460,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 341,
 	period: 3,
 	seconds: 2991,
@@ -47786,7 +48480,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 342,
 	period: 3,
 	seconds: 3005,
@@ -47805,7 +48500,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 343,
 	period: 3,
 	seconds: 3019,
@@ -47824,7 +48520,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 344,
 	period: 3,
 	seconds: 3034,
@@ -47843,7 +48540,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 345,
 	period: 3,
 	seconds: 3038.5,
@@ -47862,7 +48560,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 346,
 	period: 3,
 	seconds: 3043,
@@ -47881,7 +48580,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 347,
 	period: 3,
 	seconds: 3044,
@@ -47900,7 +48600,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 348,
 	period: 3,
 	seconds: 3048,
@@ -47919,7 +48620,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 349,
 	period: 3,
 	seconds: 3062,
@@ -47938,7 +48640,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 350,
 	period: 3,
 	seconds: 3076,
@@ -47957,7 +48660,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 351,
 	period: 3,
 	seconds: 3105.5,
@@ -47976,7 +48680,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 352,
 	period: 3,
 	seconds: 3135,
@@ -47995,7 +48700,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 353,
 	period: 3,
 	seconds: 3158,
@@ -48014,7 +48720,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 354,
 	period: 3,
 	seconds: 3183.5,
@@ -48033,7 +48740,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 355,
 	period: 3,
 	seconds: 3209,
@@ -48052,7 +48760,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 356,
 	period: 3,
 	seconds: 3212.5,
@@ -48071,7 +48780,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 357,
 	period: 3,
 	seconds: 3216,
@@ -48090,7 +48800,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 358,
 	period: 3,
 	seconds: 3233,
@@ -48109,7 +48820,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 359,
 	period: 3,
 	seconds: 3236,
@@ -48128,7 +48840,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 360,
 	period: 3,
 	seconds: 3239,
@@ -48147,7 +48860,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 362,
 	period: 3,
 	seconds: 3239,
@@ -48166,7 +48880,8 @@ Event.create!([
 	away_skaters: 5,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 363,
 	period: 3,
 	seconds: 3253,
@@ -48185,7 +48900,8 @@ Event.create!([
 	away_skaters: 5,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 364,
 	period: 3,
 	seconds: 3265.5,
@@ -48204,7 +48920,8 @@ Event.create!([
 	away_skaters: 5,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 365,
 	period: 3,
 	seconds: 3278,
@@ -48223,7 +48940,8 @@ Event.create!([
 	away_skaters: 5,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 366,
 	period: 3,
 	seconds: 3282,
@@ -48242,7 +48960,8 @@ Event.create!([
 	away_skaters: 5,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 367,
 	period: 3,
 	seconds: 3306,
@@ -48261,7 +48980,8 @@ Event.create!([
 	away_skaters: 5,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 368,
 	period: 3,
 	seconds: 3330,
@@ -48280,7 +49000,8 @@ Event.create!([
 	away_skaters: 5,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 369,
 	period: 3,
 	seconds: 3349.5,
@@ -48299,7 +49020,8 @@ Event.create!([
 	away_skaters: 5,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 370,
 	period: 3,
 	seconds: 3369,
@@ -48318,7 +49040,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 371,
 	period: 3,
 	seconds: 3377,
@@ -48337,7 +49060,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 373,
 	period: 3,
 	seconds: 3377,
@@ -48356,7 +49080,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 374,
 	period: 3,
 	seconds: 3401,
@@ -48375,7 +49100,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 375,
 	period: 3,
 	seconds: 3405,
@@ -48394,7 +49120,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 376,
 	period: 3,
 	seconds: 3406,
@@ -48413,7 +49140,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 377,
 	period: 3,
 	seconds: 3407,
@@ -48432,7 +49160,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 378,
 	period: 3,
 	seconds: 3422.5,
@@ -48451,7 +49180,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 380,
 	period: 3,
 	seconds: 3438,
@@ -48470,7 +49200,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 381,
 	period: 3,
 	seconds: 3457,
@@ -48489,7 +49220,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 382,
 	period: 3,
 	seconds: 3473,
@@ -48508,7 +49240,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 383,
 	period: 3,
 	seconds: 3489,
@@ -48527,7 +49260,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 384,
 	period: 3,
 	seconds: 3489,
@@ -48546,7 +49280,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 385,
 	period: 3,
 	seconds: 3489,
@@ -48565,7 +49300,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 386,
 	period: 3,
 	seconds: 3531,
@@ -48584,7 +49320,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 387,
 	period: 3,
 	seconds: 3573,
@@ -48603,7 +49340,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 388,
 	period: 3,
 	seconds: 3586.5,
@@ -48622,7 +49360,8 @@ Event.create!([
 	away_skaters: 6,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 389,
 	period: 3,
 	seconds: 3600,
@@ -48641,7 +49380,8 @@ Event.create!([
 	away_skaters: 0,
 },
 {
-	game_id: 2,
+	gcode: 20002,
+  season_years: 20142015,
 	event_number: 390,
 	period: 3,
 	seconds: 3600,

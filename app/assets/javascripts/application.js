@@ -12,22 +12,16 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require date
 //= require foundation
+//= require foundation_calendar/foundation_calendar
+//= require foundation_calendar/helpers/date-helpers
+//= require foundation_calendar/helpers/string-helpers
 //= require highcharts/highcharts
 //= require highcharts/modules/heatmap
 //= require highcharts/highcharts-more
 //= require turbolinks
 //= require_tree .
 
-$(function() {
-  $("#players th a, #players .pagination a").on("click", function() {
-    $.getScript(this.href);
-    return false;
-  });
-  $("#players_search input").keyup(function() {
-    $.get($("#players_search").attr("action"), $("#players_search").serialize(), null, "script");
-    return false;
-  });
-});
 
 $(function(){ $(document).foundation(); });

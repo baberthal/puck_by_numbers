@@ -1,17 +1,8 @@
-/*
-*= require_self
-*= require foundation_and_overrides
-*= require_tree .
-*/
-
-table tr th {
-	text-align: center;
-}
-
-.player-table {
-	font-size: 12px;
-}
-
-.player-table > thead {
-	font-weight: normal;
-}
+@import "custom";
+@import "foundation-icons";
+@import "games";
+@import "nhl";
+@import "players";
+@import "responsive-tables.css";
+@import "seasons";
+@import "teams";

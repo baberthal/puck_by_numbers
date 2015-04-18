@@ -1,7 +1,8 @@
 <p id="notice"><%= notice %></p>
 
 <div class="container">
-	<%= image_tag(@team.image_path, width: 100, style: 'float:left') %><h1 class="text-center"><%= @team.name %> <%= @team.nickname %></h1>
+	<%= image_tag(@team.logo, width: 100, style: 'float:left') %>
+	<h1 class="text-center"><%= @team.name %> <%= @team.nickname %></h1>
 
 </div>
 
@@ -27,7 +28,7 @@
 			<tbody class="text-center">
 				<% @team.team_game_summaries.each do |tgs|	%>
 					<tr>
-						<td>2014 - 2015</td>
+						<td><%= tgs.pretty_season %></td>
 						<td><%= tgs.gf %></td>
 						<td><%= tgs.sf %></td>
 						<td><%= tgs.msf %></td>

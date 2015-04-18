@@ -3,10 +3,13 @@ Rails.application.routes.draw do
   resources :players
 
   resources :seasons do
+    collection do
+      match 'search' => 'games#search', via: [:get, :post], as: :search
+    end
     resources :games
   end
 
-  root 'seasons#show', :id => '1'
+  root 'seasons#show', :id => '20142015'
 
   # Example resource route with options:
   #   resources :products do

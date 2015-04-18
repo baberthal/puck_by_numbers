@@ -1,7 +1,8 @@
 class Event < ActiveRecord::Base
   include Filterable
   include Situational
-  belongs_to :game
+
+  belongs_to :game, :foreign_key => [:season_years, :gcode]
   belongs_to :event_team, :class_name => "Team"
   has_one :location
   belongs_to :event_player_1, :class_name => "Player", autosave: true

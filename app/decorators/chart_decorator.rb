@@ -34,10 +34,11 @@ class ChartDecorator
     options[:format] ||= 'full'
     labels = []
     @game.players.where(team: team).uniq.order(id: :asc).each do |p|
+      p = p.decorate
       if options[:format] == 'full'
-        labels << "#{p.first_name.titleize} #{p.pretty_last_name}"
+        labels << p.pretty_name
       elsif options[:format] == 'init'
-        labels << "#{p.first_name[0]}. #{p.pretty_last_name}"
+        labels << p.pretty_name('f_last')
       end
     end
     labels

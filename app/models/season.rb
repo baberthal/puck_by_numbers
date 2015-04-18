@@ -1,4 +1,5 @@
 class Season < ActiveRecord::Base
-	has_many :games
-	has_many :events, through: :games
+  self.primary_key = :season_years
+  has_many :games, :foreign_key => :season_years
+  has_many :events, through: :games
 end

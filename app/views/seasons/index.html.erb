@@ -1,17 +1,17 @@
 <p id="notice"><%= notice %></p>
 
 <div class="container">
-	<h1>Seasons</h1>
-	<%= grid(@season_grid, show_filters: :always, class: 'text-center') do |g|
-		g.column name: "Season", attribute: 'season_years', filter: false do |season|
-			link_to(season.season_years, season_path(season.id))
-		end
+  <h1>Seasons</h1>
+  <%= grid(@season_grid, show_filters: :always, class: 'text-center') do |g|
+    g.column name: "Season", attribute: 'season_years', filter: false do |season|
+      link_to(season.season_years, season_path(season.id))
+    end
 
-		g.column name: "Games",  filter: false do |season|
-			season.games.count
-		end
+    g.column name: "Games",  filter: false do |season|
+      season.games.count
+    end
 
-	end -%>
+  end -%>
 </div>
 
 
