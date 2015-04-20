@@ -3,13 +3,13 @@
     <div class="panel sit-panel">
       <dl class="sub-nav text-center">
         <dt class="situation-title">Situation: </dt>
-        <dd class="active"><%= link_to "Even Strength 5v5", season_game_path(id: @game.id, season_id: @game.season.id, :sit_id => 1), remote: true %></dd>
-        <dd><%= link_to "Powerplay", season_game_path(id: @game.id, season_id: @game.season.id, :sit_id => 2), remote: true %></dd>
-        <dd><%= link_to "Shorthanded", season_game_path(id: @game.id, season_id: @game.season.id, :sit_id => 3), remote: true %></dd>
-        <dd><%= link_to "Even Strength 4v4", season_game_path(id: @game.id, season_id: @game.season.id, :sit_id => 4), remote: true %></dd>
-        <dd><%= link_to "Goalie Pulled", season_game_path(id: @game.id, season_id: @game.season.id, :sit_id => 5), remote: true %></dd>
-        <dd><%= link_to "Opposing Goalie Pulled", season_game_path(id: @game.id, season_id: @game.season.id, :sit_id => 6), remote: true %></dd>
-        <dd><%= link_to "All", season_game_path(id: @game.id, season_id: @game.season.id, :sit_id => 7), remote: true %></dd>
+        <dd class="active"><%= link_to "Even Strength 5v5", season_game_path(gcode: @game.gcode, season_years: @game.season_years, :sit_id => 1), remote: true %></dd>
+        <dd><%= link_to "Powerplay", season_game_path(gcode: @game.gcode, season_years: @game.season_years, :sit_id => 2), remote: true %></dd>
+        <dd><%= link_to "Shorthanded", season_game_path(gcode: @game.gcode, season_years: @game.season_years, :sit_id => 3), remote: true %></dd>
+        <dd><%= link_to "Even Strength 4v4", season_game_path(gcode: @game.gcode, season_years: @game.season_years, :sit_id => 4), remote: true %></dd>
+        <dd><%= link_to "Goalie Pulled", season_game_path(gcode: @game.gcode, season_years: @game.season_years, :sit_id => 5), remote: true %></dd>
+        <dd><%= link_to "Opposing Goalie Pulled", season_game_path(gcode: @game.gcode, season_years: @game.season_years, :sit_id => 6), remote: true %></dd>
+        <dd><%= link_to "All", season_game_path(gcode: @game.gcode, season_years: @game.season_years, :sit_id => 7), remote: true %></dd>
       </dl>
     </div>
   </div>

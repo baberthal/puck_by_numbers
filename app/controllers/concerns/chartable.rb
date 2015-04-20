@@ -58,12 +58,6 @@ module Chartable
               title: 'Home')
       f.yAxis(categories: @decorator.flast_away,
               title: 'Away')
-      f.tooltip(backgroundColor: nil,
-                borderWidth: 0,
-                distance: 10,
-                shadow: false,
-                useHTML: true,
-                pointFormat: '<span> {series.xAxis.categories.point} {point.y} {point.value} </span>')
       f.colorAxis(dataClasses: [{from: -100,
                                  to: -1,
                                  color: @decorator.acolor,

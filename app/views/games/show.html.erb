@@ -48,7 +48,9 @@
         <div class="row">
           <div class="small-12 columns">
             <h3 class="subheader text-center">Corsi Heat Map</h3>
-            <%= high_chart("heat-map", @corsi_heat_map) %>
+            <%= high_chart("heat-map", @corsi_heat_map) do |c| %>
+              <%= raw "options.tooltip.formatter = function () {return '<b>' + this.series.xAxis.categories[this.point.x] + '</b> was <br><b>' + this.point.value + '</b> corsi +/- against <br><b>' + this.series.yAxis.categories[this.point.y] + '</b>' }" %>
+            <% end %>
           </div>
         </div>
       </div>

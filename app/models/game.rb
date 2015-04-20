@@ -2,6 +2,7 @@ class Game < ActiveRecord::Base
   include Statable
   include Summarizable
   include Filterable
+  include Analyzable
 
   self.primary_keys = :season_years, :gcode
 
@@ -11,8 +12,8 @@ class Game < ActiveRecord::Base
   has_many :events, :foreign_key => [:season_years, :gcode]
   has_many :event_teams, through: :events
   has_many :players, through: :events
-  has_many :player_game_summaries
-  has_many :team_game_summaries
+  has_many :player_game_summaries, :foreign_key => [:season_years, :gcode]
+  has_many :team_game_summaries, :foreign_key => [:season_years, :gcode]
   has_many :participants, through: :events
   has_many :game_charts, :foreign_key => [:season_years, :gcode]
 
@@ -88,20 +89,6 @@ class Game < ActiveRecord::Base
   def away_goals
     ag = goals.where(event_team: self.away_team).pluck(:seconds)
     ag.each.map { |x| x/60.round(2) }
-  end
-
-  def head_to_head(player1, player2)
-    p1_events = self.participants.where(player_id: player1.id).pluck(:event_id)
-    p2_events = self.participants.where(player_id: player2.id).pluck(:event_id)
-    h2h_c_events =
-      self.corsi_events.where(id: p1_events).where(id: p2_events)
-    h2h_p1 = h2h_c_events.where(event_team_id: player1.team.id).count
-    h2h_p2 = h2h_c_events.where(event_team_id: player2.team.id).count
-    if player1.team == self.home_team
-      h2h_p1 - h2h_p2
-    else
-      h2h_p2 - h2h_p1
-    end
   end
 
   def corsi_heat_map_data

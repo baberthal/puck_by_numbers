@@ -74,7 +74,7 @@ class ChartDecorator
         series << [i,n,@game.head_to_head(p,a)]
       end
     end
-    GameChart.create(game_id: @game.id, chart_type: 'corsi_heat_map', data: series)
+    GameChart.create(game: @game, chart_type: 'corsi_heat_map', data: series)
   end
 
   def heat_map_range(options = {})

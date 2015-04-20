@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150418231313) do
+ActiveRecord::Schema.define(version: 20150419204536) do
 
   create_table "events", force: :cascade do |t|
     t.integer "event_number",      limit: 3,   null: false, unsigned: true
@@ -49,6 +49,7 @@ ActiveRecord::Schema.define(version: 20150418231313) do
     t.datetime "updated_at",                 null: false
     t.integer  "season_years", limit: 8
     t.integer  "gcode",        limit: 4
+    t.integer  "situation",    limit: 4
   end
 
   create_table "games", force: :cascade do |t|
@@ -169,6 +170,8 @@ ActiveRecord::Schema.define(version: 20150418231313) do
     t.integer  "gcode",        limit: 8
   end
 
+  add_index "team_game_summaries", ["gcode"], name: "index_team_game_summaries_on_gcode", using: :btree
+  add_index "team_game_summaries", ["season_years"], name: "index_team_game_summaries_on_season_years", using: :btree
   add_index "team_game_summaries", ["team_id"], name: "index_team_game_summaries_on_team_id", using: :btree
 
   create_table "teams", force: :cascade do |t|

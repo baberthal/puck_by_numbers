@@ -24,10 +24,11 @@
       <ul class="left">
         <li class="has-dropdown"><a href="#">GAMES</a>
           <ul class="dropdown">
-            <li><%= link_to "RECENT", season_games_path(@games, season_id: 1) %></li>
+            <li><%= link_to "RECENT",
+              season_games_path(@games, season_id: 20142015) %></li>
             <li class="has-dropdown"><a href="#">BY SEASON</a>
               <ul class="dropdown">
-                <li> <%= link_to "2014 - 2015", season_path(id: 1) %></li>
+                <li> <%= link_to "2014 - 2015", season_path(id: 20142015) %></li>
                 <li><a href="#">2013 - 2014</a></li>
               </ul>
             </li>

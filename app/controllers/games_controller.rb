@@ -6,7 +6,7 @@ class GamesController < ApplicationController
   helper_method :sort_column, :sort_direction, :sit
 
   def get_season
-    @season = Season.find(params[:season_id])
+    @season = Season.find(params[:id])
   end
 
 
@@ -24,10 +24,10 @@ class GamesController < ApplicationController
   # GET /games/1.json
   def show
     @game = Game.find(params[:id])
-    @player_summaries =
-      @game.player_game_summaries.includes(:player).sit_filter(params[:sit_id])
-    @team_summaries =
-      @game.team_game_summaries.includes(:team).sit_filter(params[:sit_id])
+    @pq = @game.player_game_summaries.sit_filter(params[:sit_id]).ransack(search_params)
+    @tq = @game.team_game_summaries.sit_filter(params[:sit_id]).ransack(search_params)
+    @player_summaries = @pq.result.includes(:player)
+    @team_summaries = @tq.result.includes(:team)
     @event_count_chart = event_count_chart(@game)
     @corsi_heat_map = corsi_heat_map(@game)
   end

@@ -20,6 +20,7 @@ gem 'foundation-icons-sass-rails'
 gem 'kaminari'
 gem 'simple_form'
 gem 'draper'
+gem 'sidekiq'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

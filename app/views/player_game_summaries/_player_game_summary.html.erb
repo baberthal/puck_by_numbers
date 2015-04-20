@@ -1,5 +1,5 @@
 <tr>
-  <td class="name-col"><%= link_to player_game_summary.player.first_name.to_s[0] + ". " + player_game_summary.player.pretty_last_name, player_path(player_game_summary.player) %></td>
+  <td class="name-col"><%= link_to player_game_summary.player.decorate.pretty_name, player_path(player_game_summary.player) %></td>
   <td class="text-center"><%= player_game_summary.player.position %></td>
   <td class="text-center"><%= player_game_summary.goals %></td>
   <td class="text-center"><%= player_game_summary.a1 %></td>

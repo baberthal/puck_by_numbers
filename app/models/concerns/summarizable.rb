@@ -42,10 +42,14 @@ module Summarizable
   def create_player_summaries(sit)
     players.uniq.each do |player|
       if player.team == away_team
-        if sit == 2
+        if sit == 1
+          situation = 1
+        elsif sit == 2
           situation = 3
         elsif sit == 3
           situation = 2
+        elsif sit == 4
+          situation = 4
         elsif sit == 5
           situation = 6
         elsif sit == 6
