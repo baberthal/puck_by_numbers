@@ -24,8 +24,8 @@ class GamesController < ApplicationController
   # GET /games/1.json
   def show
     @game = Game.find(params[:id])
-    @pq = @game.player_game_summaries.sit_filter(params[:sit_id]).ransack(search_params)
-    @tq = @game.team_game_summaries.sit_filter(params[:sit_id]).ransack(search_params)
+    @pq = @game.player_game_summaries.sit_filter(sit).ransack(search_params)
+    @tq = @game.team_game_summaries.sit_filter(sit).ransack(search_params)
     @player_summaries = @pq.result.includes(:player)
     @team_summaries = @tq.result.includes(:team)
     @event_count_chart = event_count_chart(@game)
@@ -106,6 +106,6 @@ class GamesController < ApplicationController
     end
 
     def sit
-      %w[1 2 3 4 5 6 7].include?(params[:sit]) ? params[:sit] : "1"
+      %w[1 2 3 4 5 6 7].include?(params[:sit_id]) ? params[:sit_id] : "1"
     end
 end

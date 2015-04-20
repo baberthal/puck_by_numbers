@@ -35,4 +35,75 @@ module Analyzable
                      data: series,
                      situation: options[:situation])
   end
+
+  def get_event_count_data(team, options = {})
+    options[:situation] ||= 1
+    options[:type] ||= 'corsi'
+
+    if options[:type] == 'corsi'
+      events = self.corsi_events.where(situation: options[:situation])
+    elsif options[:type] == 'fenwick'
+      events = self.fenwick_events.where(situation: options[:situation])
+    elsif options [:type] == 'shots'
+      events = self.shots.where(situation: options[:situation])
+    end
+
+    ecount = events.where(event_team: team).uniq.pluck(:seconds)
+
+    arr = ecount.each_with_index.map { |v,i| [(v/60).round(2), i + 1] }
+    arr.unshift([0,0])
+    arr.insert(-1, [60, arr.last[1]])
+
+    GameChart.create(game: self,
+                     chart_type: "running_#{options[:type]}_count_chart",
+                     data: arr,
+                     situation: options[:situation],
+                     team_id: team.id)
+  end
+
+  def gather_chart_data
+    self.get_heat_map_data(situation: 1)
+    self.get_heat_map_data(situation: 2)
+    self.get_heat_map_data(situation: 3)
+    self.get_heat_map_data(situation: 4)
+    self.get_heat_map_data(situation: 5)
+    self.get_heat_map_data(situation: 6)
+    self.get_event_count_data(self.home_team, type: 'corsi', situation: 1)
+    self.get_event_count_data(self.home_team, type: 'corsi', situation: 2)
+    self.get_event_count_data(self.home_team, type: 'corsi', situation: 3)
+    self.get_event_count_data(self.home_team, type: 'corsi', situation: 4)
+    self.get_event_count_data(self.home_team, type: 'corsi', situation: 5)
+    self.get_event_count_data(self.home_team, type: 'corsi', situation: 6)
+    self.get_event_count_data(self.away_team, type: 'corsi', situation: 1)
+    self.get_event_count_data(self.away_team, type: 'corsi', situation: 2)
+    self.get_event_count_data(self.away_team, type: 'corsi', situation: 3)
+    self.get_event_count_data(self.away_team, type: 'corsi', situation: 4)
+    self.get_event_count_data(self.away_team, type: 'corsi', situation: 5)
+    self.get_event_count_data(self.away_team, type: 'corsi', situation: 6)
+    self.get_event_count_data(self.home_team, type: 'fenwick', situation: 1)
+    self.get_event_count_data(self.home_team, type: 'fenwick', situation: 2)
+    self.get_event_count_data(self.home_team, type: 'fenwick', situation: 3)
+    self.get_event_count_data(self.home_team, type: 'fenwick', situation: 4)
+    self.get_event_count_data(self.home_team, type: 'fenwick', situation: 5)
+    self.get_event_count_data(self.home_team, type: 'fenwick', situation: 6)
+    self.get_event_count_data(self.away_team, type: 'fenwick', situation: 1)
+    self.get_event_count_data(self.away_team, type: 'fenwick', situation: 2)
+    self.get_event_count_data(self.away_team, type: 'fenwick', situation: 3)
+    self.get_event_count_data(self.away_team, type: 'fenwick', situation: 4)
+    self.get_event_count_data(self.away_team, type: 'fenwick', situation: 5)
+    self.get_event_count_data(self.away_team, type: 'fenwick', situation: 6)
+    self.get_event_count_data(self.home_team, type: 'shots', situation: 1)
+    self.get_event_count_data(self.home_team, type: 'shots', situation: 2)
+    self.get_event_count_data(self.home_team, type: 'shots', situation: 3)
+    self.get_event_count_data(self.home_team, type: 'shots', situation: 4)
+    self.get_event_count_data(self.home_team, type: 'shots', situation: 5)
+    self.get_event_count_data(self.home_team, type: 'shots', situation: 6)
+    self.get_event_count_data(self.away_team, type: 'shots', situation: 1)
+    self.get_event_count_data(self.away_team, type: 'shots', situation: 2)
+    self.get_event_count_data(self.away_team, type: 'shots', situation: 3)
+    self.get_event_count_data(self.away_team, type: 'shots', situation: 4)
+    self.get_event_count_data(self.away_team, type: 'shots', situation: 5)
+    self.get_event_count_data(self.away_team, type: 'shots', situation: 6)
+  end
+
 end

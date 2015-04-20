@@ -2,18 +2,32 @@ module Chartable
   extend ActiveSupport::Concern
 
   def event_count_chart(game)
+    if game.in_progress?
+      home_data = game.live_event_count("corsi",
+                                        game.home_team,
+                                        situation: sit)
+      away_data = game.live_event_count("corsi",
+                                        game.away_team,
+                                        situation: sit)
+    else
+      home_data = GameChart.find_by(game: game,
+                                    chart_type: 'running_corsi_count_chart',
+                                    team_id: game.home_team.id,
+                                    situation: sit).data
+
+      away_data = GameChart.find_by(game: game,
+                                    chart_type: 'running_corsi_count_chart',
+                                    team_id: game.away_team.id,
+                                    situation: sit).data
+    end
     @decorator = ChartDecorator.new(game)
     LazyHighCharts::HighChart.new('graph') do |f|
       f.series(:type => 'area', :name => game.home_team.name,
-               :data => game.running_event_count('corsi',
-                                                  game.home_team,
-                                                  params[:sit]),
+               :data => home_data,
                :color => "#{game.home_team.color1}")
 
       f.series(:type => 'area', :name => game.away_team.name,
-               :data => game.running_event_count('corsi',
-                                                  game.away_team,
-                                                  params[:sit]),
+               :data =>  away_data,
                :color => "#{game.away_team.color1}")
 
       f.xAxis(:title => {:text => "Time"},

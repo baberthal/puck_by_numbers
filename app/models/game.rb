@@ -21,6 +21,10 @@ class Game < ActiveRecord::Base
 
   after_create :parse_game_date, :set_status
 
+  def in_progress?
+    true if self.game_start < Time.now && self.game_end.nil?
+  end
+
   def set_status
     if self.game_end?
       if self.periods == 3
@@ -67,7 +71,7 @@ class Game < ActiveRecord::Base
     players.where(team_id: away_team_id).uniq
   end
 
-  def running_event_count(type, team, situation=nil)
+  def live_event_count(type, team, situation=nil)
     situation ||= 1
     if type == "corsi"
       a = self.corsi_events.where(event_team_id: team.id,

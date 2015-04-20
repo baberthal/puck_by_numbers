@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150419204536) do
+ActiveRecord::Schema.define(version: 20150420025722) do
 
   create_table "events", force: :cascade do |t|
     t.integer "event_number",      limit: 3,   null: false, unsigned: true
@@ -50,6 +50,7 @@ ActiveRecord::Schema.define(version: 20150419204536) do
     t.integer  "season_years", limit: 8
     t.integer  "gcode",        limit: 4
     t.integer  "situation",    limit: 4
+    t.integer  "team_id",      limit: 4
   end
 
   create_table "games", force: :cascade do |t|

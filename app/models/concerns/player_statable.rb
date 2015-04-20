@@ -109,4 +109,11 @@ module PlayerStatable
     events.where(game_id: game.id)
   end
 
+  def wowy(player1, player2, options = {})
+    options[:situation] ||= 1
+    p1_events = player1.events.where(situation: options[:situation])
+    p2_events = player2.events.where(situation: options[:situation])
+    return p1_events p2_events
+  end
+
 end
