@@ -1,4 +1,5 @@
 class Player < ActiveRecord::Base
+  include WithOrWithoutYou
   include PlayerStatable
   belongs_to :team
   has_many :participants
