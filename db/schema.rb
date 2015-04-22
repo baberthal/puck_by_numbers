@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150420025722) do
+ActiveRecord::Schema.define(version: 20150422175528) do
 
   create_table "events", force: :cascade do |t|
     t.integer "event_number",      limit: 3,   null: false, unsigned: true
@@ -33,14 +33,32 @@ ActiveRecord::Schema.define(version: 20150420025722) do
     t.integer "situation",         limit: 4
     t.integer "season_years",      limit: 8
     t.integer "gcode",             limit: 8
+    t.integer "a1",                limit: 4
+    t.integer "a2",                limit: 4
+    t.integer "a3",                limit: 4
+    t.integer "a4",                limit: 4
+    t.integer "a5",                limit: 4
+    t.integer "a6",                limit: 4
+    t.integer "h1",                limit: 4
+    t.integer "h2",                limit: 4
+    t.integer "h3",                limit: 4
+    t.integer "h4",                limit: 4
+    t.integer "h5",                limit: 4
+    t.integer "h6",                limit: 4
   end
 
   add_index "events", ["away_G_id"], name: "index_events_on_away_G_id", using: :btree
+  add_index "events", ["away_skaters"], name: "index_events_on_away_skaters", using: :btree
+  add_index "events", ["event_number"], name: "index_events_on_event_number", using: :btree
   add_index "events", ["event_player_1_id"], name: "index_events_on_event_player_1_id", using: :btree
   add_index "events", ["event_player_2_id"], name: "index_events_on_event_player_2_id", using: :btree
   add_index "events", ["event_player_3_id"], name: "index_events_on_event_player_3_id", using: :btree
   add_index "events", ["event_team_id"], name: "index_events_on_event_team_id", using: :btree
+  add_index "events", ["gcode"], name: "index_events_on_gcode", using: :btree
   add_index "events", ["home_G_id"], name: "index_events_on_home_G_id", using: :btree
+  add_index "events", ["home_skaters"], name: "index_events_on_home_skaters", using: :btree
+  add_index "events", ["season_years"], name: "index_events_on_season_years", using: :btree
+  add_index "events", ["situation"], name: "index_events_on_situation", using: :btree
 
   create_table "game_charts", force: :cascade do |t|
     t.string   "chart_type",   limit: 255
@@ -134,15 +152,20 @@ ActiveRecord::Schema.define(version: 20150420025722) do
     t.string  "last_name",         limit: 255
     t.string  "first_name",        limit: 255
     t.string  "number_first_last", limit: 255
-    t.integer "player_index",      limit: 4,   unsigned: true
-    t.integer "pC",                limit: 4,   unsigned: true
-    t.integer "pR",                limit: 4,   unsigned: true
-    t.integer "pL",                limit: 4,   unsigned: true
-    t.integer "pD",                limit: 4,   unsigned: true
-    t.integer "pG",                limit: 4,   unsigned: true
+    t.integer "player_index",      limit: 4,     unsigned: true
+    t.integer "pC",                limit: 4,     unsigned: true
+    t.integer "pR",                limit: 4,     unsigned: true
+    t.integer "pL",                limit: 4,     unsigned: true
+    t.integer "pD",                limit: 4,     unsigned: true
+    t.integer "pG",                limit: 4,     unsigned: true
     t.integer "team_id",           limit: 4
+    t.text    "headshot",          limit: 65535
+    t.text    "bio",               limit: 65535
+    t.integer "external_id",       limit: 4
   end
 
+  add_index "players", ["first_name"], name: "index_players_on_first_name", using: :btree
+  add_index "players", ["last_name"], name: "index_players_on_last_name", using: :btree
   add_index "players", ["team_id"], name: "index_players_on_team_id", using: :btree
 
   create_table "seasons", primary_key: "season_years", force: :cascade do |t|

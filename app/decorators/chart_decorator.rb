@@ -78,7 +78,7 @@ class ChartDecorator
   end
 
   def heat_map_range(options = {})
-    a = GameChart.find_by(game: @game, chart_type: 'corsi_heat_map').data
+    a = GameChart.find_by(gcode: @game.gcode, season_years: @game.season_years, chart_type: 'corsi_heat_map').data
     val_range = []
     a.each do |x,y,v|
       val_range << v

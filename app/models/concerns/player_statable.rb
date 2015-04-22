@@ -59,26 +59,44 @@ module PlayerStatable
     events.where(event_type: "GOAL").uniq
   end
 
+  def team_on_ice_goals
+    on_ice_goals.where(event_team: team).uniq
+  end
+
   def ind_scoring_chances
-    a = primary_events.joins(:location, :game).where(event_type: "SHOT", locations: {:new_location_section => [1,2,3,4]})
-    b = primary_events.joins(:location, :game).where(event_type: ["SHOT", "BLOCK"], locations: {:new_location_section => [4,5,6,7]})
+    a = primary_events.joins(:location, :game)
+        .where(event_type: "SHOT",
+        locations: {:new_location_section => [1,2,3,4]})
+
+    b = primary_events.joins(:location, :game)
+        .where(event_type: ["SHOT", "BLOCK"],
+        locations: {:new_location_section => [4,5,6,7]})
+
     a + b
   end
 
   def zone_starts_o_home
-    events.joins(:location, :game).where(event_type: "FAC", locations: {:home_zone => "Off"}, games: {:home_team_id => team.id}).uniq
+    events.joins(:location, :game).where(event_type: "FAC",
+                                         locations: {:home_zone => "Off"},
+                                         games: {:home_team_id => team.id}).uniq
   end
 
   def zone_starts_o_away
-    events.joins(:location, :game).where(event_type: "FAC", locations: {:home_zone => "Def"}, games: {:away_team_id => team.id}).uniq
+    events.joins(:location, :game).where(event_type: "FAC",
+                                         locations: {:home_zone => "Def"},
+                                         games: {:away_team_id => team.id}).uniq
   end
 
   def zone_starts_d_home
-    events.joins(:location, :game).where(event_type: "FAC", locations: {:home_zone => "Def"}, games: {:home_team_id => team.id}).uniq
+    events.joins(:location, :game).where(event_type: "FAC",
+                                         locations: {:home_zone => "Def"},
+                                         games: {:home_team_id => team.id}).uniq
   end
 
   def zone_starts_d_away
-    events.joins(:location, :game).where(event_type: "FAC", locations: {:home_zone => "Off"}, games: {:away_team_id => team.id}).uniq
+    events.joins(:location, :game).where(event_type: "FAC",
+                                         locations: {:home_zone => "Off"},
+                                         games: {:away_team_id => team.id}).uniq
   end
 
   def hits
@@ -90,11 +108,13 @@ module PlayerStatable
   end
 
   def penalties
-    primary_events.where(event_type: "PENL").where.not("description like ?", "%fighting%").uniq
+    primary_events.where(event_type: "PENL")
+    .where.not("description like ?", "%fighting%").uniq
   end
 
   def penalties_drawn
-    secondary_events.where(event_type: "PENL").where.not("description like ?", "%fighting%").uniq
+    secondary_events.where(event_type: "PENL")
+    .where.not("description like ?", "%fighting%").uniq
   end
 
   def faceoffs_won
@@ -106,7 +126,7 @@ module PlayerStatable
   end
 
   def time_on_ice(game)
-    events.where(game_id: game.id)
+    events.where(game: game)
   end
 
 end

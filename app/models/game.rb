@@ -3,6 +3,7 @@ class Game < ActiveRecord::Base
   include Summarizable
   include Filterable
   include Analyzable
+  include GameScraper
 
   self.primary_keys = :season_years, :gcode
 
@@ -14,12 +15,13 @@ class Game < ActiveRecord::Base
   has_many :players, through: :events
   has_many :player_game_summaries, :foreign_key => [:season_years, :gcode]
   has_many :team_game_summaries, :foreign_key => [:season_years, :gcode]
-  has_many :participants, through: :events
   has_many :game_charts, :foreign_key => [:season_years, :gcode]
 
   scope :recent, -> { where("game_start >= ?", 2.days.ago)}
 
   after_create :parse_game_date, :set_status
+
+  validates :gcode, :uniqueness => { :scope => :season_years }
 
   def in_progress?
     true if self.game_start < Time.now && self.game_end.nil?

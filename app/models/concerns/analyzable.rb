@@ -31,7 +31,7 @@ module Analyzable
       end
     end
     GameChart.create(game: self,
-                     chart_type: 'corsi_heat_map',
+                     chart_type: "corsi_heat_map",
                      data: series,
                      situation: options[:situation])
   end

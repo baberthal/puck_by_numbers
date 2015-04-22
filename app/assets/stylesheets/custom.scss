@@ -384,18 +384,6 @@ $nav-tabs-border-color: #d8d8d8;
   font-size: rem-calc(14);
 }
 
-.accordion-navigation {
-  line-height: rem-calc(18);
-
-  &.even > a {
-    background-color: $white;
-  }
-
-  &.odd > a {
-    background-color: $smoke;
-  }
-}
-
 .hugging {
   margin-top: 5px;
   margin-bottom: 0 !important;
@@ -407,4 +395,56 @@ $nav-tabs-border-color: #d8d8d8;
 
 .panel-row-with-tabs {
   margin-top: -1px;
+}
+
+.headshot {
+  border-radius: $global-radius;
+}
+
+.player.content.active {
+  background-color: #fcfcfc !important;
+  border: 1px dotted $charcoal;
+  border-top: none;
+  border-radius: $global-radius;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.accordion-navigation {
+  > a {
+    padding: 0.5rem !important;
+  }
+
+  &.even > a {
+    background-color: $white;
+  }
+
+  &.odd > a {
+    background-color: $smoke;
+  }
+
+  &.active {
+    font-size: rem-calc(16);
+    > a {
+      background-color: transparentize($secondary-color, 0.75) !important;
+      font-weight: bold;
+      text-transform: uppercase;
+      border-top-left-radius: $global-radius;
+      border-top-right-radius: $global-radius;
+      border-top: 1px dotted $charcoal;
+      border-left: 1px dotted $charcoal;
+      border-right: 1px dotted $charcoal;
+    }
+  }
+}
+
+.player-subhead {
+  text-transform: uppercase;
+  font-weight: bold;
+  vertical-align: center;
+}
+
+.player-bio {
+  padding-top: 22px;
+  padding-bottom: 22px;
 }

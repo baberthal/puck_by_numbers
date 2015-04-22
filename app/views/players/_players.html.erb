@@ -34,7 +34,93 @@
         </div>
       </a>
       <%= div_for(player, class: "content") do %>
-        <%= player.team_full %>
+        <div class="row">
+          <div class="small-2 columns">
+            <%= link_to(image_tag(player.headshot,
+                                  class:"headshot",
+                                  alt:"#{player.pretty_name}"),
+                        player_path(player)) %>
+          </div>
+          <div class="small-2 columns player-bio">
+            <div class="row">
+              <div class="small-6 columns">
+                <h3 class="player-subhead">Number:</h3>
+              </div>
+              <div class="small-6 columns">
+                <%= content_tag(:span, player.bio[:number]) %>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="small-6 columns">
+                <h3 class="player-subhead">Height:</h3>
+              </div>
+              <div class="small-6 columns">
+                <%= content_tag(:span, player.bio[:height]) %>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="small-6 columns">
+                <h3 class="player-subhead">Weight:</h3>
+              </div>
+              <div class="small-6 columns">
+                <%= content_tag(:span, player.bio[:weight]) %>
+              </div>
+            </div>
+            <div class="row">
+              <div class="small-6 columns">
+                <h3 class="player-subhead">Shoots:</h3>
+              </div>
+              <div class="small-6 columns">
+                <%= content_tag(:span, player.bio[:shoots]) %>
+              </div>
+            </div>
+          </div>
+
+          <div class="small-5 columns player-bio">
+            <div class="row">
+              <div class="small-4 columns">
+                <h3 class="player-subhead">Birthdate:</h3>
+              </div>
+              <div class="small-8 columns">
+                <%= content_tag(:span, player.bio[:birthdate]) %>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="small-4 columns">
+                <h3 class="player-subhead">Birthplace:</h3>
+              </div>
+              <div class="small-8 columns">
+                <%= content_tag(:span, player.bio[:birthplace]) %>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="small-4 columns">
+                <h3 class="player-subhead">Drafted:</h3>
+              </div>
+              <div class="small-8 columns">
+                <%= content_tag(:span, player.bio[:draft_team]) %>
+                <%= wiki_link_draft(player) %>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="small-4 columns">
+                <h3 class="player-subhead">Round:</h3>
+              </div>
+              <div class="small-8 columns">
+                <%= content_tag(:span, player.bio[:round]) %>
+              </div>
+            </div>
+          </div>
+
+          <div class="small-2 columns player-bio">
+          </div>
+
+        </div>
       <% end %>
     <% end %>
   <% end %>

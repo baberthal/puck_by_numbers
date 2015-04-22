@@ -13,7 +13,7 @@ gem 'composite_primary_keys', '~> 8.1.0'
 gem 'mysql2'
 gem 'activerecord-mysql-unsigned'
 gem 'puma'
-gem 'foundation-rails', '= 5.5.1.2'
+gem 'foundation-rails', '>= 5.5.1.2'
 gem 'ransack'
 gem 'lazy_high_charts'
 gem 'foundation-icons-sass-rails'
@@ -21,6 +21,9 @@ gem 'kaminari'
 gem 'simple_form'
 gem 'draper'
 gem 'sidekiq'
+gem 'mechanize'
+gem 'rserve-client'
+gem 'rserve-simpler'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
@@ -35,6 +38,6 @@ group :development, :test do
   gem 'byebug'
   gem 'web-console', '~> 2.0'
   gem 'spring'
-  gem 'rspec', '~> 3.0'
+  gem 'rspec-rails'
 end
 
