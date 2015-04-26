@@ -2,13 +2,7 @@ class GamesController < ApplicationController
   include Chartable
   before_action :set_game, only: [:show, :edit, :update, :destroy]
   before_action :clear_search_index, only: :index
-  before_filter :get_season
   helper_method :sort_column, :sort_direction, :sit
-
-  def get_season
-    @season = Season.find(params[:id])
-  end
-
 
   # GET /games
   # GET /games.json
@@ -23,7 +17,6 @@ class GamesController < ApplicationController
   # GET /games/1
   # GET /games/1.json
   def show
-    @game = Game.find(params[:id])
     @pq = @game.player_game_summaries.sit_filter(sit).ransack(search_params)
     @tq = @game.team_game_summaries.sit_filter(sit).ransack(search_params)
     @player_summaries = @pq.result.includes(:player)
@@ -50,6 +43,9 @@ class GamesController < ApplicationController
   # POST /games.json
   def create
     @game = Game.new(game_params)
+    if @game.save
+      GameUpdater.perform_async(@game.season_years, @game.gcode)
+    end
 
     respond_to do |format|
       if @game.save
@@ -89,7 +85,8 @@ class GamesController < ApplicationController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_game
-      @game = Game.find(params[:id])
+      @season = Season.find_by(season_years: params[:season_id])
+      @game = @season.games.find_by(gcode: params[:gcode])
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.

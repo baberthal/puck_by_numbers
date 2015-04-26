@@ -41,7 +41,10 @@
           <div class="small-12 columns">
             <%= render 'chart_selection_panel'%>
             <h3 class="subheader text-center">Running Event Count</h3>
-            <%= high_chart("running-events", @event_count_chart) %>
+            <%= high_chart("running-events", @event_count_chart) do |c|%>
+              <%= raw "options.tooltip.formatter = function() {return '<b>Time: </b>' + Math.floor(this.x) + ':' + Math.round((this.x%1)*60) + '<br><b>' + this.series.name + ' ' + this.point.name + '</b><br>' + 'Total Events: <b>' + this.y + '</b>' }" %>
+              <%= raw "showTooltip = function(e) { displayTooltip(this.options.tooltipText, this.svgElem.d.split(' ')[1]); }" %>
+            <% end %>
           </div>
         </div>
         <br>

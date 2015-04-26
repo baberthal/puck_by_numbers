@@ -24,24 +24,24 @@ module Chartable
     LazyHighCharts::HighChart.new('graph') do |f|
       f.series(:type => 'area', :name => game.home_team.name,
                :data => home_data,
-               :color => "#{game.home_team.color1}")
+               :color => "#{@decorator.main_team_colors[0]}")
 
       f.series(:type => 'area', :name => game.away_team.name,
                :data =>  away_data,
-               :color => "#{game.away_team.color1}")
+               :color => "#{@decorator.main_team_colors[1]}")
 
       f.xAxis(:title => {:text => "Time"},
               :plotLines => @decorator.goal_lines,
 
-              :plotBands => [{color: "#f9f9f9",
+              :plotBands => [{color: "rgba(0,211,255,0.25)",
                               from: 0,
                               to: 20},
 
-                             {color: "#eeeeee",
+                              {color: "rgba(7,118,160,0.25)",
                               from: 20,
                               to: 40},
 
-                             {color: "#cccccc",
+                              {color: "rgba(0,211,255,0.25)",
                               from: 40,
                               to: 60}],
 

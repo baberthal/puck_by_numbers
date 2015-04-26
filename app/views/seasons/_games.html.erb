@@ -30,10 +30,10 @@
           </tr>
           <tr class="filter-row">
             <th><%= f.text_field :date_eq,
-              data: { date: true, "date-format": "%Y-%m-%d" },
+              data: { date: true, "date-format": "%Y-%m-%-d" },
               remote: true %></th>
 
-            <th><%= f.text_field :gcode_cont, {class: "gcode-filter" } %></th>
+            <th><%= f.text_field :gcode_cont, { class: "gcode-filter" } %></th>
             <th><%= f.text_field :home_team_name_cont %></th>
             <th><%= f.text_field :away_team_name_cont %></th>
             <th></th>
@@ -43,7 +43,7 @@
                                     ["Complete", 3],
                                     ["Complete (OT)", 4],
                                     ["Complete (SO)", 5]]),
-                                    { include_blank: true} %></th>
+                                    { include_blank: true } %></th>
             <th><%= f.datetime_field :game_start_eq %></th>
             <th><%= f.datetime_field :game_end_eq %></th>
           </tr>
@@ -53,6 +53,5 @@
           <%= render @game %>
         </tbody>
       </table>
-      <%= paginate @game %>
   </div>
 </div>

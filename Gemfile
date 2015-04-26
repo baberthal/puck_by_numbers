@@ -24,6 +24,7 @@ gem 'sidekiq'
 gem 'mechanize'
 gem 'rserve-client'
 gem 'rserve-simpler'
+gem 'squeel', :git => "git://github.com/activerecord-hackery/squeel.git"
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

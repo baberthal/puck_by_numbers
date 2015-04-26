@@ -6,7 +6,7 @@ Rails.application.routes.draw do
     collection do
       match 'search' => 'games#search', via: [:get, :post], as: :search
     end
-    resources :games
+    resources :games, param: :gcode
   end
 
   root 'seasons#show', :id => '20142015'

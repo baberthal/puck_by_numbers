@@ -1,19 +1,20 @@
 <div class="row title-row-jml">
   <div class="small-5 columns">
     <th class="name-col" width="40%"><%= sort_link @q,
-      :last_name, "Name", {remote: true, method: :post} %> </th>
+      :last_name, "Name", { remote: true, method: :post } %> </th>
   </div>
   <div class="small-1 columns white-border text-center">
     <th class="text-center" width="20%"><%= sort_link @q,
-      :position, "Pos.", {remote: true, method: :post} %></th>
+      :position, "Pos.", { remote: true, method: :post } %></th>
   </div>
   <div class="small-5 columns text-center">
     <th class="text-center", width="40%"><%= sort_link @q,
-      'teams.name', "Current Team", {remote: true, method: :post} %></th>
+      'teams.name', "Current Team", { remote: true, method: :post } %></th>
   </div>
 </div>
 <ul class="accordion no-margin player-list" data-accordion>
   <% @players.each_with_index do |player,index| %>
+    <% player = player.decorate %>
     <% if (index == 0) || (index % 2) == 0 %>
       <% accordion_class = "accordion-navigation even" %>
     <% else %>
@@ -47,7 +48,7 @@
                 <h3 class="player-subhead">Number:</h3>
               </div>
               <div class="small-6 columns">
-                <%= content_tag(:span, player.bio[:number]) %>
+                <%= content_tag :span, player.pretty_number %>
               </div>
             </div>
 
@@ -56,7 +57,7 @@
                 <h3 class="player-subhead">Height:</h3>
               </div>
               <div class="small-6 columns">
-                <%= content_tag(:span, player.bio[:height]) %>
+                <%= content_tag :span, player.pretty_height %>
               </div>
             </div>
 
@@ -65,7 +66,7 @@
                 <h3 class="player-subhead">Weight:</h3>
               </div>
               <div class="small-6 columns">
-                <%= content_tag(:span, player.bio[:weight]) %>
+                <%= content_tag :span, player.pretty_weight %>
               </div>
             </div>
             <div class="row">
@@ -73,7 +74,7 @@
                 <h3 class="player-subhead">Shoots:</h3>
               </div>
               <div class="small-6 columns">
-                <%= content_tag(:span, player.bio[:shoots]) %>
+                <%= content_tag :span, player.pretty_shoots %>
               </div>
             </div>
           </div>
@@ -84,7 +85,7 @@
                 <h3 class="player-subhead">Birthdate:</h3>
               </div>
               <div class="small-8 columns">
-                <%= content_tag(:span, player.bio[:birthdate]) %>
+                <%= content_tag :span, player.pretty_birthdate %>
               </div>
             </div>
 
@@ -93,7 +94,7 @@
                 <h3 class="player-subhead">Birthplace:</h3>
               </div>
               <div class="small-8 columns">
-                <%= content_tag(:span, player.bio[:birthplace]) %>
+                <%= content_tag :span, player.pretty_birthplace %>
               </div>
             </div>
 
@@ -102,7 +103,7 @@
                 <h3 class="player-subhead">Drafted:</h3>
               </div>
               <div class="small-8 columns">
-                <%= content_tag(:span, player.bio[:draft_team]) %>
+                <%= content_tag :span, player.pretty_drafted %>
                 <%= wiki_link_draft(player) %>
               </div>
             </div>
@@ -112,7 +113,7 @@
                 <h3 class="player-subhead">Round:</h3>
               </div>
               <div class="small-8 columns">
-                <%= content_tag(:span, player.bio[:round]) %>
+                <%= content_tag :span, player.pretty_draft_round %>
               </div>
             </div>
           </div>
@@ -125,3 +126,4 @@
     <% end %>
   <% end %>
 </ul>
+<%= paginate @players, remote: true %>

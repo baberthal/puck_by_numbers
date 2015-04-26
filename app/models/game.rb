@@ -12,16 +12,87 @@ class Game < ActiveRecord::Base
   belongs_to :away_team, :class_name => "Team"
   has_many :events, :foreign_key => [:season_years, :gcode]
   has_many :event_teams, through: :events
-  has_many :players, through: :events
   has_many :player_game_summaries, :foreign_key => [:season_years, :gcode]
   has_many :team_game_summaries, :foreign_key => [:season_years, :gcode]
   has_many :game_charts, :foreign_key => [:season_years, :gcode]
 
   scope :recent, -> { where("game_start >= ?", 2.days.ago)}
+  scope :scraped, -> { joins(:events).where(events: { seconds: 3600 }) }
 
-  after_create :parse_game_date, :set_status
+  after_create :parse_game_date, :set_status, :set_game_number
 
   validates :gcode, :uniqueness => { :scope => :season_years }
+
+  serialize :home_player_id_numbers, Array
+  serialize :away_player_id_numbers, Array
+
+  def home_players
+    unless home_player_id_numbers?
+      home_ids = []
+      home_ids << self.events.pluck(:h1_id,
+                                    :h2_id,
+                                    :h3_id,
+                                    :h4_id,
+                                    :h5_id,
+                                    :h6_id,
+                                    :home_G_id).uniq
+      home_ids.flatten!
+      home_ids.uniq!
+      home_ids.compact!
+      self.home_player_id_numbers = home_ids
+      self.save
+    end
+    Player.where(id: home_player_id_numbers)
+  end
+
+  def away_players
+    unless away_player_id_numbers?
+      away_ids = []
+      away_ids << self.events.pluck(:a1_id,
+                                    :a2_id,
+                                    :a3_id,
+                                    :a4_id,
+                                    :a5_id,
+                                    :a6_id,
+                                    :away_G_id).uniq
+      away_ids.flatten!
+      away_ids.uniq!
+      away_ids.compact!
+      self.away_player_id_numbers = away_ids
+      self.save
+    end
+    Player.where(id: away_player_id_numbers)
+  end
+
+  def players
+    [away_players, home_players].flatten!
+  end
+
+  def home_player_ids
+    home_player_id_numbers
+  end
+
+  def away_player_ids
+    away_player_id_numbers
+  end
+
+  def player_ids
+    [home_player_id_numbers, away_player_id_numbers].flatten!
+  end
+
+  def self.by_player(player_id)
+    joins(:events).where("a1_id = :player OR a2_id = :player OR a3_id = :player OR a4_id = :player OR a5_id = :player OR a6_id = :player OR h1_id = :player OR h2_id = :player OR h3_id = :player OR h4_id = :player OR h5_id = :player OR h6_id = :player OR home_G_id = :player OR away_G_id = :player", player: player_id).uniq
+  end
+
+  def self.unscraped
+    ev = Event.final.pluck(:season_years, :gcode).transpose.each { |e| e.uniq! }
+    where{season_years.in ev[0]}.where{gcode.not_in ev[1]}
+  end
+
+  def self.uncharted
+    ch = GameChart.pluck(:season_years, :gcode).transpose.each { |e| e.uniq! }
+    where{season_years.in ch[0]}.where{gcode.not_in ch[1]}
+  end
 
   def in_progress?
     true if self.game_start < Time.now && self.game_end.nil?
@@ -49,6 +120,11 @@ class Game < ActiveRecord::Base
     self.save
   end
 
+  def set_game_number
+    self.game_number = self.gcode.to_s.split('')[2..-1].join('').to_i
+    self.save
+  end
+
   def home_team_summary
     team_game_summaries.find_by(team_id: home_team_id)
   end
@@ -63,14 +139,6 @@ class Game < ActiveRecord::Base
 
   def home_player_summaries
     player_game_summaries.joins(:player).where(player: {team: home_team})
-  end
-
-  def home_players
-    players.where(team_id: home_team_id).uniq
-  end
-
-  def away_players
-    players.where(team_id: away_team_id).uniq
   end
 
   def live_event_count(type, team, situation=nil)
@@ -101,11 +169,4 @@ class Game < ActiveRecord::Base
     self.game_charts.where(chart_type: 'corsi_heat_map').pluck(:data)
   end
 
-  def method_missing(method_name, *args)
-    if self.decorate.respond_to?(method_name)
-      self.decorate.send(method_name, *args)
-    else
-      super
-    end
-  end
 end

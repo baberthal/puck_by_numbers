@@ -14,7 +14,7 @@ class SeasonsController < ApplicationController
     @decorator = SeasonDecorator.new(@season)
     @q = @season.games.ransack(search_params)
     @q.sorts = 'start_time' if @q.sorts.empty?
-    @game = @q.result.includes(:home_team, :away_team).page(params[:page])
+    @game = @q.result.includes(:home_team, :away_team).page(params[:page]).decorate
   end
 
   # GET /seasons/new

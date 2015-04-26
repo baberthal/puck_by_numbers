@@ -23,18 +23,19 @@ module Summarizable
       team_params = {event_team_id: team.id, situation: situation}
     end
 
+    game_events = self.events
     TeamGameSummary.create(team_id: team.id, game: self, situation: sit) do |ts|
-      ts.gf = goals.where(team_params).count
-      ts.sf = shots.where(team_params).count
-      ts.msf = misses.where(team_params).count
-      ts.bsf = blocks.where(team_params).count
-      ts.cf = corsi_events.where(team_params).count
-      ts.ca = corsi_events.where.not(team_params).count
+      ts.gf = goals.where(team_params).size
+      ts.sf = shots.where(team_params).size
+      ts.msf = misses.where(team_params).size
+      ts.bsf = blocks.where(team_params).size
+      ts.cf = corsi_events.where(team_params).size
+      ts.ca = corsi_events.where.not(team_params).size
       ts.c_diff = (ts.cf - ts.ca)
-      ts.hits = hits.where(team_params).count
-      ts.pen = penalties.where(team_params).count
-      ts.fo_won = faceoffs.where(team_params).count
-      ts.zso = zone_starts_o(team).where(situation: situation).count
+      ts.hits = hits.where(team_params).size
+      ts.pen = penalties.where(team_params).size
+      ts.fo_won = faceoffs.where(team_params).size
+      ts.zso = zone_starts_o(team).where(situation: situation).size
       ts.toi = (events.where(situation: situation).sum(:event_length)/60).round(1)
     end
   end
@@ -62,35 +63,36 @@ module Summarizable
       end
 
       if sit == 7
-        game_params = { game: self }
+        game_params = { game: self, situation: [1..7] }
       else
         game_params = { game: self, situation: situation }
       end
 
       PlayerGameSummary.create(player: player, game: self, situation: sit) do |ps|
-        ps.goals = player.goals.where(game_params).count
-        ps.a1 = player.primary_assists.where(game_params).count
-        ps.a2 = player.secondary_assists.where(game_params).count
+        ps.goals = player.goals.where(game_params).size
+        ps.a1 = player.primary_assists.where(game_params).size
+        ps.a2 = player.secondary_assists.where(game_params).size
         ps.points = ps.goals + ps.a1 + ps.a2
-        ps.ind_cf = player.ind_corsi_events.where(game_params).count
-        ps.cf = player.corsi_for.where(game_params).count
-        ps.ff = player.fenwick_for.where(game_params).count
-        ps.c_diff = (player.on_ice_corsi_events.where(event_team: player.team).where(game_params).count) - (player.on_ice_corsi_events.where.not(event_team: player.team).where(game_params).count)
-        ps.f_diff = (player.on_ice_fenwick_events.where(event_team: player.team).where(game_params).count) - (player.on_ice_fenwick_events.where.not(event_team: player.team).where(game_params).count)
-        ps.g_diff = (player.on_ice_goals.where(event_team: player.team).where(game_params).count) - (player.on_ice_goals.where.not(event_team: player.team).where(game_params).count)
-        ps.zso = (player.zone_starts_o_home.where(game: self).count + player.zone_starts_o_away.where(game: self).count)
-        ps.zsd = (player.zone_starts_d_home.where(game: self).count + player.zone_starts_d_away.where(game: self).count)
-        ps.blocks = player.blocks.where(game_params).count
-        ps.fo_won = player.faceoffs_won.where(game_params).count
-        ps.fo_lost = player.faceoffs_lost.where(game_params).count
-        ps.hits = player.hits.where(game_params).count
-        ps.hits_taken = player.hits_taken.where(game_params).count
-        ps.pen = player.penalties.where(game_params).count
-        ps.pen_drawn = player.penalties_drawn.where(game_params).count
+        ps.ind_cf = player.ind_corsi_events.where(game_params).size
+        ps.cf = player.corsi_for.where(game_params).size
+        ps.ff = player.fenwick_for.where(game_params).size
+        ps.c_diff = (player.on_ice_corsi_events.where(event_team: player.team).where(game_params).size) - (player.on_ice_corsi_events.where.not(event_team: player.team).where(game_params).size)
+        ps.f_diff = (player.on_ice_fenwick_events.where(event_team: player.team).where(game_params).size) - (player.on_ice_fenwick_events.where.not(event_team: player.team).where(game_params).size)
+        ps.g_diff = (player.on_ice_goals.where(event_team: player.team).where(game_params).size) - (player.on_ice_goals.where.not(event_team: player.team).where(game_params).size)
+        ps.zso = (player.zone_starts_o_home.where(game: self).size + player.zone_starts_o_away.where(game: self).size)
+        ps.zsd = (player.zone_starts_d_home.where(game: self).size + player.zone_starts_d_away.where(game: self).size)
+        ps.blocks = player.blocks.where(game_params).size
+        ps.fo_won = player.faceoffs_won.where(game_params).size
+        ps.fo_lost = player.faceoffs_lost.where(game_params).size
+        ps.hits = player.hits.where(game_params).size
+        ps.hits_taken = player.hits_taken.where(game_params).size
+        ps.pen = player.penalties.where(game_params).size
+        ps.pen_drawn = player.penalties_drawn.where(game_params).size
         ps.toi = (player.events.where(game_params).sum(:event_length)/60).round(1)
       end
     end
   end
+
 
   def create_all_summaries
     create_team_summary(self.home_team, 1)

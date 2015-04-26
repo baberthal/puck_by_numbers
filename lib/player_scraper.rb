@@ -4,13 +4,27 @@ module PlayerScraper
     headshot_path = "app/assets/images/players/#{player.id}.jpg"
     headshot_rel_path = "players/#{player.id}.jpg"
 
-    agent = Mechanize.new
+    agent = Mechanize.new do |a|
+      a.log = Logger.new('log/mech_log.txt')
+    end
 
     page = agent.get('http://www.nhl.com/ice/playersearch.htm?navid=nav-ply-search#')
-    form = page.form_with(action: "http://www.nhl.com/ice/search.htm")
-    form.q = "#{player.first_name} #{player.last_name}"
-    page = agent.submit(form)
-    page = page.links_with(:href => /PlayerBio/)[0].click
+    name_permutations = ["#{player.first_name} #{player.last_name}",
+       player.number_first_last.to_s.gsub(/[0-9]/, "").strip,
+       "#{player.first_name[0..2]} #{player.last_name}",
+       "#{player.nickname[0]} #{player.last_name}"]
+    try = 0
+    while try < 4
+      form = page.form_with(action: "http://www.nhl.com/ice/search.htm")
+      form.q = name_permutations[try]
+      page = agent.submit(form)
+      if page.links_with(:href => /PlayerBio/)[0].nil?
+        try += 1
+      else
+        try = 4
+        page = page.links_with(:href => /PlayerBio/)[0].click
+      end
+    end
 
     page.image_with(src: /mugs/).fetch.save headshot_path unless File.exist?(headshot_path)
 
@@ -30,9 +44,9 @@ module PlayerScraper
 
     bio_info.each_with_index do |v,i|
       if i == 0 || i % 2 == 0
-	bio_keys << v
+        bio_keys << v
       else
-	bio_values << v
+        bio_values << v
       end
     end
 

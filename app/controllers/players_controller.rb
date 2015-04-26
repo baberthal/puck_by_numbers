@@ -5,9 +5,11 @@ class PlayersController < ApplicationController
   # GET /players
   # GET /players.json
   def index
+    page = params[:page]
+    per_page = params[:per_page]
     @q = Player.active.ransack(search_params)
     @q.sorts = 'last_name' if @q.sorts.empty?
-    @players = @q.result.includes(:team).decorate
+    @players = @q.result.includes(:team).page(page).per(per_page)
     respond_to do |format|
       format.html
       format.js
