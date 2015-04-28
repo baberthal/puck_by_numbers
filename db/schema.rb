@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150425221830) do
+ActiveRecord::Schema.define(version: 20150426043031) do
 
   create_table "events", id: false, force: :cascade do |t|
     t.integer "event_number",      limit: 3,     null: false, unsigned: true
@@ -89,6 +89,7 @@ ActiveRecord::Schema.define(version: 20150425221830) do
     t.text     "home_player_id_numbers", limit: 65535
     t.integer  "event_count",            limit: 4
     t.text     "away_player_id_numbers", limit: 65535
+    t.integer  "game_charts_count",      limit: 4
   end
 
   add_index "games", ["away_team_id"], name: "index_games_on_away_team_id", using: :btree

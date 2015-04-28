@@ -1,9 +1,12 @@
 class GameUpdater
-	include Sidekiq::Worker
+  include Sidekiq::Worker
 
-	def perform(season_years, gcode)
-		game = Game.find([season_years, gcode])
-		game.event_scrape
-	end
+  def perform(game_id)
+    game = Game.find(game_id)
+    game.event_scrape
+    game.home_players
+    game.away_players
+  end
 
 end
+#  vim: set ts=8 sw=2 tw=0 et :

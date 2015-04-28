@@ -13,7 +13,7 @@ class SeasonsController < ApplicationController
   def show
     @decorator = SeasonDecorator.new(@season)
     @q = @season.games.ransack(search_params)
-    @q.sorts = 'start_time' if @q.sorts.empty?
+    @q.sorts = 'start_time desc' if @q.sorts.empty?
     @game = @q.result.includes(:home_team, :away_team).page(params[:page]).decorate
   end
 

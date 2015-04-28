@@ -12,12 +12,25 @@ class Game < ActiveRecord::Base
   belongs_to :away_team, :class_name => "Team"
   has_many :events, :foreign_key => [:season_years, :gcode]
   has_many :event_teams, through: :events
+  has_many :a1, -> { distinct }, through: :events
+  has_many :a2, -> { distinct }, through: :events
+  has_many :a3, -> { distinct }, through: :events
+  has_many :a4, -> { distinct }, through: :events
+  has_many :a5, -> { distinct }, through: :events
+  has_many :a6, -> { distinct }, through: :events
+  has_many :h1, -> { distinct }, through: :events
+  has_many :h2, -> { distinct }, through: :events
+  has_many :h3, -> { distinct }, through: :events
+  has_many :h4, -> { distinct }, through: :events
+  has_many :h5, -> { distinct }, through: :events
+  has_many :h6, -> { distinct }, through: :events
   has_many :player_game_summaries, :foreign_key => [:season_years, :gcode]
   has_many :team_game_summaries, :foreign_key => [:season_years, :gcode]
   has_many :game_charts, :foreign_key => [:season_years, :gcode]
 
   scope :recent, -> { where("game_start >= ?", 2.days.ago)}
   scope :scraped, -> { joins(:events).where(events: { seconds: 3600 }) }
+  scope :uncharted, -> { where(game_charts_count: nil)}
 
   after_create :parse_game_date, :set_status, :set_game_number
 
@@ -25,6 +38,10 @@ class Game < ActiveRecord::Base
 
   serialize :home_player_id_numbers, Array
   serialize :away_player_id_numbers, Array
+
+  def players
+    Player.where(id: player_ids)
+  end
 
   def home_players
     unless home_player_id_numbers?
@@ -64,10 +81,6 @@ class Game < ActiveRecord::Base
     Player.where(id: away_player_id_numbers)
   end
 
-  def players
-    [away_players, home_players].flatten!
-  end
-
   def home_player_ids
     home_player_id_numbers
   end
@@ -81,17 +94,12 @@ class Game < ActiveRecord::Base
   end
 
   def self.by_player(player_id)
-    joins(:events).where("a1_id = :player OR a2_id = :player OR a3_id = :player OR a4_id = :player OR a5_id = :player OR a6_id = :player OR h1_id = :player OR h2_id = :player OR h3_id = :player OR h4_id = :player OR h5_id = :player OR h6_id = :player OR home_G_id = :player OR away_G_id = :player", player: player_id).uniq
+    Game.select { |g| g.player_ids.include?(player_id) }
   end
 
   def self.unscraped
     ev = Event.final.pluck(:season_years, :gcode).transpose.each { |e| e.uniq! }
     where{season_years.in ev[0]}.where{gcode.not_in ev[1]}
-  end
-
-  def self.uncharted
-    ch = GameChart.pluck(:season_years, :gcode).transpose.each { |e| e.uniq! }
-    where{season_years.in ch[0]}.where{gcode.not_in ch[1]}
   end
 
   def in_progress?
@@ -167,6 +175,10 @@ class Game < ActiveRecord::Base
 
   def corsi_heat_map_data
     self.game_charts.where(chart_type: 'corsi_heat_map').pluck(:data)
+  end
+
+  def chart
+    ChartWorker.perform_async(self.id)
   end
 
 end

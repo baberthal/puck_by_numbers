@@ -87,36 +87,33 @@ class ChartDecorator
     plot_lines
   end
 
-  def player_name_labels(team, options = {})
-    options[:format] ||= 'full'
+  def player_name_labels_home
     labels = []
-    @game.players.where(team: team).uniq.order(id: :asc).each do |p|
+    @game.home_players.where.not(position: "G").order(id: :asc).each do |p|
       p = p.decorate
-      if options[:format] == 'full'
-        labels << p.pretty_name
-      elsif options[:format] == 'init'
-        labels << p.pretty_name('f_last')
+      labels << p.pretty_name('f_last')
       end
+    @game.home_players.where(position: "G").each do |p|
+      p = p.decorate
+      labels << p.pretty_name('f_last')
     end
     labels
   end
 
-
-  def shifts
+  def player_name_labels_away
+    labels = []
+    @game.away_players.where.not(position: "G").order(id: :asc).each do |p|
+      p = p.decorate
+      labels << p.pretty_name('f_last')
+      end
+    @game.away_players.where(position: "G").each do |p|
+      p = p.decorate
+      labels << p.pretty_name('f_last')
+    end
+    labels
   end
 
-  def heat_map_series
-    home_players =
-      @game.players.where(team: @game.home_team).uniq.order(id: :asc)
-    away_players =
-      @game.players.where(team: @game.away_team).uniq.order(id: :asc)
-    series = []
-    home_players.each_with_index do |p,i|
-      for a,n in away_players.map.with_index do
-        series << [i,n,@game.head_to_head(p,a)]
-      end
-    end
-    GameChart.create(game: @game, chart_type: 'corsi_heat_map', data: series)
+  def shifts
   end
 
   def heat_map_range(options = {})
@@ -137,13 +134,6 @@ class ChartDecorator
   end
 
   # Formatting methods for names, etc
-  def flast_home
-    player_name_labels(@game.home_team, format: 'init')
-  end
-
-  def flast_away
-    player_name_labels(@game.away_team, format: 'init')
-  end
 
   def hcolor
     "#{@game.home_team.color1}"

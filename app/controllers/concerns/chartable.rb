@@ -22,11 +22,11 @@ module Chartable
     end
     @decorator = ChartDecorator.new(game)
     LazyHighCharts::HighChart.new('graph') do |f|
-      f.series(:type => 'area', :name => game.home_team.name,
+      f.series(:type => 'line', :name => game.home_team.name,
                :data => home_data,
                :color => "#{@decorator.main_team_colors[0]}")
 
-      f.series(:type => 'area', :name => game.away_team.name,
+      f.series(:type => 'line', :name => game.away_team.name,
                :data =>  away_data,
                :color => "#{@decorator.main_team_colors[1]}")
 
@@ -68,9 +68,9 @@ module Chartable
     @decorator = ChartDecorator.new(game)
     LazyHighCharts::HighChart.new('chart') do |f|
       f.chart(type: 'heatmap', backgroundColor: 'transparent')
-      f.xAxis(categories: @decorator.flast_home,
+      f.xAxis(categories: @decorator.player_name_labels_home,
               title: 'Home')
-      f.yAxis(categories: @decorator.flast_away,
+      f.yAxis(categories: @decorator.player_name_labels_away,
               title: 'Away')
       f.colorAxis(dataClasses: [{from: -100,
                                  to: -1,

@@ -33,6 +33,10 @@ class Event < ActiveRecord::Base
   validates :event_number, :uniqueness => { :scope => [:gcode, :season_years] }
   before_save :cache_players
 
+  def players
+    a1 a2 a3 a4 a5 a6 h1 h2 h3 h4 h5 h6
+  end
+
   def self.by_player(player_id)
     where("a1_id = :player OR a2_id = :player OR a3_id = :player OR a4_id = :player OR a5_id = :player OR a6_id = :player OR h1_id = :player OR h2_id = :player OR h3_id = :player OR h4_id = :player OR h5_id = :player OR h6_id = :player OR home_G_id = :player OR away_G_id = :player", player: player_id).uniq
   end
@@ -66,16 +70,6 @@ class Event < ActiveRecord::Base
 
     self.home_players = home
     self.away_players = away
-  end
-
-  def set_away_players
-    self.away_players = [self.a1_id,
-                         self.a2_id,
-                         self.a3_id,
-                         self.a4_id,
-                         self.a5_id,
-                         self.away_G_id].compact!
-    self.save
   end
 
 end

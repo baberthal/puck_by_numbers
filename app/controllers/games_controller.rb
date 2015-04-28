@@ -7,11 +7,9 @@ class GamesController < ApplicationController
   # GET /games
   # GET /games.json
   def index
-    #@q = Game.ransack(params[:q])
-    #@games = @q.result.includes(:home_team,
-    #                            :away_team,
-    #                            :team_game_summaries,
-    #                            :player_game_summaries)
+    @q = Game.ransack(params[:q])
+    @games = @q.result.includes(:home_team, :away_team).page(params[:page]).decorate
+    @season = Season.find(params[:season_id])
   end
 
   # GET /games/1
@@ -28,6 +26,9 @@ class GamesController < ApplicationController
   # GET /games/new
   def new
     @game = Game.new
+    if @game.save
+      GameUpdater.perform_async(@game.id)
+    end
   end
 
   def search
@@ -44,7 +45,7 @@ class GamesController < ApplicationController
   def create
     @game = Game.new(game_params)
     if @game.save
-      GameUpdater.perform_async(@game.season_years, @game.gcode)
+      GameUpdater.perform_async(@game.id)
     end
 
     respond_to do |format|
@@ -61,6 +62,7 @@ class GamesController < ApplicationController
   # PATCH/PUT /games/1
   # PATCH/PUT /games/1.json
   def update
+    GameUpdater.perform_async(@game.id)
     respond_to do |format|
       if @game.update(game_params)
         format.html { redirect_to @game, notice: 'Game was successfully updated.' }

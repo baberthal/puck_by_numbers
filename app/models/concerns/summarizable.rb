@@ -23,7 +23,6 @@ module Summarizable
       team_params = {event_team_id: team.id, situation: situation}
     end
 
-    game_events = self.events
     TeamGameSummary.create(team_id: team.id, game: self, situation: sit) do |ts|
       ts.gf = goals.where(team_params).size
       ts.sf = shots.where(team_params).size
@@ -40,56 +39,94 @@ module Summarizable
     end
   end
 
-  def create_player_summaries(sit)
-    players.uniq.each do |player|
-      if player.team == away_team
-        if sit == 1
-          situation = 1
-        elsif sit == 2
-          situation = 3
-        elsif sit == 3
-          situation = 2
-        elsif sit == 4
-          situation = 4
-        elsif sit == 5
-          situation = 6
-        elsif sit == 6
-          situation = 5
-        else
-          situation = 6
-        end
-      elsif player.team == home_team
-        situation = sit
-      end
+  def create_player_summaries
+    situations = [1,2,3,4,5,6,7]
+    game_away_players = away_player_id_numbers
 
-      if sit == 7
-        game_params = { game: self, situation: [1..7] }
+    column_names = [ :event_number, :event_type, :period, :seconds,
+                     :event_team_id, :event_player_1_id, :event_player_2_id,
+                     :event_player_3_id, :away_G_id, :home_G_id, :event_length,
+                     :home_skaters, :away_skaters, :situation, :away_players,
+                     :home_players ]
+
+    game_events = self.events.pluck(:event_number, :event_type, :period,
+                                    :seconds, :event_team_id, :event_player_1_id,
+                                    :event_player_2_id, :event_player_3_id,
+                                    :away_G_id, :home_G_id, :event_length,
+                                    :home_skaters, :away_skaters, :situation,
+                                    :away_players, :home_players)
+
+    game_events.map!.each do |g|
+      column_names.zip(g).to_h
+    end
+
+    players.each do |player|
+      shot_types = ["GOAL", "SHOT"]
+      fenwick_types = shot_types + ["MISS"]
+      corsi_types = fenwick_types + ["BLOCK"]
+
+      if game_away_players.include?(player.id)
+        player_events = game_events.find_all { |e| e[:away_players].include? (player.id) }
+        player_events.each { |e| e[:situation] = situation_flip(e[:situation]) }
+        t_id = self.away_team_id
+        o_zone = "Def"
       else
-        game_params = { game: self, situation: situation }
+        player_events = game_events.find_all { |e| e[:home_players].include? (player.id) }
+        t_id = self.home_team_id
+        o_zone = "Off"
       end
 
-      PlayerGameSummary.create(player: player, game: self, situation: sit) do |ps|
-        ps.goals = player.goals.where(game_params).size
-        ps.a1 = player.primary_assists.where(game_params).size
-        ps.a2 = player.secondary_assists.where(game_params).size
-        ps.points = ps.goals + ps.a1 + ps.a2
-        ps.ind_cf = player.ind_corsi_events.where(game_params).size
-        ps.cf = player.corsi_for.where(game_params).size
-        ps.ff = player.fenwick_for.where(game_params).size
-        ps.c_diff = (player.on_ice_corsi_events.where(event_team: player.team).where(game_params).size) - (player.on_ice_corsi_events.where.not(event_team: player.team).where(game_params).size)
-        ps.f_diff = (player.on_ice_fenwick_events.where(event_team: player.team).where(game_params).size) - (player.on_ice_fenwick_events.where.not(event_team: player.team).where(game_params).size)
-        ps.g_diff = (player.on_ice_goals.where(event_team: player.team).where(game_params).size) - (player.on_ice_goals.where.not(event_team: player.team).where(game_params).size)
-        ps.zso = (player.zone_starts_o_home.where(game: self).size + player.zone_starts_o_away.where(game: self).size)
-        ps.zsd = (player.zone_starts_d_home.where(game: self).size + player.zone_starts_d_away.where(game: self).size)
-        ps.blocks = player.blocks.where(game_params).size
-        ps.fo_won = player.faceoffs_won.where(game_params).size
-        ps.fo_lost = player.faceoffs_lost.where(game_params).size
-        ps.hits = player.hits.where(game_params).size
-        ps.hits_taken = player.hits_taken.where(game_params).size
-        ps.pen = player.penalties.where(game_params).size
-        ps.pen_drawn = player.penalties_drawn.where(game_params).size
-        ps.toi = (player.events.where(game_params).sum(:event_length)/60).round(1)
+      situations.each do |s|
+        if s == 7
+          event_table = player_events
+        else
+          event_table = player_events.find_all { |e| e[:situation] == s }
+        end
+
+        corsi_table = event_table.find_all { |e| corsi_types.include?(e[:event_type])}
+        goal_table = event_table.find_all { |e| e[:event_type] == "GOAL" }
+        fenwick_table = event_table.find_all { |e| fenwick_types.include?(e[:event_type])}
+        face_table = event_table.find_all { |e| e[:event_type] == "FAC" }
+        faceoff_table = face_table.find_all { |e| e[:event_player_1_id] == player.id || e[:event_player_2_id] == player.id }
+
+        PlayerGameSummary.create(player: player, game: self, situation: s) do |ps|
+          ps.goals = goal_table.count { |e| e[:event_player_1_id] == player.id }
+          ps.a1 = goal_table.count { |e| e[:event_player_2_id] == player.id }
+          ps.a2 = goal_table.count { |e| e[:event_player_3_id] == player.id }
+          ps.points = ps.goals + ps.a1 + ps.a2
+          ps.ind_cf = corsi_table.count { |e| e[:event_player_1_id] == player.id }
+          ps.cf = corsi_table.count { |e| e[:event_team_id] == t_id }
+          ps.ff = fenwick_table.count { |e| e[:event_team_id] == t_id }
+          ps.c_diff = ps.cf - corsi_table.count { |e| e[:event_team_id] != t_id }
+          ps.f_diff = ps.ff - fenwick_table.count { |e| e[:event_team_id] != t_id }
+          ps.g_diff = ( goal_table.count { |e| e[:event_team_id] == t_id } -
+                        goal_table.count { |e| e[:event_team_id] != t_id } )
+          ps.blocks = event_table.count { |e| e[:event_type] == "BLOCK" && e[:event_player_1_id] == player.id }
+          ps.fo_won = faceoff_table.count { |e| e[:event_team_id] == t_id }
+          ps.fo_lost = faceoff_table.count { |e| e[:event_team_id] != t_id }
+          ps.hits = event_table.count { |e| e[:event_type] == "HIT" && e[:event_player_1_id] == player.id }
+          ps.hits_taken = event_table.count { |e| e[:event_type] == "HIT" && e[:event_player_2_id] == player.id }
+          ps.pen = event_table.count { |e| e[:event_type] == "PENL" && e[:event_player_1_id] == player.id }
+          ps.pen_drawn = event_table.count { |e| e[:event_type] == "PENL" && e[:event_player_2_id] == player.id }
+          ps.toi = ( ( event_table.sum { |e| e[:event_length] } ) / 60 ).round(1)
+        end
+
       end
+    end
+
+  end
+
+  def situation_flip(sit)
+    if sit == 2
+      3
+    elsif sit == 3
+      2
+    elsif sit == 5
+      6
+    elsif sit == 6
+      5
+    else
+      sit
     end
   end
 
@@ -117,4 +154,5 @@ module Summarizable
     create_player_summaries(6)
     create_player_summaries(7)
   end
+
 end

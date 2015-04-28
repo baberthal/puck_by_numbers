@@ -1,8 +1,7 @@
 <div class="row">
   <div class="small-12 columns">
-    <%= search_form_for @q, remote: true, url: search_season_games_path(@season),
-      id: "season_game_search", method: :get do |f| %>
-
+    <%= search_form_for @q, remote: true, id: "game_search",
+        method: :get, url: search_season_games_path do |f| %>
       <table class="table-hover table-bigger">
         <thead>
           <tr>
@@ -46,7 +45,8 @@
         </thead>
         <tbody>
         <% end %>
-          <div id="games_table"> <%= render @game %> </div>
+        <div id="games_table"> <%= render @games %> </div>
+
         </tbody>
       </table>
   </div>

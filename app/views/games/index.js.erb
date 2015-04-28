@@ -1,1 +1,9 @@
-$('#games').html('<%= j(render("games")) %>');
+$('#games_table').html('<%= j(render("games")) %>');
+
+$(function() {
+  $("#game_search input").keyup(function() {
+    $.get($("#game_search").attr("action"), $("#game_search").serialize(), null, "script");
+    return false;
+  });
+});
+

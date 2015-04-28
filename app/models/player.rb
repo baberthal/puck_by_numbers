@@ -20,6 +20,7 @@ class Player < ActiveRecord::Base
   has_many :h6_events, class_name: "Event", foreign_key: 'h6_id'
   has_many :events_as_home_G, class_name: "Event", foreign_key: 'home_G_id'
   has_many :events_as_away_G, class_name: "Event", foreign_key: 'away_G_id'
+  has_many :player_game_summaries
 
   scope :goalies, -> { where(position: "G") }
   scope :skaters, -> { where.not(position: "G") }
@@ -36,7 +37,10 @@ class Player < ActiveRecord::Base
   end
 
   def set_active
-    if !games.empty? && games.last.season_years == 20142015
+    game = Game.select { |g| g.home_player_id_numbers.include?(self.id) ||
+                         g.away_player_id_numbers.include?(self.id) }.last
+    if !game.nil? && game.season_years == Season.last.season_years
+
       self.active = true
       self.save
     end
@@ -48,16 +52,13 @@ class Player < ActiveRecord::Base
   end
 
   def determine_team
-    unless self.events.nil?
-      a = self.events.includes(:game).last
-      if [a.a1_id, a.a2_id, a.a3_id, a.a4_id, a.a5_id, a.a6_id, a.away_G_id].include?(self.id)
-        t = a.game.away_team
-      elsif [a.h1_id, a.h2_id, a.h3_id, a.h4_id, a.h5_id, a.h6_id, a.home_G_id].include?(self.id)
-        t = a.game.home_team
-      else
-        raise "Couldn't find the player in any recent events"
-      end
-
+    a = games.last unless games.nil?
+    if a.home_player_id_numbers.include?(id)
+      t = a.home_team
+    elsif a.away_player_id_numbers.include?(id)
+      t = a.away_team
+    else
+      raise "Couldn't find the player in any recent events"
     end
     change_team(t)
   end

@@ -22,4 +22,8 @@ class GameDecorator < Draper::Decorator
     end
   end
 
+  def index_header
+    "#{object.season_years.to_s[0..3]} -
+     #{object.season_years.to_s[4..-1]} NHL Season"
+  end
 end

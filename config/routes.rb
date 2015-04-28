@@ -1,15 +1,21 @@
+require 'sidekiq/web'
+
 Rails.application.routes.draw do
   resources :teams
   resources :players
 
   resources :seasons do
-    collection do
-      match 'search' => 'games#search', via: [:get, :post], as: :search
+    resources :games, param: :gcode do
+      collection do
+        match 'search' => 'games#search', via: [:get, :post], as: :search
+      end
     end
-    resources :games, param: :gcode
   end
 
   root 'seasons#show', :id => '20142015'
+
+  mount Sidekiq::Web, at: '/sidekiq'
+
 
   # Example resource route with options:
   #   resources :products do
