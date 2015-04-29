@@ -1,6 +1,8 @@
 require 'sidekiq/web'
 
 Rails.application.routes.draw do
+  get 'static_pages/index'
+
   resources :teams
   resources :players
 
@@ -12,7 +14,7 @@ Rails.application.routes.draw do
     end
   end
 
-  root 'games#index', :season_id => '20142015'
+  root 'static_pages#index'
 
   mount Sidekiq::Web, at: '/sidekiq'
 
