@@ -12,7 +12,7 @@ Rails.application.routes.draw do
     end
   end
 
-  root 'seasons#show', :id => '20142015'
+  root 'games#index', :season_id => '20142015'
 
   mount Sidekiq::Web, at: '/sidekiq'
 

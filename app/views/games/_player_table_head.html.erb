@@ -1,27 +1,93 @@
 <thead>
   <tr>
     <th class="name-col" width="115">Name</th>
-    <th class="text-center" width=47><%= sort_link @pq, "position", "Pos.", "Position" %></th>
-    <th class="text-center" width=47><%= sort_link @pq, "goals", "G", "Goals Scored" %></th>
-    <th class="text-center" width=47><%= sort_link @pq, "a1", "A1", "Primary Assists" %></th>
-    <th class="text-center" width=47><%= sort_link @pq, "a2", "A2", "Secondary Assists" %></th>
-    <th class="text-center" width=47><%= sort_link @pq, "points", "P", "Points" %></th>
-    <th class="text-center" width=47><%= sort_link @pq, "ind_sc", "iSC", "Individual Scoring Chances"  %></th>
-    <th class="text-center" width=47><%= sort_link @pq, "ind_cf", "iCF", "Individual Corsi Events" %></th>
-    <th class="text-center" width=47><%= sort_link @pq, "c_diff", "C+/-", "On-Ice Corsi Differential" %></th>
-    <th class="text-center" width=47><%= sort_link @pq, "f_diff", "F+/-", "On-Ice Fenwick Differential" %></th>
-    <th class="text-center" width=47><%= sort_link @pq, "g_diff", "G+/-", "On-Ice Goal Differential" %></th>
-    <th class="text-center" width=47><%= sort_link @pq, "cf", "CF", "On-Ice Corsi For" %></th>
-    <th class="text-center" width=47><%= sort_link @pq, "ff", "FF", "On-Ice Fenwick For" %></th>
-    <th class="text-center" width=47><%= sort_link @pq, "zso", "ZSO", "Offensive Zone Starts" %></th>
-    <th class="text-center" width=47><%= sort_link @pq, "zsd", "ZSD", "Defensive Zone Starts" %></th>
-    <th class="text-center" width=47><%= sort_link @pq, "blocks", "BS", "Shots Blocked by Player" %></th>
-    <th class="text-center" width=47><%= sort_link @pq, "fo_won", "FOw", "Faceoffs Won" %></th>
-    <th class="text-center" width=47><%= sort_link @pq, "fo_lost", "FOl", "Faceoffs Lost" %></th>
-    <th class="text-center" width=47><%= sort_link @pq, "hits", "HT", "Hits by Player" %></th>
-    <th class="text-center" width=47><%= sort_link @pq, "hits_taken", "HT-", "Hits Taken by Player" %></th>
-    <th class="text-center" width=47><%= sort_link @pq, "pen", "PN", "Penalties Taken by Player" %></th>
-    <th class="text-center" width=47><%= sort_link @pq, "pen_drawn", "PN-", "Penalties Drawn by Player" %></th>
-    <th class="text-center" width=47><%= sort_link @pq, "toi", "TOI", "Time on Ice" %></th>
+
+    <th class="text-center" width=47 data-tooltip aria-has-popup="true" class="has-tip" title="Position">
+        <%= sort_link @pq, "position", "Pos." %>
+    </th>
+
+    <th class="text-center" width=47 data-tooltip aria-has-popup="true" class="has-tip" title="Goals">
+        <%= sort_link @pq, "goals", "G" %>
+    </th>
+
+    <th class="text-center" width=47 data-tooltip aria-has-popup="true" class="has-tip" title="Primary Assists">
+        <%= sort_link @pq, "a1", "A1" %>
+    </th>
+
+    <th class="text-center" width=47 data-tooltip aria-has-popup="true" class="has-tip" title="Secondary Assists">
+        <%= sort_link @pq, "a2", "A2" %>
+    </th>
+
+    <th class="text-center" width=47 data-tooltip aria-has-popup="true" class="has-tip" title="Points">
+        <%= sort_link @pq, "points", "P" %>
+    </th>
+
+    <th class="text-center" width=47 data-tooltip aria-has-popup="true" class="has-tip" title="Individual Scoring Chances">
+        <%= sort_link @pq, "ind_sc", "iSC" %>
+    </th>
+
+    <th class="text-center" width=47 data-tooltip aria-has-popup="true" class="has-tip" title="Individual Shot Attempts">
+        <%= sort_link @pq, "ind_cf", "iCF" %>
+    </th>
+
+    <th class="text-center" width=47 data-tooltip aria-has-popup="true" class="has-tip" title="On-Ice Shot Attempt Differential">
+        <%= sort_link @pq, "c_diff", "C+/-" %>
+    </th>
+
+    <th class="text-center" width=47 data-tooltip aria-has-popup="true" class="has-tip" title="On-Ice Unblocked Shot Attempt Differential">
+        <%= sort_link @pq, "f_diff", "F+/-" %>
+    </th>
+
+    <th class="text-center" width=47 data-tooltip aria-has-popup="true" class="has-tip" title="On-Ice Goal Differential">
+        <%= sort_link @pq, "g_diff", "G+/-" %>
+    </th>
+
+    <th class="text-center" width=47 data-tooltip aria-has-popup="true" class="has-tip" title="On-Ice Shot Attempts For">
+        <%= sort_link @pq, "cf", "CF" %>
+    </th>
+
+    <th class="text-center" width=47 data-tooltip aria-has-popup="true" class="has-tip" title="On-Ice Unblocked Shot Attempts For">
+        <%= sort_link @pq, "ff", "FF" %>
+    </th>
+
+    <th class="text-center" width=47 data-tooltip aria-has-popup="true" class="has-tip" title="Offensive Zone Starts">
+        <%= sort_link @pq, "zso", "ZSO" %>
+    </th>
+
+    <th class="text-center" width=47 data-tooltip aria-has-popup="true" class="has-tip" title="Defensive Zone Starts">
+        <%= sort_link @pq, "zsd", "ZSD" %>
+    </th>
+
+    <th class="text-center" width=47 data-tooltip aria-has-popup="true" class="has-tip" title="Shot Attempts Blocked by Player">
+        <%= sort_link @pq, "blocks", "BS" %>
+    </th>
+
+    <th class="text-center" width=47 data-tooltip aria-has-popup="true" class="has-tip" title="Faceoffs Won">
+        <%= sort_link @pq, "fo_won", "FOw" %>
+    </th>
+
+    <th class="text-center" width=47 data-tooltip aria-has-popup="true" class="has-tip" title="Faceoffs Lost">
+        <%= sort_link @pq, "fo_lost", "FOl" %>
+    </th>
+
+    <th class="text-center" width=47 data-tooltip aria-has-popup="true" class="has-tip" title="Hits by Player">
+        <%= sort_link @pq, "hits", "HT" %>
+    </th>
+
+    <th class="text-center" width=47 data-tooltip aria-has-popup="true" class="has-tip" title="Hits Taken by Player">
+        <%= sort_link @pq, "hits_taken", "HT-" %>
+    </th>
+
+    <th class="text-center" width=47 data-tooltip aria-has-popup="true" class="has-tip" title="Penalties Taken by Player">
+        <%= sort_link @pq, "pen", "PN" %>
+    </th>
+
+    <th class="text-center" width=47 data-tooltip aria-has-popup="true" class="has-tip" title="Penalties Drawn by Player">
+        <%= sort_link @pq, "pen_drawn", "PN-" %>
+    </th>
+
+    <th class="text-center" width=47 data-tooltip aria-has-popup="true" class="has-tip" title="Time on Ice">
+        <%= sort_link @pq, "toi", "TOI" %>
+    </th>
   </tr>
 </thead>

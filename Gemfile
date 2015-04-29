@@ -12,11 +12,10 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'composite_primary_keys', '~> 8.1.0'
 gem 'mysql2'
 gem 'activerecord-mysql-unsigned'
+gem 'foundation-rails', :git => "git://github.com/zurb/foundation-rails.git"
 gem 'puma'
-gem 'foundation-rails', '>= 5.5.1.2'
 gem 'ransack'
 gem 'lazy_high_charts'
-gem 'foundation-icons-sass-rails'
 gem 'kaminari'
 gem 'simple_form'
 gem 'draper'

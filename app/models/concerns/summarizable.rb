@@ -146,13 +146,7 @@ module Summarizable
     create_team_summary(self.away_team, 5)
     create_team_summary(self.away_team, 6)
     create_team_summary(self.away_team, 7)
-    create_player_summaries(1)
-    create_player_summaries(2)
-    create_player_summaries(3)
-    create_player_summaries(4)
-    create_player_summaries(5)
-    create_player_summaries(6)
-    create_player_summaries(7)
+    create_player_summaries
   end
 
 end

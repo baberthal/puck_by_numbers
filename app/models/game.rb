@@ -102,6 +102,17 @@ class Game < ActiveRecord::Base
     where{season_years.in ev[0]}.where{gcode.not_in ev[1]}
   end
 
+
+  def self.unsummarized_playerwise
+    p_sums = PlayerGameSummary.pluck(:season_years, :gcode).transpose.each { |e| e.uniq! }
+    Game.where(season_years: p_sums[0]).where.not(gcode: p_sums[1])
+  end
+
+  def self.unsummarized_teamwise
+    t_sums = TeamGameSummary.pluck(:season_years, :gcode).transpose.each { |e| e.uniq! }
+    Game.where(season_years: t_sums[0]).where.not(gcode: t_sums[1])
+  end
+
   def in_progress?
     true if self.game_start < Time.now && self.game_end.nil?
   end

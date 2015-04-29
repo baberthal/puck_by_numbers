@@ -1,7 +1,7 @@
 <div class="row">
   <div class="small-12 columns">
     <%= search_form_for @q, remote: true, id: "game_search",
-        method: :get, url: search_season_games_path do |f| %>
+        method: :get, url: season_games_path do |f| %>
       <table class="table-hover table-bigger">
         <thead>
           <tr>

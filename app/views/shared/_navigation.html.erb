@@ -1,43 +1,40 @@
-<div class="sticky">
+<nav class="top-bar" data-topbar role="navigation">
+  <ul class="title-area">
+    <li class="name">
+      <h1><a href="/"><%= image_tag("PuckByNumbers_logo_small.png", alt: "PBN Logo", height: '40', class: "puck-logo") %></a></h1>
+    </li>
+    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+  </ul>
 
-  <nav class="top-bar" data-topbar role="navigation">
-    <ul class="title-area">
-      <li class="name">
-        <h1><a href="/"><%= image_tag("PuckByNumbers_logo_small.png", alt: "PBN Logo", height: '40', class: "puck-logo") %></a></h1>
+  <section class="top-bar-section">
+    <ul class="right">
+      <li class="has-dropdown">
+        <a href="#">MORE</a>
+        <ul class="dropdown">
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="#">BLOG</a></li>
+          <li><a href="#">HELP</a></li>
+          <li><a href="#">CONTACT</a></li>
+        </ul>
       </li>
-      <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
     </ul>
 
-    <section class="top-bar-section">
-      <ul class="right">
-        <li class="has-dropdown">
-          <a href="#">MORE</a>
-          <ul class="dropdown">
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">BLOG</a></li>
-            <li><a href="#">HELP</a></li>
-            <li><a href="#">CONTACT</a></li>
-          </ul>
-        </li>
-      </ul>
+    <ul class="left">
+      <li class="has-dropdown"><a href="#">GAMES</a>
+        <ul class="dropdown">
+          <li><%= link_to "RECENT",
+            season_games_path(@games, season_id: 20142015) %></li>
+          <li class="has-dropdown"><a href="#">BY SEASON</a>
+            <ul class="dropdown">
+              <li> <%= link_to "2014 - 2015", season_path(id: 20142015) %></li>
+              <li><a href="#">2013 - 2014</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
 
-      <ul class="left">
-        <li class="has-dropdown"><a href="#">GAMES</a>
-          <ul class="dropdown">
-            <li><%= link_to "RECENT",
-              season_games_path(@games, season_id: 20142015) %></li>
-            <li class="has-dropdown"><a href="#">BY SEASON</a>
-              <ul class="dropdown">
-                <li> <%= link_to "2014 - 2015", season_path(id: 20142015) %></li>
-                <li><a href="#">2013 - 2014</a></li>
-              </ul>
-            </li>
-          </ul>
-        </li>
-
-        <li><%= link_to "PLAYERS", players_path %></li>
-        <li><a href="#">TEAMS</a></li>
-      </ul>
-    </section>
-  </nav>
-</div>
+      <li><%= link_to "PLAYERS", players_path %></li>
+      <li><a href="#">TEAMS</a></li>
+    </ul>
+  </section>
+</nav>

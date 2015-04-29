@@ -12,11 +12,7 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require date
 //= require foundation
-//= require foundation_calendar/foundation_calendar
-//= require foundation_calendar/helpers/date-helpers
-//= require foundation_calendar/helpers/string-helpers
 //= require highcharts/highcharts
 //= require highcharts/modules/heatmap
 //= require highcharts/highcharts-more
