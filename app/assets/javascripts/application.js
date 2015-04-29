@@ -12,11 +12,12 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require angular
+//= require main
 //= require foundation
 //= require highcharts/highcharts
 //= require highcharts/modules/heatmap
 //= require highcharts/highcharts-more
-//= require turbolinks
 //= require_tree .
 
 
