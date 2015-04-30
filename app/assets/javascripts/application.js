@@ -12,13 +12,11 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require angular
-//= require main
-//= require foundation
+//= require angular/angular
+//= require angular-route/angular-route
+//= require angular-resource/angular-resource
+//= require angular-rails-templates
 //= require highcharts/highcharts
 //= require highcharts/modules/heatmap
 //= require highcharts/highcharts-more
 //= require_tree .
-
-
-$(function(){ $(document).foundation(); });

@@ -9,8 +9,11 @@ class GamesController < ApplicationController
   def index
     @q = Game.ransack(params[:q])
     @q.sorts = 'date desc' if @q.sorts.empty?
-    @games = @q.result.includes(:home_team, :away_team).page(params[:page]).decorate
-    @season = Season.find(params[:season_id])
+    @games = if params[:q]
+               @q.result.includes(:home_team, :away_team).page(params[:page]).decorate
+             else
+               []
+             end
   end
 
   # GET /games/1

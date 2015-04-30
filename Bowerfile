@@ -1,3 +1,9 @@
 asset 'angular'
+asset 'angular-material'
+asset 'angular-route'
+asset 'angular-resource'
+asset 'angular-mocks'
+asset 'bootstrap-sass-official'
+
 
 #  vim: set ts=8 sw=2 tw=0 et ft=ruby:

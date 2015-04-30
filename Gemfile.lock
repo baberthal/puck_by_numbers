@@ -49,6 +49,10 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
+    angular-rails-templates (0.1.4)
+      railties (>= 3.1)
+      sprockets
+      tilt
     arel (6.0.0)
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
@@ -64,7 +68,10 @@ GEM
       xpath (~> 2.0)
     celluloid (0.16.0)
       timers (~> 4.0.0)
+    childprocess (0.5.6)
+      ffi (~> 1.0, >= 1.0.11)
     chronic (0.10.2)
+    coderay (1.1.0)
     coffee-rails (4.1.0)
       coffee-script (>= 2.2.0)
       railties (>= 4.0.0, < 5.0)
@@ -76,6 +83,7 @@ GEM
     composite_primary_keys (8.1.0)
       activerecord (~> 4.2.0)
     connection_pool (2.2.0)
+    database_cleaner (1.4.1)
     debug_inspector (0.0.2)
     diff-lcs (1.2.5)
     domain_name (0.5.24)
@@ -85,19 +93,48 @@ GEM
       activemodel (>= 3.0)
       activesupport (>= 3.0)
       request_store (~> 1.0)
+    em-websocket (0.5.1)
+      eventmachine (>= 0.12.9)
+      http_parser.rb (~> 0.6.0)
     erubis (2.7.0)
+    eventmachine (1.0.7)
     execjs (2.5.2)
     factory_girl (4.5.0)
       activesupport (>= 3.0.0)
     factory_girl_rails (4.5.0)
       factory_girl (~> 4.5.0)
       railties (>= 3.0.0)
+    ffi (1.9.8)
+    formatador (0.2.5)
     globalid (0.3.5)
       activesupport (>= 4.1.0)
+    guard (2.12.5)
+      formatador (>= 0.2.4)
+      listen (~> 2.7)
+      lumberjack (~> 1.0)
+      nenv (~> 0.1)
+      notiffany (~> 0.0)
+      pry (>= 0.9.12)
+      shellany (~> 0.0)
+      thor (>= 0.18.1)
+    guard-compat (1.2.1)
+    guard-livereload (2.4.0)
+      em-websocket (~> 0.5)
+      guard (~> 2.8)
+      multi_json (~> 1.8)
+    guard-rspec (4.5.0)
+      guard (~> 2.1)
+      guard-compat (~> 1.1)
+      rspec (>= 2.99.0, < 4.0)
+    guard-teaspoon (0.8.0)
+      guard (~> 2.2)
+      teaspoon (>= 0.8.0)
     hash-deep-merge (0.1.1)
+    hike (1.2.3)
     hitimes (1.2.2)
     http-cookie (1.0.2)
       domain_name (~> 0.5)
+    http_parser.rb (0.6.0)
     i18n (0.7.0)
     jbuilder (2.2.13)
       activesupport (>= 3.0.0, < 5)
@@ -113,8 +150,13 @@ GEM
     lazy_high_charts (1.5.4)
       bundler (>= 1.0)
       hash-deep-merge
+    listen (2.10.0)
+      celluloid (~> 0.16.0)
+      rb-fsevent (>= 0.9.3)
+      rb-inotify (>= 0.9)
     loofah (2.0.1)
       nokogiri (>= 1.5.9)
+    lumberjack (1.0.9)
     mail (2.6.3)
       mime-types (>= 1.16, < 3)
     mechanize (2.7.3)
@@ -126,18 +168,28 @@ GEM
       nokogiri (~> 1.4)
       ntlm-http (~> 0.1, >= 0.1.1)
       webrobots (>= 0.0.9, < 0.2)
+    method_source (0.8.2)
     mime-types (2.5)
     mini_portile (0.6.2)
-    minitest (5.6.0)
+    minitest (5.6.1)
     multi_json (1.11.0)
     mysql2 (0.3.18)
+    nenv (0.2.0)
     net-http-digest_auth (1.4)
     net-http-persistent (2.9.4)
     nokogiri (1.6.6.2)
       mini_portile (~> 0.6.0)
+    notiffany (0.0.6)
+      nenv (~> 0.1)
+      shellany (~> 0.0)
     ntlm-http (0.1.1)
+    phantomjs (1.9.8.0)
     polyamorous (1.1.0)
       activerecord (>= 3.0)
+    pry (0.10.1)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
     puma (2.11.2)
       rack (>= 1.1, < 2.0)
     rack (1.6.0)
@@ -176,6 +228,9 @@ GEM
       activesupport (>= 3.0)
       i18n
       polyamorous (~> 1.1)
+    rb-fsevent (0.9.4)
+    rb-inotify (0.9.5)
+      ffi (>= 0.5.0)
     rdoc (4.2.0)
     redis (3.2.1)
     redis-namespace (1.5.2)
@@ -184,6 +239,10 @@ GEM
     rserve-client (0.3.1)
     rserve-simpler (0.0.6)
       rserve-client (~> 0.3.0)
+    rspec (3.2.0)
+      rspec-core (~> 3.2.0)
+      rspec-expectations (~> 3.2.0)
+      rspec-mocks (~> 3.2.0)
     rspec-core (3.2.3)
       rspec-support (~> 3.2.0)
     rspec-expectations (3.2.1)
@@ -201,6 +260,7 @@ GEM
       rspec-mocks (~> 3.2.0)
       rspec-support (~> 3.2.0)
     rspec-support (3.2.2)
+    rubyzip (1.1.7)
     sass (3.4.13)
     sass-rails (5.0.3)
       railties (>= 4.0.0, < 5.0)
@@ -211,6 +271,12 @@ GEM
     sdoc (0.4.1)
       json (~> 1.7, >= 1.7.7)
       rdoc (~> 4.0)
+    selenium-webdriver (2.45.0)
+      childprocess (~> 0.5)
+      multi_json (~> 1.0)
+      rubyzip (~> 1.0)
+      websocket (~> 1.0)
+    shellany (0.0.1)
     sidekiq (3.3.4)
       celluloid (>= 0.16.0)
       connection_pool (>= 2.1.1)
@@ -227,13 +293,19 @@ GEM
     slim (3.0.3)
       temple (~> 0.7.3)
       tilt (>= 1.3.3, < 2.1)
+    slop (3.6.0)
     spring (1.3.4)
-    sprockets (3.0.2)
+    sprockets (2.12.3)
+      hike (~> 1.2)
+      multi_json (~> 1.0)
       rack (~> 1.0)
+      tilt (~> 1.1, != 1.3.0)
     sprockets-rails (2.2.4)
       actionpack (>= 3.0)
       activesupport (>= 3.0)
       sprockets (>= 2.8, < 4.0)
+    teaspoon (0.9.1)
+      railties (>= 3.2.5, < 5)
     temple (0.7.5)
     thor (0.19.1)
     thread_safe (0.3.5)
@@ -254,6 +326,7 @@ GEM
       railties (>= 4.0)
       sprockets-rails (>= 2.0, < 4.0)
     webrobots (0.1.1)
+    websocket (1.2.2)
     whenever (0.9.4)
       chronic (>= 0.6.3)
     xpath (2.0.0)
@@ -264,33 +337,43 @@ PLATFORMS
 
 DEPENDENCIES
   activerecord-mysql-unsigned
+  angular-rails-templates
   bower-rails
   byebug
   capybara
   coffee-rails (~> 4.1.0)
   composite_primary_keys (~> 8.1.0)
+  database_cleaner
   draper
   factory_girl_rails
+  guard-livereload
+  guard-rspec
+  guard-teaspoon
   jbuilder (~> 2.0)
   jquery-rails
   kaminari
   lazy_high_charts
   mechanize
   mysql2
+  phantomjs
   puma
   rails (= 4.2.1)
   ransack
+  rb-fsevent
   rserve-client
   rserve-simpler
   rspec-rails
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
+  selenium-webdriver
   sidekiq
   simple_form
   sinatra
   slim
   spring
+  sprockets (= 2.12.3)
   squeel!
+  teaspoon
   uglifier (>= 1.3.0)
   web-console (~> 2.0)
   whenever

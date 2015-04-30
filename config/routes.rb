@@ -7,10 +7,12 @@ Rails.application.routes.draw do
   resources :players
 
   resources :seasons do
-    resources :games, param: :gcode do
-      collection do
-        match 'search' => 'games#search', via: [:get, :post], as: :search
-      end
+    resources :games, only: [:show], param: :gcode
+  end
+
+  resources :games, only: [:index, :new, :create, :edit, :update, :destroy] do
+    collection do
+      match 'search' => 'games#search', via: [:get, :post], as: :search
     end
   end
 
