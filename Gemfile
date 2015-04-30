@@ -12,6 +12,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'composite_primary_keys', '~> 8.1.0'
 gem 'mysql2'
 gem 'activerecord-mysql-unsigned'
+gem 'bower-rails'
 gem 'foundation-rails', :git => "git://github.com/zurb/foundation-rails.git"
 gem 'puma'
 gem 'ransack'
@@ -42,5 +43,13 @@ group :development, :test do
   gem 'web-console', '~> 2.0'
   gem 'spring'
   gem 'rspec-rails'
+  gem 'factory_girl_rails'
+  gem 'rb-fsevent', :require => false if RUBY_PLATFORM =~ /darwin/i
+  gem 'guard-rspec'
+  gem 'guard-livereload'
+  gem 'capybara'
+  gem 'database_cleaner'
+  gem 'selenium-webdriver'
+  gem 'phantomjs'
 end
 
