@@ -12,12 +12,10 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require foundation
+//= require materialize/dist/js/materialize
 //= require highcharts/highcharts
 //= require highcharts/modules/heatmap
 //= require highcharts/highcharts-more
 //= require turbolinks
 //= require_tree .
 
-
-$(function(){ $(document).foundation(); });
