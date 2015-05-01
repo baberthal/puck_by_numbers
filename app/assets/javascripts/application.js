@@ -12,7 +12,7 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require foundation
+//= require foundation/js/foundation
 //= require highcharts/highcharts
 //= require highcharts/modules/heatmap
 //= require highcharts/highcharts-more

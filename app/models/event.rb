@@ -8,7 +8,7 @@ class Event < ActiveRecord::Base
 
   self.primary_keys = [:event_number, :gcode, :season_years]
 
-  belongs_to :game, :foreign_key => [:season_years, :gcode], counter_cache: :event_count
+  belongs_to :game, :foreign_key => [:season_years, :gcode], counter_cache: :event_count, inverse_of: :events
   belongs_to :event_team, :class_name => "Team"
   has_one :location, :foreign_key => [:event_number, :gcode, :season_years]
   belongs_to :event_player_1, :class_name => "Player"

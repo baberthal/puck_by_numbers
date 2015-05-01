@@ -1,12 +1,16 @@
-@import "foundation_and_overrides";
+@import "app";
+
+.top-bar {
+  overflow: hidden;
+  position: relative;
+  -webkit-box-shadow: 0px 1px 5px #222222;
+  -moz-box-shadow: 0px 1px 5px #222222;
+  box-shadow: 0px 1px 5px #222222;
+}
 
 .puck-logo {
   margin-top: -2px;
   height: 40px;
-}
-
-th {
-  text-align: center;
 }
 
 .name-col,
@@ -15,41 +19,6 @@ td .name-col {
   text-overflow: clip;
   white-space: nowrap;
   text-align: left;
-}
-
-th {
-  vertical-align: center;
-}
-th a {
-  color: $white;
-}
-
-th a:hover{
-  color: $secondary-color;
-}
-
-h1 {
-  color: $primary-color;
-  font-family: Futura, Avenir, Helvetica, sans-serif;
-}
-
-h2 {
-  color: $primary-color;
-  font-family: Avenir, Helvetica, sans-serif;
-}
-
-h3 {
-  color: $primary-color;
-  font-family: Avenir, Helvetica, sans-serif;
-}
-
-h4 {
-  color: $primary-color;
-  font-family: Avenir, Helvetica, sans-serif;
-}
-
-body {
-  font-family: Avenir, Helvetica, sans-serif;
 }
 
 .panel-default {
@@ -67,8 +36,8 @@ body {
 }
 
 .white-border {
-  border-right: 2px solid $white;
-  border-left: 2px solid $white;
+  border-right: 1px solid $white;
+  border-left: 1px solid $white;
 }
 
 .dot-col-border {
@@ -93,19 +62,6 @@ body {
   color: $white;
 }
 
-.paginator {
-  margin-top: 0px;
-  padding-top: 0px;
-}
-
-.pagination {
-  margin: 0;
-}
-
-.table {
-  margin-bottom: 0px;
-}
-
 .table tr {
   border-bottom: 1px solid $gainsboro;
 }
@@ -114,13 +70,18 @@ body {
   background-color: $gainsboro;
 }
 
-.panel-heading > h3 {
-  margin: 0;
-  margin-top: 5px;
+.pagination {
+  border-radius: $global-radius;
+  background-color: $snow;
+  border: 1px solid $gainsboro;
+  padding: {
+    top: 10px;
+    bottom: 10px;
+  }
 }
 
-.pagination {
-  padding: 10px;
+.panel-heading > h3 {
+  margin: 0;
   margin-top: 5px;
 }
 
@@ -186,10 +147,6 @@ body {
   }
 }
 
-.rounded-panel {
-  @include panel();
-  border-radius: $global-radius;
-}
 
 .with-tabs {
   border-radius: 0 $global-radius $global-radius $global-radius;
@@ -302,19 +259,34 @@ $nav-tabs-border-color: #d8d8d8;
   width: auto;
 }
 
-.table-bigger {
+.material-table {
   @include table();
+  margin: {
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: rem-calc(20);
+  }
   > thead {
     text-transform: uppercase;
     font-size: rem-calc(14);
+    a {
+      color: $primary-color-dark;
+    }
+    tr > th {
+      border: 0;
+    }
   }
   tr td {
     font-size: rem-calc(14);
   }
+  > tbody > tr:hover {
+    background-color: transparentize($primary-color-light, 0.75)
+  }
 }
 
 .table-hover > tbody > tr:hover {
-  background-color: #a0d3e8;
+  background-color: #9fa8da;
 }
 
 .year, .month {
@@ -458,4 +430,20 @@ $nav-tabs-border-color: #d8d8d8;
    left: 5px !important;
    right: 5px !important;
  }
+}
+
+.material-panel {
+  @include panel();
+  border-radius: $global-radius;
+  padding: 0;
+
+  > .panel-header {
+    background-color: $primary-color;
+    color: $white;
+    border-top-right-radius: $global-radius;
+    border-top-left-radius: $global-radius;
+    font-size: rem-calc(36);
+    padding-left: rem-calc(4);
+    padding-top: rem-calc(4);
+  }
 }

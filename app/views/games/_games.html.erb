@@ -2,7 +2,7 @@
   <div class="small-12 columns">
     <%= search_form_for @q, remote: true, id: "game_search",
         method: :get, url: season_games_path do |f| %>
-      <table class="table-hover table-bigger">
+      <table class="material-table">
         <thead>
           <tr>
             <th class="text-center" width="12%">
@@ -46,8 +46,13 @@
         <tbody>
         <% end %>
         <div id="games_table"> <%= render @games %> </div>
-
         </tbody>
       </table>
+
+      <div class="row">
+        <div class="small-10 small-offset-1 columns">
+          <%= paginate @games %>
+        </div>
+      </div>
   </div>
 </div>

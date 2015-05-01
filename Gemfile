@@ -13,7 +13,6 @@ gem 'composite_primary_keys', '~> 8.1.0'
 gem 'mysql2'
 gem 'activerecord-mysql-unsigned'
 gem 'bower-rails'
-gem 'foundation-rails', :git => "git://github.com/zurb/foundation-rails.git"
 gem 'puma'
 gem 'ransack'
 gem 'lazy_high_charts'
@@ -51,5 +50,7 @@ group :development, :test do
   gem 'database_cleaner'
   gem 'selenium-webdriver'
   gem 'phantomjs'
+  gem 'shoulda-matchers', github: 'thoughtbot/shoulda-matchers'
+  gem 'seed_dump'
 end
 

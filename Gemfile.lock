@@ -8,12 +8,11 @@ GIT
       polyamorous (~> 1.1.0)
 
 GIT
-  remote: git://github.com/zurb/foundation-rails.git
-  revision: 88af62be9937955caa3980cbea6314305b55cc25
+  remote: git://github.com/thoughtbot/shoulda-matchers.git
+  revision: ae77c7d736664876ddea726beee92c7888090783
   specs:
-    foundation-rails (5.5.1.2)
-      railties (>= 3.1.0)
-      sass (>= 3.3.0, < 3.5)
+    shoulda-matchers (3.0.0.alpha)
+      activesupport (>= 4.0.0)
 
 GEM
   remote: https://rubygems.org/
@@ -271,6 +270,9 @@ GEM
     sdoc (0.4.1)
       json (~> 1.7, >= 1.7.7)
       rdoc (~> 4.0)
+    seed_dump (3.2.2)
+      activerecord (~> 4)
+      activesupport (~> 4)
     selenium-webdriver (2.45.0)
       childprocess (~> 0.5)
       multi_json (~> 1.0)
@@ -342,7 +344,6 @@ DEPENDENCIES
   database_cleaner
   draper
   factory_girl_rails
-  foundation-rails!
   guard-livereload
   guard-rspec
   jbuilder (~> 2.0)
@@ -361,7 +362,9 @@ DEPENDENCIES
   rspec-rails
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
+  seed_dump
   selenium-webdriver
+  shoulda-matchers!
   sidekiq
   simple_form
   sinatra

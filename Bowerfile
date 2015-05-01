@@ -1,4 +1,5 @@
-asset ''
-
+asset 'foundation'
+asset 'foundation-icons'
+asset 'foundation-icon-fonts'
 
 #  vim: set ts=8 sw=2 tw=0 et ft=ruby:

@@ -10,7 +10,7 @@ module PuckByNumbers
   class Application < Rails::Application
     config.autoload_paths += %W(#{config.root}/lib)
     config.time_zone = 'Mountain Time (US & Canada)'
-    config.assets.paths << Rails.root.join('vendor', 'assets', 'components')
+    config.assets.paths << Rails.root.join('vendor', 'assets', 'bower_components')
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
 

@@ -7,10 +7,10 @@ class Game < ActiveRecord::Base
 
   self.primary_keys = :season_years, :gcode
 
-  belongs_to :season, :foreign_key => :season_years
+  belongs_to :season, :foreign_key => :season_years, inverse_of: :games
   belongs_to :home_team, :class_name => "Team"
   belongs_to :away_team, :class_name => "Team"
-  has_many :events, :foreign_key => [:season_years, :gcode]
+  has_many :events, :foreign_key => [:season_years, :gcode], inverse_of: :game
   has_many :event_teams, through: :events
   has_many :a1, -> { distinct }, through: :events
   has_many :a2, -> { distinct }, through: :events
@@ -26,7 +26,7 @@ class Game < ActiveRecord::Base
   has_many :h6, -> { distinct }, through: :events
   has_many :player_game_summaries, :foreign_key => [:season_years, :gcode]
   has_many :team_game_summaries, :foreign_key => [:season_years, :gcode]
-  has_many :game_charts, :foreign_key => [:season_years, :gcode]
+  has_many :game_charts, :foreign_key => [:season_years, :gcode], inverse_of: :game
 
   scope :recent, -> { where("game_start >= ?", 2.days.ago)}
   scope :scraped, -> { joins(:events).where(events: { seconds: 3600 }) }
