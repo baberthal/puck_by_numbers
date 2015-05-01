@@ -1,5 +1,3 @@
-asset 'foundation'
-asset 'foundation-icons'
-asset 'foundation-icon-fonts'
+asset 'bootstrap-sass-official'
 
 #  vim: set ts=8 sw=2 tw=0 et ft=ruby:
