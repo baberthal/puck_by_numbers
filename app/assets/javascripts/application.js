@@ -12,12 +12,11 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require foundation/js/foundation
+//= require bootstrap-sass/assets/javascripts/bootstrap-sprockets
+//= require moment
+//= require bootstrap-datetimepicker
 //= require highcharts/highcharts
 //= require highcharts/modules/heatmap
 //= require highcharts/highcharts-more
 //= require turbolinks
 //= require_tree .
-
-
-$(function(){ $(document).foundation(); });

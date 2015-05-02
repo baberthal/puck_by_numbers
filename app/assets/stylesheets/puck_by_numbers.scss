@@ -1,0 +1,21 @@
+$primary-color: #2196f3;
+$primary-color-dark: #0d47a1;
+$primary-color-light: #90caf9;
+$white: #FFFFFF;
+
+.table > thead {
+  background-color: $primary-color;
+  color: $white;
+  td {
+    border: {
+      top: 0;
+      bottom: inherit;
+      left: 1px solid $white;
+      right: 1px solid $white;
+    }
+  }
+  a {
+    color: $white;
+  }
+}
+

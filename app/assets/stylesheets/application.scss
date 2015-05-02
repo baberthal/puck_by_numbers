@@ -1,4 +1,8 @@
-@import "custom";
+$icon-font-path: "bootstrap-sass/assets/fonts/bootstrap/";
+@import "bootstrap-sass/assets/stylesheets/bootstrap-sprockets";
+@import "bootstrap-custom";
+@import "bootstrap-datetimepicker";
+@import "puck_by_numbers";
 @import "games";
 @import "players";
 @import "seasons";

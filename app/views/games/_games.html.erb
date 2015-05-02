@@ -1,58 +1,117 @@
-<div class="row">
-  <div class="small-12 columns">
-    <%= search_form_for @q, remote: true, id: "game_search",
-        method: :get, url: season_games_path do |f| %>
-      <table class="material-table">
-        <thead>
-          <tr>
-            <th class="text-center" width="12%">
-              <%= sort_link @q, :date, "Date",
-                {}, { remote: true, method: :get }  %>
-            </th>
-            <th class="text-center" width="10%">
-              <%= sort_link @q, :gcode, "#",
-                {}, { remote: true, method: :get} %>
-            </th>
-            <th class="text-center" width="20%">Home</th>
-            <th class="text-center" width="20%">Away</th>
-            <th class="text-center" width="5%">Final</th>
-            <th class="text-center" width="13%">Status</th>
-            <th class="text-center" width="10%">
-              <%= sort_link @q, :game_start, "Start", {},
-                { remote: true, method: :get }%>
-            </th>
-            <th class="text-center" width="10%">
-              <%= sort_link @q, :game_end, "End", {},
-                { remote: true, method: :get } %>
-            </th>
-          </tr>
+<div class="table-responsive">
+  <%= search_form_for @q, remote: true, id: "game_search", class: "form-inline",
+    method: :get, url: season_games_path do |f| %>
+    <table class="table table-hover table-bordered table-striped">
+      <thead>
+        <tr>
+          <th class="text-center">
+            <%= sort_link @q, :date, "Date",
+              {}, { remote: true, method: :get }  %> </th>
+          <th class="text-center">Session</th>
+          <th class="text-center">Home</th>
+          <th class="text-center">Away</th>
+          <th class="text-center">Final</th>
+          <th class="text-center">Status</th>
+          <th class="text-center">
+            <%= sort_link @q, :game_start, "Start", {},
+              { remote: true, method: :get }%> </th>
+          <th class="text-center">
+            <%= sort_link @q, :game_end, "End", {},
+              { remote: true, method: :get } %> </th>
+        </tr>
+      </thead>
+      <tfoot>
           <tr class="filter-row">
-            <th><%= f.text_field :date_eq, remote: true %></th>
-            <th><%= f.text_field :gcode_cont, { class: "gcode-filter" } %></th>
-            <th><%= f.text_field :home_team_name_cont %></th>
-            <th><%= f.text_field :away_team_name_cont %></th>
-            <th></th>
-            <th><%= f.select :status_eq,
-                options_for_select([["Preview", 1],
-                                    ["In Progress", 2],
-                                    ["Complete", 3],
-                                    ["Complete (OT)", 4],
-                                    ["Complete (SO)", 5]]),
-                                    { include_blank: true } %></th>
-            <th><%= f.datetime_field :game_start_eq %></th>
-            <th><%= f.datetime_field :game_end_eq %></th>
-          </tr>
-        </thead>
-        <tbody>
-        <% end %>
-        <div id="games_table"> <%= render @games %> </div>
-        </tbody>
-      </table>
+            <div class="form-group form-group-sm">
+              <td>
+                <div class="input-group date" id="gamedatepicker">
+                  <%= f.search_field :date_eq, class: "form-control input-sm" %>
+                  <span class="input-group-addon">
+                    <span class="glyphicon glyphicon-calendar"></span>
+                  </span>
+                </div>
+              </td>
 
-      <div class="row">
-        <div class="small-10 small-offset-1 columns">
-          <%= paginate @games %>
+              <td>
+                <%= f.select :session_eq, options_for_select([["Playoffs", 2],
+                                                              ["Regular", 1]]),
+                      { include_blank: true },
+                      { class: "form-control text-center input-sm" } %>
+              </td>
+
+              <td>
+                <%= f.search_field :home_team_name_cont,
+                  class: "form-control text-center input-sm",
+                  placeholder: "#{@games.first.home_team.name} #{@games.first.home_team.nickname}" %>
+              </td>
+
+              <td>
+                <%= f.search_field :away_team_name_cont,
+                  class: "form-control text-center input-sm",
+                  placeholder: "#{@games.first.away_team.name} #{@games.first.away_team.nickname}" %>
+              </td>
+
+              <td></td>
+
+              <td>
+                <%= f.select :status_eq,
+                      options_for_select([["Preview", 1],
+                                          ["In Progress", 2],
+                                          ["Complete", 3],
+                                          ["Complete (OT)", 4],
+                                          ["Complete (SO)", 5]]),
+                      { include_blank: true},
+                      { class: "form-control text-center input-sm" } %>
+              </td>
+
+              <td>
+                <div id="gamestart-datetimepicker" class="input-group date">
+                  <%= f.search_field :game_start_eq, class: "form-control input-sm" %>
+                  <span class="input-group-addon">
+                    <span class="glyphicon glyphicon-time"></span>
+                  </span>
+                </div>
+              </td>
+
+              <td>
+                <div id="gameend-datetimepicker" class="input-group date">
+                  <%= f.search_field :game_end_eq, class: "form-control input-sm" %>
+                  <span class="input-group-addon">
+                    <span class="glyphicon glyphicon-time"></span>
+                  </span>
+                </div>
+              </td>
+
+          </tr>
         </div>
-      </div>
+      </tfoot>
+      <tbody>
+      <% end %>
+      <div id="games_table"> <%= render @games %> </div>
+      </tbody>
+    </table>
+</div>
+
+<div class="row">
+  <div class="col-md-10">
+    <%= paginate @games %>
   </div>
 </div>
+
+<script type="text/javascript" charset="utf-8">
+$(function () {
+  $('#gamedatepicker').datetimepicker({
+    format: 'L'
+  });
+});
+$(function () {
+  $('#gamestart-datetimepicker').datetimepicker({
+    format: 'LT'
+  });
+});
+$(function () {
+  $('#gameend-datetimepicker').datetimepicker({
+    format: 'LT'
+  });
+});
+</script>

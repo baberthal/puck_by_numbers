@@ -31,8 +31,11 @@ class Game < ActiveRecord::Base
   scope :recent, -> { where("game_start >= ?", 2.days.ago)}
   scope :scraped, -> { joins(:events).where(events: { seconds: 3600 }) }
   scope :uncharted, -> { where(game_charts_count: nil)}
+  scope :playoffs, -> { where(session: 2) }
+  scope :regular_season, -> { where(session: 1) }
 
   after_create :parse_game_date, :set_status, :set_game_number
+  before_save :set_session
 
   validates :gcode, :uniqueness => { :scope => :season_years }
 
@@ -190,6 +193,21 @@ class Game < ActiveRecord::Base
 
   def chart
     ChartWorker.perform_async(self.id)
+  end
+
+  def set_session
+    if gcode.to_s[0] == '3'
+      self.session = 2
+    elsif gcode.to_s[0] == '2'
+      self.session = 1
+    else
+      self.session = 0
+    end
+  end
+
+  private
+  def self.ransackable_scopes(auth_object = nil)
+    %i(playoffs regular_season)
   end
 
 end

@@ -1,6 +1,6 @@
 <tr>
-  <td class="text-center"><%= game.date %></td>
-  <td class="text-center"><%= link_to game.gcode, season_game_path(@season, game.gcode) %></td>
+  <td class="text-center"><%= game.date.strftime("%-m-%-d-%Y") %></td>
+  <td class="text-center"><%= game.session_to_human %></td>
   <td class="text-center"><%= link_to "#{game.home_team.name} #{game.home_team.nickname}", team_path(game.home_team) %></td>
   <td class="text-center"><%= link_to "#{game.away_team.name} #{game.away_team.nickname}", team_path(game.away_team) %></td>
   <td class="text-center"><%= link_to "#{game.fscore_home} - #{game.fscore_away}", season_game_path(@season, game.gcode) %></td>
