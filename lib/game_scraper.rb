@@ -47,7 +47,7 @@ module GameScraper
     home = Team.find_by(abbr: game[:hometeam])
 
     start_time = game[:game_start].split
-    end_time = game[:game_start].split[0]
+    end_time = game[:game_end].split[0]
     game_date = game[:date]
     game_year = game_date.split("-")[0].to_i
     game_month = game_date.split("-")[1].to_i

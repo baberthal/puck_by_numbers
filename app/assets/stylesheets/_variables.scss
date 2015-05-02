@@ -24,7 +24,7 @@ $brand-danger:          #d9534f !default;
 $primary-color:         #2196f3;
 $primary-color-light:   #90caf9;
 $primary-color-dark:    #1565c0;
-
+$primary-color-light-transparent: transparentize($primary-color-light, 0.75);
 
 //== Scaffolding
 //
@@ -140,7 +140,7 @@ $table-bg:                      transparent !default;
 //** Background color used for `.table-striped`.
 $table-bg-accent:               #f9f9f9 !default;
 //** Background color used for `.table-hover`.
-$table-bg-hover:                $primary-color-light !default;
+$table-bg-hover:                $primary-color-light-transparent !default;
 $table-bg-active:               $table-bg-hover !default;
 
 //** Border color for table and cell borders.

@@ -1,7 +1,7 @@
 <div class="table-responsive">
   <%= search_form_for @q, remote: true, id: "game_search", class: "form-inline",
     method: :get, url: season_games_path do |f| %>
-    <table class="table table-hover table-bordered table-striped">
+    <table class="puck-table">
       <thead>
         <tr>
           <th class="text-center">
@@ -25,8 +25,8 @@
             <div class="form-group form-group-sm">
               <td>
                 <div class="input-group date" id="gamedatepicker">
-                  <%= f.search_field :date_eq, class: "form-control input-sm" %>
-                  <span class="input-group-addon">
+                  <%= f.search_field :date_eq, class: "form-control input-sm hidden" %>
+                  <span class="input-group-addon datepicker-button">
                     <span class="glyphicon glyphicon-calendar"></span>
                   </span>
                 </div>
@@ -66,8 +66,9 @@
 
               <td>
                 <div id="gamestart-datetimepicker" class="input-group date">
-                  <%= f.search_field :game_start_eq, class: "form-control input-sm" %>
-                  <span class="input-group-addon">
+                  <%= f.search_field :game_start_eq,
+                        class: "form-control input-sm hidden" %>
+                  <span class="input-group-addon timepicker-button">
                     <span class="glyphicon glyphicon-time"></span>
                   </span>
                 </div>
@@ -75,8 +76,9 @@
 
               <td>
                 <div id="gameend-datetimepicker" class="input-group date">
-                  <%= f.search_field :game_end_eq, class: "form-control input-sm" %>
-                  <span class="input-group-addon">
+                  <%= f.search_field :game_end_eq,
+                        class: "form-control input-sm hidden" %>
+                  <span class="input-group-addon timepicker-button">
                     <span class="glyphicon glyphicon-time"></span>
                   </span>
                 </div>
@@ -94,7 +96,7 @@
 
 <div class="row">
   <div class="col-md-10">
-    <%= paginate @games %>
+    <%= paginate @games, remote: true %>
   </div>
 </div>
 

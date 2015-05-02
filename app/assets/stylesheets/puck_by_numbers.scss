@@ -2,20 +2,86 @@ $primary-color: #2196f3;
 $primary-color-dark: #0d47a1;
 $primary-color-light: #90caf9;
 $white: #FFFFFF;
+$global-radius: 4px;
 
-.table > thead {
-  background-color: $primary-color;
-  color: $white;
-  td {
-    border: {
-      top: 0;
-      bottom: inherit;
-      left: 1px solid $white;
-      right: 1px solid $white;
+@import "variables";
+
+.puck-table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: $line-height-computed;
+  border: 1px solid $table-border-color;
+  > thead,
+  > tbody,
+  > tfoot {
+    > tr {
+      > th,
+      > td {
+        padding: $table-cell-padding;
+        line-height: $line-height-base;
+        vertical-align: top;
+        border-top: 1px solid $table-border-color;
+      }
     }
   }
-  a {
-    color: $white;
+  > thead > tr {
+    > th {
+      vertical-align: bottom;
+      border-top: 1px solid $primary-color;
+      border-left: 1px solid $white;
+      background-color: $primary-color;
+      color: $white;
+      font-weight: 600;
+      text-transform: uppercase;
+      a {
+        color: $white;
+      }
+      &:first-child {
+        border-left: 1px solid $primary-color;
+      }
+      &:last-child {
+        border-right: 1px solid $primary-color;
+      }
+    }
+  }
+  > tbody,
+  > tfoot {
+    > tr {
+      > th,
+      > td {
+        border-left: 1px dotted $table-border-color;
+      }
+    }
+  }
+  > tbody + tbody {
+    border-top: 1px solid $table-border-color;
+  }
+  thead > td {
+    border: {
+      top: 0;
+      bottom: 1px solid $table-border-color;
+      left: 1px solid $white;
+      right: 0;
+    }
+  }
+  > tbody > tr:nth-of-type(odd) {
+    background-color: $table-bg-accent;
+  }
+  > tbody > tr:hover {
+    background-color: $primary-color-light-transparent;
   }
 }
 
+.datepicker-button {
+  border: 1px solid #ccc !important;
+  border-radius: $global-radius !important;
+  min-width: 90px !important;
+  display: table-cell;
+}
+
+.timepicker-button {
+  border: 1px solid #ccc !important;
+  border-radius: $global-radius !important;
+  min-width: 70px !important;
+  display: table-cell;
+}
