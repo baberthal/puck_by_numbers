@@ -1,59 +1,56 @@
-<div class="container">
-  <div class="row">
-    <div class="small-12 columns">
-      <h3 class="subheader">Team Statistics</h2>
-    </div>
-  </div>
-  <div class="row">
-    <div class="small-12 columns" id="team-stats">
-      <table class="jml-table table-hover responsive" role="grid">
-        <%= render 'team_table_head' %>
-        <tbody>
-          <tr>
-            <%= render @team_summaries %>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-  </div>
-</div>
+<div class="row">
+  <div class="col-md-12">
+    <h3 class="subheader text-center">Team Statistics</h2>
+  </div><!-- columns -->
+</div><!-- row -->
 
-<div class="container">
-  <div class="row">
-    <div class="small-12 columns">
-      <h3 class="subheader">Away Statistics</h2>
-    </div>
-  </div>
-  <div class="row">
-    <div class="small-12 columns" id="away-stats">
-      <table class="jml-table table-hover responsive" role="grid">
-        <%= render 'player_table_head' %>
-        <tbody>
-          <tr>
-            <%= render partial: @player_summaries.joins(:player).where(players: {team_id: @game.away_team.id})%>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-  </div>
-</div>
+<div class="row">
+  <div class="col-md-12" id="team-stats">
+    <table class="puck-table smaller table-responsive" role="grid">
+      <%= render 'team_table_head' %>
+      <tbody>
+        <tr>
+          <%= render @team_summaries %>
+        </tr>
+      </tbody>
+    </table>
+  </div><!-- columns -->
+</div><!-- row -->
 
-<div class="container">
-  <div class="row">
-    <div class="small-12 columns">
-      <h3 class="subheader">Home Statistics</h2>
-    </div>
-  </div>
-  <div class="row">
-    <div class="small-12 columns" id="home-stats">
-      <table class="jml-table table-hover responsive" role="grid">
-        <%= render 'player_table_head' %>
-        <tbody>
-          <tr>
-            <%= render @player_summaries.joins(:player).where(players: {team_id: @game.home_team.id})%>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-  </div>
-</div>
+<div class="row">
+  <div class="col-md-12">
+    <h3 class="subheader text-center">Away Statistics</h2>
+  </div><!-- columns -->
+</div><!-- row -->
+
+<div class="row">
+  <div class="col-md-12" id="away-stats">
+    <table class="puck-table smaller table-responsive" role="grid">
+      <%= render 'player_table_head' %>
+      <tbody>
+        <tr>
+          <%= render partial: @player_summaries.joins(:player).where(players: { team_id: @game.away_team.id }).order(toi: :desc) %>
+        </tr>
+      </tbody>
+    </table>
+  </div><!-- columns -->
+</div><!-- row -->
+
+<div class="row">
+  <div class="col-md-12">
+    <h3 class="subheader text-center">Home Statistics</h2>
+  </div><!-- columns -->
+</div><!-- row -->
+
+<div class="row">
+  <div class="col-md-12" id="home-stats">
+    <table class="puck-table smaller table-responsive" role="grid">
+      <%= render 'player_table_head' %>
+      <tbody>
+        <tr>
+          <%= render @player_summaries.joins(:player).where(players: { team_id: @game.home_team.id }).order(toi: :desc) %>
+        </tr>
+      </tbody>
+    </table>
+  </div><!-- columns -->
+</div><!-- row -->

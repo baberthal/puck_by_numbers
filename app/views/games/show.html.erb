@@ -13,7 +13,7 @@
     <div class="col-md-1">
       <%= image_tag(@game.home_team.logo, height: 60, class: "teamlogo float-right") %>
     </div>
-  </div>
+  </div><!-- row -->
 
   <div class="row">
    <div class="col-md-12">
@@ -30,43 +30,58 @@
 
   <div class="row">
     <div class="col-md-12">
-      <div role="tabpanel">
-        <ul class="nav nav-tabs" role="tablist">
-          <li role="presentation" class="active"><a href="#summary" aria-controls="summary" role="tab" data-toggle="tab">Summary</a></li>
-          <li role="presentation"><a href="#charts" aria-controls="charts" role="tab" data-toggle="tab">Charts</a></li>
-        </ul>
+      <div class="panel with-nav-tabs panel-default">
+        <div class="panel-heading">
+          <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation" class="active"><a href="#summary" aria-controls="summary" role="tab" data-toggle="tab">Summary</a></li>
+            <li role="presentation"><a href="#charts" aria-controls="charts" role="tab" data-toggle="tab">Charts</a></li>
+            <li class="dropdown pull-right">
+              <a href="#" data-toggle="dropdown">Situation <span class="caret"</span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li class="active"><%= link_to "Even Strength 5v5", season_game_path(gcode: @game.gcode, season_years: @game.season_years, :sit_id => 1), remote: true %></li>
+                <li><%= link_to "Powerplay", season_game_path(gcode: @game.gcode, season_years: @game.season_years, :sit_id => 2), remote: true %></li>
+                <li><%= link_to "Shorthanded", season_game_path(gcode: @game.gcode, season_years: @game.season_years, :sit_id => 3), remote: true %></li>
+                <li><%= link_to "Even Strength 4v4", season_game_path(gcode: @game.gcode, season_years: @game.season_years, :sit_id => 4), remote: true %></li>
+                <li><%= link_to "Goalie Pulled", season_game_path(gcode: @game.gcode, season_years: @game.season_years, :sit_id => 5), remote: true %></li>
+                <li><%= link_to "Opposing Goalie Pulled", season_game_path(gcode: @game.gcode, season_years: @game.season_years, :sit_id => 6), remote: true %></li>
+                <li><%= link_to "All", season_game_path(gcode: @game.gcode, season_years: @game.season_years, :sit_id => 7), remote: true %></li>
+              </ul>
+            </li>
+          </ul><!-- nav nav-tabs tablist -->
+        </div><!-- panel-heading -->
+        <div class="panel-body">
+          <div class="tab-content">
+            <div role="tabpanel" class="tab-pane fade in active" id="summary">
+              <div id="stats">
+                <%= render 'stats_table' %>
+              </div><!-- stats -->
+            </div><!-- tabpanel tab-pane active id='summary' -->
 
-        <div class="tab-content">
-          <div role="tabpanel" class="tab-pane active" id="summary">
-            <%= render 'situation_panel' %>
-            <div id="stats" class="container">
-              <%= render 'stats_table' %>
-            </div>
-          </div>
+            <div role="tabpanel" class="tab-pane" id="charts">
+              <div class="row">
+                <div class="col-md-12">
+                  <%= render 'chart_selection_panel'%>
+                  <h3 class="subheader text-center">Running Event Count</h3>
+                  <%= high_chart("running-events", @event_count_chart) do |c|%>
+                    <%= raw "options.tooltip.formatter = function() {return '<b>Time: </b>' + Math.floor(this.x) + ':' + Math.round((this.x%1)*60) + '<br><b>' + this.series.name + ' ' + this.point.name + '</b><br>' + 'Total Events: <b>' + this.y + '</b>' }" %>
+                    <%= raw "showTooltip = function(e) { displayTooltip(this.options.tooltipText, this.svgElem.d.split(' ')[1]); }" %>
+                  <% end %>
+                </div><!-- col-md-12 -->
+              </div><!-- row -->
 
-          <div role="tabpanel" class="tab-pane" id="charts">
-            <div class="row">
-             <div class="col-md-12">
-               <%= render 'chart_selection_panel'%>
-               <h3 class="subheader text-center">Running Event Count</h3>
-               <%= high_chart("running-events", @event_count_chart) do |c|%>
-                 <%= raw "options.tooltip.formatter = function() {return '<b>Time: </b>' + Math.floor(this.x) + ':' + Math.round((this.x%1)*60) + '<br><b>' + this.series.name + ' ' + this.point.name + '</b><br>' + 'Total Events: <b>' + this.y + '</b>' }" %>
-                 <%= raw "showTooltip = function(e) { displayTooltip(this.options.tooltipText, this.svgElem.d.split(' ')[1]); }" %>
-               <% end %>
-             </div>
-            </div>
+              <div class="row">
+                <h3 class="subheader text-center">Corsi Heat Map</h3>
+                <%= high_chart("heat-map", @corsi_heat_map) do |c| %>
+                  <%= raw "options.tooltip.formatter = function () {return '<b>' + this.series.xAxis.categories[this.point.x] + '</b> was <br><b>' + this.point.value + '</b> corsi +/- against <br><b>' + this.series.yAxis.categories[this.point.y] + '</b>' }" %>
+                <% end %>
+              </div><!-- row -->
+            </div><!-- tabpanel -->
+          </div><!-- tab-content -->
 
-            <div class="row">
-              <h3 class="subheader text-center">Corsi Heat Map</h3>
-              <%= high_chart("heat-map", @corsi_heat_map) do |c| %>
-                <%= raw "options.tooltip.formatter = function () {return '<b>' + this.series.xAxis.categories[this.point.x] + '</b> was <br><b>' + this.point.value + '</b> corsi +/- against <br><b>' + this.series.yAxis.categories[this.point.y] + '</b>' }" %>
-              <% end %>
-            </div>
-          </div>
-        </div>
+        </div><!-- panel-body -->
+      </div><!-- panel with-nav-tabs panel-default -->
 
-      </div>
-    </div>
-  </div>
+    </div><!-- col-md-12 -->
+  </div><!-- row -->
+</div><!-- container -->
       <%= link_to 'Back', season_games_path %>
-</div>
