@@ -1,14 +1,17 @@
 <tr>
-  <td><%= link_to team_game_summary.team.name.to_s.titleize, team_path(team_game_summary.team) %></td>
-  <td class="text-center"><%= team_game_summary.gf %></td>
-  <td class="text-center"><%= team_game_summary.sf %></td>
-  <td class="text-center"><%= team_game_summary.msf %></td>
-  <td class="text-center"><%= team_game_summary.bsf %></td>
-  <td class="text-center"><%= team_game_summary.scf %></td>
-  <td class="text-center"><%= team_game_summary.cf %></td>
-  <td class="text-center"><%= team_game_summary.zso %></td>
-  <td class="text-center"><%= team_game_summary.hits %></td>
-  <td class="text-center"><%= team_game_summary.pen %></td>
-  <td class="text-center"><%= team_game_summary.fo_won %></td>
-  <td class="text-center"><%= team_game_summary.toi %></td>
+  <td class="col-md-2"><%= link_to "#{team_game_summary.team.name.to_s.titleize} #{team_game_summary.team.nickname.to_s.titleize}", team_path(team_game_summary.team) %></td>
+  <div class="col-md-10">
+    <td class="text-center"><%= team_game_summary.gf %></td>
+    <td class="text-center"><%= team_game_summary.sf %></td>
+    <td class="text-center"><%= team_game_summary.msf %></td>
+    <td class="text-center"><%= team_game_summary.bsf %></td>
+    <td class="text-center"><%= team_game_summary.scf %></td>
+    <td class="text-center"><%= team_game_summary.cf %></td>
+    <td class="text-center"><%= team_game_summary.zso %></td>
+    <td class="text-center"><%= team_game_summary.hits %></td>
+    <td class="text-center"><%= team_game_summary.pen %></td>
+    <td class="text-center"><%= team_game_summary.fo_won %></td>
+    <td class="text-center"><%= team_game_summary.toi %></td>
+  </div>
 </tr>
+<%# vim: set ts=8 sw=2 tw=0 et :%>

@@ -52,7 +52,7 @@ class ChartDecorator
     plot_lines = []
     goalsh.each do |x|
       plot_lines << { color: "#{home_chart_color}",
-                      width: 5, value: x, zIndex: 4,
+                      width: 3, value: x, zIndex: 4,
                       label: {
                         text: "#{@game.home_team.abbr} Goal",
                         align: 'center',
@@ -69,7 +69,7 @@ class ChartDecorator
     end
     goalsa.each do |x|
       plot_lines << { color: "#{away_chart_color}",
-                      width: 5, value: x, zIndex: 4,
+                      width: 3, value: x, zIndex: 4,
                       label: {
                         text: "#{@game.away_team.abbr} Goal",
                         align: 'center',

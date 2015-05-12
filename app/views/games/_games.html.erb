@@ -23,7 +23,7 @@
       <tfoot>
           <tr class="filter-row">
             <div class="form-group form-group-sm">
-              <td>
+              <td class="text-center">
                 <div class="input-group date" id="gamedatepicker">
                   <%= f.search_field :date_eq, class: "form-control input-sm hidden" %>
                   <span class="input-group-addon datepicker-button">
@@ -32,20 +32,20 @@
                 </div>
               </td>
 
-              <td>
+              <td class="text-center">
                 <%= f.select :session_eq, options_for_select([["Playoffs", 2],
                                                               ["Regular", 1]]),
                       { include_blank: true },
                       { class: "form-control text-center input-sm" } %>
               </td>
 
-              <td>
+              <td class="text-center">
                 <%= f.search_field :home_team_name_cont,
                   class: "form-control text-center input-sm",
                   placeholder: "#{@games.first.home_team.name} #{@games.first.home_team.nickname}" %>
               </td>
 
-              <td>
+              <td class="text-center">
                 <%= f.search_field :away_team_name_cont,
                   class: "form-control text-center input-sm",
                   placeholder: "#{@games.first.away_team.name} #{@games.first.away_team.nickname}" %>
@@ -53,7 +53,7 @@
 
               <td></td>
 
-              <td>
+              <td class="text-center">
                 <%= f.select :status_eq,
                       options_for_select([["Preview", 1],
                                           ["In Progress", 2],
@@ -64,7 +64,7 @@
                       { class: "form-control text-center input-sm" } %>
               </td>
 
-              <td>
+              <td class="text-center">
                 <div id="gamestart-datetimepicker" class="input-group date">
                   <%= f.search_field :game_start_eq,
                         class: "form-control input-sm hidden" %>
@@ -74,7 +74,7 @@
                 </div>
               </td>
 
-              <td>
+              <td class="text-center">
                 <div id="gameend-datetimepicker" class="input-group date">
                   <%= f.search_field :game_end_eq,
                         class: "form-control input-sm hidden" %>

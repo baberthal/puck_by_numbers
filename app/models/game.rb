@@ -205,6 +205,47 @@ class Game < ActiveRecord::Base
     end
   end
 
+  def top_performers
+    columns = [ :player_id, :goals, :points, :c_diff, :f_diff,
+                :g_diff, :cf, :ff, :blocks, :toi ]
+
+    all_summs = player_game_summaries.where(situation: 7).pluck(:player_id,
+                                                                :goals,
+                                                                :points,
+                                                                :c_diff,
+                                                                :f_diff,
+                                                                :g_diff,
+                                                                :cf,
+                                                                :ff,
+                                                                :blocks,
+                                                                :toi)
+
+    all_summs.map!.each { |s| columns.zip(s).to_h }
+
+    all_summs.sort_by! { |s| s[:points] }
+    top_point_getter = all_summs.last[:player_id]
+
+    all_summs.sort_by! { |s| s[:c_diff] }
+    top_corsi_performer = all_summs.last[:player_id]
+
+    all_summs.sort_by! { |s| s[:goals] }
+    top_goal_scorer = all_summs.last[:player_id]
+
+    [ top_goal_scorer, top_point_getter, top_corsi_performer ]
+  end
+
+  def top_goal_scorer
+    Player.find(self.top_performers[0])
+  end
+
+  def top_point_getter
+    Player.find(self.top_performers[1])
+  end
+
+  def top_corsi_performer
+    Player.find(self.top_performers[2])
+  end
+
   private
   def self.ransackable_scopes(auth_object = nil)
     %i(playoffs regular_season)

@@ -1,0 +1,33 @@
+<div class="col-md-4">
+  <div class="panel panel-primary top-performer-panel">
+
+    <div class="panel-heading">
+      <h3 class="panel-title">Top <%= performance_type %></h3>
+    </div><!-- panel-heading -->
+
+      <div class="panel-body">
+        <div class="col-md-4">
+          <%= image_tag performer.headshot, class: "pull-left headshot" %>
+        </div><!-- col-md-4 -->
+
+        <div class="col-md-8">
+          <h3 class="player-name text-center"><%= performer.pretty_name %></h3>
+          <table class="table table-bordered">
+            <tr>
+              <td><span class="pull-left bold">G:</span> <span class="pull-right"><%= PlayerGameSummary.find_by(player: performer, game: @game, situation: 7).goals %></span></td>
+              <td><span class="pull-left bold">A:</span> <span class="pull-right"><%= (PlayerGameSummary.find_by(player: performer, game: @game, situation: 7).a1 + PlayerGameSummary.find_by(player: performer, game: @game, situation: 7).a2) %></span></td>
+              <td><span class="pull-left bold">P:</span> <span class="pull-right"><%= PlayerGameSummary.find_by(player: performer, game: @game, situation: 7).points %></span></td>
+            </tr>
+            <tr>
+              <td><span class="pull-left bold">C<span class="x-script"><sup>+</sup><sub>-</sub></span>: </span><span class="pull-right"><%= PlayerGameSummary.find_by(player: performer, game: @game, situation: 7).c_diff %></span></td>
+              <td><span class="pull-left bold">F<span class="x-script"><sup>+</sup><sub>-</sub></span>: </span><span class="pull-right"><%= PlayerGameSummary.find_by(player: performer, game: @game, situation: 7).f_diff %></span></td>
+              <td><span class="pull-left bold">TOI:</span><span class="pull-right"><%= PlayerGameSummary.find_by(player: performer, game: @game, situation: 7).toi %></span></td>
+            </tr>
+          </table>
+          <%= link_to "View Bio", player_path(performer), class: "btn btn-info btn-block bio-btn" %>
+        </div><!-- col-md-8 -->
+
+      </div><!-- panel-body -->
+
+  </div><!-- panel panel-primary top-performer-panel -->
+</div><!-- columns -->

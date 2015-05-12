@@ -1,3 +1,6 @@
 asset 'bootstrap-sass'
 asset 'bootstrap-table'
+asset 'highcharts'
+asset 'highmaps-release'
+
 #  vim: set ts=8 sw=2 tw=0 et ft=ruby:

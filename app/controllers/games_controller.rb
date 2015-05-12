@@ -22,6 +22,9 @@ class GamesController < ApplicationController
     @team_summaries = @tq.result.includes(:team)
     @event_count_chart = event_count_chart(@game)
     @corsi_heat_map = corsi_heat_map(@game)
+    @top_goal_scorer = @game.top_goal_scorer.decorate
+    @top_point_getter = @game.top_point_getter.decorate
+    @top_corsi_performer = @game.top_corsi_performer.decorate
   end
 
   # GET /games/new

@@ -1,8 +1,27 @@
 $primary-color: #2196f3;
 $primary-color-dark: #0d47a1;
 $primary-color-light: #90caf9;
-$white: #FFFFFF;
 $global-radius: 4px;
+
+$white:       #FFFFFF;
+$ghost:       #fafafa;
+$snow:        #f9f9f9;
+$vapor:       #f6f6f6;
+$white-smoke: #f5f5f5;
+$silver:      #efefef;
+$smoke:       #eeeeee;
+$gainsboro:   #dddddd;
+$iron:        #cccccc;
+$base:        #aaaaaa;
+$aluminum:    #999999;
+$jumbo:       #888888;
+$monsoon:     #777777;
+$steel:       #666666;
+$charcoal:    #555555;
+$tuatara:     #444444;
+$oil:         #333333;
+$jet:         #222222;
+$black:       #000000;
 
 @import "variables";
 @import "functions";
@@ -164,4 +183,104 @@ $global-radius: 4px;
 .with-nav-tabs.panel-default .nav-tabs > li.dropdown .dropdown-menu > .active > a:focus {
     color: #fff;
     background-color: #555;
+}
+
+.game-score {
+  margin-top: 0;
+}
+
+.game-date {
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+
+.top-performer-panel {
+  > .panel-heading > h3 {
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+  .player-name {
+    margin-top: 2px !important;
+    margin-bottom: 10px !important;
+  }
+  table {
+    margin: 5px;
+  }
+}
+
+.headshot {
+  border-radius: $global-radius;
+}
+
+.bio-btn {
+  margin: 5px !important;
+}
+
+.plus-minus {
+  background-image: url("plus-minus.png")
+}
+
+body {
+  background-color: $primary-color-dark;
+}
+
+.container {
+  background-color: $white;
+  border-radius: $global-radius;
+  padding-top: 15px;
+}
+
+.navbar.navbar-default {
+  margin-bottom: 0px;
+  border-radius: 0;
+}
+
+span.x-script {
+  position: relative;
+}
+
+span.x-script sub {
+  position: absolute;
+  left: 0.25em;
+  bottom: 0.5em;
+}
+
+span.bold {
+  font-weight: bold;
+}
+
+#running-events {
+  width: auto;
+  height: auto;
+  min-width: 85%;
+}
+
+#heat-map {
+  width: auto;
+  height: auto;
+  min-width: 85%;
+  min-height: 600px;
+}
+
+.highcharts-tooltip > span {
+  background: rgba(255,255,255,0.85);
+  border: 1px solid $gainsboro;
+  border-radius: $global-radius;
+  box-shadow: 1px 1px 2px $jumbo;
+  padding: 8px;
+}
+
+#season-games {
+  width: auto;
+}
+
+#highcharts-0 > span {
+ border-radius: $global-radius;
+ font-family: $font-family-sans-serif !important;
+ text-transform: uppercase;
+ font-weight: bold;
+ padding: {
+   left: 5px !important;
+   right: 5px !important;
+ }
 }
