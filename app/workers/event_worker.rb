@@ -1,4 +1,4 @@
-class GameUpdater
+class EventWorker
   include Sidekiq::Worker
 
   def perform(game_id)

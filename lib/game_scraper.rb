@@ -132,7 +132,7 @@ module GameScraper
     end
 
     event_array.each do |event|
-      Event.new(season_years: self.season_years, gcode: self.gcode, event_number: event[:event].to_i) do |e|
+      Event.new(season_years: self.season_years, gcode: self.gcode, game_id: self.id, event_number: event[:event].to_i) do |e|
         e.period = event[:period].to_i
         e.seconds = event[:seconds].to_f
         e.event_type = event[:etype].to_s
