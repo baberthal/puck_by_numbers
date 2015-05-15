@@ -2,7 +2,7 @@
   <p id="notice"><%= notice %></p>
   <div class="row">
     <div class="col-md-1">
-      <%= image_tag(@game.away_team.logo, height: 60, class: "teamlogo float-left") %>
+      <%= image_tag(@game.away_team.logo, height: 60, class: "teamlogo pull-right") %>
     </div>
     <div class="col-md-10">
       <h1 class="text-center game-header">
@@ -10,7 +10,7 @@
         @ <%= @game.home_team.name %> <%= @game.home_team.nickname %></h1>
     </div>
     <div class="col-md-1">
-      <%= image_tag(@game.home_team.logo, height: 60, class: "teamlogo float-right") %>
+      <%= image_tag(@game.home_team.logo, height: 60, class: "teamlogo pull-left") %>
     </div>
   </div><!-- row -->
 
@@ -34,11 +34,10 @@
           <ul class="nav nav-tabs" role="tablist">
             <li role="presentation" class="active"><a href="#summary" aria-controls="summary" role="tab" data-toggle="tab">Summary</a></li>
             <li role="presentation"><a href="#charts" aria-controls="charts" role="tab" data-toggle="tab">Charts</a></li>
-            <li role="presentation"><a href="#top_performers" aria-controls"top_performers" role="tab" data-toggle="tab">Top Performers</a></li>
             <li class="dropdown pull-right">
               <a href="#" data-toggle="dropdown">Situation <span class="caret"</span></a>
               <ul class="dropdown-menu" role="menu">
-                <li><%= link_to "Even Strength 5v5", season_game_path(gcode: @game.gcode, season_years: @game.season_years, :sit_id => 1), remote: true %></li>
+                <li class="active"><%= link_to "Even Strength 5v5", season_game_path(gcode: @game.gcode, season_years: @game.season_years, :sit_id => 1), remote: true %></li>
                 <li><%= link_to "Powerplay", season_game_path(gcode: @game.gcode, season_years: @game.season_years, :sit_id => 2), remote: true %></li>
                 <li><%= link_to "Shorthanded", season_game_path(gcode: @game.gcode, season_years: @game.season_years, :sit_id => 3), remote: true %></li>
                 <li><%= link_to "Even Strength 4v4", season_game_path(gcode: @game.gcode, season_years: @game.season_years, :sit_id => 4), remote: true %></li>
@@ -75,14 +74,6 @@
                   <%= raw "options.tooltip.formatter = function () {return '<b>' + this.series.xAxis.categories[this.point.x] + '</b> was <br><b>' + this.point.value + '</b> corsi +/- against <br><b>' + this.series.yAxis.categories[this.point.y] + '</b>' }" %>
                 <% end %>
               </div><!-- row -->
-            </div><!-- tabpanel -->
-
-            <div class="tabpanel" class="tab-pane fade in" id="top_performers">
-              <div class="row">
-                <%= render 'top_performer_panel', performance_type: "Goal Scorer", performer: @top_goal_scorer %>
-                <%= render 'top_performer_panel', performance_type: "Point Getter", performer: @top_point_getter %>
-                <%= render 'top_performer_panel', performance_type: "Corsi Performer", performer: @top_corsi_performer %>
-              </div>
             </div><!-- tabpanel -->
           </div><!-- tab-content -->
 

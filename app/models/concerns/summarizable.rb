@@ -23,7 +23,8 @@ module Summarizable
       team_params = {event_team_id: team.id, situation: situation}
     end
 
-    TeamGameSummary.create(team_id: team.id, game: self, situation: sit) do |ts|
+    TeamGameSummary.find_or_initialize_by(team_id: team.id,
+                                          game: self, situation: sit) do |ts|
       ts.gf = goals.where(team_params).size
       ts.sf = shots.where(team_params).size
       ts.msf = misses.where(team_params).size
@@ -36,6 +37,7 @@ module Summarizable
       ts.fo_won = faceoffs.where(team_params).size
       ts.zso = zone_starts_o(team).where(situation: situation).size
       ts.toi = (events.where(situation: situation).sum(:event_length)/60).round(1)
+      ts.save
     end
   end
 
@@ -89,7 +91,8 @@ module Summarizable
         face_table = event_table.find_all { |e| e[:event_type] == "FAC" }
         faceoff_table = face_table.find_all { |e| e[:event_player_1_id] == player.id || e[:event_player_2_id] == player.id }
 
-        PlayerGameSummary.create(player: player, game: self, situation: s) do |ps|
+        PlayerGameSummary.find_or_initialize_by(player: player,
+                                                game: self, situation: s) do |ps|
           ps.goals = goal_table.count { |e| e[:event_player_1_id] == player.id }
           ps.a1 = goal_table.count { |e| e[:event_player_2_id] == player.id }
           ps.a2 = goal_table.count { |e| e[:event_player_3_id] == player.id }
@@ -109,6 +112,7 @@ module Summarizable
           ps.pen = event_table.count { |e| e[:event_type] == "PENL" && e[:event_player_1_id] == player.id }
           ps.pen_drawn = event_table.count { |e| e[:event_type] == "PENL" && e[:event_player_2_id] == player.id }
           ps.toi = ( ( event_table.sum { |e| e[:event_length] } ) / 60 ).round(1)
+          ps.save
         end
 
       end
@@ -129,7 +133,6 @@ module Summarizable
       sit
     end
   end
-
 
   def create_all_summaries
     create_team_summary(self.home_team, 1)

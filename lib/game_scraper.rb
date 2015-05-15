@@ -193,3 +193,4 @@ module GameScraper
 
   end
 end
+#  vim: set ts=8 sw=2 tw=0 et :

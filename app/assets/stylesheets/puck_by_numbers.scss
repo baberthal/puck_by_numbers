@@ -1,30 +1,9 @@
-$primary-color: #2196f3;
-$primary-color-dark: #0d47a1;
-$primary-color-light: #90caf9;
-$global-radius: 4px;
-
-$white:       #FFFFFF;
-$ghost:       #fafafa;
-$snow:        #f9f9f9;
-$vapor:       #f6f6f6;
-$white-smoke: #f5f5f5;
-$silver:      #efefef;
-$smoke:       #eeeeee;
-$gainsboro:   #dddddd;
-$iron:        #cccccc;
-$base:        #aaaaaa;
-$aluminum:    #999999;
-$jumbo:       #888888;
-$monsoon:     #777777;
-$steel:       #666666;
-$charcoal:    #555555;
-$tuatara:     #444444;
-$oil:         #333333;
-$jet:         #222222;
-$black:       #000000;
-
 @import "variables";
 @import "functions";
+
+body {
+  padding-top: 70px;
+}
 
 .puck-table {
   width: 100%;
@@ -47,20 +26,20 @@ $black:       #000000;
   > thead > tr {
     > th {
       vertical-align: bottom;
-      border-top: 1px solid $primary-color;
+      border-top: 1px solid $brand-primary;
       border-left: 1px solid $white;
-      background-color: $primary-color;
-      color: $white;
+      background-color: $brand-primary;
+      color: $amber;
       font-weight: 600;
       text-transform: uppercase;
       a {
-        color: $white;
+        color: $amber;
       }
       &:first-child {
-        border-left: 1px solid $primary-color;
+        border-left: 1px solid $brand-primary;
       }
       &:last-child {
-        border-right: 1px solid $primary-color;
+        border-right: 1px solid $brand-primary;
       }
     }
   }
@@ -117,14 +96,14 @@ $black:       #000000;
 
 .datepicker-button {
   border: 1px solid #ccc !important;
-  border-radius: $global-radius !important;
+  border-radius: $border-radius-base !important;
   min-width: 90px !important;
   display: table-cell;
 }
 
 .timepicker-button {
   border: 1px solid #ccc !important;
-  border-radius: $global-radius !important;
+  border-radius: $border-radius-base !important;
   min-width: 70px !important;
   display: table-cell;
 }
@@ -209,7 +188,7 @@ $black:       #000000;
 }
 
 .headshot {
-  border-radius: $global-radius;
+  border-radius: $border-radius-base;
 }
 
 .bio-btn {
@@ -218,16 +197,6 @@ $black:       #000000;
 
 .plus-minus {
   background-image: url("plus-minus.png")
-}
-
-body {
-  background-color: $primary-color-dark;
-}
-
-.container {
-  background-color: $white;
-  border-radius: $global-radius;
-  padding-top: 15px;
 }
 
 .navbar.navbar-default {
@@ -265,7 +234,7 @@ span.bold {
 .highcharts-tooltip > span {
   background: rgba(255,255,255,0.85);
   border: 1px solid $gainsboro;
-  border-radius: $global-radius;
+  border-radius: $border-radius-base;
   box-shadow: 1px 1px 2px $jumbo;
   padding: 8px;
 }
@@ -275,7 +244,7 @@ span.bold {
 }
 
 #highcharts-0 > span {
- border-radius: $global-radius;
+ border-radius: $border-radius-base;
  font-family: $font-family-sans-serif !important;
  text-transform: uppercase;
  font-weight: bold;
@@ -283,4 +252,54 @@ span.bold {
    left: 5px !important;
    right: 5px !important;
  }
+}
+
+.puck-logo {
+  margin-top: -9px;
+}
+
+.dropdown-submenu {
+  position: relative;
+  > .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+  }
+  &:hover > .dropdown-menu {
+    display: block;
+  }
+  > a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+  }
+  &:hover > a:after {
+    border-left-color: #fff;
+  }
+  .pull-left {
+    float: none;
+    > .dropdown-menu {
+      left: -100px;
+      margin-left: 10px;
+      -webkit-border-radius: 6px 0 6px 6px;
+      -moz-border-radius: 6px 0 6px 6px;
+      border-radius: 6px 0 6px 6px;
+    }
+  }
+}
+
+.pagination.active {
+
 }

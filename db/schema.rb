@@ -11,42 +11,46 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150502010406) do
+ActiveRecord::Schema.define(version: 20150515220701) do
+
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
 
   create_table "events", id: false, force: :cascade do |t|
-    t.integer "event_number",      limit: 3,     null: false, unsigned: true
-    t.integer "period",            limit: 1,     null: false, unsigned: true
-    t.float   "seconds",           limit: 24,    null: false
-    t.string  "event_type",        limit: 255,   null: false
-    t.integer "event_team_id",     limit: 4
-    t.integer "event_player_1_id", limit: 4
-    t.integer "event_player_2_id", limit: 4
-    t.integer "event_player_3_id", limit: 4
-    t.integer "away_G_id",         limit: 4
-    t.integer "home_G_id",         limit: 4
+    t.integer "event_number",                  null: false
+    t.integer "period",            limit: 2,   null: false
+    t.float   "seconds",                       null: false
+    t.string  "event_type",        limit: 255, null: false
+    t.integer "event_team_id"
+    t.integer "event_player_1_id"
+    t.integer "event_player_2_id"
+    t.integer "event_player_3_id"
+    t.integer "away_G_id"
+    t.integer "home_G_id"
     t.string  "description",       limit: 255
-    t.integer "home_score",        limit: 2,     null: false, unsigned: true
-    t.integer "away_score",        limit: 2,     null: false, unsigned: true
-    t.float   "event_length",      limit: 24
-    t.integer "home_skaters",      limit: 2,     null: false, unsigned: true
-    t.integer "away_skaters",      limit: 2,     null: false, unsigned: true
-    t.integer "situation",         limit: 4
+    t.integer "home_score",        limit: 2,   null: false
+    t.integer "away_score",        limit: 2,   null: false
+    t.float   "event_length"
+    t.integer "home_skaters",      limit: 2,   null: false
+    t.integer "away_skaters",      limit: 2,   null: false
+    t.integer "situation"
     t.integer "season_years",      limit: 8
     t.integer "gcode",             limit: 8
-    t.integer "a1_id",             limit: 4
-    t.integer "a2_id",             limit: 4
-    t.integer "a3_id",             limit: 4
-    t.integer "a4_id",             limit: 4
-    t.integer "a5_id",             limit: 4
-    t.integer "a6_id",             limit: 4
-    t.integer "h1_id",             limit: 4
-    t.integer "h2_id",             limit: 4
-    t.integer "h3_id",             limit: 4
-    t.integer "h4_id",             limit: 4
-    t.integer "h5_id",             limit: 4
-    t.integer "h6_id",             limit: 4
-    t.text    "away_players",      limit: 65535
-    t.text    "home_players",      limit: 65535
+    t.integer "a1_id"
+    t.integer "a2_id"
+    t.integer "a3_id"
+    t.integer "a4_id"
+    t.integer "a5_id"
+    t.integer "a6_id"
+    t.integer "h1_id"
+    t.integer "h2_id"
+    t.integer "h3_id"
+    t.integer "h4_id"
+    t.integer "h5_id"
+    t.integer "h6_id"
+    t.text    "away_players"
+    t.text    "home_players"
+    t.integer "game_id"
   end
 
   add_index "events", ["away_G_id"], name: "index_events_on_away_G_id", using: :btree
@@ -64,33 +68,33 @@ ActiveRecord::Schema.define(version: 20150502010406) do
 
   create_table "game_charts", force: :cascade do |t|
     t.string   "chart_type",   limit: 255
-    t.text     "data",         limit: 65535
-    t.datetime "created_at",                 null: false
-    t.datetime "updated_at",                 null: false
+    t.text     "data"
+    t.datetime "created_at",               null: false
+    t.datetime "updated_at",               null: false
     t.integer  "season_years", limit: 8
-    t.integer  "gcode",        limit: 4
-    t.integer  "situation",    limit: 4
-    t.integer  "team_id",      limit: 4
+    t.integer  "gcode"
+    t.integer  "situation"
+    t.integer  "team_id"
   end
 
   create_table "games", force: :cascade do |t|
-    t.integer  "game_number",            limit: 4
-    t.integer  "gcode",                  limit: 8,     null: false
-    t.integer  "status",                 limit: 1
-    t.integer  "home_team_id",           limit: 4
-    t.integer  "away_team_id",           limit: 4
-    t.integer  "fscore_home",            limit: 2,     null: false
-    t.integer  "fscore_away",            limit: 2,     null: false
-    t.datetime "game_start",                           null: false
-    t.datetime "game_end",                             null: false
-    t.integer  "periods",                limit: 1,     null: false
+    t.integer  "game_number"
+    t.integer  "gcode",                  limit: 8, null: false
+    t.integer  "status",                 limit: 2
+    t.integer  "home_team_id"
+    t.integer  "away_team_id"
+    t.integer  "fscore_home",            limit: 2, null: false
+    t.integer  "fscore_away",            limit: 2, null: false
+    t.datetime "game_start",                       null: false
+    t.datetime "game_end",                         null: false
+    t.integer  "periods",                limit: 2, null: false
     t.integer  "season_years",           limit: 8
     t.date     "date"
-    t.text     "home_player_id_numbers", limit: 65535
-    t.integer  "event_count",            limit: 4
-    t.text     "away_player_id_numbers", limit: 65535
-    t.integer  "game_charts_count",      limit: 4
-    t.integer  "session",                limit: 4
+    t.text     "home_player_id_numbers"
+    t.integer  "event_count"
+    t.text     "away_player_id_numbers"
+    t.integer  "game_charts_count"
+    t.integer  "session"
   end
 
   add_index "games", ["away_team_id"], name: "index_games_on_away_team_id", using: :btree
@@ -100,25 +104,25 @@ ActiveRecord::Schema.define(version: 20150502010406) do
   add_index "games", ["home_team_id"], name: "index_games_on_home_team_id", using: :btree
 
   create_table "locations", force: :cascade do |t|
-    t.integer "event_id",             limit: 4
-    t.integer "distance",             limit: 3, unsigned: true
+    t.integer "event_id"
+    t.integer "distance"
     t.string  "home_zone",            limit: 3
-    t.integer "x_coord",              limit: 3
-    t.integer "y_coord",              limit: 3
-    t.integer "location_section",     limit: 2, unsigned: true
-    t.integer "new_location_section", limit: 2, unsigned: true
-    t.integer "new_x_coord",          limit: 3
-    t.integer "new_y_coord",          limit: 3
-    t.integer "event_number",         limit: 4
-    t.integer "gcode",                limit: 4
-    t.integer "season_years",         limit: 4
+    t.integer "x_coord"
+    t.integer "y_coord"
+    t.integer "location_section",     limit: 2
+    t.integer "new_location_section", limit: 2
+    t.integer "new_x_coord"
+    t.integer "new_y_coord"
+    t.integer "event_number"
+    t.integer "gcode"
+    t.integer "season_years"
   end
 
   add_index "locations", ["event_id"], name: "index_locations_on_event_id", using: :btree
 
   create_table "participants", force: :cascade do |t|
-    t.integer "player_id",  limit: 4
-    t.integer "event_id",   limit: 4
+    t.integer "player_id"
+    t.integer "event_id"
     t.string  "event_role", limit: 3
   end
 
@@ -126,28 +130,28 @@ ActiveRecord::Schema.define(version: 20150502010406) do
   add_index "participants", ["player_id"], name: "index_participants_on_player_id", using: :btree
 
   create_table "player_game_summaries", force: :cascade do |t|
-    t.integer  "player_id",    limit: 4
-    t.integer  "goals",        limit: 4
-    t.integer  "a1",           limit: 4
-    t.integer  "a2",           limit: 4
-    t.integer  "points",       limit: 4
-    t.integer  "ind_sc",       limit: 4
-    t.integer  "ind_cf",       limit: 4
-    t.integer  "c_diff",       limit: 4
-    t.integer  "f_diff",       limit: 4
-    t.integer  "g_diff",       limit: 4
-    t.integer  "cf",           limit: 4
-    t.integer  "ff",           limit: 4
-    t.integer  "zso",          limit: 4
-    t.integer  "zsd",          limit: 4
-    t.integer  "blocks",       limit: 4
-    t.integer  "fo_won",       limit: 4
-    t.integer  "fo_lost",      limit: 4
-    t.integer  "hits",         limit: 4
-    t.integer  "hits_taken",   limit: 4
-    t.integer  "pen",          limit: 4
-    t.integer  "pen_drawn",    limit: 4
-    t.float    "toi",          limit: 24
+    t.integer  "player_id"
+    t.integer  "goals"
+    t.integer  "a1"
+    t.integer  "a2"
+    t.integer  "points"
+    t.integer  "ind_sc"
+    t.integer  "ind_cf"
+    t.integer  "c_diff"
+    t.integer  "f_diff"
+    t.integer  "g_diff"
+    t.integer  "cf"
+    t.integer  "ff"
+    t.integer  "zso"
+    t.integer  "zsd"
+    t.integer  "blocks"
+    t.integer  "fo_won"
+    t.integer  "fo_lost"
+    t.integer  "hits"
+    t.integer  "hits_taken"
+    t.integer  "pen"
+    t.integer  "pen_drawn"
+    t.float    "toi"
     t.datetime "created_at",               null: false
     t.datetime "updated_at",               null: false
     t.string   "situation",    limit: 255
@@ -162,21 +166,21 @@ ActiveRecord::Schema.define(version: 20150502010406) do
     t.string  "last_name",             limit: 255
     t.string  "first_name",            limit: 255
     t.string  "number_first_last",     limit: 255
-    t.integer "player_index",          limit: 4,     unsigned: true
-    t.integer "pC",                    limit: 4,     unsigned: true
-    t.integer "pR",                    limit: 4,     unsigned: true
-    t.integer "pL",                    limit: 4,     unsigned: true
-    t.integer "pD",                    limit: 4,     unsigned: true
-    t.integer "pG",                    limit: 4,     unsigned: true
-    t.integer "team_id",               limit: 4
-    t.text    "headshot",              limit: 65535
-    t.text    "bio",                   limit: 65535
-    t.integer "external_id",           limit: 4
-    t.boolean "active",                limit: 1
-    t.integer "primary_event_count",   limit: 4
-    t.integer "secondary_event_count", limit: 4
-    t.integer "tertiary_event_count",  limit: 4
-    t.integer "event_count",           limit: 4
+    t.integer "player_index"
+    t.integer "pC"
+    t.integer "pR"
+    t.integer "pL"
+    t.integer "pD"
+    t.integer "pG"
+    t.integer "team_id"
+    t.text    "headshot"
+    t.text    "bio"
+    t.integer "external_id"
+    t.integer "primary_event_count"
+    t.integer "secondary_event_count"
+    t.integer "tertiary_event_count"
+    t.integer "event_count"
+    t.boolean "active"
   end
 
   add_index "players", ["first_name"], name: "index_players_on_first_name", using: :btree
@@ -187,24 +191,24 @@ ActiveRecord::Schema.define(version: 20150502010406) do
   end
 
   create_table "team_game_summaries", force: :cascade do |t|
-    t.integer  "team_id",      limit: 4
-    t.integer  "gf",           limit: 4
-    t.integer  "sf",           limit: 4
-    t.integer  "msf",          limit: 4
-    t.integer  "bsf",          limit: 4
-    t.integer  "scf",          limit: 4
-    t.integer  "cf",           limit: 4
-    t.integer  "zso",          limit: 4
-    t.integer  "hits",         limit: 4
-    t.integer  "pen",          limit: 4
-    t.integer  "fo_won",       limit: 4
-    t.float    "toi",          limit: 24
+    t.integer  "team_id"
+    t.integer  "gf"
+    t.integer  "sf"
+    t.integer  "msf"
+    t.integer  "bsf"
+    t.integer  "scf"
+    t.integer  "cf"
+    t.integer  "zso"
+    t.integer  "hits"
+    t.integer  "pen"
+    t.integer  "fo_won"
+    t.float    "toi"
     t.datetime "created_at",               null: false
     t.datetime "updated_at",               null: false
-    t.integer  "c_diff",       limit: 4
-    t.integer  "f_diff",       limit: 4
+    t.integer  "c_diff"
+    t.integer  "f_diff"
     t.string   "situation",    limit: 255
-    t.integer  "ca",           limit: 4
+    t.integer  "ca"
     t.integer  "season_years", limit: 8
     t.integer  "gcode",        limit: 8
   end
@@ -224,4 +228,5 @@ ActiveRecord::Schema.define(version: 20150502010406) do
     t.string "color4",   limit: 255
   end
 
+  add_foreign_key "events", "games"
 end

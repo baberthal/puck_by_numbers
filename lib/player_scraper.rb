@@ -72,6 +72,33 @@ module PlayerScraper
 
     self.bio = bio_hash
     self.save
-
   end
+
+  def roster_scraper
+    r = Rserve::Simpler.new
+    begin
+      r.eval("setwd('..')")
+      if r.eval("getwd()").payload[0] != "/Users/morgan/nhlscrapr-run.R"
+        raise "Working Directory Error"
+      end
+    rescue
+      r.eval("setwd('/Users/morgan/nhlscrapr-run.R')")
+    end
+
+    r.eval("library(nhlscrapr)")
+    r.eval("load('source-data/nhlscrapr-core.RData')")
+    roster_master = r.eval("roster.master").to_ruby
+    roster_keys = roster_master.names
+
+    roster_keys.map! { |k| k.gsub(/\./, "_").to_sym }
+    roster_master = roster_master.transpose
+
+    roster_master.map!.each { |p| roster_keys.zip(p).to_h }
+
+    roster_master.each do |p|
+      RosterWorker.perform_async(p[:player_id].to_i, p)
+    end
+  end
+
 end
+#  vim: set ts=8 sw=2 tw=0 et :

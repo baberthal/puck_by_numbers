@@ -7,6 +7,8 @@ FactoryGirl.define do
     game_start DateTime.new(2014, 10, 8, 19, 15, 0, '-4')
     game_end DateTime.new(2014, 10, 8, 21, 55, 0, '-4')
     periods 3
+
+    after(:create) { |game| game.event_scrape }
   end
 
 end

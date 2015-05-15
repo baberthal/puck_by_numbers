@@ -105,46 +105,18 @@ class Game < ActiveRecord::Base
     where{season_years.in ev[0]}.where{gcode.not_in ev[1]}
   end
 
+  def self.unsummarized
+    t = self.unsummarized_teamwise.pluck(:season_years, :gcode)
+    p = self.unsummarized_playerwise.pluck(:season_years, :gcode)
+    p.each { |s| t << s }
 
-  def self.unsummarized_playerwise
-    p_sums = PlayerGameSummary.pluck(:season_years, :gcode).transpose.each { |e| e.uniq! }
-    Game.where(season_years: p_sums[0]).where.not(gcode: p_sums[1])
-  end
-
-  def self.unsummarized_teamwise
-    t_sums = TeamGameSummary.pluck(:season_years, :gcode).transpose.each { |e| e.uniq! }
-    Game.where(season_years: t_sums[0]).where.not(gcode: t_sums[1])
+    games = t.transpose
+    games.each { |g| g.uniq! }
+    Game.where(season_years: games[0], gcode: games[1])
   end
 
   def in_progress?
     true if self.game_start < Time.now && self.game_end.nil?
-  end
-
-  def set_status
-    if self.game_end?
-      if self.periods == 3
-        self.status = 3
-      elsif self.periods == 4
-        self.status = 4
-      elsif self.periods == 5
-        self.status = 5
-      end
-    elsif self.game_start < Time.now && self.game_end.nil?
-      self.status = 2
-    else
-      self.status = 1
-    end
-    self.save
-  end
-
-  def parse_game_date
-    self.date = self.game_start.to_date
-    self.save
-  end
-
-  def set_game_number
-    self.game_number = self.gcode.to_s.split('')[2..-1].join('').to_i
-    self.save
   end
 
   def home_team_summary
@@ -195,6 +167,25 @@ class Game < ActiveRecord::Base
     ChartWorker.perform_async(self.id)
   end
 
+  def summarize
+    SummaryWorker.perform_async(self.id)
+  end
+
+  private
+  def self.ransackable_scopes(auth_object = nil)
+    %i(playoffs regular_season)
+  end
+
+  def self.unsummarized_playerwise
+    p_sums = PlayerGameSummary.pluck(:season_years, :gcode).transpose.each { |e| e.uniq! }
+    Game.where(season_years: p_sums[0]).where.not(gcode: p_sums[1])
+  end
+
+  def self.unsummarized_teamwise
+    t_sums = TeamGameSummary.pluck(:season_years, :gcode).transpose.each { |e| e.uniq! }
+    Game.where(season_years: t_sums[0]).where.not(gcode: t_sums[1])
+  end
+
   def set_session
     if gcode.to_s[0] == '3'
       self.session = 2
@@ -205,50 +196,31 @@ class Game < ActiveRecord::Base
     end
   end
 
-  def top_performers
-    columns = [ :player_id, :goals, :points, :c_diff, :f_diff,
-                :g_diff, :cf, :ff, :blocks, :toi ]
-
-    all_summs = player_game_summaries.where(situation: 7).pluck(:player_id,
-                                                                :goals,
-                                                                :points,
-                                                                :c_diff,
-                                                                :f_diff,
-                                                                :g_diff,
-                                                                :cf,
-                                                                :ff,
-                                                                :blocks,
-                                                                :toi)
-
-    all_summs.map!.each { |s| columns.zip(s).to_h }
-
-    all_summs.sort_by! { |s| s[:points] }
-    top_point_getter = all_summs.last[:player_id]
-
-    all_summs.sort_by! { |s| s[:c_diff] }
-    top_corsi_performer = all_summs.last[:player_id]
-
-    all_summs.sort_by! { |s| s[:goals] }
-    top_goal_scorer = all_summs.last[:player_id]
-
-    [ top_goal_scorer, top_point_getter, top_corsi_performer ]
+  def parse_game_date
+    self.date = self.game_start.to_date
+    self.save
   end
 
-  def top_goal_scorer
-    Player.find(self.top_performers[0])
+  def set_game_number
+    self.game_number = self.gcode.to_s.split('')[2..-1].join('').to_i
+    self.save
   end
 
-  def top_point_getter
-    Player.find(self.top_performers[1])
-  end
-
-  def top_corsi_performer
-    Player.find(self.top_performers[2])
-  end
-
-  private
-  def self.ransackable_scopes(auth_object = nil)
-    %i(playoffs regular_season)
+  def set_status
+    if self.game_end?
+      if self.periods == 3
+        self.status = 3
+      elsif self.periods == 4
+        self.status = 4
+      elsif self.periods == 5
+        self.status = 5
+      end
+    elsif self.game_start < Time.now && self.game_end.nil?
+      self.status = 2
+    else
+      self.status = 1
+    end
+    self.save
   end
 
 end

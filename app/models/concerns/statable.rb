@@ -3,6 +3,10 @@ module Statable
     events.where(event_type: "GOAL")
   end
 
+  def goals_against
+    events.where.not(event_type: "GOAL")
+  end
+
   def shots
     events.where(event_type: ["GOAL", "SHOT"])
   end

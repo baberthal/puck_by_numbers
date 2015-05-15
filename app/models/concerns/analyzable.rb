@@ -55,10 +55,12 @@ module Analyzable
 
       end
 
-      GameChart.create(game: self,
-                       chart_type: "corsi_heat_map",
-                       data: series,
-                       situation: sit)
+      GameChart.find_or_initialize_by(game: self,
+                                      chart_type: "corsi_heat_map",
+                                      situation: sit) do |gc|
+                                        gc.data = series
+                                        gc.save
+                                      end
 
     end
   end
@@ -89,20 +91,25 @@ module Analyzable
       arr.unshift({ name: "START", x: 0, y: 0 })
       arr.insert(-1, { name: "GAME END", x: 60, y: arr.last[:y] } )
 
-      GameChart.create(game: self,
-                       chart_type: "running_#{options[:type]}_count_chart",
-                       data: arr,
-                       situation: sit,
-                       team_id: team.id)
+      GameChart.find_or_initialize_by(game: self,
+                                      chart_type: "running_#{options[:type]}_count_chart",
+                                      situation: sit,
+                                      team_id: team.id) do |gc|
+                                        gc.data =  arr
+                                        gc.save
+                                      end
 
     end
   end
-
 
   def gather_chart_data
     self.get_heat_map_data
     self.get_event_count_data(self.home_team, type: 'corsi')
     self.get_event_count_data(self.away_team, type: 'corsi')
+  end
+
+  def team_matchup_stats
+
   end
 
 end
